@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Task Automation</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #FFFFFF;
+            color: black;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            text-align: center;
+            width: 100%;
+            margin-bottom: 40px;
+            background-color: #4fc4cd;
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        header img {
+            width: 150px;
+            margin-bottom: 20px;
+        }
+
+        h1, h2, h3 {
+            color: black;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            display: flex;
+            width: 100%;
+        }
+
+        .left {
+            width: 50%;
+            padding-right: 20px;
+        }
+
+        .right {
+            width: 50%;
+            background-color: #f0f0f0;
+            padding: 20px;
+            overflow-y: auto;
+            border-left: 2px solid #4fc4cd;
+        }
+
+        input, select, button {
+            display: block;
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 16px;
+            width: 80%;
+            max-width: 400px;
+        }
+
+        button {
+            background-color: black;
+            color: #FFFFFF;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #4fc4cd;
+        }
+
+        #t1result, #t2result, #t3result, #consoleOutput {
+            margin-top: 20px;
+            word-wrap: break-word;
+            padding: 10px;
+            background-color: #e0e0e0;
+            border-radius: 10px;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: black;
+            color: #4fc4cd;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+        }
+
+        img.preview {
+            max-width: 100px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://images.ctfassets.net/5ho7gz3tsepv/5cWbjLrWjmjkuWmvfHGZOt/3e18f52b92eb8f76c92396224b8c1602/logo_CAFU-EN-footer_24px.svg" alt="CAFU Logo">
+    <h3>Image Update Tool</h3>
+    <p>Update Brand image, icon and background image via item_id</p>
+</header>
+
+<div class="container">
+    <div class="left">
+        <h3>Step 1 : Select Environment</h3>
+        <select id="environment">
+            <option value="dev">Development</option>
+            <option value="staging" selected="true">Staging</option>
+            <option value="production">Production</option>
+        </select>
+
+        <h3>Step 2: Upload Image</h3>
+        <input type="file" id="imageUpload" onchange="previewImage(event)">
+        <select name="collectionType" id="collectionType">
+            <option value="content">Content (for background image)</option>
+            <option value="icon">Icon (for changing the icon on PLP)</option>
+            <option value="brands">Brands (for changing brand image)</option>
+        </select>
+        <input type="number" id="variationId" placeholder="Enter Variation ID">
+        <select id="ownerType">
+            <option value="assets">assets</option>
+            <option value="items">items</option>
+            <option value="catalog">catalog</option>
+            <option value="identity">identity</option>
+            <option value="logistics">logistics</option>
+            <option value="loyalty">loyalty</option>
+            <option value="operational-assets">operational-assets</option>
+            <option value="order">order</option>
+            <option value="organizations">organizations</option>
+            <option value="payments">payments</option>
+        </select>
+        <button onclick="runTask1()">Run Task 1</button>
+
+        <h3>Task 2: Fetch Item Data</h3>
+        <input type="number" id="opItemId" placeholder="Enter op_item_id">
+        <button onclick="runTask2()">Run Task 2</button>
+
+        <h3>Task 3: Update Media Relations</h3>
+        <input type="text" id="manualMediaId" placeholder="Enter Media ID (if not available from Task 1)">
+        <button onclick="runTask3()">Run Task 3</button>
+    </div>
+
+    <div class="right">
+        <h2>Console Output</h2>
+        <div id="consoleOutput"></div>
+    </div>
+</div>
+
+<footer>Made by Ali Sorathiya</footer>
+
+<script>
+
+    const newline = '<br>'
+
+    // Preview image before uploading
+    function previewImage(event) {
+        const file = event.target.files[0];
+        const reader = new FileReader();
+        reader.onload = function () {
+            const imgPreview = document.createElement('img');
+            imgPreview.src = reader.result;
+            imgPreview.classList.add('preview');
+            document.getElementById('consoleOutput').appendChild(imgPreview);
+        };
+        reader.readAsDataURL(file);
+    }
+
+    // URLs for each environment
+    const urls = {
+        dev: 'https://media.global.dev.cafu.app/api/v1/',
+        staging: 'https://media.global.staging.cafu.app/api/v1/',
+        production: 'https://media.cafu.app/api/v1/'
+    };
+
+    const catalogurl = {
+        dev: 'https://catalog.global.dev.cafu.app/api/v1/',
+        staging: 'https://catalog.global.staging.cafu.app/api/v1/',
+        production: 'https://catalog.cafu.app/api/v1/'
+    };
+
+    let mediaId;
+    let variationIds = [];
+
+    function getBaseUrl() {
+        const environment = document.getElementById('environment').value;
+        return urls[environment];
+    }
+
+    function getCatalogBaseUrl() {
+        const environment = document.getElementById('environment').value;
+        return catalogurl[environment];
+    }
+
+    // Task 1: Upload Image
+    async function runTask1() {
+        const file = document.getElementById('imageUpload').files[0];
+        const collectionType = document.getElementById('collectionType').value;
+        const variationId = document.getElementById('variationId').value;
+        const ownerType = document.getElementById('ownerType').value;
+        const consoleOutput = document.getElementById('consoleOutput');
+
+        if (!file || !collectionType || !variationId || !ownerType) {
+            alert('Please provide all inputs.');
+            return;
+        }
+
+        const formData = new FormData();
+        formData.append('file', file);
+        formData.append('metadata', JSON.stringify({
+            name: file.name,
+            collection: collectionType,
+            order_column: 1,
+            disk: 's3',
+            is_public: true,
+            relation: {
+                owner_id: variationId,
+                owner_type: ownerType,
+                owner_service: 'catalog'
+            }
+        }));
+
+        try {
+            const response = await axios.post(`${getBaseUrl()}media`, formData, {
+                headers: {
+                    'accept': 'application/json',
+                    'Accept-Language': 'en-us',
+                    'Content-Type': 'multipart/form-data'
+                }
+            });
+            console.log('Task 1 Response:', response.data);
+            mediaId = response.data.media.id;
+            consoleOutput.innerHTML += `${newline} Media ID: <br> ${mediaId}<br>`;
+            consoleOutput.innerHTML += `${newline} Task 1 Response: <br> ${JSON.stringify(response.data, null, 2)}`;
+        } catch (error) {
+            console.error('Task 1 Error:', error);
+        }
+    }
+
+    // Task 2: Fetch Item Data
+    async function runTask2() {
+        const opItemId = document.getElementById('opItemId').value || document.getElementById('variationId').value;
+        const consoleOutput = document.getElementById('consoleOutput');
+        if (!opItemId) {
+            alert('Please provide op_item_id.');
+            return;
+        }
+
+        try {
+            const url = `${getCatalogBaseUrl()}items?ids=${opItemId}&include=variations`;
+            const response = await axios.get(url);
+            console.log('Task 2 Response:', response.data);
+
+            const itemData = response.data.data[0];
+            const nameEn = itemData.name.en;
+            const variationIdds = itemData.variations.map(variation => variation.id).join(', ');
+            variationIds = itemData.variations.map(variation => variation.id);
+            consoleOutput.innerHTML+= `${newline} url: <a href=${url}</a><br>`;
+            consoleOutput.innerHTML += `${newline} Task 2 Response: <br> Name: ${nameEn}, <br> Variation IDs: ${variationIdds}`;
+        } catch (error) {
+            console.error('Task 2 Error:', error);
+        }
+    }
+
+
+    // Task 3: Update Media Relations
+    async function runTask3() {
+            const manualMediaId = document.getElementById('manualMediaId').value;
+
+            if (!mediaId && !manualMediaId) {
+                alert('Please enter a media ID or complete Task 1 first.');
+                return;
+            }
+
+            const finalMediaId = mediaId || manualMediaId;
+
+            if (variationIds.length === 0) {
+                alert('Run Task 2 to get variation IDs.');
+                return;
+            }
+
+            try {
+                for (const id of variationIds) {
+                    const payload = {
+                        owner_id: `${id}`,
+                        owner_type: 'variations',
+                        owner_service: 'catalog'
+                    };
+
+                    const response = await axios.post(`${getBaseUrl()}media/${mediaId}/relations`, payload, {
+                        headers: {
+                            'accept': 'application/json',
+                            'Accept-Language': 'en-us',
+                            'Content-Type': 'application/json'
+                        }
+                    });
+
+                    console.log(`Task 3 Response for Variation ID ${id}:`, response.data);
+                    consoleOutput.innerHTML+= `${newline} Task 3 Response: <br> ${id}: ${JSON.stringify(response.data, null, 2)}`;
+                }
+            } catch (error) {
+                console.error('Task 3 Error:', error);
+            }
+        }
+
+
+</script>
+
+</body>
+</html>
