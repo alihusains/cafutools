@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+input[type="number"], input[type="date"] {
+    width: 90%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+header {
+    text-align: center;
+    width: 90% auto;
+    margin-bottom: 40px;
+    background-color: #4fc4cd;
+    padding: 20px;
+    border-radius: 20px;
+  
+}
+
+header img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+
+        /* Basic Menu Styles */
+        .menu {
+            background-color: #333;
+            text-align: center;
+          }
+          
+          .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+          }
+          
+          .menu ul li {
+            display: inline-block;
+            margin: 0 15px;
+          }
+          
+          .menu ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 20px;
+            display: block;
+          }
+          
+          .menu ul li a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+          }
+
+
+          .message {
+            text-align: center;
+            margin-top: 20px;
+            color: red;
+            font-weight: bold;
+          }

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Input</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+    <img src="https://images.ctfassets.net/5ho7gz3tsepv/5cWbjLrWjmjkuWmvfHGZOt/3e18f52b92eb8f76c92396224b8c1602/logo_CAFU-EN-footer_24px.svg" alt="CAFU Logo">
+    <h3>Dynamic Pricing Update</h3>
+    <p>Update SEDAN & SUV Prices and Calculate </p>
+<body>
+    <div class="menu">
+        <ul>
+          <li><a href="index.html">All Vertical - Media Update</a></li>
+          <li><a href="/cafu-cw/index.html">CW Dynamic Pricing</a></li>
+          <!-- <li><a href="#">Services</a></li> -->
+          <!-- <li><a href="#">Contact</a></li> -->
+        </ul>
+      </div>
+    <div class="container">
+        <h1>Car Wash Pricing Input</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Sedan Price (AED)</th>
+                    <th>SUV Price (AED)</th>
+                    <th>Calculated Price (AED)</th>
+                    <th>Pricing Value (AED)</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                </tr>
+            </thead>
+            <tbody id="pricing-table-body">
+                <tr data-id="36">
+                    <td>36</td>
+                    <td><input type="number" class="sedan-price" value="75" required></td>
+                    <td><input type="number" class="suv-price" value ="90" required></td>
+                    <td class="calculated-price"></td>
+                    <td class="pricing-value"></td>
+                    <td>
+                        <input type="date" class="start-date" onchange="updateEndDate(this)">
+                    </td>
+                    <td class="end-date"></td>
+                </tr>
+                <tr data-id="38">
+                    <td>38</td>
+                    <td><input type="number" class="sedan-price"value="130" required></td>
+                    <td><input type="number" class="suv-price" value="145" required></td>
+                    <td class="calculated-price"></td>
+                    <td class="pricing-value"></td>
+                    <td>
+                        <input type="date" class="start-date" onchange="updateEndDate(this)">
+                    </td>
+                    <td class="end-date"></td>
+                </tr>
+                <tr data-id="67">
+                    <td>67</td>
+                    <td><input type="number" class="sedan-price" value="65" required></td>
+                    <td><input type="number" class="suv-price" value="75" required></td>
+                    <td class="calculated-price"></td>
+                    <td class="pricing-value"></td>
+                    <td>
+                        <input type="date" class="start-date" onchange="updateEndDate(this)">
+                    </td>
+                    <td class="end-date"></td>
+                </tr>
+            </tbody>
+        </table>
+        <button onclick="calculatePrices()">Calculate Prices</button>
+        <button onclick="submitPricing()">Submit Pricing</button>
+    <div class="message" id="message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
