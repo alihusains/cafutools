@@ -1,43 +1,87 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+# # Simple workflow for deploying static content to GitHub Pages
+# name: Deploy static content to Pages
+
+# on:
+#   # Runs on pushes targeting the default branch
+#   push:
+#     branches: ["main"]
+
+#   # Allows you to run this workflow manually from the Actions tab
+#   workflow_dispatch:
+
+# # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+# permissions:
+#   contents: read
+#   pages: write
+#   id-token: write
+
+# # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# concurrency:
+#   group: "pages"
+#   cancel-in-progress: false
+
+# jobs:
+#   # Single deploy job since we're just deploying
+#   deploy:
+#     environment:
+#       name: github-pages
+#       url: ${{ steps.deployment.outputs.page_url }}
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout
+#         uses: actions/checkout@v4
+#       - name: Setup Pages
+#         uses: actions/configure-pages@v5
+#       - name: Upload artifact
+#         uses: actions/upload-pages-artifact@v3
+#         with:
+#           # Upload entire repository
+#           path: '.'
+#       - name: Deploy to GitHub Pages
+#         id: deployment
+#         uses: actions/deploy-pages@v4
+
+
+name: Deploy static content to Pages  # Name of the workflow
 
 on:
-  # Runs on pushes targeting the default branch
+  # Trigger the workflow on push to the main branch
   push:
     branches: ["main"]
 
-  # Allows you to run this workflow manually from the Actions tab
+  # Manually trigger the workflow from GitHub Actions UI
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: read  # Allows reading from the repository
+  pages: write    # Allows deploying content to GitHub Pages
+  id-token: write # Allows authentication for deployment
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# Concurrency control to ensure only one deployment is running at a time
 concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  group: "pages"           # Group of deployments (all deployments to Pages are grouped together)
+  cancel-in-progress: false # Don't cancel in-progress deployments, let them finish
 
 jobs:
-  # Single deploy job since we're just deploying
   deploy:
     environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+      name: github-pages          # Environment name
+      url: ${{ steps.deployment.outputs.page_url }}  # URL of the deployed site
+    runs-on: ubuntu-latest  # Use the latest version of Ubuntu to run the workflow
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4  # Checkout the repository's code to the runner
+
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v5  # Set up GitHub Pages deployment
+
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v3  # Upload files for GitHub Pages
         with:
-          # Upload entire repository
-          path: '.'
+          # Update this path if your site is built in a different directory, e.g., './build' or './dist'
+          path: '.'   # Upload the entire repository (if your site files are in the root)
+
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v4  # Deploy the files to GitHub Pages
