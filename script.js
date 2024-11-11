@@ -44,8 +44,13 @@ function calculatePrices() {
         const suvPrice = parseFloat(suvPriceInput.value) || 0;
 
         // Correct calculations based on your definition
+        // const price = (sedanPrice / 1.05);
+        // const pricingValue = ((suvPrice / 1.05) - (sedanPrice / 1.05));
+
+
         const price = (sedanPrice / 1.05).toFixed(2); // Round to two decimals
-        const pricingValue = ((suvPrice / 1.05) - price).toFixed(2); // Round to two decimals
+        const pricingValue = ((suvPrice / 1.05) - (sedanPrice / 1.05)).toFixed(2);
+
 
         calculatedPriceCell.textContent = price; // Display the rounded price
         pricingValueCell.textContent = pricingValue; // Display the rounded pricing value
