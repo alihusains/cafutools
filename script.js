@@ -75,6 +75,25 @@ function updateEndDate(startDateInput) {
     }
 }
 
+
+function updateEndDateforWeekday(startDateInput) {
+    const row = startDateInput.closest('tr');
+    const endDateCell = row.querySelector('.end-date');
+    
+    const startDateValue = startDateInput.value;
+    if (startDateValue) {
+        const startDate = new Date(startDateValue);
+        const endDate = new Date(startDate);
+        endDate.setDate(endDate.getDate() + 3); // Add 4 days
+
+        // Format the end date
+        const formattedEndDate = `${endDate.getFullYear()}-${(endDate.getMonth() + 1).toString().padStart(2, '0')}-${endDate.getDate().toString().padStart(2, '0')}T20:00:00.000Z`;
+        endDateCell.textContent = formattedEndDate;
+    } else {
+        endDateCell.textContent = '';
+    }
+}
+
 // API Calls
 async function callFirstApi(id, price, pricingValue, startDate, endDate) {
     const url = 'https://pricing.cafu.app/api/v1/pricing';
