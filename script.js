@@ -141,6 +141,7 @@ async function callFirstApi(id, price, pricingValue, startDate, endDate) {
         // var finalurl = `http://pricing.cafu.app/api/v1/pricing/${pricingId}/fees`;
 // document.getElementById('message').innerHTML+= " Update the Pricing API so that the fees can be shown on the app otherwise use will be able to checkout without the service fees";
         document.getElementById('message').innerHTML+= 'Pricing ID: ' + pricingId + '<br>';
+        // callSecondApi(pricingId);
         return pricingId;
     } catch (error) {
         console.error('Error calling first API:', error);
@@ -158,15 +159,19 @@ async function callSecondApi(pricingId) {
     const options = {
         method: 'PUT',
         headers: {
-            'Accept': 'application/json',
+           
             'Accept-Language': 'en-US',
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
+            'Accept': 'application/json',
+            'User-Agent':'PostmanRuntime/7.42.0'
         },
         body: JSON.stringify(payload)
     };
 
     try {
-        await fetch(url, options);
+       const response2ndapi =  await fetch(url, options);
+       console.log('2nd API Response :', response2ndapi.status);
+
     } catch (error) {
         console.error('Error calling second API:', error);
     }
