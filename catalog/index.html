@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CAFU OP Item Import</title>
+  <style>
+    /* Main container styling */
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9f9f9;
+      color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    /* Form container */
+    .container {
+      width: 80%;
+      max-width: 500px;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      border: 2px solid #4FC4CD;
+    }
+
+    /* Title styling */
+    h2 {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #4FC4CD;
+      font-weight: bold;
+    }
+
+    /* Dropdown styling */
+    select {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      background-color: #f0f0f0;
+      color: #000;
+      font-weight: bold;
+      font-size: 1.1em;
+      border: 1px solid #4FC4CD;
+      border-radius: 5px;
+    }
+
+    /* Button styling */
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #4FC4CD;
+      color: #ffffff;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    button:hover {
+      background-color: #3fb0ba;
+    }
+
+    /* Response message styling */
+    #responseMessage {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #f9f9f9;
+      color: #000;
+      border: 1px solid #4FC4CD;
+      border-radius: 5px;
+      font-size: 14px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <!-- Main Container -->
+  <div class="container">
+    <h2>CAFU OP Item import after Pre Post checks</h2>
+    
+    <!-- Dropdown for selection -->
+    <select id="itemSelect">
+      <option value="tyres">Tyres</option>
+      <option value="battery">Battery</option>
+      <option value="servicing">Servicing</option>
+    </select>
+    
+    <!-- Update button to trigger upload -->
+    <button onclick="uploadCSV()">Update</button>
+    
+    <!-- Div to display the API response -->
+    <div id="responseMessage"></div>
+  </div>
+
+  <script>
+    function uploadCSV() {
+      const responseDiv = document.getElementById("responseMessage");
+      responseDiv.innerHTML = "Processing...";
+
+      // Get user selection
+      const itemType = document.getElementById("itemSelect").value;
+
+      // Define the file path based on the selected item type
+      let filePath;
+      switch (itemType) {
+        case "tyres":
+          filePath = "op_item_import_all_tyre.csv";
+          break;
+        case "battery":
+          filePath = "op_item_import_all_battery.csv";
+          break;
+        case "servicing":
+          filePath = "op_item_import_all_servicing.csv";
+          break;
+        default:
+          responseDiv.innerHTML = "Invalid selection";
+          return;
+      }
+
+      // Fetch the file and send it in the API request
+      fetch(filePath)
+        .then(response => response.blob())
+        .then(blob => {
+          const myHeaders = new Headers();
+          myHeaders.append("Accept-Language", "en-US");
+          myHeaders.append("X-CAFU-User-Id", "2cb5e611-8bb9-40ad-97da-812676f32112");
+
+          const formdata = new FormData();
+          formdata.append("file", blob, filePath);
+
+          const requestOptions = {
+            method: "POST",
+            headers: myHeaders,
+            body: formdata,
+            redirect: "follow"
+          };
+
+          // Make the API call
+          return fetch("https://locations.global.dev.cafu.app/api/v1/op-items/op-item-imports", requestOptions);
+        })
+        .then(response => response.text())
+        .then(result => {
+          responseDiv.innerHTML = `<strong>Response:</strong> ${result}`;
+        })
+        .catch(error => {
+          responseDiv.innerHTML = `<strong>Error:</strong> ${error.message}`;
+        });
+    }
+  </script>
+</body>
+</html>
