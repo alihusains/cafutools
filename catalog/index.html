@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +21,7 @@
     /* Form container */
     .container {
       width: 80%;
-      max-width: 500px;
+      /* max-width: 500px; */
       padding: 20px;
       background-color: #ffffff;
       border-radius: 10px;
@@ -39,9 +40,9 @@
 
     /* Dropdown styling */
     select {
-      width: 100%;
-      padding: 10px;
-      margin: 10px 0;
+      width: 10%;
+      padding: 5px;
+      margin: 20px 0;
       background-color: #f0f0f0;
       color: #000;
       font-weight: bold;
@@ -50,24 +51,35 @@
       border-radius: 5px;
     }
 
+    label {
+
+      margin-left: 3%;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
     /* Button styling */
     button {
-      width: 100%;
+      margin-left: 3%;
+      width: 12%;
       padding: 10px;
       background-color: #4FC4CD;
       color: #ffffff;
       font-weight: bold;
       border: none;
-      border-radius: 5px;
+      border-radius: 10px;
+      font-size: 1.1em;
       cursor: pointer;
       transition: background-color 0.3s;
     }
+
     button:hover {
       background-color: #3fb0ba;
     }
 
     /* Response message styling */
     #responseMessage {
+      font-family: 'Poppins', sans-serif;
       margin-top: 20px;
       padding: 10px;
       background-color: #f9f9f9;
@@ -76,25 +88,67 @@
       border-radius: 5px;
       font-size: 14px;
       text-align: left;
+
+      /* Styles to handle long text */
+      /* max-height: 300px;  Increased height */
+      overflow-y: auto;
+      /* Add vertical scrollbar */
+      word-wrap: break-word;
+      /* Break long words */
+      white-space: pre-wrap;
+      /* Preserve formatting */
+      /* font-family: monospace; Monospace font for better readability of JSON */
+    }
+
+    /* Scrollbar styling */
+    #responseMessage::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    #responseMessage::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+    #responseMessage::-webkit-scrollbar-thumb {
+      background: #4FC4CD;
+      border-radius: 4px;
+    }
+
+    /* Add a bit more margin to the environment select */
+    #environmentSelect {
+      margin-bottom: 10px;
     }
   </style>
 </head>
+
 <body>
   <!-- Main Container -->
   <div class="container">
     <h2>CAFU OP Item import after Pre Post checks</h2>
-    
-    <!-- Dropdown for selection -->
+    <label for="Environment">Select Environment:</label>
+    <!-- Environment Selection Dropdown -->
+    <select id="environmentSelect">
+      <!-- <option value="dev">Development</option> -->
+      <option value="staging">Staging</option>
+      <option value="prod">Production</option>
+
+
+    </select>
+
+    <!-- Dropdown for item selection -->
+    <label for="itemSelect">Select Vertical :</label>
     <select id="itemSelect">
       <option value="tyres">Tyres</option>
       <option value="battery">Battery</option>
       <option value="servicing">Servicing</option>
     </select>
-    
+
     <!-- Update button to trigger upload -->
+
     <button onclick="uploadCSV()">Update</button>
-    
+
     <!-- Div to display the API response -->
+    <div class="console" style="text-align: left; font-weight: bold;">Console:</div>
     <div id="responseMessage"></div>
   </div>
 
@@ -103,7 +157,8 @@
       const responseDiv = document.getElementById("responseMessage");
       responseDiv.innerHTML = "Processing...";
 
-      // Get user selection
+      // Get user selections
+      const environmentType = document.getElementById("environmentSelect").value;
       const itemType = document.getElementById("itemSelect").value;
 
       // Define the file path based on the selected item type
@@ -119,7 +174,34 @@
           filePath = "op_item_import_all_servicing.csv";
           break;
         default:
-          responseDiv.innerHTML = "Invalid selection";
+          responseDiv.innerHTML = "Invalid item selection";
+          return;
+      }
+
+      // Define API URL and Authorization based on environment
+      let apiUrl, authToken;
+      switch (environmentType) {
+        case "dev":
+          apiUrl = "https://locations.global.dev.cafu.app/api/v1/op-items/op-item-imports";
+          authToken = "2cb5e611-8bb9-40ad-97da-812676f32112"; // Dev token
+          break;
+
+        case "staging":
+          apiUrl = "https://locations.global.staging.cafu.app/api/v1/op-items/op-item-imports"
+          authToken = "2cb5e611-8bb9-40ad-97da-812676f32112";
+          // apiUrl = "https://internal-bff.global.staging.cafu.app/api/v1/locations/op-item-imports";
+          // authToken = "Bearer eyJraWQiOiIwOHZFMks4Z0g4NXZyUXBQa29JVUZVWmtLYWpaVjluUnBVM3o5TFFPZW1nPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJjM2Q3MDQ2MS0yNDBmLTQ3NTUtODJiOC1hZTkxYjYzNTlhNmEiLCJjb2duaXRvOmdyb3VwcyI6WyJldS13ZXN0LTFfejU1UVZMRlM1X2F6dXJlQUQtaWRlbnRpdHktcHJvdmlkZXIiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmV1LXdlc3QtMS5hbWF6b25hd3MuY29tXC9ldS13ZXN0LTFfejU1UVZMRlM1IiwidmVyc2lvbiI6MiwiY2xpZW50X2lkIjoiNjhrbzRqYTQ1NW9uMGNmc2JlN211Z3IwazkiLCJvcmlnaW5fanRpIjoiY2UxZDEwMjgtODUxMy00MDRhLThmOGQtNzhjMjAxMzU4N2VjIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiBwaG9uZSBvcGVuaWQgZW1haWwiLCJhdXRoX3RpbWUiOjE3MzIwMDA4MDIsImV4cCI6MTczMjAwODMyMywiaWF0IjoxNzMyMDA0NzIzLCJqdGkiOiI2M2YzMDczMi01MjljLTQ2OTgtYmJiZC00YTFkYzdjYmEyNGIiLCJ1c2VybmFtZSI6ImF6dXJlYWQtaWRlbnRpdHktcHJvdmlkZXJfYWxpLnNvcmF0aGl5YUBjYWZ1LmNvbSJ9.aQEgHySYeVmfMOkp5ezX6eMG4GEWx9cN9g_atgEFoqYBFVAZsJDgHvwLHwL8VGMi-WP7xVENI68m2SGfQVcpbpKVucghDNTNXPD0PQePeqgKVQ-J8flrjnuc9tNF_QEcVlSR-UceKcfhBQpkplRxLc7FpmAStiIJ6nKUovCwO6IEYb2i41nxdyzCKVw8SddP2ZJD8jtK5s1amHrEyGO-mS_9rzsKH18rXNYQOLM_kJRAMh4s8SIRRzKvHIp0fnz83JkZIBrK_-vedzq3RHvlFrtWY9ej5BpRxwhMZGOHmPbFzuiFzoX-JN-ZN8E3mrEsBLXWtZqWABLTbUcimFRAkA"; // Staging token
+          break;
+
+        case "prod":
+          apiUrl = "https://locations.cafu.app/api/v1/op-items/op-item-imports";
+          authToken = "2cb5e611-8bb9-40ad-97da-812676f32112";
+          // apiUrl = "https://internal-bff-gateway.cafu.app/api/v1/locations/op-item-imports";
+          // authToken = "eyJraWQiOiIwOHZFMks4Z0g4NXZyUXBQa29JVUZVWmtLYWpaVjluUnBVM3o5TFFPZW1nPSIsImFsZyI6IlJTMjU2In0..."; // Prod token
+          break;
+          
+        default:
+          responseDiv.innerHTML = "Invalid environment selection";
           return;
       }
 
@@ -129,7 +211,13 @@
         .then(blob => {
           const myHeaders = new Headers();
           myHeaders.append("Accept-Language", "en-US");
-          myHeaders.append("X-CAFU-User-Id", "2cb5e611-8bb9-40ad-97da-812676f32112");
+
+          // Add Authorization header for staging and prod
+          if (environmentType !== "dev") {
+            myHeaders.append("Authorization", authToken);
+          } else {
+            myHeaders.append("X-CAFU-User-Id", authToken);
+          }
 
           const formdata = new FormData();
           formdata.append("file", blob, filePath);
@@ -142,7 +230,7 @@
           };
 
           // Make the API call
-          return fetch("https://locations.global.dev.cafu.app/api/v1/op-items/op-item-imports", requestOptions);
+          return fetch(apiUrl, requestOptions);
         })
         .then(response => response.text())
         .then(result => {
@@ -154,4 +242,5 @@
     }
   </script>
 </body>
+
 </html>
