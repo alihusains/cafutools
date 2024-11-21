@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fetch All IDs</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+
+    .container {
+      /* max-width: 600px; */
+      width: 80%;
+      margin: 30px auto;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      color: #4fc4cd;
+      font-size: 24px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    label {
+      font-weight: bold;
+      margin-bottom: 8px;
+      display: block;
+    }
+
+    select, button {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    button {
+      background-color: #4fc4cd;
+      color: white;
+      cursor: pointer;
+      border: none;
+    }
+
+    button:hover {
+      background-color: #3baeb6;
+    }
+
+    .radio-group {
+      margin-bottom: 20px;
+    }
+
+    .radio-group label {
+      margin-right: 10px;
+      font-weight: normal;
+    }
+
+    .radio-group input {
+      margin-right: 5px;
+    }
+
+    #output {
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    #copyButton {
+      background-color: #4fc4cd;
+      color: white;
+      border: none;
+      cursor: pointer;
+      display: none;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .console {
+      background-color: #f4f4f4;
+      border: 1px solid #ddd;
+      padding: 10px;
+      height: 150px;
+      overflow-y: auto;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+
+    .console p {
+      margin: 0;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Fetch All IDs</h1>
+    
+    <!-- Environment Selection -->
+    <label for="environment">Select Environment</label>
+    <select id="environment">
+      <option value="staging" selected>Staging</option>
+      <option value="production">Production</option>
+    </select>
+    
+    <!-- Vertical Selection -->
+    <label>Select Vertical</label>
+    <div class="radio-group" id="verticalGroup">
+      <!-- Radio buttons will be generated dynamically -->
+    </div>
+    
+    <!-- Button to trigger API calls -->
+    <button onclick="getAllIDs()">Get All IDs</button>
+    
+    <!-- Output Section -->
+    <div id="output"></div>
+    <button id="copyButton" onclick="copyToClipboard()">Copy to Clipboard</button>
+    
+    <!-- Console Section -->
+    <div class="console" id="console"></div>
+  </div>
+
+  <script>
+    // Verticals Map for Production (ID mappings)
+    const verticalsMap = {
+      tyre: 4,
+      servicing: 5,
+      battery: 3,
+      fuel: 6,
+      emergency: 7
+    };
+
+    // Generate Radio Buttons Dynamically
+    const verticalGroup = document.getElementById("verticalGroup");
+    Object.keys(verticalsMap).forEach(vertical => {
+      const label = document.createElement("label");
+      label.innerHTML = `
+        <input type="radio" name="vertical" value="${vertical}" ${vertical === "tyre" ? "checked" : ""}>
+        ${vertical.charAt(0).toUpperCase() + vertical.slice(1)}
+      `;
+      verticalGroup.appendChild(label);
+    });
+
+    let accessToken = ""; // Store access token for production environment
+
+    async function fetchAccessToken() {
+      const apiUrl = 'https://internal-bff-gateway.cafu.app/api/v1/auth';
+      const payload = {
+        grant_type: "refresh_token",
+        refresh_token: "eyJjdHkiOiJKV1QiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiUlNBLU9BRVAifQ.OHGDUruLHpaiwNrVciZwG3gSxXErrTkgmhp95JR4Br5TD2F0gVCfJRax4cNDh815UKQWOVKGv8ZrYsszgDjdVfnl04dpyKCIzcSEIHOfnlT2_C3K4epD9nLN7BBZTx0ni2YlDcEYE3tnvDWaVPMK8uGkqnkCAjwFCtqG7hi5Z7oYWRypcARwtN98VSuDw-o5pzKRvSuvtpMG28iGLZTQPD108FhB1MTogIp3PbUlrfBjXoD3DAHfeZ2FQTGgkQOo0FTZd_FF5rvGbQx-UQgi_JbMA6F6zwqRVsAA1EznzzLhdAnxWAWVv7m1I4bD2HW4zNZAD9PSr-wmI7lpEPX0Jg.Srd8r-HrEwIkdB6I.LNXtEaNSp9WZ6QeNm8mUkbTx-UV2zuLCembIZrU0dRiz2Wygv3jPuSF8r8eVz39fW1CMxTSe87ubpw2m3jYBvxEM1uMiaXNsHHRgopAl8ln8V6VTRbf0-MHqd3NbU0-KC2V6p-C3FCiaorZOkw10HiAcKu2m_oDy4PfBmXiQYvWouzz2WUtwSkh_13CIKfVeTvvwtgF-30nTTrM9Go2vKr8SGcYrBTRwpqPpssNi-rjP0Ck_35vhu98Y5SCnG5GXfB7ycAzjPX2KwWM501w6Ul377rtHn4kBByfBy4BC4zj7hwJUPsO59DsMcJDvycS0cONQdOLtfivntTVgnZz_AWwm6ijT6XI9jdG6CNc1sIEnconiODy6QZ6l3xU4osB1RmjNZw5FpEKsLUauTvhCjrDOvMTXUzN1TbzCaRXX1EbHqpnIIqAPAcpV8XG9XMdYdbKUo0idT1IsxBkPPpBWe96oEzPrBy-8DhDPoEDjzwM10D0uZhT5uzApq9iqfbI4BgeXB8PXelqwYsNiCwSmH6b8M3ZSabgMCw6zf4_TvDu2Yld-ET33v3ywqERveIMdTocX205nZMdFdmVbE0DfMNJUI1n4Yul5noIx1I6DP0g4IqUl_OkFTEJfVeNP8L28Wl3KPxTjbCT-nng42LseGaEkkKXX3jIAuGcT2dMZYF41MDfiy52-1yIuwhJwTZDBTCfGXWeny9dGb5sEwZIJfkxoS57Gz8cd8cpFRcOHxAVta-UWDzpPD7Rn2DQM75WLBv0S6a5CNc4fw6ActgWRiW6kJR8Plgg6QCtZfHSQDdyOtGcmFCYCzCtuMkdxuZNjI0EhPHYUxuC-4gRfYXzaYlHQ6-gr08PxpbVXzygd1v1GZ8Aju30HuVyi-hc9agcGpeWFWFh24lfUx_6dTkF8cIJBldZoyhN5A4oUvOBt9p6k9d5f6wCSLEtDLS2XEjjE4rXsDp1z0umz8OxNiwQbUP3c1I0pklnUv5yMl0EYJW8NlOKTVRIfyza1N_J1BR6hW0Vg8kJE5FIST-Pr5XXA3NG0VM3wseUZCFl0Ib34_qWVjGuiN3cRzKJltEy3Hm0aFrRdsX3Vc7bpJ8EkX892x15M0qwJU8B-2HVpMWjqNx4XWzW1BNY8UcS7H0B02K5FTfgD2Y2QLUu1iUfOXf83W_-TuZ3gLoyCv5oGYQiCFX-WNrBf2I1ePHM5Cr0z9sCB4y_I-R88jJ_ZWyeA24HC_wjxo4MCd_EBy-SdT9_Tgms8H-Ty_bHseGHLSgfB4X5_67BSGcacl1EQqC6YX14rBa5ck8FktN_OjPeKg02d83bj-A.iBHrgOep3X5B4MPb6CVc8w",
+      };
+
+      try {
+        const response = await fetch(apiUrl, {
+          method: "POST",
+          headers: {
+            'Accept': 'application/json',
+            'Accept-Language': 'en-US',
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(payload)
+        });
+
+        if (response.ok) {
+          const data = await response.json();
+          accessToken = data.token;
+          logToConsole("Access token fetched successfully.");
+        } else {
+          throw new Error(`Failed to fetch access token: ${response.status}`);
+        }
+      } catch (error) {
+        logToConsole(error.message);
+      }
+    }
+
+    async function getAllIDs() {
+      const environment = document.getElementById("environment").value;
+      const selectedVertical = document.querySelector('input[name="vertical"]:checked').value;
+      
+      let apiUrl;
+      if (environment === "production") {
+        if (!accessToken) {
+          await fetchAccessToken();
+        }
+        const verticalId = verticalsMap[selectedVertical];
+        apiUrl = `https://internal-bff-gateway.cafu.app/api/v1/locations/op-items/variations?vertical_ids=${verticalId}`;
+      } else {
+        apiUrl = `https://catalog.global.staging.cafu.app/api/v1/variations?verticals=${selectedVertical}`;
+      }
+
+      let page = 1;
+      const perPage = 60;
+      let allIDs = [];
+      let moreData = true;
+
+      logToConsole(`Fetching IDs for vertical: ${selectedVertical} in ${environment} environment...`);
+
+      while (moreData) {
+        try {
+          const response = await fetch(`${apiUrl}&page=${page}&per_page=${perPage}`, {
+            headers: environment === "production" ? { Authorization: `Bearer ${accessToken}` } : {}
+          });
+
+          if (!response.ok) {
+            throw new Error(`Failed to fetch page ${page}. Status: ${response.status}`);
+          }
+
+          const data = await response.json();
+          const ids = data.data.map(item => item.id);
+          allIDs.push(...ids);
+
+          logToConsole(`Fetched page ${page}, IDs: ${ids.join(", ")}`);
+
+          moreData = data.data.length === perPage;
+          page++;
+        } catch (error) {
+          logToConsole(`Error: ${error.message}`);
+          moreData = false;
+        }
+      }
+
+      // Display results
+      const outputElement = document.getElementById("output");
+      if (allIDs.length > 0) {
+        const result = allIDs.join(", ");
+        outputElement.textContent = `All IDs: ${result}`;
+        document.getElementById("copyButton").style.display = "inline-block";
+      } else {
+        outputElement.textContent = "No IDs found.";
+        document.getElementById("copyButton").style.display = "none";
+      }
+
+      logToConsole("Finished fetching all IDs.");
+    }
+
+    function logToConsole(message) {
+      const consoleElement = document.getElementById("console");
+      const timestamp = new Date().toLocaleTimeString();
+      const logMessage = document.createElement("p");
+      logMessage.textContent = `[${timestamp}] ${message}`;
+      consoleElement.appendChild(logMessage);
+      consoleElement.scrollTop = consoleElement.scrollHeight;
+    }
+
+    function copyToClipboard() {
+      const outputElement = document.getElementById("output").textContent;
+      const ids = outputElement.replace("All IDs: ", "").trim();
+
+      navigator.clipboard.writeText(ids)
+        .then(() => {
+          alert("Copied to clipboard!");
+        })
+        .catch(err => {
+          alert("Failed to copy: " + err.message);
+        });
+    }
+  </script>
+</body>
+</html>

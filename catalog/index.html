@@ -153,93 +153,243 @@
   </div>
 
   <script>
-    function uploadCSV() {
-      const responseDiv = document.getElementById("responseMessage");
-      responseDiv.innerHTML = "Processing...";
 
-      // Get user selections
-      const environmentType = document.getElementById("environmentSelect").value;
-      const itemType = document.getElementById("itemSelect").value;
 
-      // Define the file path based on the selected item type
-      let filePath;
-      switch (itemType) {
-        case "tyres":
-          filePath = "op_item_import_all_tyre.csv";
-          break;
-        case "battery":
-          filePath = "op_item_import_all_battery.csv";
-          break;
-        case "servicing":
-          filePath = "op_item_import_all_servicing.csv";
-          break;
-        default:
-          responseDiv.innerHTML = "Invalid item selection";
-          return;
-      }
+let accessToken = ""; // Store access token for production environment
 
-      // Define API URL and Authorization based on environment
-      let apiUrl, authToken;
-      switch (environmentType) {
-        case "dev":
-          apiUrl = "https://locations.global.dev.cafu.app/api/v1/op-items/op-item-imports";
-          authToken = "2cb5e611-8bb9-40ad-97da-812676f32112"; // Dev token
-          break;
+    async function fetchAccessToken() {
+      const apiUrl = 'https://internal-bff-gateway.cafu.app/api/v1/auth';
+      const payload = {
+        grant_type: "refresh_token",
+        refresh_token: "eyJjdHkiOiJKV1QiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiUlNBLU9BRVAifQ.OHGDUruLHpaiwNrVciZwG3gSxXErrTkgmhp95JR4Br5TD2F0gVCfJRax4cNDh815UKQWOVKGv8ZrYsszgDjdVfnl04dpyKCIzcSEIHOfnlT2_C3K4epD9nLN7BBZTx0ni2YlDcEYE3tnvDWaVPMK8uGkqnkCAjwFCtqG7hi5Z7oYWRypcARwtN98VSuDw-o5pzKRvSuvtpMG28iGLZTQPD108FhB1MTogIp3PbUlrfBjXoD3DAHfeZ2FQTGgkQOo0FTZd_FF5rvGbQx-UQgi_JbMA6F6zwqRVsAA1EznzzLhdAnxWAWVv7m1I4bD2HW4zNZAD9PSr-wmI7lpEPX0Jg.Srd8r-HrEwIkdB6I.LNXtEaNSp9WZ6QeNm8mUkbTx-UV2zuLCembIZrU0dRiz2Wygv3jPuSF8r8eVz39fW1CMxTSe87ubpw2m3jYBvxEM1uMiaXNsHHRgopAl8ln8V6VTRbf0-MHqd3NbU0-KC2V6p-C3FCiaorZOkw10HiAcKu2m_oDy4PfBmXiQYvWouzz2WUtwSkh_13CIKfVeTvvwtgF-30nTTrM9Go2vKr8SGcYrBTRwpqPpssNi-rjP0Ck_35vhu98Y5SCnG5GXfB7ycAzjPX2KwWM501w6Ul377rtHn4kBByfBy4BC4zj7hwJUPsO59DsMcJDvycS0cONQdOLtfivntTVgnZz_AWwm6ijT6XI9jdG6CNc1sIEnconiODy6QZ6l3xU4osB1RmjNZw5FpEKsLUauTvhCjrDOvMTXUzN1TbzCaRXX1EbHqpnIIqAPAcpV8XG9XMdYdbKUo0idT1IsxBkPPpBWe96oEzPrBy-8DhDPoEDjzwM10D0uZhT5uzApq9iqfbI4BgeXB8PXelqwYsNiCwSmH6b8M3ZSabgMCw6zf4_TvDu2Yld-ET33v3ywqERveIMdTocX205nZMdFdmVbE0DfMNJUI1n4Yul5noIx1I6DP0g4IqUl_OkFTEJfVeNP8L28Wl3KPxTjbCT-nng42LseGaEkkKXX3jIAuGcT2dMZYF41MDfiy52-1yIuwhJwTZDBTCfGXWeny9dGb5sEwZIJfkxoS57Gz8cd8cpFRcOHxAVta-UWDzpPD7Rn2DQM75WLBv0S6a5CNc4fw6ActgWRiW6kJR8Plgg6QCtZfHSQDdyOtGcmFCYCzCtuMkdxuZNjI0EhPHYUxuC-4gRfYXzaYlHQ6-gr08PxpbVXzygd1v1GZ8Aju30HuVyi-hc9agcGpeWFWFh24lfUx_6dTkF8cIJBldZoyhN5A4oUvOBt9p6k9d5f6wCSLEtDLS2XEjjE4rXsDp1z0umz8OxNiwQbUP3c1I0pklnUv5yMl0EYJW8NlOKTVRIfyza1N_J1BR6hW0Vg8kJE5FIST-Pr5XXA3NG0VM3wseUZCFl0Ib34_qWVjGuiN3cRzKJltEy3Hm0aFrRdsX3Vc7bpJ8EkX892x15M0qwJU8B-2HVpMWjqNx4XWzW1BNY8UcS7H0B02K5FTfgD2Y2QLUu1iUfOXf83W_-TuZ3gLoyCv5oGYQiCFX-WNrBf2I1ePHM5Cr0z9sCB4y_I-R88jJ_ZWyeA24HC_wjxo4MCd_EBy-SdT9_Tgms8H-Ty_bHseGHLSgfB4X5_67BSGcacl1EQqC6YX14rBa5ck8FktN_OjPeKg02d83bj-A.iBHrgOep3X5B4MPb6CVc8w",
+      };
 
-        case "staging":
-          apiUrl = "https://locations.global.staging.cafu.app/api/v1/op-items/op-item-imports"
-          authToken = "2cb5e611-8bb9-40ad-97da-812676f32112";
-          // apiUrl = "https://internal-bff.global.staging.cafu.app/api/v1/locations/op-item-imports";
-          // authToken = "Bearer eyJraWQiOiIwOHZFMks4Z0g4NXZyUXBQa29JVUZVWmtLYWpaVjluUnBVM3o5TFFPZW1nPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJjM2Q3MDQ2MS0yNDBmLTQ3NTUtODJiOC1hZTkxYjYzNTlhNmEiLCJjb2duaXRvOmdyb3VwcyI6WyJldS13ZXN0LTFfejU1UVZMRlM1X2F6dXJlQUQtaWRlbnRpdHktcHJvdmlkZXIiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmV1LXdlc3QtMS5hbWF6b25hd3MuY29tXC9ldS13ZXN0LTFfejU1UVZMRlM1IiwidmVyc2lvbiI6MiwiY2xpZW50X2lkIjoiNjhrbzRqYTQ1NW9uMGNmc2JlN211Z3IwazkiLCJvcmlnaW5fanRpIjoiY2UxZDEwMjgtODUxMy00MDRhLThmOGQtNzhjMjAxMzU4N2VjIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiBwaG9uZSBvcGVuaWQgZW1haWwiLCJhdXRoX3RpbWUiOjE3MzIwMDA4MDIsImV4cCI6MTczMjAwODMyMywiaWF0IjoxNzMyMDA0NzIzLCJqdGkiOiI2M2YzMDczMi01MjljLTQ2OTgtYmJiZC00YTFkYzdjYmEyNGIiLCJ1c2VybmFtZSI6ImF6dXJlYWQtaWRlbnRpdHktcHJvdmlkZXJfYWxpLnNvcmF0aGl5YUBjYWZ1LmNvbSJ9.aQEgHySYeVmfMOkp5ezX6eMG4GEWx9cN9g_atgEFoqYBFVAZsJDgHvwLHwL8VGMi-WP7xVENI68m2SGfQVcpbpKVucghDNTNXPD0PQePeqgKVQ-J8flrjnuc9tNF_QEcVlSR-UceKcfhBQpkplRxLc7FpmAStiIJ6nKUovCwO6IEYb2i41nxdyzCKVw8SddP2ZJD8jtK5s1amHrEyGO-mS_9rzsKH18rXNYQOLM_kJRAMh4s8SIRRzKvHIp0fnz83JkZIBrK_-vedzq3RHvlFrtWY9ej5BpRxwhMZGOHmPbFzuiFzoX-JN-ZN8E3mrEsBLXWtZqWABLTbUcimFRAkA"; // Staging token
-          break;
-
-        case "prod":
-          apiUrl = "https://locations.cafu.app/api/v1/op-items/op-item-imports";
-          authToken = "2cb5e611-8bb9-40ad-97da-812676f32112";
-          // apiUrl = "https://internal-bff-gateway.cafu.app/api/v1/locations/op-item-imports";
-          // authToken = "eyJraWQiOiIwOHZFMks4Z0g4NXZyUXBQa29JVUZVWmtLYWpaVjluUnBVM3o5TFFPZW1nPSIsImFsZyI6IlJTMjU2In0..."; // Prod token
-          break;
-          
-        default:
-          responseDiv.innerHTML = "Invalid environment selection";
-          return;
-      }
-
-      // Fetch the file and send it in the API request
-      fetch(filePath)
-        .then(response => response.blob())
-        .then(blob => {
-          const myHeaders = new Headers();
-          myHeaders.append("Accept-Language", "en-US");
-
-          // Add Authorization header for staging and prod
-          if (environmentType !== "dev") {
-            myHeaders.append("Authorization", authToken);
-          } else {
-            myHeaders.append("X-CAFU-User-Id", authToken);
-          }
-
-          const formdata = new FormData();
-          formdata.append("file", blob, filePath);
-
-          const requestOptions = {
-            method: "POST",
-            headers: myHeaders,
-            body: formdata,
-            redirect: "follow"
-          };
-
-          // Make the API call
-          return fetch(apiUrl, requestOptions);
-        })
-        .then(response => response.text())
-        .then(result => {
-          responseDiv.innerHTML = `<strong>Response:</strong> ${result}`;
-        })
-        .catch(error => {
-          responseDiv.innerHTML = `<strong>Error:</strong> ${error.message}`;
+      try {
+        const response = await fetch(apiUrl, {
+          method: "POST",
+          headers: {
+            'Accept': 'application/json',
+            'Accept-Language': 'en-US',
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(payload),
+           redirect: "follow"
         });
+
+        if (response.ok) {
+          const data = await response.json();
+          accessToken = "Bearer "+data.token;
+          logToConsole("Access token: " + accessToken);
+          logToConsole("Access token fetched successfully.");
+          return accessToken;
+        } else {
+          throw new Error(`Failed to fetch access token: ${response.status}`);
+        }
+      } catch (error) {
+        logToConsole(error.message);
+      }
     }
+    
+
+    function logToConsole(message) {
+      const responseDiv = document.getElementById("responseMessage");
+
+responseDiv.innerHTML+="<br>" + message;
+    }
+    // function uploadCSV() {
+    //   // fetchAccessToken();
+    //   var abc = fetchAccessToken();
+    //   const responseDiv = document.getElementById("responseMessage");
+    //   responseDiv.innerHTML = "Processing...";
+
+    //   // Get user selections
+    //   const environmentType = document.getElementById("environmentSelect").value;
+    //   const itemType = document.getElementById("itemSelect").value;
+
+    //   // Define the file path based on the selected item type
+    //   let filePath;
+    //   switch (itemType) {
+    //     case "tyres":
+    //       filePath = "op_item_import_all_tyre.csv";
+    //       break;
+    //     case "battery":
+    //       filePath = "op_item_import_all_battery.csv";
+    //       break;
+    //     case "servicing":
+    //       filePath = "op_item_import_all_servicing.csv";
+    //       break;
+    //     default:
+    //       responseDiv.innerHTML = "Invalid item selection";
+    //       return;
+    //   }
+
+    //   // Define API URL and Authorization based on environment
+    //   let apiUrl, authToken;
+    //   switch (environmentType) {
+    //     case "dev":
+    //       apiUrl = "https://locations.global.dev.cafu.app/api/v1/op-items/op-item-imports";
+    //       authToken = "2cb5e611-8bb9-40ad-97da-812676f32112"; // Dev token
+    //       break;
+
+    //     case "staging":
+    //       apiUrl = "https://locations.global.staging.cafu.app/api/v1/op-items/op-item-imports"
+    //       authToken = "2cb5e611-8bb9-40ad-97da-812676f32112";
+    //       // apiUrl = "https://internal-bff.global.staging.cafu.app/api/v1/locations/op-item-imports";
+    //       // authToken = "Bearer eyJraWQiOiIwOHZFMks4Z0g4NXZyUXBQa29JVUZVWmtLYWpaVjluUnBVM3o5TFFPZW1nPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJjM2Q3MDQ2MS0yNDBmLTQ3NTUtODJiOC1hZTkxYjYzNTlhNmEiLCJjb2duaXRvOmdyb3VwcyI6WyJldS13ZXN0LTFfejU1UVZMRlM1X2F6dXJlQUQtaWRlbnRpdHktcHJvdmlkZXIiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmV1LXdlc3QtMS5hbWF6b25hd3MuY29tXC9ldS13ZXN0LTFfejU1UVZMRlM1IiwidmVyc2lvbiI6MiwiY2xpZW50X2lkIjoiNjhrbzRqYTQ1NW9uMGNmc2JlN211Z3IwazkiLCJvcmlnaW5fanRpIjoiY2UxZDEwMjgtODUxMy00MDRhLThmOGQtNzhjMjAxMzU4N2VjIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiBwaG9uZSBvcGVuaWQgZW1haWwiLCJhdXRoX3RpbWUiOjE3MzIwMDA4MDIsImV4cCI6MTczMjAwODMyMywiaWF0IjoxNzMyMDA0NzIzLCJqdGkiOiI2M2YzMDczMi01MjljLTQ2OTgtYmJiZC00YTFkYzdjYmEyNGIiLCJ1c2VybmFtZSI6ImF6dXJlYWQtaWRlbnRpdHktcHJvdmlkZXJfYWxpLnNvcmF0aGl5YUBjYWZ1LmNvbSJ9.aQEgHySYeVmfMOkp5ezX6eMG4GEWx9cN9g_atgEFoqYBFVAZsJDgHvwLHwL8VGMi-WP7xVENI68m2SGfQVcpbpKVucghDNTNXPD0PQePeqgKVQ-J8flrjnuc9tNF_QEcVlSR-UceKcfhBQpkplRxLc7FpmAStiIJ6nKUovCwO6IEYb2i41nxdyzCKVw8SddP2ZJD8jtK5s1amHrEyGO-mS_9rzsKH18rXNYQOLM_kJRAMh4s8SIRRzKvHIp0fnz83JkZIBrK_-vedzq3RHvlFrtWY9ej5BpRxwhMZGOHmPbFzuiFzoX-JN-ZN8E3mrEsBLXWtZqWABLTbUcimFRAkA"; // Staging token
+    //       break;
+
+    //     case "prod":
+      
+      
+    //      authToken = abc;
+    //     console.log(accessToken);
+    //       // apiUrl = "https://locations.cafu.app/api/v1/op-items/op-item-imports";
+    //       // authToken = "2cb5e611-8bb9-40ad-97da-812676f32112";
+    //       apiUrl = "https://internal-bff-gateway.cafu.app/api/v1/locations/op-item-imports";
+
+    //       // Prod token
+    //       break;
+          
+    //     default:
+    //       responseDiv.innerHTML = "Invalid environment selection";
+    //       return;
+    //   }
+
+    //   // Fetch the file and send it in the API request
+    //   fetch(filePath)
+    //     .then(response => response.blob())
+    //     .then(blob => {
+    //       const myHeaders = new Headers();
+    //       myHeaders.append("Accept-Language", "en-US");
+
+    //       // Add Authorization header for staging and prod
+    //       if (environmentType !== "dev") {
+    //         myHeaders.append("Authorization", authToken);
+    //       } else {
+    //         myHeaders.append("X-CAFU-User-Id", authToken);
+    //       }
+
+    //       const formdata = new FormData();
+    //       formdata.append("file", blob, filePath);
+
+    //       const requestOptions = {
+    //         method: "POST",
+    //         headers: myHeaders,
+    //         body: formdata,
+    //         redirect: "follow"
+    //       };
+
+    //       // Make the API call
+    //       return fetch(apiUrl, requestOptions);
+    //     })
+    //     .then(response => response.text())
+    //     .then(result => {
+    //       responseDiv.innerHTML = `<strong>Response:</strong> ${result}`;
+    //     })
+    //     .catch(error => {
+    //       responseDiv.innerHTML = `<strong>Error:</strong> ${error.message}`;
+    //     });
+    // }
+
+
+    async function uploadCSV() {
+  // Display a processing message
+  const responseDiv = document.getElementById("responseMessage");
+  responseDiv.innerHTML = "Processing...";
+
+  // Get user selections
+  const environmentType = document.getElementById("environmentSelect").value;
+  const itemType = document.getElementById("itemSelect").value;
+
+  // Define the file path based on the selected item type
+  let filePath;
+  switch (itemType) {
+    case "tyres":
+      filePath = "op_item_import_all_tyre.csv";
+      break;
+    case "battery":
+      filePath = "op_item_import_all_battery.csv";
+      break;
+    case "servicing":
+      filePath = "op_item_import_all_servicing.csv";
+      break;
+    default:
+      responseDiv.innerHTML = "Invalid item selection";
+      return;
+  }
+
+  // Define API URL based on environment
+  let apiUrl;
+  switch (environmentType) {
+    case "dev":
+      apiUrl = "https://locations.global.dev.cafu.app/api/v1/op-items/op-item-imports";
+      break;
+    case "staging":
+      apiUrl = "https://locations.global.staging.cafu.app/api/v1/op-items/op-item-imports";
+      break;
+    case "prod":
+      apiUrl = "https://internal-bff-gateway.cafu.app/api/v1/locations/op-item-imports";
+      break;
+    default:
+      responseDiv.innerHTML = "Invalid environment selection";
+      return;
+  }
+
+  // Fetch access token
+  const token = await fetchAccessToken();
+  if (!token) {
+    responseDiv.innerHTML = "Failed to fetch access token. Please try again.";
+    return;
+  }
+
+  try {
+    // Fetch the file from the file path
+    const fileResponse = await fetch(filePath);
+
+    // Check if the file was successfully fetched
+    if (!fileResponse.ok) {
+      throw new Error(`Failed to fetch file from ${filePath}: ${fileResponse.statusText}`);
+    }
+
+    // Convert the response to a Blob
+    const fileBlob = await fileResponse.blob();
+
+    // Create FormData and append the file
+    const formData = new FormData();
+    formData.append("file", fileBlob, filePath);
+
+    // Create headers
+    const headers = new Headers();
+    headers.append("Accept-Language", "en-US");
+
+    if (environmentType !== "dev") {
+      headers.append("Authorization", token);
+    } else {
+      headers.append("X-CAFU-User-Id", token);
+    }
+
+    // Make the POST request
+    const response = await fetch(apiUrl, {
+      method: "POST",
+      headers,
+      body: formData,
+    });
+
+    // Handle response
+    if (response.ok) {
+      const result = await response.json();
+      responseDiv.innerHTML = "File uploaded successfully.";
+      logToConsole("File uploaded successfully: " + JSON.stringify(result));
+    } else {
+      throw new Error(`API call failed with status ${response.status}: ${response.statusText}`);
+    }
+  } catch (error) {
+    responseDiv.innerHTML = "An error occurred during upload.";
+    logToConsole("Error during upload: " + error.message);
+  }
+}
+
+
   </script>
 </body>
 
