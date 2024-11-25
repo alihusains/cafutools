@@ -404,6 +404,87 @@ func RunMediaRelations(p *PipelineRunner) {
 	time.Sleep(10 * time.Second)
 }
 
+
+func RunDeleteMediaRelations(p *PipelineRunner) {
+	variationIDs := p.VariationIDs
+	client := &http.Client{}
+	// for i := 0; i < len(variationIDs); i++ {
+		for _, variationID := range variationIDs {
+		// baseUrl := p.MediaUrl
+	
+
+		getUrl := fmt.Sprintf("%s/v1/media?owner_service=catalog&owner_type=variations&owner_id=%d", p.MediaUrl, variationID)
+		req, err := http.NewRequest("GET", getUrl, nil)
+		if err != nil {
+			log.Printf("Error creating GET request for variationID %d: %v", variationID, err)
+			continue
+		}
+		req.Header.Set("Content-Type", "application/json")
+
+		resp, err := client.Do(req)
+		if err != nil {
+			log.Printf("Error making GET request for variationID %d: %v", variationID, err)
+			continue
+		}
+		defer resp.Body.Close()
+
+
+		if resp.StatusCode != http.StatusOK {
+			log.Printf("GET request for variationID %d failed with status: %d", variationID, resp.StatusCode)
+			continue
+		}
+
+		// Parse the response to extract media IDs
+		var apiResponse struct {
+			Data []struct {
+				Relation struct {
+					MediaID int `json:"media_id"`
+				} `json:"relation"`
+			} `json:"data"`
+		}
+		body, err := ioutil.ReadAll(resp.Body)
+		if err != nil {
+			log.Printf("Error reading GET response body for variationID %d: %v", variationID, err)
+			continue
+		}
+		if err := json.Unmarshal(body, &apiResponse); err != nil {
+			log.Printf("Error parsing GET response for variationID %d: %v", variationID, err)
+			continue
+		}
+
+		for _, item := range apiResponse.Data {
+
+			mediaID := item.Relation.MediaID
+			deleteUrl := fmt.Sprintf("%s/v1/media/%d", p.MediaUrl, mediaID)
+			deleteReq, err := http.NewRequest("DELETE", deleteUrl, nil)
+			if err != nil {
+				log.Printf("Error creating DELETE request for mediaID %d: %v", mediaID, err)
+				continue
+			}
+			deleteReq.Header.Set("Content-Type", "application/json")
+
+			deleteResp, err := client.Do(deleteReq)
+			if err != nil {
+				log.Printf("Error making DELETE request for mediaID %d: %v", mediaID, err)
+				continue
+			}
+			defer deleteResp.Body.Close()
+
+			if deleteResp.StatusCode != http.StatusOK {
+				log.Printf("DELETE request for mediaID %d failed with status: %d", mediaID, deleteResp.StatusCode)
+			} else {
+				log.Printf("Successfully deleted mediaID %d", mediaID)
+			}
+
+
+		}
+
+
+
+	}
+
+}
+
 /***
 	DON'T NEED TO MODIFY ANYTHING ABOVE THIS LINE UNLESS TO CHANGE THE FUNCTIONALITY
 ***/
@@ -474,18 +555,18 @@ func main() {
 
 	p := NewPipeLineRunner(
 		// Define the environment
-		EnvironmentProd,
-		// EnvironmentStaging,
+		// EnvironmentProd,
+		EnvironmentStaging,
 
 		// Define the environment specific vertical ID
-		TyreVerticalIDProd,
+		// TyreVerticalIDProd,
 		// ServicingVerticalIDProd,
-		// TyreVerticalIDStaging,
+		TyreVerticalIDStaging,
 
 		// Define the environment specific variation ID
-		TyreVariationIDsProd,
+		// TyreVariationIDsProd,
 		// ServicingVariationIDsProd,
-		// TyreVariationIDsStaging,
+		TyreVariationIDsStaging,
 
 		mediaIDs,
 		
@@ -506,8 +587,14 @@ func main() {
 	// RunOpsAsset(p)
 
 	// Attaching checks to variations
-	RunPrePostChecks(p)
+	// RunPrePostChecks(p)
 
 	// Attach the media relationships
 	// RunMediaRelations(p)
+
+
+
+	//DELETE MEDIA RELATIONS STAGING 
+
+	RunDeleteMediaRelations(p)
 }
