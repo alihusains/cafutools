@@ -1,0 +1,3204 @@
+model_id,make,model,min_price,max_price,hold_amount,currency,warranty,warranty_duration,item_name
+1,Acura,MDX,,,,AED,12,months,Economy
+2,Acura,TLX,,,,AED,12,months,Economy
+3,Alfa Romeo,147,495,495,471.4285714,AED,12,months,Economy
+4,Alfa Romeo,156,495,495,471.4285714,AED,12,months,Economy
+5,Alfa Romeo,159,495,495,471.4285714,AED,12,months,Economy
+6,Alfa Romeo,166,,,,AED,12,months,Economy
+7,Alfa Romeo,4C,495,495,471.4285714,AED,12,months,Economy
+8,Alfa Romeo,Brera,495,495,471.4285714,AED,12,months,Economy
+9,Alfa Romeo,Giulia,495,495,471.4285714,AED,12,months,Economy
+10,Alfa Romeo,Giulia QV,495,495,471.4285714,AED,12,months,Economy
+11,Alfa Romeo,Giulietta,495,495,471.4285714,AED,12,months,Economy
+12,Alfa Romeo,Giulietta QV,495,495,471.4285714,AED,12,months,Economy
+13,Alfa Romeo,GT Coupe,495,495,471.4285714,AED,12,months,Economy
+14,Alfa Romeo,Mito,495,495,471.4285714,AED,12,months,Economy
+15,Alfa Romeo,Spider,495,495,471.4285714,AED,12,months,Economy
+16,Alfa Romeo,Stelvio,495,495,471.4285714,AED,12,months,Economy
+17,Alfa Romeo,Stelvio QV,495,495,471.4285714,AED,12,months,Economy
+18,Aston Martin,DB11,,,,AED,12,months,Economy
+19,Aston Martin,DB11 Volante,,,,AED,12,months,Economy
+20,Aston Martin,DB7,,,,AED,12,months,Economy
+21,Aston Martin,DB9,,,,AED,12,months,Economy
+22,Aston Martin,DB9 Volante,,,,AED,12,months,Economy
+23,Aston Martin,DBS,,,,AED,12,months,Economy
+24,Aston Martin,One-77,,,,AED,12,months,Economy
+25,Aston Martin,Rapide,,,,AED,12,months,Economy
+26,Aston Martin,V12 Vantage,,,,AED,12,months,Economy
+27,Aston Martin,V12 Vantage Roadster,,,,AED,12,months,Economy
+28,Aston Martin,V8 Vantage,,,,AED,12,months,Economy
+29,Aston Martin,V8 Vantage Roadster,,,,AED,12,months,Economy
+30,Aston Martin,Vanquish,,,,AED,12,months,Economy
+31,Aston Martin,Vanquish Volante,,,,AED,12,months,Economy
+32,Aston Martin,Zagato,,,,AED,12,months,Economy
+33,Audi,A1,453,453,431.4285714,AED,12,months,Economy
+34,Audi,A3,495,495,471.4285714,AED,12,months,Economy
+35,Audi,A3 Sedan,495,495,471.4285714,AED,12,months,Economy
+36,Audi,A4,565,565,538.0952381,AED,12,months,Economy
+37,Audi,A5 Cabriolet,565,565,538.0952381,AED,12,months,Economy
+38,Audi,A5 Coupe,565,565,538.0952381,AED,12,months,Economy
+39,Audi,A5 Sportback,565,565,538.0952381,AED,12,months,Economy
+40,Audi,A6,630,630,600,AED,12,months,Economy
+41,Audi,A7,630,630,600,AED,12,months,Economy
+42,Audi,A8,630,630,600,AED,12,months,Economy
+43,Audi,Q2,565,565,538.0952381,AED,12,months,Economy
+44,Audi,Q3,495,495,471.4285714,AED,12,months,Economy
+45,Audi,Q5,565,565,538.0952381,AED,12,months,Economy
+46,Audi,Q7,565,565,538.0952381,AED,12,months,Economy
+47,Audi,R8,,,,AED,12,months,Economy
+48,Audi,R8 Spyder,,,,AED,12,months,Economy
+49,Audi,RS 3,565,565,538.0952381,AED,12,months,Economy
+50,Audi,RS 3 Sedan,565,565,538.0952381,AED,12,months,Economy
+51,Audi,RS 4,565,565,538.0952381,AED,12,months,Economy
+52,Audi,RS 5,565,565,538.0952381,AED,12,months,Economy
+53,Audi,RS 6,630,630,600,AED,12,months,Economy
+54,Audi,RS 7,630,630,600,AED,12,months,Economy
+55,Audi,RS Q3,565,565,538.0952381,AED,12,months,Economy
+56,Audi,S Q5,630,630,600,AED,12,months,Economy
+57,Audi,S3,565,565,538.0952381,AED,12,months,Economy
+58,Audi,S5,630,630,600,AED,12,months,Economy
+59,Audi,S6,630,630,600,AED,12,months,Economy
+60,Audi,S7,630,630,600,AED,12,months,Economy
+61,Audi,S8,630,630,600,AED,12,months,Economy
+62,Audi,TT,495,495,471.4285714,AED,12,months,Economy
+63,BAIC,A1 Hatchback,,,,AED,12,months,Economy
+64,BAIC,A1 Sedan,,,,AED,12,months,Economy
+65,BAIC,A5 Sedan,,,,AED,12,months,Economy
+66,Bentley,Arnage,,,,AED,12,months,Economy
+67,Bentley,Azure,,,,AED,12,months,Economy
+68,Bentley,Bentayga,,,,AED,12,months,Economy
+69,Bentley,Brooklands,,,,AED,12,months,Economy
+70,Bentley,Continental,,,,AED,12,months,Economy
+71,Bentley,Continental Flying Spur,,,,AED,12,months,Economy
+72,Bentley,Continental GT,,,,AED,12,months,Economy
+73,Bentley,Continental GTC,,,,AED,12,months,Economy
+74,Bentley,Flying Spur,,,,AED,12,months,Economy
+75,Bentley,Mulsanne,,,,AED,12,months,Economy
+76,BMW,1-Series,,,,AED,12,months,Economy
+77,BMW,2-Series,,,,AED,12,months,Economy
+78,BMW,3-Series,,,,AED,12,months,Economy
+79,BMW,3-Series Convertible,,,,AED,12,months,Economy
+80,BMW,3-Series Coupe,,,,AED,12,months,Economy
+81,BMW,4-Series,,,,AED,12,months,Economy
+82,BMW,4-Series Convertible,,,,AED,12,months,Economy
+83,BMW,4-Series Gran Coupe,,,,AED,12,months,Economy
+84,BMW,5-Series,,,,AED,12,months,Economy
+85,BMW,5-Series GT,,,,AED,12,months,Economy
+86,BMW,6-Series Cabriolet,,,,AED,12,months,Economy
+87,BMW,6-Series Coupe,,,,AED,12,months,Economy
+88,BMW,6-Series Gran Coupe,,,,AED,12,months,Economy
+89,BMW,6-Series Gran Turismo,,,,AED,12,months,Economy
+90,BMW,7-Series,,,,AED,12,months,Economy
+91,BMW,8-Series,,,,AED,12,months,Economy
+92,BMW,i8,,,,AED,12,months,Economy
+93,BMW,M2,495,495,471.4285714,AED,12,months,Economy
+94,BMW,M3,565,565,538.0952381,AED,12,months,Economy
+95,BMW,M3 Convertible,565,565,538.0952381,AED,12,months,Economy
+96,BMW,M3 Coupe,565,565,538.0952381,AED,12,months,Economy
+97,BMW,M4,630,630,600,AED,12,months,Economy
+98,BMW,M4 Convertible,630,630,600,AED,12,months,Economy
+99,BMW,M5,630,630,600,AED,12,months,Economy
+100,BMW,M6 Cabriolet,630,630,600,AED,12,months,Economy
+101,BMW,M6 Coupe,630,630,600,AED,12,months,Economy
+102,BMW,M6 Gran Coupe,630,630,600,AED,12,months,Economy
+103,BMW,X1,495,495,471.4285714,AED,12,months,Economy
+104,BMW,X3,565,565,538.0952381,AED,12,months,Economy
+105,BMW,X4,565,565,538.0952381,AED,12,months,Economy
+106,BMW,X5,630,630,600,AED,12,months,Economy
+107,BMW,X5 M,630,630,600,AED,12,months,Economy
+108,BMW,X6,,,,AED,12,months,Economy
+109,BMW,X6 M,,,,AED,12,months,Economy
+110,BMW,Z4,495,495,471.4285714,AED,12,months,Economy
+111,Borgward,BX5,,,,AED,12,months,Economy
+112,Borgward,BX7,,,,AED,12,months,Economy
+113,Brilliance,FRV,,,,AED,12,months,Economy
+114,Brilliance,FRV Cross,,,,AED,12,months,Economy
+115,Brilliance,FSV,,,,AED,12,months,Economy
+116,Brilliance,H530,,,,AED,12,months,Economy
+117,Brilliance,V5,,,,AED,12,months,Economy
+118,Bugatti,Chiron,,,,AED,12,months,Economy
+119,Bugatti,Veyron,,,,AED,12,months,Economy
+120,BYD,F3,453,453,431.4285714,AED,12,months,Economy
+121,BYD,F6,453,453,431.4285714,AED,12,months,Economy
+122,BYD,S6,453,453,431.4285714,AED,12,months,Economy
+123,Cadillac,ATS,495,495,471.4285714,AED,12,months,Economy
+124,Cadillac,ATS Coupe,495,495,471.4285714,AED,12,months,Economy
+125,Cadillac,ATS-V,,,,AED,12,months,Economy
+126,Cadillac,ATS-V Coupe,,,,AED,12,months,Economy
+127,Cadillac,BLS,,,,AED,12,months,Economy
+128,Cadillac,CT6,495,495,471.4285714,AED,12,months,Economy
+129,Cadillac,CTS,495,495,471.4285714,AED,12,months,Economy
+130,Cadillac,CTS Coupe,495,495,471.4285714,AED,12,months,Economy
+131,Cadillac,CTS-V,,,,AED,12,months,Economy
+132,Cadillac,CTS-V Coupe,,,,AED,12,months,Economy
+133,Cadillac,DTS,495,495,471.4285714,AED,12,months,Economy
+134,Cadillac,Escalade,565,565,538.0952381,AED,12,months,Economy
+135,Cadillac,SLS,,,,AED,12,months,Economy
+136,Cadillac,SRX,565,565,538.0952381,AED,12,months,Economy
+137,Cadillac,STS,495,495,471.4285714,AED,12,months,Economy
+138,Cadillac,XLR,565,565,538.0952381,AED,12,months,Economy
+139,Cadillac,XT5,565,565,538.0952381,AED,12,months,Economy
+140,Cadillac,XTS,565,565,538.0952381,AED,12,months,Economy
+141,Caterham,Seven,,,,AED,12,months,Economy
+142,Changan,CS35,453,453,431.4285714,AED,12,months,Economy
+143,Changan,CS75,453,453,431.4285714,AED,12,months,Economy
+144,Changan,Eado,495,495,471.4285714,AED,12,months,Economy
+145,Chery,A11 Windcloud,,,,AED,12,months,Economy
+146,Chery,Arrizo 3,453,453,431.4285714,AED,12,months,Economy
+147,Chery,Arrizo 5,453,453,431.4285714,AED,12,months,Economy
+148,Chery,Arrizo 7,495,495,471.4285714,AED,12,months,Economy
+149,Chery,B11 Oriental Son,,,,AED,12,months,Economy
+150,Chery,E5,,,,AED,12,months,Economy
+151,Chery,E8,,,,AED,12,months,Economy
+152,Chery,S11 QQ,,,,AED,12,months,Economy
+153,Chery,T11 Tiggo,495,495,471.4285714,AED,12,months,Economy
+154,Chery,Tiggo 3,453,453,431.4285714,AED,12,months,Economy
+155,Chery,Tiggo 5,453,453,431.4285714,AED,12,months,Economy
+156,Chery,Tiggo 7,495,495,471.4285714,AED,12,months,Economy
+157,Chery,V5 Crossover,495,495,471.4285714,AED,12,months,Economy
+158,Chevrolet,Avalanche,565,565,538.0952381,AED,12,months,Economy
+159,Chevrolet,Aveo,350,350,333.3333333,AED,12,months,Economy
+160,Chevrolet,Aveo Hatchback,350,350,333.3333333,AED,12,months,Economy
+161,Chevrolet,Aveo5,350,350,333.3333333,AED,12,months,Economy
+162,Chevrolet,Bolt,,,,AED,12,months,Economy
+163,Chevrolet,Camaro,565,565,538.0952381,AED,12,months,Economy
+164,Chevrolet,Camaro Convertible,565,565,538.0952381,AED,12,months,Economy
+165,Chevrolet,Caprice,495,495,471.4285714,AED,12,months,Economy
+166,Chevrolet,Captiva,459,459,437.1428571,AED,12,months,Economy
+167,Chevrolet,Colorado,,,,AED,12,months,Economy
+168,Chevrolet,Corvette,495,495,471.4285714,AED,12,months,Economy
+169,Chevrolet,Cruze,495,495,471.4285714,AED,12,months,Economy
+170,Chevrolet,Cruze Hatchback,495,495,471.4285714,AED,12,months,Economy
+171,Chevrolet,CSV CR8,,,,AED,12,months,Economy
+172,Chevrolet,Epica,350,350,333.3333333,AED,12,months,Economy
+173,Chevrolet,Equinox,495,495,471.4285714,AED,12,months,Economy
+174,Chevrolet,Impala,495,495,471.4285714,AED,12,months,Economy
+175,Chevrolet,Lumina,495,495,471.4285714,AED,12,months,Economy
+176,Chevrolet,Malibu,495,495,471.4285714,AED,12,months,Economy
+177,Chevrolet,Optra,350,350,333.3333333,AED,12,months,Economy
+178,Chevrolet,Silverado,565,565,538.0952381,AED,12,months,Economy
+179,Chevrolet,Sonic,350,350,333.3333333,AED,12,months,Economy
+180,Chevrolet,Sonic Hatchback,350,350,333.3333333,AED,12,months,Economy
+181,Chevrolet,Spark,351,351,334.2857143,AED,12,months,Economy
+182,Chevrolet,Suburban,565,565,538.0952381,AED,12,months,Economy
+183,Chevrolet,T-Series,,,,AED,12,months,Economy
+184,Chevrolet,Tahoe,565,565,538.0952381,AED,12,months,Economy
+185,Chevrolet,Trailblazer,495,495,471.4285714,AED,12,months,Economy
+186,Chevrolet,Traverse,495,495,471.4285714,AED,12,months,Economy
+187,Chevrolet,Trax,495,495,471.4285714,AED,12,months,Economy
+188,Chevrolet,Uplander,,,,AED,12,months,Economy
+189,Chrysler,200,495,495,471.4285714,AED,12,months,Economy
+190,Chrysler,300 SRT,565,565,538.0952381,AED,12,months,Economy
+191,Chrysler,300C,565,565,538.0952381,AED,12,months,Economy
+192,Chrysler,Crossfire,565,565,538.0952381,AED,12,months,Economy
+193,Chrysler,Grand Voyager,565,565,538.0952381,AED,12,months,Economy
+194,Chrysler,Pacifica,565,565,538.0952381,AED,12,months,Economy
+195,Chrysler,PT Cruiser,565,565,538.0952381,AED,12,months,Economy
+196,Chrysler,Sebring,565,565,538.0952381,AED,12,months,Economy
+197,Citroen,C-Elysee,,,,AED,12,months,Economy
+198,Citroen,C2,453,453,431.4285714,AED,12,months,Economy
+199,Citroen,C3,453,453,431.4285714,AED,12,months,Economy
+200,Citroen,C4,453,453,431.4285714,AED,12,months,Economy
+201,Citroen,C4 Picasso,453,453,431.4285714,AED,12,months,Economy
+202,Citroen,C5,495,495,471.4285714,AED,12,months,Economy
+203,Citroen,C8,495,495,471.4285714,AED,12,months,Economy
+204,Citroen,DS3,495,495,471.4285714,AED,12,months,Economy
+205,Citroen,DS4,495,495,471.4285714,AED,12,months,Economy
+206,Citroen,DS5,495,495,471.4285714,AED,12,months,Economy
+207,Citroen,Saxo,495,495,471.4285714,AED,12,months,Economy
+208,Citroen,Xsara Picasso,495,495,471.4285714,AED,12,months,Economy
+209,CMC,Z7,,,,AED,12,months,Economy
+210,Daihatsu,Charade,,,,AED,12,months,Economy
+211,Daihatsu,Gran Max Pickup,415,415,395.2380952,AED,12,months,Economy
+212,Daihatsu,Gran Max Van,415,415,395.2380952,AED,12,months,Economy
+213,Daihatsu,Materia,,,,AED,12,months,Economy
+214,Daihatsu,Sirion,315,315,300,AED,12,months,Economy
+215,Daihatsu,Terios,315,315,300,AED,12,months,Economy
+216,Daihatsu,YRV,,,,AED,12,months,Economy
+217,Dodge,Avenger,565,565,538.0952381,AED,12,months,Economy
+218,Dodge,Caliber,453,453,431.4285714,AED,12,months,Economy
+219,Dodge,Challenger,565,565,538.0952381,AED,12,months,Economy
+220,Dodge,Challenger SRT,565,565,538.0952381,AED,12,months,Economy
+221,Dodge,Charger,630,630,600,AED,12,months,Economy
+222,Dodge,Charger SRT,630,630,600,AED,12,months,Economy
+223,Dodge,Dakota,,,,AED,12,months,Economy
+224,Dodge,Dart,453,453,431.4285714,AED,12,months,Economy
+225,Dodge,Durango,565,565,538.0952381,AED,12,months,Economy
+226,Dodge,Neon,495,495,471.4285714,AED,12,months,Economy
+227,Dodge,Nitro,495,495,471.4285714,AED,12,months,Economy
+228,Dodge,Ram,565,565,538.0952381,AED,12,months,Economy
+229,Dodge,Viper,565,565,538.0952381,AED,12,months,Economy
+230,Dongfeng,H30 Cross,,,,AED,12,months,Economy
+231,Dongfeng,S30,,,,AED,12,months,Economy
+232,Ferrari,360,,,,AED,12,months,Economy
+233,Ferrari,458,,,,AED,12,months,Economy
+234,Ferrari,458 Spider,,,,AED,12,months,Economy
+235,Ferrari,488 GTB,,,,AED,12,months,Economy
+236,Ferrari,488 Spider,,,,AED,12,months,Economy
+237,Ferrari,599 GTB Fiorano,,,,AED,12,months,Economy
+238,Ferrari,612 Scaglietti,,,,AED,12,months,Economy
+239,Ferrari,812 Superfast,,,,AED,12,months,Economy
+240,Ferrari,California,,,,AED,12,months,Economy
+241,Ferrari,California T,,,,AED,12,months,Economy
+242,Ferrari,F12 Berlinetta,,,,AED,12,months,Economy
+243,Ferrari,F430,,,,AED,12,months,Economy
+244,Ferrari,F430 Spider,,,,AED,12,months,Economy
+245,Ferrari,FF,,,,AED,12,months,Economy
+246,Ferrari,GTC4Lusso,,,,AED,12,months,Economy
+247,Ferrari,GTC4Lusso T,,,,AED,12,months,Economy
+248,Ferrari,LaFerrari,,,,AED,12,months,Economy
+249,Ferrari,Portofino,,,,AED,12,months,Economy
+250,Fiat,500,351,351,334.2857143,AED,12,months,Economy
+251,Fiat,500L,351,351,334.2857143,AED,12,months,Economy
+252,Fiat,500X,351,351,334.2857143,AED,12,months,Economy
+253,Fiat,Bravo,453,453,431.4285714,AED,12,months,Economy
+254,Fiat,Ducato,453,453,431.4285714,AED,12,months,Economy
+255,Fiat,Fiorino,453,453,431.4285714,AED,12,months,Economy
+256,Fiat,Fullback,453,453,431.4285714,AED,12,months,Economy
+257,Fiat,Linea,453,453,431.4285714,AED,12,months,Economy
+258,Fiat,Punto,351,351,334.2857143,AED,12,months,Economy
+259,Fisker,Karma,,,,AED,12,months,Economy
+260,Ford,Crown Victoria,495,495,471.4285714,AED,12,months,Economy
+261,Ford,Ecosport,453,453,431.4285714,AED,12,months,Economy
+262,Ford,Edge,515,515,490.4761905,AED,12,months,Economy
+263,Ford,Escape,495,495,471.4285714,AED,12,months,Economy
+264,Ford,Everest,,,,AED,12,months,Economy
+265,Ford,Expedition,515,515,490.4761905,AED,12,months,Economy
+266,Ford,Explorer,540,540,514.2857143,AED,12,months,Economy
+267,Ford,F-150,,,,AED,12,months,Economy
+268,Ford,F-150 Raptor,,,,AED,12,months,Economy
+269,Ford,Fiesta,351,351,334.2857143,AED,12,months,Economy
+270,Ford,Figo,351,351,334.2857143,AED,12,months,Economy
+271,Ford,Five Hundred,515,515,490.4761905,AED,12,months,Economy
+272,Ford,Flex,515,515,490.4761905,AED,12,months,Economy
+273,Ford,Focus,,,,AED,12,months,Economy
+274,Ford,Focus ST,453,453,431.4285714,AED,12,months,Economy
+275,Ford,Freestar,,,,AED,12,months,Economy
+276,Ford,Fusion,453,453,431.4285714,AED,12,months,Economy
+277,Ford,GT,495,495,471.4285714,AED,12,months,Economy
+278,Ford,Mondeo,453,453,431.4285714,AED,12,months,Economy
+279,Ford,Mustang,453,453,431.4285714,AED,12,months,Economy
+280,Ford,Mustang Convertible,453,453,431.4285714,AED,12,months,Economy
+281,Ford,Ranger,495,495,471.4285714,AED,12,months,Economy
+282,Ford,Shelby GT500,565,565,538.0952381,AED,12,months,Economy
+283,Ford,Taurus,515,515,490.4761905,AED,12,months,Economy
+284,Ford,Tourneo Custom,,,,AED,12,months,Economy
+285,Ford,Transit,630,630,600,AED,12,months,Economy
+286,Ford,Transit Custom,630,630,600,AED,12,months,Economy
+287,Foton,SUP,,,,AED,12,months,Economy
+288,Foton,Tunland,,,,AED,12,months,Economy
+289,Foton,View C1 Minibus,,,,AED,12,months,Economy
+290,GAC,GA3,453,453,431.4285714,AED,12,months,Economy
+291,GAC,GA5,453,453,431.4285714,AED,12,months,Economy
+292,GAC,GA8,495,495,471.4285714,AED,12,months,Economy
+293,GAC,GS3,453,453,431.4285714,AED,12,months,Economy
+294,GAC,GS4,453,453,431.4285714,AED,12,months,Economy
+295,GAC,GS5,453,453,431.4285714,AED,12,months,Economy
+296,GAC,GS7,495,495,471.4285714,AED,12,months,Economy
+297,GAC,GS8,495,495,471.4285714,AED,12,months,Economy
+298,Geely,CK,,,,AED,12,months,Economy
+299,Geely,Emgrand 7,453,453,431.4285714,AED,12,months,Economy
+300,Geely,Emgrand 8,453,453,431.4285714,AED,12,months,Economy
+301,Geely,Emgrand GS,453,453,431.4285714,AED,12,months,Economy
+302,Geely,Emgrand GT,453,453,431.4285714,AED,12,months,Economy
+303,Geely,Emgrand X7,453,453,431.4285714,AED,12,months,Economy
+304,Geely,Emgrand X7 Sport,453,453,431.4285714,AED,12,months,Economy
+305,Geely,GC2,453,453,431.4285714,AED,12,months,Economy
+306,Geely,GC6,453,453,431.4285714,AED,12,months,Economy
+307,Geely,GC7,453,453,431.4285714,AED,12,months,Economy
+308,Geely,GX2,453,453,431.4285714,AED,12,months,Economy
+309,Genesis,G70,630,630,600,AED,12,months,Economy
+310,Genesis,G80,,,,AED,12,months,Economy
+311,Genesis,G90,630,630,600,AED,12,months,Economy
+312,GMC,Acadia,495,495,471.4285714,AED,12,months,Economy
+313,GMC,Envoy,495,495,471.4285714,AED,12,months,Economy
+314,GMC,Sierra 1500,565,565,538.0952381,AED,12,months,Economy
+315,GMC,Terrain,495,495,471.4285714,AED,12,months,Economy
+316,GMC,Yukon,565,565,538.0952381,AED,12,months,Economy
+317,Great Wall,Florid,,,,AED,12,months,Economy
+318,Great Wall,Wingle,,,,AED,12,months,Economy
+319,Haval,H2 Crossover,495,495,471.4285714,AED,12,months,Economy
+320,Haval,H6,495,495,471.4285714,AED,12,months,Economy
+321,Haval,H8,495,495,471.4285714,AED,12,months,Economy
+322,Haval,H9,495,495,471.4285714,AED,12,months,Economy
+323,Honda,Accord,315,315,300,AED,12,months,Economy
+324,Honda,Accord Coupe,415,415,395.2380952,AED,12,months,Economy
+325,Honda,Accord Crosstour,315,315,300,AED,12,months,Economy
+326,Honda,City,288,288,274.2857143,AED,12,months,Economy
+327,Honda,Civic,315,315,300,AED,12,months,Economy
+328,Honda,Civic Hatchback,315,315,300,AED,12,months,Economy
+329,Honda,CR-V,,,,AED,12,months,Economy
+330,Honda,CRX,315,315,300,AED,12,months,Economy
+331,Honda,Jazz,288,288,274.2857143,AED,12,months,Economy
+332,Honda,Legend,,,,AED,12,months,Economy
+333,Honda,MR-V,,,,AED,12,months,Economy
+334,Honda,Odyssey,415,415,395.2380952,AED,12,months,Economy
+335,Honda,Odyssey J,315,315,300,AED,12,months,Economy
+336,Honda,Pilot,455,455,433.3333333,AED,12,months,Economy
+337,Honda,S2000,,,,AED,12,months,Economy
+338,Hummer,H2,495,495,471.4285714,AED,12,months,Economy
+339,Hummer,H3,459,459,437.1428571,AED,12,months,Economy
+340,Hyundai,Accent,350,350,333.3333333,AED,12,months,Economy
+341,Hyundai,Atos Prime,,,,AED,12,months,Economy
+342,Hyundai,Azera,415,415,395.2380952,AED,12,months,Economy
+343,Hyundai,Centennial,630,630,600,AED,12,months,Economy
+344,Hyundai,Coupe,453,453,431.4285714,AED,12,months,Economy
+345,Hyundai,Creta,453,453,431.4285714,AED,12,months,Economy
+346,Hyundai,Elantra,350,350,333.3333333,AED,12,months,Economy
+347,Hyundai,Elantra Coupe,453,453,431.4285714,AED,12,months,Economy
+348,Hyundai,Genesis,630,630,600,AED,12,months,Economy
+349,Hyundai,Genesis Coupe,453,453,431.4285714,AED,12,months,Economy
+350,Hyundai,Getz,288,288,274.2857143,AED,12,months,Economy
+351,Hyundai,Grand i10,377,377,359.047619,AED,12,months,Economy
+352,Hyundai,Grand Santa Fe,415,415,395.2380952,AED,12,months,Economy
+353,Hyundai,H1,415,415,395.2380952,AED,12,months,Economy
+354,Hyundai,i10,377,377,359.047619,AED,12,months,Economy
+355,Hyundai,i20,377,377,359.047619,AED,12,months,Economy
+356,Hyundai,i30,415,415,395.2380952,AED,12,months,Economy
+357,Hyundai,i40,415,415,395.2380952,AED,12,months,Economy
+358,Hyundai,Kona,377,377,359.047619,AED,12,months,Economy
+359,Hyundai,Matrix,315,315,300,AED,12,months,Economy
+360,Hyundai,Santa Fe,415,415,395.2380952,AED,12,months,Economy
+361,Hyundai,Sonata,415,415,395.2380952,AED,12,months,Economy
+362,Hyundai,Terracan,,,,AED,12,months,Economy
+363,Hyundai,Trajet,,,,AED,12,months,Economy
+364,Hyundai,Tucson,377,377,359.047619,AED,12,months,Economy
+365,Hyundai,Veloster,350,350,333.3333333,AED,12,months,Economy
+366,Hyundai,Veloster Turbo,453,453,431.4285714,AED,12,months,Economy
+367,Hyundai,Veracruz,415,415,395.2380952,AED,12,months,Economy
+368,Infiniti,EX,415,415,395.2380952,AED,12,months,Economy
+369,Infiniti,FX,415,415,395.2380952,AED,12,months,Economy
+370,Infiniti,G,415,415,395.2380952,AED,12,months,Economy
+371,Infiniti,G35,415,415,395.2380952,AED,12,months,Economy
+372,Infiniti,G35 Coupe,415,415,395.2380952,AED,12,months,Economy
+373,Infiniti,G37 Convertible,415,415,395.2380952,AED,12,months,Economy
+374,Infiniti,G37 Coupe,415,415,395.2380952,AED,12,months,Economy
+375,Infiniti,JX,415,415,395.2380952,AED,12,months,Economy
+376,Infiniti,M,415,415,395.2380952,AED,12,months,Economy
+377,Infiniti,Q30,377,377,359.047619,AED,12,months,Economy
+378,Infiniti,Q45,377,377,359.047619,AED,12,months,Economy
+379,Infiniti,Q50,377,377,359.047619,AED,12,months,Economy
+380,Infiniti,Q60 Convertible,377,377,359.047619,AED,12,months,Economy
+381,Infiniti,Q60 Coupe,377,377,359.047619,AED,12,months,Economy
+382,Infiniti,Q70,415,415,395.2380952,AED,12,months,Economy
+383,Infiniti,QX30,495,495,471.4285714,AED,12,months,Economy
+384,Infiniti,QX50,415,415,395.2380952,AED,12,months,Economy
+385,Infiniti,QX56,525,525,500,AED,12,months,Economy
+386,Infiniti,QX60,525,525,500,AED,12,months,Economy
+387,Infiniti,QX70,415,415,395.2380952,AED,12,months,Economy
+388,Infiniti,QX80,,,,AED,12,months,Economy
+389,International,MXT,,,,AED,12,months,Economy
+390,Isuzu,D-Max,,,,AED,12,months,Economy
+391,Isuzu,D-Max Arctic Trucks AT35,,,,AED,12,months,Economy
+392,Isuzu,MU-X,,,,AED,12,months,Economy
+393,Isuzu,Trooper,,,,AED,12,months,Economy
+394,JAC,J4,453,453,431.4285714,AED,12,months,Economy
+395,JAC,J5,453,453,431.4285714,AED,12,months,Economy
+396,JAC,J6,453,453,431.4285714,AED,12,months,Economy
+397,JAC,M5 MPV,495,495,471.4285714,AED,12,months,Economy
+398,JAC,S3 SUV,495,495,471.4285714,AED,12,months,Economy
+399,Jaguar,E-Pace,,,,AED,12,months,Economy
+400,Jaguar,F-Pace,,,,AED,12,months,Economy
+401,Jaguar,F-Type,,,,AED,12,months,Economy
+402,Jaguar,F-Type Coupe,,,,AED,12,months,Economy
+403,Jaguar,F-Type SVR Convertible,,,,AED,12,months,Economy
+404,Jaguar,F-Type SVR Coupe,,,,AED,12,months,Economy
+405,Jaguar,S-Type,,,,AED,12,months,Economy
+406,Jaguar,X-Type,,,,AED,12,months,Economy
+407,Jaguar,XE,565,565,538.0952381,AED,12,months,Economy
+408,Jaguar,XF,630,630,600,AED,12,months,Economy
+409,Jaguar,XF Sportbrake,630,630,600,AED,12,months,Economy
+410,Jaguar,XFR-S,,,,AED,12,months,Economy
+411,Jaguar,XJ,565,565,538.0952381,AED,12,months,Economy
+412,Jaguar,XK,630,630,600,AED,12,months,Economy
+413,Jaguar,XK Convertible,630,630,600,AED,12,months,Economy
+414,Jeep,Cherokee,495,495,471.4285714,AED,12,months,Economy
+415,Jeep,Commander,495,495,471.4285714,AED,12,months,Economy
+416,Jeep,Compass,495,495,471.4285714,AED,12,months,Economy
+417,Jeep,Grand Cherokee,565,565,538.0952381,AED,12,months,Economy
+418,Jeep,Grand Cherokee SRT,495,495,471.4285714,AED,12,months,Economy
+419,Jeep,Patriot,495,495,471.4285714,AED,12,months,Economy
+420,Jeep,Renegade,495,495,471.4285714,AED,12,months,Economy
+421,Jeep,Wrangler,495,495,471.4285714,AED,12,months,Economy
+422,Jeep,Wrangler Unlimited,495,495,471.4285714,AED,12,months,Economy
+423,Kia,Cadenza,495,495,471.4285714,AED,12,months,Economy
+424,Kia,Carens,415,415,395.2380952,AED,12,months,Economy
+425,Kia,Carnival,415,415,395.2380952,AED,12,months,Economy
+426,Kia,Cerato,453,453,431.4285714,AED,12,months,Economy
+427,Kia,Cerato Hatchback,453,453,431.4285714,AED,12,months,Economy
+428,Kia,Cerato Koup,453,453,431.4285714,AED,12,months,Economy
+429,Kia,Mohave,415,415,395.2380952,AED,12,months,Economy
+430,Kia,Opirus,415,415,395.2380952,AED,12,months,Economy
+431,Kia,Optima,415,415,395.2380952,AED,12,months,Economy
+432,Kia,Picanto,288,288,274.2857143,AED,12,months,Economy
+433,Kia,Quoris,,,,AED,12,months,Economy
+434,Kia,Rio,350,350,333.3333333,AED,12,months,Economy
+435,Kia,Rio Hatchback,453,453,431.4285714,AED,12,months,Economy
+436,Kia,Sorento,415,415,395.2380952,AED,12,months,Economy
+437,Kia,Soul,350,350,333.3333333,AED,12,months,Economy
+438,Kia,Sportage,415,415,395.2380952,AED,12,months,Economy
+439,Kia,Stinger,630,630,600,AED,12,months,Economy
+440,King Long,Mini Van,,,,AED,12,months,Economy
+441,Koenigsegg,CCX,,,,AED,12,months,Economy
+442,KTM,X-Bow,,,,AED,12,months,Economy
+443,Lamborghini,Aventador,,,,AED,12,months,Economy
+444,Lamborghini,Aventador Roadster,,,,AED,12,months,Economy
+445,Lamborghini,Gallardo,,,,AED,12,months,Economy
+446,Lamborghini,Huracan,,,,AED,12,months,Economy
+447,Lamborghini,Huracan Spyder,,,,AED,12,months,Economy
+448,Lamborghini,Murcielago,,,,AED,12,months,Economy
+449,Lamborghini,Urus,,,,AED,12,months,Economy
+450,Land Rover,Defender,630,630,600,AED,12,months,Economy
+451,Land Rover,Discovery,630,630,600,AED,12,months,Economy
+452,Land Rover,Discovery Sport,630,630,600,AED,12,months,Economy
+453,Land Rover,Freelander,630,630,600,AED,12,months,Economy
+454,Land Rover,LR2,630,630,600,AED,12,months,Economy
+455,Land Rover,LR3,630,630,600,AED,12,months,Economy
+456,Land Rover,LR4,630,630,600,AED,12,months,Economy
+457,Land Rover,Range Rover,630,630,600,AED,12,months,Economy
+458,Land Rover,Range Rover Evoque,565,565,538.0952381,AED,12,months,Economy
+459,Land Rover,Range Rover Evoque Conver,565,565,538.0952381,AED,12,months,Economy
+460,Land Rover,Range Rover Evoque Coupe,565,565,538.0952381,AED,12,months,Economy
+461,Land Rover,Range Rover Sport,630,630,600,AED,12,months,Economy
+462,Land Rover,Range Rover Sport SVR,630,630,600,AED,12,months,Economy
+463,Land Rover,Range Rover Velar,630,630,600,AED,12,months,Economy
+464,Lexus,CT,415,415,395.2380952,AED,12,months,Economy
+465,Lexus,ES,415,415,395.2380952,AED,12,months,Economy
+466,Lexus,GS,415,415,395.2380952,AED,12,months,Economy
+467,Lexus,GX,415,415,395.2380952,AED,12,months,Economy
+468,Lexus,IS,415,415,395.2380952,AED,12,months,Economy
+469,Lexus,IS C,415,415,395.2380952,AED,12,months,Economy
+470,Lexus,IS F,415,415,395.2380952,AED,12,months,Economy
+471,Lexus,LC,415,415,395.2380952,AED,12,months,Economy
+472,Lexus,LFA,415,415,395.2380952,AED,12,months,Economy
+473,Lexus,LS,415,415,395.2380952,AED,12,months,Economy
+474,Lexus,LX,525,525,500,AED,12,months,Economy
+475,Lexus,NX,415,415,395.2380952,AED,12,months,Economy
+476,Lexus,RC,415,415,395.2380952,AED,12,months,Economy
+477,Lexus,RC F,415,415,395.2380952,AED,12,months,Economy
+478,Lexus,RX,415,415,395.2380952,AED,12,months,Economy
+479,Lexus,SC,415,415,395.2380952,AED,12,months,Economy
+480,Lincoln,Continental,565,565,538.0952381,AED,12,months,Economy
+481,Lincoln,MKC,565,565,538.0952381,AED,12,months,Economy
+482,Lincoln,MKS,565,565,538.0952381,AED,12,months,Economy
+483,Lincoln,MKT,565,565,538.0952381,AED,12,months,Economy
+484,Lincoln,MKX,565,565,538.0952381,AED,12,months,Economy
+485,Lincoln,MKZ,565,565,538.0952381,AED,12,months,Economy
+486,Lincoln,Nautilus,565,565,538.0952381,AED,12,months,Economy
+487,Lincoln,Navigator,565,565,538.0952381,AED,12,months,Economy
+488,Lincoln,Navigator L,565,565,538.0952381,AED,12,months,Economy
+489,Lincoln,Town Car,565,565,538.0952381,AED,12,months,Economy
+490,Lotus,Elise,,,,AED,12,months,Economy
+491,Lotus,Evora,,,,AED,12,months,Economy
+492,Lotus,Exige,,,,AED,12,months,Economy
+493,Luxgen,Luxgen7 MPV,,,,AED,12,months,Economy
+494,Luxgen,Luxgen7 SUV,,,,AED,12,months,Economy
+495,Luxgen,S5,,,,AED,12,months,Economy
+496,Luxgen,U6,,,,AED,12,months,Economy
+497,Luxgen,U7,,,,AED,12,months,Economy
+498,Mahindra,Scorpio,,,,AED,12,months,Economy
+499,Mahindra,XUV500,,,,AED,12,months,Economy
+500,Maserati,Coupe,630,630,600,AED,12,months,Economy
+501,Maserati,Ghibli,630,630,600,AED,12,months,Economy
+502,Maserati,GranCabrio,630,630,600,AED,12,months,Economy
+503,Maserati,GranTurismo,630,630,600,AED,12,months,Economy
+504,Maserati,Levante,630,630,600,AED,12,months,Economy
+505,Maserati,Quattroporte,630,630,600,AED,12,months,Economy
+506,Maserati,Spyder,630,630,600,AED,12,months,Economy
+507,Maxus,G10,,,,AED,12,months,Economy
+508,Maxus,V80,,,,AED,12,months,Economy
+509,Maybach,57,630,630,600,AED,12,months,Economy
+510,Maybach,62,630,630,600,AED,12,months,Economy
+511,Mazda,2,377,377,359.047619,AED,12,months,Economy
+512,Mazda,2 Sedan,377,377,359.047619,AED,12,months,Economy
+513,Mazda,3,377,377,359.047619,AED,12,months,Economy
+514,Mazda,3 Sedan,377,377,359.047619,AED,12,months,Economy
+515,Mazda,6,415,415,395.2380952,AED,12,months,Economy
+516,Mazda,6 Ultra,377,377,359.047619,AED,12,months,Economy
+517,Mazda,6 Wagon,415,415,395.2380952,AED,12,months,Economy
+518,Mazda,B-Series,,,,AED,12,months,Economy
+519,Mazda,CX-3,,,,AED,12,months,Economy
+520,Mazda,CX-5,,,,AED,12,months,Economy
+521,Mazda,CX-7,,,,AED,12,months,Economy
+522,Mazda,CX-9,,,,AED,12,months,Economy
+523,Mazda,MX-5,,,,AED,12,months,Economy
+524,Mazda,MX-5 RF,,,,AED,12,months,Economy
+525,McLaren,540C Coupe,,,,AED,12,months,Economy
+526,McLaren,570GT Coupe,,,,AED,12,months,Economy
+527,McLaren,570S Coupe,,,,AED,12,months,Economy
+528,McLaren,570S Spider,,,,AED,12,months,Economy
+529,McLaren,650S,,,,AED,12,months,Economy
+530,McLaren,650S Spider,,,,AED,12,months,Economy
+531,McLaren,675LT,,,,AED,12,months,Economy
+532,McLaren,675LT Spider,,,,AED,12,months,Economy
+533,McLaren,720S,,,,AED,12,months,Economy
+534,McLaren,MP4-12C,,,,AED,12,months,Economy
+535,McLaren,MP4-12C Spider,,,,AED,12,months,Economy
+536,McLaren,P1,,,,AED,12,months,Economy
+537,Mercedes-Benz,A 45 AMG,,,,AED,12,months,Economy
+538,Mercedes-Benz,A-Class,,,,AED,12,months,Economy
+539,Mercedes-Benz,AMG GT,,,,AED,12,months,Economy
+540,Mercedes-Benz,AMG GT Roadster,,,,AED,12,months,Economy
+541,Mercedes-Benz,B-Class,,,,AED,12,months,Economy
+542,Mercedes-Benz,C 63 AMG,,,,AED,12,months,Economy
+543,Mercedes-Benz,C 63 AMG Coupe,,,,AED,12,months,Economy
+544,Mercedes-Benz,C-Class,,,,AED,12,months,Economy
+545,Mercedes-Benz,C-Class Coupe,,,,AED,12,months,Economy
+546,Mercedes-Benz,CL-Class,,,,AED,12,months,Economy
+547,Mercedes-Benz,CLA 45 AMG,,,,AED,12,months,Economy
+548,Mercedes-Benz,CLA-Class,,,,AED,12,months,Economy
+549,Mercedes-Benz,CLC-Class,,,,AED,12,months,Economy
+550,Mercedes-Benz,CLK-Class,,,,AED,12,months,Economy
+551,Mercedes-Benz,CLS 63 AMG,,,,AED,12,months,Economy
+552,Mercedes-Benz,CLS Shooting Brake,,,,AED,12,months,Economy
+553,Mercedes-Benz,CLS-Class,,,,AED,12,months,Economy
+554,Mercedes-Benz,E 43 AMG,,,,AED,12,months,Economy
+555,Mercedes-Benz,E 55 AMG,,,,AED,12,months,Economy
+556,Mercedes-Benz,E 63 AMG,,,,AED,12,months,Economy
+557,Mercedes-Benz,E-Class,,,,AED,12,months,Economy
+558,Mercedes-Benz,E-Class Cabriolet,,,,AED,12,months,Economy
+559,Mercedes-Benz,E-Class Coupe,,,,AED,12,months,Economy
+560,Mercedes-Benz,G 63 AMG,,,,AED,12,months,Economy
+561,Mercedes-Benz,G 65 AMG,,,,AED,12,months,Economy
+562,Mercedes-Benz,G-Class,,,,AED,12,months,Economy
+563,Mercedes-Benz,GL-Class,,,,AED,12,months,Economy
+564,Mercedes-Benz,GLA-Class,,,,AED,12,months,Economy
+565,Mercedes-Benz,GLC 43 AMG,,,,AED,12,months,Economy
+566,Mercedes-Benz,GLC 43 AMG Coupe,,,,AED,12,months,Economy
+567,Mercedes-Benz,GLC 63 AMG,,,,AED,12,months,Economy
+568,Mercedes-Benz,GLC 63 AMG Coupe,,,,AED,12,months,Economy
+569,Mercedes-Benz,GLC-Class,,,,AED,12,months,Economy
+570,Mercedes-Benz,GLC-Class Coupe,,,,AED,12,months,Economy
+571,Mercedes-Benz,GLE 63 AMG,,,,AED,12,months,Economy
+572,Mercedes-Benz,GLE 63 AMG Coupe,,,,AED,12,months,Economy
+573,Mercedes-Benz,GLE-Class,,,,AED,12,months,Economy
+574,Mercedes-Benz,GLE-Class Coupe,,,,AED,12,months,Economy
+575,Mercedes-Benz,GLK-Class,,,,AED,12,months,Economy
+576,Mercedes-Benz,GLS 63 AMG,,,,AED,12,months,Economy
+577,Mercedes-Benz,GLS-Class,,,,AED,12,months,Economy
+578,Mercedes-Benz,M-Class,,,,AED,12,months,Economy
+579,Mercedes-Benz,ML 63 AMG,,,,AED,12,months,Economy
+580,Mercedes-Benz,R-Class,,,,AED,12,months,Economy
+581,Mercedes-Benz,S 63 AMG,,,,AED,12,months,Economy
+582,Mercedes-Benz,S 63 AMG Coupe,,,,AED,12,months,Economy
+583,Mercedes-Benz,S 65 AMG,,,,AED,12,months,Economy
+584,Mercedes-Benz,S 65 AMG Coupe,,,,AED,12,months,Economy
+585,Mercedes-Benz,S-Class,,,,AED,12,months,Economy
+586,Mercedes-Benz,S-Class Coupe,,,,AED,12,months,Economy
+587,Mercedes-Benz,S-Class Maybach,,,,AED,12,months,Economy
+588,Mercedes-Benz,SL 63 AMG,,,,AED,12,months,Economy
+589,Mercedes-Benz,SL 65 AMG,,,,AED,12,months,Economy
+590,Mercedes-Benz,SL-Class,,,,AED,12,months,Economy
+591,Mercedes-Benz,SLC-Class,,,,AED,12,months,Economy
+592,Mercedes-Benz,SLK-Class,,,,AED,12,months,Economy
+593,Mercedes-Benz,SLR McLaren,,,,AED,12,months,Economy
+594,Mercedes-Benz,SLS AMG,,,,AED,12,months,Economy
+595,Mercedes-Benz,SLS AMG Roadster,,,,AED,12,months,Economy
+596,Mercedes-Benz,Sprinter,,,,AED,12,months,Economy
+597,Mercedes-Benz,V-Class,,,,AED,12,months,Economy
+598,Mercedes-Benz,Viano,,,,AED,12,months,Economy
+599,Mercedes-Benz,Vito,,,,AED,12,months,Economy
+600,Mercury,Grand Marquis,,,,AED,12,months,Economy
+601,Mercury,Mariner,,,,AED,12,months,Economy
+602,Mercury,Milan,,,,AED,12,months,Economy
+603,Mercury,Montego,515,515,490.4761905,AED,12,months,Economy
+604,Mercury,Mountaineer,515,515,490.4761905,AED,12,months,Economy
+605,MG,3,453,453,431.4285714,AED,12,months,Economy
+606,MG,350,453,453,431.4285714,AED,12,months,Economy
+607,MG,360,453,453,431.4285714,AED,12,months,Economy
+608,MG,5,453,453,431.4285714,AED,12,months,Economy
+609,MG,550,453,453,431.4285714,AED,12,months,Economy
+610,MG,6,453,453,431.4285714,AED,12,months,Economy
+611,MG,750,495,495,471.4285714,AED,12,months,Economy
+612,MG,GS,495,495,471.4285714,AED,12,months,Economy
+613,MG,RX5,495,495,471.4285714,AED,12,months,Economy
+614,MG,ZS,495,495,471.4285714,AED,12,months,Economy
+615,Mini,Clubman,565,565,538.0952381,AED,12,months,Economy
+616,Mini,Cooper,495,495,471.4285714,AED,12,months,Economy
+617,Mini,Countryman,495,495,471.4285714,AED,12,months,Economy
+618,Mini,Coupe,495,495,471.4285714,AED,12,months,Economy
+619,Mini,Paceman,495,495,471.4285714,AED,12,months,Economy
+620,Mini,Roadster,495,495,471.4285714,AED,12,months,Economy
+621,Mitsubishi,ASX,377,377,359.047619,AED,12,months,Economy
+622,Mitsubishi,Attrage,315,315,300,AED,12,months,Economy
+623,Mitsubishi,Eclipse,377,377,359.047619,AED,12,months,Economy
+624,Mitsubishi,Eclipse Cross,377,377,359.047619,AED,12,months,Economy
+625,Mitsubishi,Galant,415,415,395.2380952,AED,12,months,Economy
+626,Mitsubishi,Grandis,415,415,395.2380952,AED,12,months,Economy
+627,Mitsubishi,L200,415,415,395.2380952,AED,12,months,Economy
+628,Mitsubishi,Lancer,315,315,300,AED,12,months,Economy
+629,Mitsubishi,Lancer Evolution,377,377,359.047619,AED,12,months,Economy
+630,Mitsubishi,Lancer EX,377,377,359.047619,AED,12,months,Economy
+631,Mitsubishi,Lancer Fortis,377,377,359.047619,AED,12,months,Economy
+632,Mitsubishi,Magna,377,377,359.047619,AED,12,months,Economy
+633,Mitsubishi,Mirage,315,315,300,AED,12,months,Economy
+634,Mitsubishi,Montero Sport,415,415,395.2380952,AED,12,months,Economy
+635,Mitsubishi,Nativa,377,377,359.047619,AED,12,months,Economy
+636,Mitsubishi,Outlander,415,415,395.2380952,AED,12,months,Economy
+637,Mitsubishi,Pajero,415,415,395.2380952,AED,12,months,Economy
+638,Mitsubishi,Pajero Sport,415,415,395.2380952,AED,12,months,Economy
+639,Mitsubishi,Pajero SWB,415,415,395.2380952,AED,12,months,Economy
+640,Morgan,Aero8,,,,AED,12,months,Economy
+641,Morgan,Plus 4,,,,AED,12,months,Economy
+642,Morgan,Plus 8,,,,AED,12,months,Economy
+643,Morgan,Roadster,,,,AED,12,months,Economy
+644,Nissan,350Z,415,415,395.2380952,AED,12,months,Economy
+645,Nissan,370Z,415,415,395.2380952,AED,12,months,Economy
+646,Nissan,370Z Roadster,415,415,395.2380952,AED,12,months,Economy
+647,Nissan,Altima,377,377,359.047619,AED,12,months,Economy
+648,Nissan,Altima Coupe,415,415,395.2380952,AED,12,months,Economy
+649,Nissan,Armada,525,525,500,AED,12,months,Economy
+650,Nissan,GT-R,,,,AED,12,months,Economy
+651,Nissan,Juke,350,350,333.3333333,AED,12,months,Economy
+652,Nissan,Kicks,453,453,431.4285714,AED,12,months,Economy
+653,Nissan,Leaf,,,,AED,12,months,Economy
+654,Nissan,Maxima,415,415,395.2380952,AED,12,months,Economy
+655,Nissan,Micra,288,288,274.2857143,AED,12,months,Economy
+656,Nissan,Murano,415,415,395.2380952,AED,12,months,Economy
+657,Nissan,Navara,415,415,395.2380952,AED,12,months,Economy
+658,Nissan,Pathfinder,415,415,395.2380952,AED,12,months,Economy
+659,Nissan,Pathfinder Classic,,,,AED,12,months,Economy
+660,Nissan,Patrol,525,525,500,AED,12,months,Economy
+661,Nissan,Patrol Nismo,525,525,500,AED,12,months,Economy
+662,Nissan,Patrol Safari,525,525,500,AED,12,months,Economy
+663,Nissan,Pickup,415,415,395.2380952,AED,12,months,Economy
+664,Nissan,Qashqai,453,453,431.4285714,AED,12,months,Economy
+665,Nissan,Sentra,350,350,333.3333333,AED,12,months,Economy
+666,Nissan,Sunny,350,350,333.3333333,AED,12,months,Economy
+667,Nissan,Tiida,351,351,334.2857143,AED,12,months,Economy
+668,Nissan,Urvan,415,415,395.2380952,AED,12,months,Economy
+669,Nissan,X-Trail,,,,AED,12,months,Economy
+670,Nissan,Xterra,415,415,395.2380952,AED,12,months,Economy
+671,Noble,M600,,,,AED,12,months,Economy
+672,Opel,Adam,,,,AED,12,months,Economy
+673,Opel,Antara,,,,AED,12,months,Economy
+674,Opel,Astra,495,495,471.4285714,AED,12,months,Economy
+675,Opel,Astra GTC,495,495,471.4285714,AED,12,months,Economy
+676,Opel,Astra OPC,495,495,471.4285714,AED,12,months,Economy
+677,Opel,Corsa,495,495,471.4285714,AED,12,months,Economy
+678,Opel,Corsa OPC,495,495,471.4285714,AED,12,months,Economy
+679,Opel,Insignia,,,,AED,12,months,Economy
+680,Opel,Insignia OPC,,,,AED,12,months,Economy
+681,Opel,Meriva,,,,AED,12,months,Economy
+682,Opel,Mokka,,,,AED,12,months,Economy
+683,Opel,Vectra,,,,AED,12,months,Economy
+684,Opel,Zafira,,,,AED,12,months,Economy
+685,Oullim,Spirra,,,,AED,12,months,Economy
+686,Pagani,Huayra,,,,AED,12,months,Economy
+687,Peugeot,2008,495,495,471.4285714,AED,12,months,Economy
+688,Peugeot,206,495,495,471.4285714,AED,12,months,Economy
+689,Peugeot,207,495,495,471.4285714,AED,12,months,Economy
+690,Peugeot,208,495,495,471.4285714,AED,12,months,Economy
+691,Peugeot,3008,495,495,471.4285714,AED,12,months,Economy
+692,Peugeot,301,495,495,471.4285714,AED,12,months,Economy
+693,Peugeot,307,495,495,471.4285714,AED,12,months,Economy
+694,Peugeot,308,495,495,471.4285714,AED,12,months,Economy
+695,Peugeot,308 CC,495,495,471.4285714,AED,12,months,Economy
+696,Peugeot,407,495,495,471.4285714,AED,12,months,Economy
+697,Peugeot,407 Coupe,495,495,471.4285714,AED,12,months,Economy
+698,Peugeot,408,495,495,471.4285714,AED,12,months,Economy
+699,Peugeot,5008,565,565,538.0952381,AED,12,months,Economy
+700,Peugeot,508,565,565,538.0952381,AED,12,months,Economy
+701,Peugeot,607,565,565,538.0952381,AED,12,months,Economy
+702,Peugeot,Boxer,565,565,538.0952381,AED,12,months,Economy
+703,Peugeot,Expert,565,565,538.0952381,AED,12,months,Economy
+704,Peugeot,Partner,565,565,538.0952381,AED,12,months,Economy
+705,Peugeot,RCZ,453,453,431.4285714,AED,12,months,Economy
+706,PGO,Cevennes,,,,AED,12,months,Economy
+707,PGO,Speedster,,,,AED,12,months,Economy
+708,Porsche,911,565,565,538.0952381,AED,12,months,Economy
+709,Porsche,911 Cabriolet,565,565,538.0952381,AED,12,months,Economy
+710,Porsche,911 GT2,565,565,538.0952381,AED,12,months,Economy
+711,Porsche,911 GT3,565,565,538.0952381,AED,12,months,Economy
+712,Porsche,911 Turbo,565,565,538.0952381,AED,12,months,Economy
+713,Porsche,911 Turbo Cabriolet,565,565,538.0952381,AED,12,months,Economy
+714,Porsche,918 Spyder,565,565,538.0952381,AED,12,months,Economy
+715,Porsche,Boxster,495,495,471.4285714,AED,12,months,Economy
+716,Porsche,Cayenne,630,630,600,AED,12,months,Economy
+717,Porsche,Cayman,565,565,538.0952381,AED,12,months,Economy
+718,Porsche,Macan,630,630,600,AED,12,months,Economy
+719,Porsche,Panamera,,,,AED,12,months,Economy
+720,Proton,GEN-2,,,,AED,12,months,Economy
+721,Proton,Savvy,453,453,431.4285714,AED,12,months,Economy
+722,Proton,Waja,453,453,431.4285714,AED,12,months,Economy
+723,Proton,Wira,453,453,431.4285714,AED,12,months,Economy
+724,Ram,1200,,,,AED,12,months,Economy
+725,Ram,1500,565,565,538.0952381,AED,12,months,Economy
+726,Renault,Captur,495,495,471.4285714,AED,12,months,Economy
+727,Renault,Clio,495,495,471.4285714,AED,12,months,Economy
+728,Renault,Clio RS,495,495,471.4285714,AED,12,months,Economy
+729,Renault,Dokker Van,495,495,471.4285714,AED,12,months,Economy
+730,Renault,Duster,495,495,471.4285714,AED,12,months,Economy
+731,Renault,Espace,453,453,431.4285714,AED,12,months,Economy
+732,Renault,Fluence,495,495,471.4285714,AED,12,months,Economy
+733,Renault,Koleos,495,495,471.4285714,AED,12,months,Economy
+734,Renault,Laguna,453,453,431.4285714,AED,12,months,Economy
+735,Renault,Laguna Coupe,453,453,431.4285714,AED,12,months,Economy
+736,Renault,Logan,495,495,471.4285714,AED,12,months,Economy
+737,Renault,Logan Van,453,453,431.4285714,AED,12,months,Economy
+738,Renault,Megane,495,495,471.4285714,AED,12,months,Economy
+739,Renault,Megane CC,495,495,471.4285714,AED,12,months,Economy
+740,Renault,Megane RS,495,495,471.4285714,AED,12,months,Economy
+741,Renault,Safrane,495,495,471.4285714,AED,12,months,Economy
+742,Renault,Sandero,,,,AED,12,months,Economy
+743,Renault,Scenic,,,,AED,12,months,Economy
+744,Renault,Symbol,495,495,471.4285714,AED,12,months,Economy
+745,Renault,Talisman,,,,AED,12,months,Economy
+746,Renault,Trafic,495,495,471.4285714,AED,12,months,Economy
+747,Renault,Twizy,,,,AED,12,months,Economy
+748,Renault,Zoe,,,,AED,12,months,Economy
+749,Rolls Royce,Dawn,,,,AED,12,months,Economy
+750,Rolls Royce,Drophead Coupe,,,,AED,12,months,Economy
+751,Rolls Royce,Ghost,,,,AED,12,months,Economy
+752,Rolls Royce,Phantom,,,,AED,12,months,Economy
+753,Rolls Royce,Silver Seraph,,,,AED,12,months,Economy
+754,Rolls Royce,Wraith,,,,AED,12,months,Economy
+755,Saab,43346,495,495,471.4285714,AED,12,months,Economy
+756,Saab,43348,495,495,471.4285714,AED,12,months,Economy
+757,Saab,9-7X,,,,AED,12,months,Economy
+758,Seat,Altea,453,453,431.4285714,AED,12,months,Economy
+759,Seat,Cordoba,453,453,431.4285714,AED,12,months,Economy
+760,Seat,Exeo,453,453,431.4285714,AED,12,months,Economy
+761,Seat,Ibiza,453,453,431.4285714,AED,12,months,Economy
+762,Seat,Leon,453,453,431.4285714,AED,12,months,Economy
+763,Seat,Toledo,,,,AED,12,months,Economy
+764,Skoda,Fabia,453,453,431.4285714,AED,12,months,Economy
+765,Skoda,Kodiaq,495,495,471.4285714,AED,12,months,Economy
+766,Skoda,Octavia,565,565,538.0952381,AED,12,months,Economy
+767,Skoda,Roomster,495,495,471.4285714,AED,12,months,Economy
+768,Skoda,Superb,565,565,538.0952381,AED,12,months,Economy
+769,Skoda,Yeti,495,495,471.4285714,AED,12,months,Economy
+770,Spyker,C8,,,,AED,12,months,Economy
+771,Ssangyong,Actyon,,,,AED,12,months,Economy
+772,Ssangyong,Korando,,,,AED,12,months,Economy
+773,Ssangyong,Kyron,,,,AED,12,months,Economy
+774,Ssangyong,Musso,,,,AED,12,months,Economy
+775,Ssangyong,Rexton,,,,AED,12,months,Economy
+776,Ssangyong,Rodius,,,,AED,12,months,Economy
+777,Ssangyong,Tivoli,,,,AED,12,months,Economy
+778,Subaru,BRZ,377,377,359.047619,AED,12,months,Economy
+779,Subaru,Forester,377,377,359.047619,AED,12,months,Economy
+780,Subaru,Impreza,377,377,359.047619,AED,12,months,Economy
+781,Subaru,Impreza WRX,377,377,359.047619,AED,12,months,Economy
+782,Subaru,Impreza WRX STI,377,377,359.047619,AED,12,months,Economy
+783,Subaru,Legacy,377,377,359.047619,AED,12,months,Economy
+784,Subaru,Outback,377,377,359.047619,AED,12,months,Economy
+785,Subaru,Tribeca,377,377,359.047619,AED,12,months,Economy
+786,Subaru,XV,377,377,359.047619,AED,12,months,Economy
+787,Suzuki,Alto,315,315,300,AED,12,months,Economy
+788,Suzuki,APV,377,377,359.047619,AED,12,months,Economy
+789,Suzuki,Baleno,377,377,359.047619,AED,12,months,Economy
+790,Suzuki,Carry,377,377,359.047619,AED,12,months,Economy
+791,Suzuki,Celerio,377,377,359.047619,AED,12,months,Economy
+792,Suzuki,Ciaz,377,377,359.047619,AED,12,months,Economy
+793,Suzuki,Ertiga Van,,,,AED,12,months,Economy
+794,Suzuki,Grand Vitara,377,377,359.047619,AED,12,months,Economy
+795,Suzuki,Ignis,377,377,359.047619,AED,12,months,Economy
+796,Suzuki,Jimny,377,377,359.047619,AED,12,months,Economy
+797,Suzuki,Kizashi,377,377,359.047619,AED,12,months,Economy
+798,Suzuki,Liana,377,377,359.047619,AED,12,months,Economy
+799,Suzuki,Swift,315,315,300,AED,12,months,Economy
+800,Suzuki,Swift Dzire,315,315,300,AED,12,months,Economy
+801,Suzuki,SX4,377,377,359.047619,AED,12,months,Economy
+802,Suzuki,Vitara,377,377,359.047619,AED,12,months,Economy
+803,Suzuki,XL7,,,,AED,12,months,Economy
+804,Tata,Indica,,,,AED,12,months,Economy
+805,Tata,Indigo,,,,AED,12,months,Economy
+806,Tata,Xenon,,,,AED,12,months,Economy
+807,Tesla,Model S,,,,AED,12,months,Economy
+808,Tesla,Model X,,,,AED,12,months,Economy
+809,Toyota,86,377,377,359.047619,AED,12,months,Economy
+810,Toyota,Aurion,415,415,395.2380952,AED,12,months,Economy
+811,Toyota,Avalon,415,415,395.2380952,AED,12,months,Economy
+812,Toyota,Avanza,315,315,300,AED,12,months,Economy
+813,Toyota,Camry,415,415,395.2380952,AED,12,months,Economy
+814,Toyota,Corolla,315,315,300,AED,12,months,Economy
+815,Toyota,FJ Cruiser,415,415,395.2380952,AED,12,months,Economy
+816,Toyota,Fortuner,415,415,395.2380952,AED,12,months,Economy
+817,Toyota,Hiace,415,415,395.2380952,AED,12,months,Economy
+818,Toyota,Hilux,415,415,395.2380952,AED,12,months,Economy
+819,Toyota,Innova,415,415,395.2380952,AED,12,months,Economy
+820,Toyota,Land Cruiser,525,525,500,AED,12,months,Economy
+821,Toyota,Land Cruiser 70,525,525,500,AED,12,months,Economy
+822,Toyota,Land Cruiser Pickup,525,525,500,AED,12,months,Economy
+823,Toyota,Land Cruiser Prado,415,415,395.2380952,AED,12,months,Economy
+824,Toyota,Land Cruiser Prado SWB,415,415,395.2380952,AED,12,months,Economy
+825,Toyota,Previa,315,315,300,AED,12,months,Economy
+826,Toyota,Prius,,,,AED,12,months,Economy
+827,Toyota,RAV-4,,,,AED,12,months,Economy
+828,Toyota,Sequoia,525,525,500,AED,12,months,Economy
+829,Toyota,Tundra,525,525,500,AED,12,months,Economy
+830,Toyota,xA,315,315,300,AED,12,months,Economy
+831,Toyota,Yaris,315,315,300,AED,12,months,Economy
+832,Toyota,Yaris Sedan,315,315,300,AED,12,months,Economy
+833,Toyota,Zelas,415,415,395.2380952,AED,12,months,Economy
+834,Volkswagen,Amarok,495,495,471.4285714,AED,12,months,Economy
+835,Volkswagen,Arteon,495,495,471.4285714,AED,12,months,Economy
+836,Volkswagen,Beetle,453,453,431.4285714,AED,12,months,Economy
+837,Volkswagen,Beetle Cabriolet,453,453,431.4285714,AED,12,months,Economy
+838,Volkswagen,Eos,495,495,471.4285714,AED,12,months,Economy
+839,Volkswagen,Golf,495,495,471.4285714,AED,12,months,Economy
+840,Volkswagen,Golf GTI,495,495,471.4285714,AED,12,months,Economy
+841,Volkswagen,Golf Plus,495,495,471.4285714,AED,12,months,Economy
+842,Volkswagen,Golf R,495,495,471.4285714,AED,12,months,Economy
+843,Volkswagen,Golf R32,565,565,538.0952381,AED,12,months,Economy
+844,Volkswagen,Jetta,495,495,471.4285714,AED,12,months,Economy
+845,Volkswagen,Multivan,565,565,538.0952381,AED,12,months,Economy
+846,Volkswagen,Passat,495,495,471.4285714,AED,12,months,Economy
+847,Volkswagen,Passat CC,565,565,538.0952381,AED,12,months,Economy
+848,Volkswagen,Phaeton,495,495,471.4285714,AED,12,months,Economy
+849,Volkswagen,Polo,453,453,431.4285714,AED,12,months,Economy
+850,Volkswagen,Polo Sedan,453,453,431.4285714,AED,12,months,Economy
+851,Volkswagen,Scirocco,495,495,471.4285714,AED,12,months,Economy
+852,Volkswagen,Scirocco R,495,495,471.4285714,AED,12,months,Economy
+853,Volkswagen,Sharan,495,495,471.4285714,AED,12,months,Economy
+854,Volkswagen,Teramont,565,565,538.0952381,AED,12,months,Economy
+855,Volkswagen,Tiguan,495,495,471.4285714,AED,12,months,Economy
+856,Volkswagen,Touareg,630,630,600,AED,12,months,Economy
+857,Volkswagen,Touran,495,495,471.4285714,AED,12,months,Economy
+858,Volvo,C30,495,495,471.4285714,AED,12,months,Economy
+859,Volvo,C70,495,495,471.4285714,AED,12,months,Economy
+860,Volvo,S40,495,495,471.4285714,AED,12,months,Economy
+861,Volvo,S60,495,495,471.4285714,AED,12,months,Economy
+862,Volvo,S60 Polestar,495,495,471.4285714,AED,12,months,Economy
+863,Volvo,S80,,,,AED,12,months,Economy
+864,Volvo,S90,565,565,538.0952381,AED,12,months,Economy
+865,Volvo,V40,495,495,471.4285714,AED,12,months,Economy
+866,Volvo,V50,495,495,471.4285714,AED,12,months,Economy
+867,Volvo,V60,565,565,538.0952381,AED,12,months,Economy
+868,Volvo,V60 Polestar,565,565,538.0952381,AED,12,months,Economy
+869,Volvo,V70,565,565,538.0952381,AED,12,months,Economy
+870,Volvo,V90,630,630,600,AED,12,months,Economy
+871,Volvo,XC40,495,495,471.4285714,AED,12,months,Economy
+872,Volvo,XC60,565,565,538.0952381,AED,12,months,Economy
+873,Volvo,XC70,565,565,538.0952381,AED,12,months,Economy
+874,Volvo,XC90,630,630,600,AED,12,months,Economy
+875,ZNA,Oting,,,,AED,12,months,Economy
+876,ZNA,Rich,,,,AED,12,months,Economy
+877,ZNA,Yumsun,,,,AED,12,months,Economy
+878,Zotye,T600,,,,AED,12,months,Economy
+879,Zotye,Z100,,,,AED,12,months,Economy
+880,Toyota,Coaster,415,415,395.2380952,AED,12,months,Economy
+881,Rolls Royce,Cullinan,,,,AED,12,months,Economy
+882,Chevrolet,Astro,,,,AED,12,months,Economy
+883,Toyota,Rush,315,315,300,AED,12,months,Economy
+884,Audi,Q8,630,630,600,AED,12,months,Economy
+885,Hongqi,H5,,,,AED,12,months,Economy
+886,Hongqi,H7,,,,AED,12,months,Economy
+887,Toyota,Supra,415,415,395.2380952,AED,12,months,Economy
+888,Kia,Telluride,565,565,538.0952381,AED,12,months,Economy
+889,Jeep,Wagoneer,565,565,538.0952381,AED,12,months,Economy
+890,Ford,Bronco,495,495,471.4285714,AED,12,months,Economy
+891,BMW,X2,495,495,471.4285714,AED,12,months,Economy
+892,BMW,X7,630,630,600,AED,12,months,Economy
+893,Datsun,280Z,,,,AED,12,months,Economy
+894,Honda,HR-V,,,,AED,12,months,Economy
+895,Toyota,Sienna,415,415,395.2380952,AED,12,months,Economy
+896,MZ,1000S,,,,AED,12,months,Economy
+897,MZ,RT,,,,AED,12,months,Economy
+898,MZ,SM,,,,AED,12,months,Economy
+899,MZ,SX,,,,AED,12,months,Economy
+900,MZ,Baghira,,,,AED,12,months,Economy
+901,MZ,Skorpion,,,,AED,12,months,Economy
+902,MZ,TS,,,,AED,12,months,Economy
+903,MZ,Mastiff,,,,AED,12,months,Economy
+904,DAELIM,VL,,,,AED,12,months,Economy
+905,DAELIM,S1,,,,AED,12,months,Economy
+906,DAELIM,VT,,,,AED,12,months,Economy
+907,ITALJET,Grifon 900,,,,AED,12,months,Economy
+908,SYM,WOLF,,,,AED,12,months,Economy
+909,SYM,XS,,,,AED,12,months,Economy
+910,JAWA,125,,,,AED,12,months,Economy
+911,JAWA,500,,,,AED,12,months,Economy
+912,JAWA,650,,,,AED,12,months,Economy
+913,JAWA,250,,,,AED,12,months,Economy
+914,JAWA,350,,,,AED,12,months,Economy
+915,JAWA,50,,,,AED,12,months,Economy
+916,AMAZONAS,1600,,,,AED,12,months,Economy
+917,DERBI,GP,,,,AED,12,months,Economy
+918,DERBI,GPR,,,,AED,12,months,Economy
+919,DERBI,Senda,,,,AED,12,months,Economy
+920,DERBI,Terra,,,,AED,12,months,Economy
+921,DERBI,Mulhacen,,,,AED,12,months,Economy
+922,NORTON,Commando,,,,AED,12,months,Economy
+923,NORTON,Commander,,,,AED,12,months,Economy
+924,NORTON,F 1,,,,AED,12,months,Economy
+925,APRILIA,Moto 6.5,,,,AED,12,months,Economy
+926,APRILIA,RS,,,,AED,12,months,Economy
+927,APRILIA,Shiver,,,,AED,12,months,Economy
+928,APRILIA,Tuareg,,,,AED,12,months,Economy
+929,APRILIA,AF,,,,AED,12,months,Economy
+930,APRILIA,MX,,,,AED,12,months,Economy
+931,APRILIA,SL,,,,AED,12,months,Economy
+932,APRILIA,Mana,,,,AED,12,months,Economy
+933,APRILIA,Blue Marlin,,,,AED,12,months,Economy
+934,APRILIA,MXV,,,,AED,12,months,Economy
+935,APRILIA,ST,,,,AED,12,months,Economy
+936,APRILIA,SMV,,,,AED,12,months,Economy
+937,APRILIA,Caponord,,,,AED,12,months,Economy
+938,APRILIA,AS,,,,AED,12,months,Economy
+939,APRILIA,RSV,,,,AED,12,months,Economy
+940,APRILIA,SX,,,,AED,12,months,Economy
+941,APRILIA,Tuono,,,,AED,12,months,Economy
+942,APRILIA,Classic,,,,AED,12,months,Economy
+943,APRILIA,Pegaso,,,,AED,12,months,Economy
+944,APRILIA,RX,,,,AED,12,months,Economy
+945,APRILIA,SXV,,,,AED,12,months,Economy
+946,APRILIA,Dorsoduro,,,,AED,12,months,Economy
+947,APRILIA,TX,,,,AED,12,months,Economy
+948,APRILIA,ETX,,,,AED,12,months,Economy
+949,APRILIA,RXV,,,,AED,12,months,Economy
+950,TRIUMPH,Adventurer,,,,AED,12,months,Economy
+951,TRIUMPH,Bonneville,,,,AED,12,months,Economy
+952,TRIUMPH,Trophy,,,,AED,12,months,Economy
+953,TRIUMPH,America,,,,AED,12,months,Economy
+954,TRIUMPH,Daytona,,,,AED,12,months,Economy
+955,TRIUMPH,Speedmaster,,,,AED,12,months,Economy
+956,TRIUMPH,Thruxton,,,,AED,12,months,Economy
+957,TRIUMPH,TSS,,,,AED,12,months,Economy
+958,TRIUMPH,LEGEND,,,,AED,12,months,Economy
+959,TRIUMPH,Sprint,,,,AED,12,months,Economy
+960,TRIUMPH,Thunderbird,,,,AED,12,months,Economy
+961,TRIUMPH,TSX,,,,AED,12,months,Economy
+962,TRIUMPH,Rocket,,,,AED,12,months,Economy
+963,TRIUMPH,Street Triple,,,,AED,12,months,Economy
+964,TRIUMPH,Tiger,,,,AED,12,months,Economy
+965,TRIUMPH,TT 600,,,,AED,12,months,Economy
+966,TRIUMPH,Scrambler,,,,AED,12,months,Economy
+967,TRIUMPH,Trident,,,,AED,12,months,Economy
+968,ATK,450,,,,AED,12,months,Economy
+969,ATK,700,,,,AED,12,months,Economy
+970,ATK,450 MX,,,,AED,12,months,Economy
+971,ATK,605,,,,AED,12,months,Economy
+972,KANUNI,Seyhan,,,,AED,12,months,Economy
+973,DUCATI,98,,,,AED,12,months,Economy
+974,DUCATI,50,,,,AED,12,months,Economy
+975,DUCATI,916,,,,AED,12,months,Economy
+976,DUCATI,GT,,,,AED,12,months,Economy
+977,DUCATI,1198,,,,AED,12,months,Economy
+978,DUCATI,48,,,,AED,12,months,Economy
+979,DUCATI,996,,,,AED,12,months,Economy
+980,DUCATI,Hypermotard,,,,AED,12,months,Economy
+981,DUCATI,Panigale,,,,AED,12,months,Economy
+982,DUCATI,85,,,,AED,12,months,Economy
+983,DUCATI,998,,,,AED,12,months,Economy
+984,DUCATI,Hyperstrada,,,,AED,12,months,Economy
+985,DUCATI,SCRAMBLER,,,,AED,12,months,Economy
+986,DUCATI,350,,,,AED,12,months,Economy
+987,DUCATI,60,,,,AED,12,months,Economy
+988,DUCATI,999,,,,AED,12,months,Economy
+989,DUCATI,MARK,,,,AED,12,months,Economy
+990,DUCATI,Sport,,,,AED,12,months,Economy
+991,DUCATI,450,,,,AED,12,months,Economy
+992,DUCATI,888,,,,AED,12,months,Economy
+993,DUCATI,DESMO,,,,AED,12,months,Economy
+994,DUCATI,500,,,,AED,12,months,Economy
+995,DUCATI,Desmosedici RR,,,,AED,12,months,Economy
+996,DUCATI,Monster,,,,AED,12,months,Economy
+997,DUCATI,ST,,,,AED,12,months,Economy
+998,DUCATI,600,,,,AED,12,months,Economy
+999,DUCATI,900,,,,AED,12,months,Economy
+1000,DUCATI,Diavel,,,,AED,12,months,Economy
+1001,DUCATI,Multistrada,,,,AED,12,months,Economy
+1002,DUCATI,Streetfighter,,,,AED,12,months,Economy
+1003,DUCATI,65,,,,AED,12,months,Economy
+1004,DUCATI,Pantah,,,,AED,12,months,Economy
+1005,DUCATI,748,,,,AED,12,months,Economy
+1006,DUCATI,100,,,,AED,12,months,Economy
+1007,DUCATI,Paul Smart,,,,AED,12,months,Economy
+1008,DUCATI,SUPERSPORT,,,,AED,12,months,Economy
+1009,DUCATI,749,,,,AED,12,months,Economy
+1010,KAWASAKI,ER,,,,AED,12,months,Economy
+1011,KAWASAKI,Z,,,,AED,12,months,Economy
+1012,KAWASAKI,GTR,,,,AED,12,months,Economy
+1013,KAWASAKI,GPX,,,,AED,12,months,Economy
+1014,KAWASAKI,KLX,,,,AED,12,months,Economy
+1015,KAWASAKI,CONCOURS,,,,AED,12,months,Economy
+1016,KAWASAKI,VN 900,,,,AED,12,months,Economy
+1017,KAWASAKI,GPZ,,,,AED,12,months,Economy
+1018,KAWASAKI,H,,,,AED,12,months,Economy
+1019,KAWASAKI,Vulcan,,,,AED,12,months,Economy
+1020,KAWASAKI,W 650,,,,AED,12,months,Economy
+1021,KAWASAKI,KX,,,,AED,12,months,Economy
+1022,KAWASAKI,W 800,,,,AED,12,months,Economy
+1023,KAWASAKI,Z 1000,,,,AED,12,months,Economy
+1024,KAWASAKI,ZR,,,,AED,12,months,Economy
+1025,KAWASAKI,J,,,,AED,12,months,Economy
+1026,KAWASAKI,Ninja,,,,AED,12,months,Economy
+1027,KAWASAKI,ZX,,,,AED,12,months,Economy
+1028,KAWASAKI,KDX,,,,AED,12,months,Economy
+1029,KAWASAKI,Z400,,,,AED,12,months,Economy
+1030,KAWASAKI,ZZR,,,,AED,12,months,Economy
+1031,KAWASAKI,Eliminator,,,,AED,12,months,Economy
+1032,KAWASAKI,VERSYS,,,,AED,12,months,Economy
+1033,KAWASAKI,EN,,,,AED,12,months,Economy
+1034,KAWASAKI,KL,,,,AED,12,months,Economy
+1035,Peugeot,XP6,,,,AED,12,months,Economy
+1036,Peugeot,XR6,,,,AED,12,months,Economy
+1037,BAJAJ,AVENGER,,,,AED,12,months,Economy
+1038,ECOSSE,Heretic,,,,AED,12,months,Economy
+1039,Victory,Jackpot,,,,AED,12,months,Economy
+1040,Victory,Hammer,,,,AED,12,months,Economy
+1041,Victory,Kingpin,,,,AED,12,months,Economy
+1042,Victory,V92,,,,AED,12,months,Economy
+1043,Victory,Vegas,,,,AED,12,months,Economy
+1044,Victory,Vegas 8-Ball,,,,AED,12,months,Economy
+1045,Victory,Vision,,,,AED,12,months,Economy
+1046,Victory,Cross Country,,,,AED,12,months,Economy
+1047,Victory,High-ball,,,,AED,12,months,Economy
+1048,Victory,Cross Roads,,,,AED,12,months,Economy
+1049,BENELLI,350 RS,,,,AED,12,months,Economy
+1050,BENELLI,654,,,,AED,12,months,Economy
+1051,BENELLI,BX,,,,AED,12,months,Economy
+1052,BENELLI,Tornado,,,,AED,12,months,Economy
+1053,BENELLI,125,,,,AED,12,months,Economy
+1054,BENELLI,354,,,,AED,12,months,Economy
+1055,BENELLI,250,,,,AED,12,months,Economy
+1056,BENELLI,500,,,,AED,12,months,Economy
+1057,BENELLI,900,,,,AED,12,months,Economy
+1058,BENELLI,Tre,,,,AED,12,months,Economy
+1059,BENELLI,254 Quattro,,,,AED,12,months,Economy
+1060,BENELLI,650,,,,AED,12,months,Economy
+1061,BENELLI,304,,,,AED,12,months,Economy
+1062,KTM,525,,,,AED,12,months,Economy
+1063,KTM,990,,,,AED,12,months,Economy
+1064,KTM,EXC,,,,AED,12,months,Economy
+1065,KTM,125,,,,AED,12,months,Economy
+1066,KTM,ADVENTURE,,,,AED,12,months,Economy
+1067,KTM,RC,,,,AED,12,months,Economy
+1068,KTM,50,,,,AED,12,months,Economy
+1069,KTM,625,,,,AED,12,months,Economy
+1070,KTM,Duke,,,,AED,12,months,Economy
+1071,KTM,FREERIDE,,,,AED,12,months,Economy
+1072,KTM,350,,,,AED,12,months,Economy
+1073,KTM,660,,,,AED,12,months,Economy
+1074,KTM,SX,,,,AED,12,months,Economy
+1075,KTM,ENDURO,,,,AED,12,months,Economy
+1076,BETA,ALP,,,,AED,12,months,Economy
+1077,BETA,RE,,,,AED,12,months,Economy
+1078,BETA,RR,,,,AED,12,months,Economy
+1079,BETA,Jonathan 350,,,,AED,12,months,Economy
+1080,VOXAN,Black Magic,,,,AED,12,months,Economy
+1081,VOXAN,Charade Racing,,,,AED,12,months,Economy
+1082,VOXAN,Scrambler,,,,AED,12,months,Economy
+1083,VOXAN,Cafe Racer,,,,AED,12,months,Economy
+1084,VOXAN,Roadster,,,,AED,12,months,Economy
+1085,KYMCO,Hipster 125,,,,AED,12,months,Economy
+1086,KYMCO,Pulsar,,,,AED,12,months,Economy
+1087,KYMCO,Stryker,,,,AED,12,months,Economy
+1088,KYMCO,Zing,,,,AED,12,months,Economy
+1089,KYMCO,CK 125,,,,AED,12,months,Economy
+1090,KYMCO,Quannon,,,,AED,12,months,Economy
+1091,KYMCO,Venox 250,,,,AED,12,months,Economy
+1092,Big Bear Choppers,Athena,,,,AED,12,months,Economy
+1093,Big Bear Choppers,Merc,,,,AED,12,months,Economy
+1094,Big Bear Choppers,Paradox,,,,AED,12,months,Economy
+1095,Big Bear Choppers,Screamin Demon,,,,AED,12,months,Economy
+1096,Big Bear Choppers,Venom,,,,AED,12,months,Economy
+1097,Big Bear Choppers,Miss Behavin,,,,AED,12,months,Economy
+1098,Big Bear Choppers,Reaper,,,,AED,12,months,Economy
+1099,LAVERDA,1000,,,,AED,12,months,Economy
+1100,LAVERDA,750,,,,AED,12,months,Economy
+1101,LAVERDA,1200,,,,AED,12,months,Economy
+1102,LAVERDA,500,,,,AED,12,months,Economy
+1103,LAVERDA,650,,,,AED,12,months,Economy
+1104,LAVERDA,600,,,,AED,12,months,Economy
+1105,LAVERDA,668,,,,AED,12,months,Economy
+1106,FISCHER,MRX 650,,,,AED,12,months,Economy
+1107,BIMOTA,500,,,,AED,12,months,Economy
+1108,BIMOTA,DB,,,,AED,12,months,Economy
+1109,BIMOTA,Tesi,,,,AED,12,months,Economy
+1110,BIMOTA,BB,,,,AED,12,months,Economy
+1111,BIMOTA,SB,,,,AED,12,months,Economy
+1112,BIMOTA,YB,,,,AED,12,months,Economy
+1113,LIFAN,LF,,,,AED,12,months,Economy
+1114,MAGNI,Australia,,,,AED,12,months,Economy
+1115,MAICO,ENDURO,,,,AED,12,months,Economy
+1116,MAICO,SUPERMOTO,,,,AED,12,months,Economy
+1117,MALAGUTI,GRIZZLY,,,,AED,12,months,Economy
+1118,MALAGUTI,X3M,,,,AED,12,months,Economy
+1119,BMW,F,,,,AED,12,months,Economy
+1120,BMW,K,,,,AED,12,months,Economy
+1121,BMW,R,,,,AED,12,months,Economy
+1122,BMW,R 1150,,,,AED,12,months,Economy
+1123,BMW,C,,,,AED,12,months,Economy
+1124,BMW,G,,,,AED,12,months,Economy
+1125,BMW,R 100,,,,AED,12,months,Economy
+1126,BMW,R 1200,,,,AED,12,months,Economy
+1127,BMW,R 80,,,,AED,12,months,Economy
+1128,BMW,F 650,,,,AED,12,months,Economy
+1129,BMW,K 1100,,,,AED,12,months,Economy
+1130,BMW,GS,,,,AED,12,months,Economy
+1131,BMW,K 1200,,,,AED,12,months,Economy
+1132,BMW,R 850,,,,AED,12,months,Economy
+1133,BMW,R 1100,,,,AED,12,months,Economy
+1134,BMW,G 450,,,,AED,12,months,Economy
+1135,BMW,K 1300,,,,AED,12,months,Economy
+1136,BMW,R 45,,,,AED,12,months,Economy
+1137,BMW,HP,,,,AED,12,months,Economy
+1138,BMW,K 1600,,,,AED,12,months,Economy
+1139,BMW,R 65,,,,AED,12,months,Economy
+1140,BMW,R nineT,,,,AED,12,months,Economy
+1141,BMW,K 1,,,,AED,12,months,Economy
+1142,BMW,S 1000,,,,AED,12,months,Economy
+1143,BMW,K 100,,,,AED,12,months,Economy
+1144,BMW,K 75,,,,AED,12,months,Economy
+1145,GAS GAS,EC,,,,AED,12,months,Economy
+1146,GAS GAS,Pampera,,,,AED,12,months,Economy
+1147,GAS GAS,SM,,,,AED,12,months,Economy
+1148,GAS GAS,TXT,,,,AED,12,months,Economy
+1149,MATCHLESS,G,,,,AED,12,months,Economy
+1150,YAMAHA,FZ,,,,AED,12,months,Economy
+1151,YAMAHA,Tricker,,,,AED,12,months,Economy
+1152,YAMAHA,XT,,,,AED,12,months,Economy
+1153,YAMAHA,XV,,,,AED,12,months,Economy
+1154,YAMAHA,Bolt,,,,AED,12,months,Economy
+1155,YAMAHA,GTS,,,,AED,12,months,Economy
+1156,YAMAHA,RX,,,,AED,12,months,Economy
+1157,YAMAHA,TT,,,,AED,12,months,Economy
+1158,YAMAHA,Max,,,,AED,12,months,Economy
+1159,YAMAHA,TT-R,,,,AED,12,months,Economy
+1160,YAMAHA,XT 350,,,,AED,12,months,Economy
+1161,YAMAHA,MT,,,,AED,12,months,Economy
+1162,YAMAHA,TW,,,,AED,12,months,Economy
+1163,YAMAHA,MT-03,,,,AED,12,months,Economy
+1164,YAMAHA,TX,,,,AED,12,months,Economy
+1165,YAMAHA,DT,,,,AED,12,months,Economy
+1166,YAMAHA,PW,,,,AED,12,months,Economy
+1167,YAMAHA,TZR,,,,AED,12,months,Economy
+1168,YAMAHA,V-MAX,,,,AED,12,months,Economy
+1169,YAMAHA,XZ 550,,,,AED,12,months,Economy
+1170,YAMAHA,RD,,,,AED,12,months,Economy
+1171,YAMAHA,AG,,,,AED,12,months,Economy
+1172,YAMAHA,YA,,,,AED,12,months,Economy
+1173,YAMAHA,WR,,,,AED,12,months,Economy
+1174,YAMAHA,XJ,,,,AED,12,months,Economy
+1175,YAMAHA,FJ,,,,AED,12,months,Economy
+1176,YAMAHA,SR,,,,AED,12,months,Economy
+1177,YAMAHA,STAR,,,,AED,12,months,Economy
+1178,YAMAHA,YZ,,,,AED,12,months,Economy
+1179,YAMAHA,FJR 1300,,,,AED,12,months,Economy
+1180,YAMAHA,Royal Star,,,,AED,12,months,Economy
+1181,YAMAHA,RS,,,,AED,12,months,Economy
+1182,YAMAHA,RZ,,,,AED,12,months,Economy
+1183,YAMAHA,YZ450F,,,,AED,12,months,Economy
+1184,YAMAHA,YZ 85,,,,AED,12,months,Economy
+1185,YAMAHA,YZF,,,,AED,12,months,Economy
+1186,YAMAHA,R1,,,,AED,12,months,Economy
+1187,YAMAHA,XJR 1300,,,,AED,12,months,Economy
+1188,YAMAHA,FZR,,,,AED,12,months,Economy
+1189,YAMAHA,SRV,,,,AED,12,months,Economy
+1190,YAMAHA,XS,,,,AED,12,months,Economy
+1191,YAMAHA,SRX,,,,AED,12,months,Economy
+1192,YAMAHA,SZR,,,,AED,12,months,Economy
+1193,YAMAHA,TDM,,,,AED,12,months,Economy
+1194,YAMAHA,TDR,,,,AED,12,months,Economy
+1195,BORILE,B 500,,,,AED,12,months,Economy
+1196,BOSS HOSS,BHC-3,,,,AED,12,months,Economy
+1197,GHEZZI-BRIAN,FIONDA,,,,AED,12,months,Economy
+1198,GHEZZI-BRIAN,Furia,,,,AED,12,months,Economy
+1199,ZERO,DS,,,,AED,12,months,Economy
+1200,ZERO,FX,,,,AED,12,months,Economy
+1201,ZERO,S,,,,AED,12,months,Economy
+1202,BSA,Y,,,,AED,12,months,Economy
+1203,BSA,A,,,,AED,12,months,Economy
+1204,BSA,B,,,,AED,12,months,Economy
+1205,BSA,G,,,,AED,12,months,Economy
+1206,BSA,C,,,,AED,12,months,Economy
+1207,BSA,M,,,,AED,12,months,Economy
+1208,GILERA,ER,,,,AED,12,months,Economy
+1209,GILERA,200,,,,AED,12,months,Economy
+1210,GILERA,600,,,,AED,12,months,Economy
+1211,GILERA,XR,,,,AED,12,months,Economy
+1212,GILERA,NGR,,,,AED,12,months,Economy
+1213,MIDUAL,Roadster 900,,,,AED,12,months,Economy
+1214,ROYAL ENFIELD,BULLET,,,,AED,12,months,Economy
+1215,ROYAL ENFIELD,ELECTRA,,,,AED,12,months,Economy
+1216,ROYAL ENFIELD,GT,,,,AED,12,months,Economy
+1217,ROYAL ENFIELD,CLASSIC,,,,AED,12,months,Economy
+1218,ROYAL ENFIELD,THUNDERBIRD,,,,AED,12,months,Economy
+1219,MIKILON,D,,,,AED,12,months,Economy
+1220,MIKILON,CD,,,,AED,12,months,Economy
+1221,SACHS,B-805,,,,AED,12,months,Economy
+1222,SACHS,Roadster,,,,AED,12,months,Economy
+1223,SACHS,ZX,,,,AED,12,months,Economy
+1224,SACHS,Beast 1000,,,,AED,12,months,Economy
+1225,SACHS,XTC,,,,AED,12,months,Economy
+1226,SACHS,ZZ,,,,AED,12,months,Economy
+1227,SACHS,Bee,,,,AED,12,months,Economy
+1228,ZUNDAPP,K,,,,AED,12,months,Economy
+1229,BUELL,1125,,,,AED,12,months,Economy
+1230,BUELL,Blast,,,,AED,12,months,Economy
+1231,BUELL,S3,,,,AED,12,months,Economy
+1232,BUELL,XB,,,,AED,12,months,Economy
+1233,BUELL,RS,,,,AED,12,months,Economy
+1234,MONDIAL,PIEGA,,,,AED,12,months,Economy
+1235,CAGIVA,W,,,,AED,12,months,Economy
+1236,CAGIVA,Freccia,,,,AED,12,months,Economy
+1237,CAGIVA,Roadster,,,,AED,12,months,Economy
+1238,CAGIVA,SXT,,,,AED,12,months,Economy
+1239,CAGIVA,Gran Canyon,,,,AED,12,months,Economy
+1240,CAGIVA,Navigator,,,,AED,12,months,Economy
+1241,CAGIVA,SST,,,,AED,12,months,Economy
+1242,CAGIVA,T4,,,,AED,12,months,Economy
+1243,CAGIVA,Alazzurra,,,,AED,12,months,Economy
+1244,CAGIVA,V-Raptor,,,,AED,12,months,Economy
+1245,CAGIVA,Canyon,,,,AED,12,months,Economy
+1246,CAGIVA,Mito,,,,AED,12,months,Economy
+1247,CAGIVA,Raptor,,,,AED,12,months,Economy
+1248,CAGIVA,Super City,,,,AED,12,months,Economy
+1249,CAGIVA,Cruiser,,,,AED,12,months,Economy
+1250,CAGIVA,River,,,,AED,12,months,Economy
+1251,CAGIVA,Elefant,,,,AED,12,months,Economy
+1252,SCORPA,TY-S 125 F,,,,AED,12,months,Economy
+1253,MOTO GUZZI,California,,,,AED,12,months,Economy
+1254,MOTO GUZZI,GT,,,,AED,12,months,Economy
+1255,MOTO GUZZI,Quota,,,,AED,12,months,Economy
+1256,MOTO GUZZI,V,,,,AED,12,months,Economy
+1257,MOTO GUZZI,250TS,,,,AED,12,months,Economy
+1258,MOTO GUZZI,254,,,,AED,12,months,Economy
+1259,MOTO GUZZI,Sport,,,,AED,12,months,Economy
+1260,MOTO GUZZI,V11 Coppa Italia,,,,AED,12,months,Economy
+1261,MOTO GUZZI,V 35,,,,AED,12,months,Economy
+1262,MOTO GUZZI,750S,,,,AED,12,months,Economy
+1263,MOTO GUZZI,Le Mans,,,,AED,12,months,Economy
+1264,MOTO GUZZI,V 50,,,,AED,12,months,Economy
+1265,MOTO GUZZI,850T,,,,AED,12,months,Economy
+1266,MOTO GUZZI,V 65,,,,AED,12,months,Economy
+1267,MOTO GUZZI,Nevada,,,,AED,12,months,Economy
+1268,MOTO GUZZI,V 7,,,,AED,12,months,Economy
+1269,MOTO GUZZI,Breva,,,,AED,12,months,Economy
+1270,MOTO GUZZI,Falcone,,,,AED,12,months,Economy
+1271,MOTO GUZZI,Norge,,,,AED,12,months,Economy
+1272,MOTO GUZZI,Griso,,,,AED,12,months,Economy
+1273,MOTO GUZZI,NTX,,,,AED,12,months,Economy
+1274,CCM,DS,,,,AED,12,months,Economy
+1275,CCM,R,,,,AED,12,months,Economy
+1276,CCM,SR,,,,AED,12,months,Economy
+1277,CCM,C-XR,,,,AED,12,months,Economy
+1278,CCM,FT,,,,AED,12,months,Economy
+1279,CCM,RL,,,,AED,12,months,Economy
+1280,CCM,TL,,,,AED,12,months,Economy
+1281,MOTO MORINI,1200 Sport,,,,AED,12,months,Economy
+1282,MOTO MORINI,500 Sei-V,,,,AED,12,months,Economy
+1283,MOTO MORINI,Coguaro,,,,AED,12,months,Economy
+1284,MOTO MORINI,9 1/2,,,,AED,12,months,Economy
+1285,MOTO MORINI,CORSARO,,,,AED,12,months,Economy
+1286,MOTO MORINI,Scrambler,,,,AED,12,months,Economy
+1287,MOTO MORINI,NEW YORK,,,,AED,12,months,Economy
+1288,SHERCO,SE,,,,AED,12,months,Economy
+1289,SHERCO,X-RIDE,,,,AED,12,months,Economy
+1290,HERCULES,W 2000,,,,AED,12,months,Economy
+1291,HIGHLAND,450 MX,,,,AED,12,months,Economy
+1292,HIGHLAND,ALLROAD,,,,AED,12,months,Economy
+1293,HIGHLAND,DESERT STORM,,,,AED,12,months,Economy
+1294,HIGHLAND,OUTBACK,,,,AED,12,months,Economy
+1295,Honda,C,,,,AED,12,months,Economy
+1296,Honda,T,,,,AED,12,months,Economy
+1297,Honda,ST,,,,AED,12,months,Economy
+1298,Honda,CB,,,,AED,12,months,Economy
+1299,Honda,NC,,,,AED,12,months,Economy
+1300,Honda,ATC,,,,AED,12,months,Economy
+1301,Honda,CBR,,,,AED,12,months,Economy
+1302,Honda,AX,,,,AED,12,months,Economy
+1303,Honda,NM4,,,,AED,12,months,Economy
+1304,Honda,FMX 650,,,,AED,12,months,Economy
+1305,Honda,NR 750,,,,AED,12,months,Economy
+1306,Honda,CA,,,,AED,12,months,Economy
+1307,Honda,FourTrax,,,,AED,12,months,Economy
+1308,Honda,Valkyrie,,,,AED,12,months,Economy
+1309,Honda,FT,,,,AED,12,months,Economy
+1310,Honda,NS,,,,AED,12,months,Economy
+1311,Honda,VF,,,,AED,12,months,Economy
+1312,Honda,FTR,,,,AED,12,months,Economy
+1313,Honda,VFR,,,,AED,12,months,Economy
+1314,Honda,Fury,,,,AED,12,months,Economy
+1315,Honda,NSR,,,,AED,12,months,Economy
+1316,Honda,VT,,,,AED,12,months,Economy
+1317,Honda,GL,,,,AED,12,months,Economy
+1318,Honda,NT,,,,AED,12,months,Economy
+1319,Honda,CBX,,,,AED,12,months,Economy
+1320,Honda,CD,,,,AED,12,months,Economy
+1321,Honda,CG,,,,AED,12,months,Economy
+1322,Honda,NX,,,,AED,12,months,Economy
+1323,Honda,CJ,,,,AED,12,months,Economy
+1324,Honda,VTR,,,,AED,12,months,Economy
+1325,Honda,CL,,,,AED,12,months,Economy
+1326,Honda,VTX,,,,AED,12,months,Economy
+1327,Honda,CM,,,,AED,12,months,Economy
+1328,Honda,GOLD WING,,,,AED,12,months,Economy
+1329,Honda,Rebel,,,,AED,12,months,Economy
+1330,Honda,X4,,,,AED,12,months,Economy
+1331,Honda,CR,,,,AED,12,months,Economy
+1332,Honda,RVF,,,,AED,12,months,Economy
+1333,Honda,XBR 500,,,,AED,12,months,Economy
+1334,Honda,CRF,,,,AED,12,months,Economy
+1335,Honda,XL,,,,AED,12,months,Economy
+1336,Honda,CRF250X,,,,AED,12,months,Economy
+1337,Honda,Shadow,,,,AED,12,months,Economy
+1338,Honda,CBF,,,,AED,12,months,Economy
+1339,Honda,CRM,,,,AED,12,months,Economy
+1340,Honda,SL,,,,AED,12,months,Economy
+1341,Honda,CT,,,,AED,12,months,Economy
+1342,Honda,XR,,,,AED,12,months,Economy
+1343,Honda,CTX,,,,AED,12,months,Economy
+1344,Honda,Grom,,,,AED,12,months,Economy
+1345,Honda,CX,,,,AED,12,months,Economy
+1346,MOTORHISPANIA,FURIA,,,,AED,12,months,Economy
+1347,MOTORHISPANIA,RX,,,,AED,12,months,Economy
+1348,MOTORHISPANIA,RYZ,,,,AED,12,months,Economy
+1349,HOREX,Imperator,,,,AED,12,months,Economy
+1350,HOREX,1400 TI,,,,AED,12,months,Economy
+1351,HOREX,Columbus,,,,AED,12,months,Economy
+1352,CONFEDERATE,FIGHTER,,,,AED,12,months,Economy
+1353,HUSABERG,FE,,,,AED,12,months,Economy
+1354,HUSABERG,FX,,,,AED,12,months,Economy
+1355,HUSABERG,TE,,,,AED,12,months,Economy
+1356,HUSABERG,FS,,,,AED,12,months,Economy
+1357,MTT,Y2K,,,,AED,12,months,Economy
+1358,HUSQVARNA,SM,,,,AED,12,months,Economy
+1359,HUSQVARNA,TE,,,,AED,12,months,Economy
+1360,HUSQVARNA,WR,,,,AED,12,months,Economy
+1361,HUSQVARNA,CR,,,,AED,12,months,Economy
+1362,HUSQVARNA,SMR,,,,AED,12,months,Economy
+1363,HUSQVARNA,WRE,,,,AED,12,months,Economy
+1364,HUSQVARNA,FC,,,,AED,12,months,Economy
+1365,HUSQVARNA,TC,,,,AED,12,months,Economy
+1366,HUSQVARNA,FE,,,,AED,12,months,Economy
+1367,HUSQVARNA,Nuda,,,,AED,12,months,Economy
+1368,HYOSUNG,Aquila,,,,AED,12,months,Economy
+1369,HYOSUNG,GF,,,,AED,12,months,Economy
+1370,HYOSUNG,GV,,,,AED,12,months,Economy
+1371,HYOSUNG,ST,,,,AED,12,months,Economy
+1372,HYOSUNG,GT,,,,AED,12,months,Economy
+1373,HYOSUNG,RT,,,,AED,12,months,Economy
+1374,HYOSUNG,RX,,,,AED,12,months,Economy
+1375,HYOSUNG,GD,,,,AED,12,months,Economy
+1376,INDIAN,CHIEF,,,,AED,12,months,Economy
+1377,INDIAN,Chieftain,,,,AED,12,months,Economy
+1378,INDIAN,Dakota,,,,AED,12,months,Economy
+1379,INDIAN,Roadmaster,,,,AED,12,months,Economy
+1380,INDIAN,Scout,,,,AED,12,months,Economy
+1381,MV AGUSTA,1000,,,,AED,12,months,Economy
+1382,MV AGUSTA,Brutale,,,,AED,12,months,Economy
+1383,MV AGUSTA,DRAGSTER,,,,AED,12,months,Economy
+1384,MV AGUSTA,F3,,,,AED,12,months,Economy
+1385,MV AGUSTA,Rivale,,,,AED,12,months,Economy
+1386,MV AGUSTA,1100,,,,AED,12,months,Economy
+1387,MV AGUSTA,98,,,,AED,12,months,Economy
+1388,MV AGUSTA,800,,,,AED,12,months,Economy
+1389,MV AGUSTA,150 RS,,,,AED,12,months,Economy
+1390,MV AGUSTA,F4,,,,AED,12,months,Economy
+1391,MV AGUSTA,350,,,,AED,12,months,Economy
+1392,MV AGUSTA,750,,,,AED,12,months,Economy
+1393,Suzuki,GN,,,,AED,12,months,Economy
+1394,Suzuki,GS,,,,AED,12,months,Economy
+1395,Suzuki,Intruder,,,,AED,12,months,Economy
+1396,Suzuki,SV,,,,AED,12,months,Economy
+1397,Suzuki,GSX,,,,AED,12,months,Economy
+1398,Suzuki,T,,,,AED,12,months,Economy
+1399,Suzuki,SX,,,,AED,12,months,Economy
+1400,Suzuki,Boulevard,,,,AED,12,months,Economy
+1401,Suzuki,A,,,,AED,12,months,Economy
+1402,Suzuki,SP,,,,AED,12,months,Economy
+1403,Suzuki,GP 125,,,,AED,12,months,Economy
+1404,Suzuki,TL 1000,,,,AED,12,months,Economy
+1405,Suzuki,ST,,,,AED,12,months,Economy
+1406,Suzuki,TS,,,,AED,12,months,Economy
+1407,Suzuki,V-Strom,,,,AED,12,months,Economy
+1408,Suzuki,GSX-R,,,,AED,12,months,Economy
+1409,Suzuki,DR,,,,AED,12,months,Economy
+1410,Suzuki,DR 200,,,,AED,12,months,Economy
+1411,Suzuki,LS,,,,AED,12,months,Economy
+1412,Suzuki,TU,,,,AED,12,months,Economy
+1413,Suzuki,Marauder,,,,AED,12,months,Economy
+1414,Suzuki,VANVAN,,,,AED,12,months,Economy
+1415,Suzuki,VL 125 Intruder,,,,AED,12,months,Economy
+1416,Suzuki,GT,,,,AED,12,months,Economy
+1417,Suzuki,RE,,,,AED,12,months,Economy
+1418,Suzuki,Katana,,,,AED,12,months,Economy
+1419,Suzuki,RF,,,,AED,12,months,Economy
+1420,Suzuki,VS,,,,AED,12,months,Economy
+1421,Suzuki,Bandit,,,,AED,12,months,Economy
+1422,Suzuki,RG,,,,AED,12,months,Economy
+1423,Suzuki,RGV,,,,AED,12,months,Economy
+1424,Suzuki,RM,,,,AED,12,months,Economy
+1425,Suzuki,RMX,,,,AED,12,months,Economy
+1426,Suzuki,Madura,,,,AED,12,months,Economy
+1427,Suzuki,RV,,,,AED,12,months,Economy
+1428,Suzuki,VX 800,,,,AED,12,months,Economy
+1429,Suzuki,DR-Z,,,,AED,12,months,Economy
+1430,Suzuki,GV,,,,AED,12,months,Economy
+1431,Suzuki,VZ,,,,AED,12,months,Economy
+1432,Suzuki,GSR,,,,AED,12,months,Economy
+1433,Suzuki,GW,,,,AED,12,months,Economy
+1434,Suzuki,PE,,,,AED,12,months,Economy
+1435,Suzuki,GSR 600,,,,AED,12,months,Economy
+1436,Suzuki,GZ,,,,AED,12,months,Economy
+1437,Suzuki,GF 250,,,,AED,12,months,Economy
+1438,Suzuki,Inazuma,,,,AED,12,months,Economy
+1439,Suzuki,Gladius,,,,AED,12,months,Economy
+1440,Suzuki,Inazuma 400,,,,AED,12,months,Economy
+1441,Suzuki,XF 650 Freewind,,,,AED,12,months,Economy
+1442,Suzuki,HAYABUSA,,,,AED,12,months,Economy
+1443,Suzuki,Intruder 125,,,,AED,12,months,Economy
+1444,MV AGUSTA,Stradale,,,,AED,12,months,Economy
+1445,KAWASAKI,Balius,,,,AED,12,months,Economy
+1446,BAJAJ,PULSAR,,,,AED,12,months,Economy
+1447,HUSQVARNA,FS,,,,AED,12,months,Economy
+1448,TRIUMPH,TR,,,,AED,12,months,Economy
+1449,Victory,Judge,,,,AED,12,months,Economy
+1450,BETA,Evo,,,,AED,12,months,Economy
+1451,YAMAHA,XSR,,,,AED,12,months,Economy
+1452,ZERO,DSR,,,,AED,12,months,Economy
+1453,ZERO,SR,,,,AED,12,months,Economy
+1454,MV AGUSTA,Turismo,,,,AED,12,months,Economy
+1455,Adler,ISDT,,,,AED,12,months,Economy
+1456,Adler,Junior,,,,AED,12,months,Economy
+1457,Adler,M,,,,AED,12,months,Economy
+1458,Adler,MB,,,,AED,12,months,Economy
+1459,AEON,COBRA,,,,AED,12,months,Economy
+1460,AEON,Crossland,,,,AED,12,months,Economy
+1461,AEON,Minikolt,,,,AED,12,months,Economy
+1462,AEON,OVERLAND,,,,AED,12,months,Economy
+1463,AERMACCHI,Ala DOro,,,,AED,12,months,Economy
+1464,AERMACCHI,Chimera,,,,AED,12,months,Economy
+1465,AJP,Galp,,,,AED,12,months,Economy
+1466,AJP,PR,,,,AED,12,months,Economy
+1467,AJS,A9,,,,AED,12,months,Economy
+1468,AJS,Bobber,,,,AED,12,months,Economy
+1469,AJS,Daytona,,,,AED,12,months,Economy
+1470,AJS,DD,,,,AED,12,months,Economy
+1471,AJS,Digita,,,,AED,12,months,Economy
+1472,AJS,Eco,,,,AED,12,months,Economy
+1473,AJS,EOS,,,,AED,12,months,Economy
+1474,AJS,Firefox,,,,AED,12,months,Economy
+1475,AJS,JSM,,,,AED,12,months,Economy
+1476,AJS,Model,,,,AED,12,months,Economy
+1477,MZ,Moskito,,,,AED,12,months,Economy
+1478,MZ,1000,,,,AED,12,months,Economy
+1479,MZ,Saxon,,,,AED,12,months,Economy
+1480,MZ,RS,,,,AED,12,months,Economy
+1481,MZ,ETZ,,,,AED,12,months,Economy
+1482,MZ,500,,,,AED,12,months,Economy
+1483,MZ,ETS,,,,AED,12,months,Economy
+1484,AERMACCHI,350SS,,,,AED,12,months,Economy
+1485,AERMACCHI,RC 125,,,,AED,12,months,Economy
+1486,AERMACCHI,Ala Verde,,,,AED,12,months,Economy
+1487,AERMACCHI,Brezza,,,,AED,12,months,Economy
+1488,AERMACCHI,Sprint 250,,,,AED,12,months,Economy
+1489,AERMACCHI,Zeffiro,,,,AED,12,months,Economy
+1490,NCR,848,,,,AED,12,months,Economy
+1491,NCR,M16,,,,AED,12,months,Economy
+1492,NCR,M4,,,,AED,12,months,Economy
+1493,NCR,New Blue,,,,AED,12,months,Economy
+1494,NCR,Millona,,,,AED,12,months,Economy
+1495,NCR,LEGGERA,,,,AED,12,months,Economy
+1496,NCR,Macchia Nera,,,,AED,12,months,Economy
+1497,ALTA MOTORS,REDSHIFT MX,,,,AED,12,months,Economy
+1498,ALTA MOTORS,REDSHIFT SM,,,,AED,12,months,Economy
+1499,DAELIM,CORDI,,,,AED,12,months,Economy
+1500,DAELIM,CITI ACE 110,,,,AED,12,months,Economy
+1501,DAELIM,HISTORY/forte,,,,AED,12,months,Economy
+1502,DAELIM,NS 125 DLX,,,,AED,12,months,Economy
+1503,DAELIM,ET 250,,,,AED,12,months,Economy
+1504,DAELIM,A-FOUR,,,,AED,12,months,Economy
+1505,DAELIM,ROADSPORT,,,,AED,12,months,Economy
+1506,DAELIM,S2 250/125,,,,AED,12,months,Economy
+1507,DAELIM,S-Five,,,,AED,12,months,Economy
+1508,DAELIM,STEEZER,,,,AED,12,months,Economy
+1509,DAELIM,DAYSTAR,,,,AED,12,months,Economy
+1510,DAELIM,Roadwin,,,,AED,12,months,Economy
+1511,DAELIM,VC,,,,AED,12,months,Economy
+1512,DAELIM,VR,,,,AED,12,months,Economy
+1513,DAELIM,CBX,,,,AED,12,months,Economy
+1514,ITALJET,Formula,,,,AED,12,months,Economy
+1515,ITALJET,Jet Set,,,,AED,12,months,Economy
+1516,ITALJET,CAFE RACER,,,,AED,12,months,Economy
+1517,ITALJET,Jupiter,,,,AED,12,months,Economy
+1518,ITALJET,Millennium,,,,AED,12,months,Economy
+1519,ITALJET,Torpedo,,,,AED,12,months,Economy
+1520,ITALJET,VELOCIFERO,,,,AED,12,months,Economy
+1521,ITALJET,Dragster,,,,AED,12,months,Economy
+1522,ITALJET,Grifon 650,,,,AED,12,months,Economy
+1523,SYM,X`PRO,,,,AED,12,months,Economy
+1524,SYM,e-VIRID,,,,AED,12,months,Economy
+1525,SYM,JOYRIDE,,,,AED,12,months,Economy
+1526,SYM,T2,,,,AED,12,months,Economy
+1527,SYM,HD,,,,AED,12,months,Economy
+1528,SYM,QUADRAIDER,,,,AED,12,months,Economy
+1529,SYM,QUADLANDER,,,,AED,12,months,Economy
+1530,SYM,RV,,,,AED,12,months,Economy
+1531,SYM,ORBIT,,,,AED,12,months,Economy
+1532,SYM,CROX,,,,AED,12,months,Economy
+1533,SYM,GTX,,,,AED,12,months,Economy
+1534,SYM,ALLO,,,,AED,12,months,Economy
+1535,SYM,MIO,,,,AED,12,months,Economy
+1536,SYM,FIDDLE,,,,AED,12,months,Economy
+1537,SYM,JET,,,,AED,12,months,Economy
+1538,SYM,CITICOM,,,,AED,12,months,Economy
+1539,SYM,COMBIZ,,,,AED,12,months,Economy
+1540,SYM,TONIK,,,,AED,12,months,Economy
+1541,AJS,CADWELL,,,,AED,12,months,Economy
+1542,AJS,Modena,,,,AED,12,months,Economy
+1543,AJS,Sorvio,,,,AED,12,months,Economy
+1544,AJS,R7,,,,AED,12,months,Economy
+1545,AJS,TN,,,,AED,12,months,Economy
+1546,AJS,NAC,,,,AED,12,months,Economy
+1547,AJS,E95,,,,AED,12,months,Economy
+1548,AJS,V-4,,,,AED,12,months,Economy
+1549,AJS,Silver Streak,,,,AED,12,months,Economy
+1550,AJS,H6,,,,AED,12,months,Economy
+1551,JAWA,660,,,,AED,12,months,Economy
+1552,DERBI,Cross City,,,,AED,12,months,Economy
+1553,DERBI,DXR,,,,AED,12,months,Economy
+1554,DERBI,Boulevard,,,,AED,12,months,Economy
+1555,DERBI,DFW 50,,,,AED,12,months,Economy
+1556,DERBI,Atlantis,,,,AED,12,months,Economy
+1557,NORTON,DOMINATOR,,,,AED,12,months,Economy
+1558,NORTON,NRV,,,,AED,12,months,Economy
+1559,NORTON,RC588,,,,AED,12,months,Economy
+1560,NORTON,Interpol 2 Classic,,,,AED,12,months,Economy
+1561,NORTON,Atlas 750,,,,AED,12,months,Economy
+1562,APRILIA,SR,,,,AED,12,months,Economy
+1563,APRILIA,SRV,,,,AED,12,months,Economy
+1564,APRILIA,Scarabeo,,,,AED,12,months,Economy
+1565,APRILIA,Atlantic,,,,AED,12,months,Economy
+1566,APRILIA,Sportcity,,,,AED,12,months,Economy
+1567,APRILIA,Mojito,,,,AED,12,months,Economy
+1568,APRILIA,ETV Mana,,,,AED,12,months,Economy
+1569,APRILIA,Leonardo,,,,AED,12,months,Economy
+1570,APRILIA,Europa,,,,AED,12,months,Economy
+1571,APRILIA,Red Rose,,,,AED,12,months,Economy
+1572,APRILIA,STX,,,,AED,12,months,Economy
+1573,APRILIA,RC,,,,AED,12,months,Economy
+1574,OSSA,TR,,,,AED,12,months,Economy
+1575,OSSA,EXPLORER,,,,AED,12,months,Economy
+1576,OSSA,FACTORY,,,,AED,12,months,Economy
+1577,OSSA,Copa 250 79,,,,AED,12,months,Economy
+1578,OSSA,Super Pioneer 250,,,,AED,12,months,Economy
+1579,OSSA,125,,,,AED,12,months,Economy
+1580,OSSA,Ossita 50,,,,AED,12,months,Economy
+1581,OSSA,E-71,,,,AED,12,months,Economy
+1582,OSSA,Stiletto,,,,AED,12,months,Economy
+1583,OSSA,160,,,,AED,12,months,Economy
+1584,OSSA,150 Commercial,,,,AED,12,months,Economy
+1585,OSSA,Urbe,,,,AED,12,months,Economy
+1586,TRIUMPH,Speed Triple,,,,AED,12,months,Economy
+1587,TRIUMPH,Rocket III,,,,AED,12,months,Economy
+1588,TRIUMPH,Daytona 675,,,,AED,12,months,Economy
+1589,TRIUMPH,Daytona 675 Triple,,,,AED,12,months,Economy
+1590,TRIUMPH,Bonneville T 100,,,,AED,12,months,Economy
+1591,TRIUMPH,Speed Four,,,,AED,12,months,Economy
+1592,TRIUMPH,Tiger 900,,,,AED,12,months,Economy
+1593,TRIUMPH,Daytona 955i,,,,AED,12,months,Economy
+1594,TRIUMPH,Speed Triple 900,,,,AED,12,months,Economy
+1595,TRIUMPH,X 75 Hurricane,,,,AED,12,months,Economy
+1596,ATK,GT,,,,AED,12,months,Economy
+1597,ATK,GV,,,,AED,12,months,Economy
+1598,ATK,500,,,,AED,12,months,Economy
+1599,ATK,600,,,,AED,12,months,Economy
+1600,ATK,125,,,,AED,12,months,Economy
+1601,ATK,250,,,,AED,12,months,Economy
+1602,KANUNI,Motorun,,,,AED,12,months,Economy
+1603,KANUNI,Tigrina 100,,,,AED,12,months,Economy
+1604,KANUNI,Bobcat,,,,AED,12,months,Economy
+1605,KANUNI,Breton,,,,AED,12,months,Economy
+1606,KANUNI,ATV,,,,AED,12,months,Economy
+1607,KANUNI,Buffalo,,,,AED,12,months,Economy
+1608,KANUNI,Racer,,,,AED,12,months,Economy
+1609,KANUNI,Caracal,,,,AED,12,months,Economy
+1610,KANUNI,Storm,,,,AED,12,months,Economy
+1611,KANUNI,Cheetah 125,,,,AED,12,months,Economy
+1612,KANUNI,Windy,,,,AED,12,months,Economy
+1613,KANUNI,Cross,,,,AED,12,months,Economy
+1614,KANUNI,Motocar,,,,AED,12,months,Economy
+1615,KANUNI,Deer,,,,AED,12,months,Economy
+1616,KANUNI,Rabbit,,,,AED,12,months,Economy
+1617,KANUNI,Elite,,,,AED,12,months,Economy
+1618,KANUNI,Rokko,,,,AED,12,months,Economy
+1619,KANUNI,Enduro,,,,AED,12,months,Economy
+1620,KANUNI,Speedy,,,,AED,12,months,Economy
+1621,KANUNI,Freedom,,,,AED,12,months,Economy
+1622,KANUNI,Tiger 250,,,,AED,12,months,Economy
+1623,KANUNI,Hussar,,,,AED,12,months,Economy
+1624,KANUNI,Trex,,,,AED,12,months,Economy
+1625,KANUNI,Minibike,,,,AED,12,months,Economy
+1626,KANUNI,Zebra,,,,AED,12,months,Economy
+1627,DUCATI,80,,,,AED,12,months,Economy
+1628,DUCATI,620,,,,AED,12,months,Economy
+1629,DUCATI,400,,,,AED,12,months,Economy
+1630,DUCATI,Supermono,,,,AED,12,months,Economy
+1631,DUCATI,Paso,,,,AED,12,months,Economy
+1632,DUCATI,Mille,,,,AED,12,months,Economy
+1633,DUCATI,TT,,,,AED,12,months,Economy
+1634,DUCATI,125,,,,AED,12,months,Economy
+1635,DUCATI,250,,,,AED,12,months,Economy
+1636,DUCATI,160,,,,AED,12,months,Economy
+1637,DUCATI,PIUMA,,,,AED,12,months,Economy
+1638,DUCATI,BRIO,,,,AED,12,months,Economy
+1639,DUCATI,MACH,,,,AED,12,months,Economy
+1640,DUCATI,200,,,,AED,12,months,Economy
+1641,DUCATI,Elite,,,,AED,12,months,Economy
+1642,DUCATI,BRISK,,,,AED,12,months,Economy
+1643,DUCATI,175,,,,AED,12,months,Economy
+1644,DUCATI,APOLLO,,,,AED,12,months,Economy
+1645,DUCATI,55,,,,AED,12,months,Economy
+1646,DUCATI,SILURO,,,,AED,12,months,Economy
+1647,DUCATI,CRUISER,,,,AED,12,months,Economy
+1648,DUCATI,Cucciolo,,,,AED,12,months,Economy
+1649,KAWASAKI,Brute Force,,,,AED,12,months,Economy
+1650,KAWASAKI,Mule,,,,AED,12,months,Economy
+1651,KAWASAKI,KLR 650,,,,AED,12,months,Economy
+1652,KAWASAKI,GTR 1400,,,,AED,12,months,Economy
+1653,KAWASAKI,ER-6n,,,,AED,12,months,Economy
+1654,KAWASAKI,KFX,,,,AED,12,months,Economy
+1655,KAWASAKI,Prairie,,,,AED,12,months,Economy
+1656,KAWASAKI,Teryx,,,,AED,12,months,Economy
+1657,KAWASAKI,Bayou,,,,AED,12,months,Economy
+1658,KAWASAKI,BJ,,,,AED,12,months,Economy
+1659,KAWASAKI,ZR-X,,,,AED,12,months,Economy
+1660,KAWASAKI,Ninja ZX-10R,,,,AED,12,months,Economy
+1661,KAWASAKI,ER-6f,,,,AED,12,months,Economy
+1662,KAWASAKI,KVF,,,,AED,12,months,Economy
+1663,KAWASAKI,Vulcan 900 Classic,,,,AED,12,months,Economy
+1664,KAWASAKI,KLE 500,,,,AED,12,months,Economy
+1665,KAWASAKI,ER 5,,,,AED,12,months,Economy
+1666,KAWASAKI,Ninja ZX-12R,,,,AED,12,months,Economy
+1667,KAWASAKI,KX 85,,,,AED,12,months,Economy
+1668,KAWASAKI,ZX-R,,,,AED,12,months,Economy
+1669,KAWASAKI,Ninja ZX-9R,,,,AED,12,months,Economy
+1670,KAWASAKI,Zephyr,,,,AED,12,months,Economy
+1671,KAWASAKI,EX 400R,,,,AED,12,months,Economy
+1672,KAWASAKI,Triple,,,,AED,12,months,Economy
+1673,KAWASAKI,KE 125,,,,AED,12,months,Economy
+1674,Peugeot,VOGS2,,,,AED,12,months,Economy
+1675,Peugeot,Looxor,,,,AED,12,months,Economy
+1676,Peugeot,Ludix,,,,AED,12,months,Economy
+1677,Peugeot,Elystar,,,,AED,12,months,Economy
+1678,Peugeot,Speedfight,,,,AED,12,months,Economy
+1679,Peugeot,Satelis,,,,AED,12,months,Economy
+1680,Peugeot,V-Clic,,,,AED,12,months,Economy
+1681,Peugeot,Geopolis,,,,AED,12,months,Economy
+1682,Peugeot,Vivacity,,,,AED,12,months,Economy
+1683,Peugeot,BLASTER,,,,AED,12,months,Economy
+1684,Peugeot,Elyseo,,,,AED,12,months,Economy
+1685,VENTO,TERRA Z,,,,AED,12,months,Economy
+1686,VENTO,GLADIATOR XLS,,,,AED,12,months,Economy
+1687,VENTO,ANT,,,,AED,12,months,Economy
+1688,VENTO,HOTROD,,,,AED,12,months,Economy
+1689,VENTO,V THUNDER XL,,,,AED,12,months,Economy
+1690,VENTO,PROTON DARK,,,,AED,12,months,Economy
+1691,VENTO,STREET ROD,,,,AED,12,months,Economy
+1692,VENTO,REBELLIAN,,,,AED,12,months,Economy
+1693,VENTO,TORNADO,,,,AED,12,months,Economy
+1694,VENTO,SPIDER,,,,AED,12,months,Economy
+1695,VENTO,VIKING,,,,AED,12,months,Economy
+1696,PGO,B1,,,,AED,12,months,Economy
+1697,PGO,B2,,,,AED,12,months,Economy
+1698,PGO,G-MAX,,,,AED,12,months,Economy
+1699,PGO,BUBU,,,,AED,12,months,Economy
+1700,PGO,BIG MAX,,,,AED,12,months,Economy
+1701,PGO,EVO G-MAX,,,,AED,12,months,Economy
+1702,VERUCCI,VC50FS-10A,,,,AED,12,months,Economy
+1703,VERUCCI,VC150-SP2 SPIRIT 2,,,,AED,12,months,Economy
+1704,VERUCCI,VC-Super bike 110,,,,AED,12,months,Economy
+1705,VERUCCI,VC250 Phantom,,,,AED,12,months,Economy
+1706,VERUCCI,VIPER,,,,AED,12,months,Economy
+1707,BAJAJ,CT,,,,AED,12,months,Economy
+1708,BAJAJ,PLATINA,,,,AED,12,months,Economy
+1709,BAJAJ,DISCOVER,,,,AED,12,months,Economy
+1710,BAJAJ,XCD,,,,AED,12,months,Economy
+1711,BAJAJ,CHETAK,,,,AED,12,months,Economy
+1712,BAJAJ,WIND,,,,AED,12,months,Economy
+1713,Victory,OCTANE,,,,AED,12,months,Economy
+1714,Victory,EMPULSE TT,,,,AED,12,months,Economy
+1715,Victory,Gunner,,,,AED,12,months,Economy
+1716,Victory,Magnum,,,,AED,12,months,Economy
+1717,Victory,Boardwalk,,,,AED,12,months,Economy
+1718,Victory,Hard-Ball,,,,AED,12,months,Economy
+1719,Victory,Core,,,,AED,12,months,Economy
+1720,Victory,Touring,,,,AED,12,months,Economy
+1721,BENELLI,Quattronove,,,,AED,12,months,Economy
+1722,BENELLI,TRK,,,,AED,12,months,Economy
+1723,BENELLI,Caffenero,,,,AED,12,months,Economy
+1724,BENELLI,BN,,,,AED,12,months,Economy
+1725,BENELLI,Leoncino,,,,AED,12,months,Economy
+1726,BENELLI,TNT,,,,AED,12,months,Economy
+1727,BENELLI,Macis,,,,AED,12,months,Economy
+1728,BENELLI,Tre-K,,,,AED,12,months,Economy
+1729,BENELLI,Pepe,,,,AED,12,months,Economy
+1730,BENELLI,Zenzero,,,,AED,12,months,Economy
+1731,BENELLI,Uno,,,,AED,12,months,Economy
+1732,BENELLI,Due,,,,AED,12,months,Economy
+1733,BENELLI,Sport,,,,AED,12,months,Economy
+1734,BENELLI,QuattroNove X,,,,AED,12,months,Economy
+1735,BENELLI,500 LS,,,,AED,12,months,Economy
+1736,BENELLI,504,,,,AED,12,months,Economy
+1737,BENELLI,175,,,,AED,12,months,Economy
+1738,BENELLI,Mojave,,,,AED,12,months,Economy
+1739,KTM,450,,,,AED,12,months,Economy
+1740,KTM,ATV,,,,AED,12,months,Economy
+1741,KTM,690 Supermoto,,,,AED,12,months,Economy
+1742,KTM,85 SX 19/16,,,,AED,12,months,Economy
+1743,KTM,85 SX 17/14,,,,AED,12,months,Economy
+1744,KTM,LC4 690 Baja,,,,AED,12,months,Economy
+1745,KTM,SMR,,,,AED,12,months,Economy
+1746,KTM,XC-W,,,,AED,12,months,Economy
+1747,KTM,SuperDuke,,,,AED,12,months,Economy
+1748,KTM,SMC,,,,AED,12,months,Economy
+1749,KTM,950,,,,AED,12,months,Economy
+1750,KTM,640,,,,AED,12,months,Economy
+1751,KTM,Stunt,,,,AED,12,months,Economy
+1752,VOR,SM-RC 570,,,,AED,12,months,Economy
+1753,VOR,EN-E 450,,,,AED,12,months,Economy
+1754,VOR,MX 450,,,,AED,12,months,Economy
+1755,VOR,EN-E 530,,,,AED,12,months,Economy
+1756,BETA,Euro 350 Cruiser,,,,AED,12,months,Economy
+1757,BETA,Minicross R-12,,,,AED,12,months,Economy
+1758,BETA,XTRAINER,,,,AED,12,months,Economy
+1759,BETA,M4,,,,AED,12,months,Economy
+1760,BETA,RR 250,,,,AED,12,months,Economy
+1761,BETA,RS,,,,AED,12,months,Economy
+1762,BETA,Ark Air Cooled 50,,,,AED,12,months,Economy
+1763,BETA,Ark Liquid Cooled 50,,,,AED,12,months,Economy
+1764,BETA,Urban,,,,AED,12,months,Economy
+1765,BETA,TR 35/260,,,,AED,12,months,Economy
+1766,VOXAN,GTV,,,,AED,12,months,Economy
+1767,VOXAN,GV 1200,,,,AED,12,months,Economy
+1768,VOXAN,Street Scrambler,,,,AED,12,months,Economy
+1769,VOXAN,WATTMAN,,,,AED,12,months,Economy
+1770,VOXAN,VB1,,,,AED,12,months,Economy
+1771,KYMCO,Candy,,,,AED,12,months,Economy
+1772,KYMCO,Agility,,,,AED,12,months,Economy
+1773,KYMCO,Mongoose,,,,AED,12,months,Economy
+1774,KYMCO,K-XCT,,,,AED,12,months,Economy
+1775,KYMCO,DJS,,,,AED,12,months,Economy
+1776,KYMCO,Jockey,,,,AED,12,months,Economy
+1777,KYMCO,Downtown,,,,AED,12,months,Economy
+1778,KYMCO,Active,,,,AED,12,months,Economy
+1779,KYMCO,Dink,,,,AED,12,months,Economy
+1780,KYMCO,K-Pipe,,,,AED,12,months,Economy
+1781,KYMCO,Jetix,,,,AED,12,months,Economy
+1782,KYMCO,Like,,,,AED,12,months,Economy
+1783,KYMCO,MXU,,,,AED,12,months,Economy
+1784,KYMCO,Sento,,,,AED,12,months,Economy
+1785,KYMCO,Myroad 700i,,,,AED,12,months,Economy
+1786,KYMCO,People,,,,AED,12,months,Economy
+1787,KYMCO,Super 8,,,,AED,12,months,Economy
+1788,KYMCO,Racing King,,,,AED,12,months,Economy
+1789,KYMCO,UXV,,,,AED,12,months,Economy
+1790,KYMCO,Visar,,,,AED,12,months,Economy
+1791,KYMCO,Xciting,,,,AED,12,months,Economy
+1792,KYMCO,Compagno,,,,AED,12,months,Economy
+1793,KYMCO,Movie,,,,AED,12,months,Economy
+1794,KYMCO,Frost,,,,AED,12,months,Economy
+1795,KYMCO,Vitality 50,,,,AED,12,months,Economy
+1796,KYMCO,Yager,,,,AED,12,months,Economy
+1797,KYMCO,Super 9 / Sport 50,,,,AED,12,months,Economy
+1798,KYMCO,Bet & Win,,,,AED,12,months,Economy
+1799,KYMCO,Sting,,,,AED,12,months,Economy
+1800,KYMCO,Grandvista,,,,AED,12,months,Economy
+1801,KYMCO,Yup,,,,AED,12,months,Economy
+1802,KYMCO,Maxxer,,,,AED,12,months,Economy
+1803,KYMCO,Cruiser 125,,,,AED,12,months,Economy
+1804,KYMCO,Movie XL,,,,AED,12,months,Economy
+1805,KYMCO,ZX 50,,,,AED,12,months,Economy
+1806,KYMCO,Heroism,,,,AED,12,months,Economy
+1807,VYRUS,985 C3 4V,,,,AED,12,months,Economy
+1808,VYRUS,987 C3 4V,,,,AED,12,months,Economy
+1809,VYRUS,984 C3 2V,,,,AED,12,months,Economy
+1810,VYRUS,986 M2,,,,AED,12,months,Economy
+1811,Big Bear Choppers,Bear Bones,,,,AED,12,months,Economy
+1812,Big Bear Choppers,Devils Advocate,,,,AED,12,months,Economy
+1813,Big Bear Choppers,Titanium,,,,AED,12,months,Economy
+1814,Big Bear Choppers,GTX,,,,AED,12,months,Economy
+1815,Big Bear Choppers,Rage,,,,AED,12,months,Economy
+1816,Big Bear Choppers,Redemption,,,,AED,12,months,Economy
+1817,Big Bear Choppers,The Sled,,,,AED,12,months,Economy
+1818,LAVERDA,SFC 1000,,,,AED,12,months,Economy
+1819,LAVERDA,125,,,,AED,12,months,Economy
+1820,LAVERDA,125 GS Lesmo,,,,AED,12,months,Economy
+1821,LAVERDA,500 Alpino,,,,AED,12,months,Economy
+1822,LAVERDA,Montjuic,,,,AED,12,months,Economy
+1823,LAVERDA,350,,,,AED,12,months,Economy
+1824,LAVERDA,V6,,,,AED,12,months,Economy
+1825,LAVERDA,250,,,,AED,12,months,Economy
+1826,LAVERDA,750 GT,,,,AED,12,months,Economy
+1827,WAKAN,1640 Racing,,,,AED,12,months,Economy
+1828,WAKAN,1640 Road,,,,AED,12,months,Economy
+1829,BIMOTA,HB,,,,AED,12,months,Economy
+1830,BIMOTA,666,,,,AED,12,months,Economy
+1831,BIMOTA,KB,,,,AED,12,months,Economy
+1832,LIFAN,CHIMP,,,,AED,12,months,Economy
+1833,LIFAN,CUB,,,,AED,12,months,Economy
+1834,LIFAN,ELITE,,,,AED,12,months,Economy
+1835,LIFAN,GOLDFISH,,,,AED,12,months,Economy
+1836,LIFAN,HUNTAWAY,,,,AED,12,months,Economy
+1837,LIFAN,Delta,,,,AED,12,months,Economy
+1838,MAGNI,Sport 1200 S,,,,AED,12,months,Economy
+1839,MAGNI,Sfida,,,,AED,12,months,Economy
+1840,MAGNI,Giaponne 52,,,,AED,12,months,Economy
+1841,MAICO,500 Cross,,,,AED,12,months,Economy
+1842,MAICO,320 Enduro,,,,AED,12,months,Economy
+1843,MAICO,GS 250,,,,AED,12,months,Economy
+1844,MAICO,Taifun,,,,AED,12,months,Economy
+1845,MAICO,Maicomobil,,,,AED,12,months,Economy
+1846,MAICO,M 125,,,,AED,12,months,Economy
+1847,MALAGUTI,MADISON,,,,AED,12,months,Economy
+1848,MALAGUTI,BLOG,,,,AED,12,months,Economy
+1849,MALAGUTI,SPIDERMAX,,,,AED,12,months,Economy
+1850,MALAGUTI,CIAK MASTER,,,,AED,12,months,Economy
+1851,BMW,F 700,,,,AED,12,months,Economy
+1852,BMW,R 900,,,,AED,12,months,Economy
+1853,BMW,Krauser MKM 1000,,,,AED,12,months,Economy
+1854,BMW,Flink,,,,AED,12,months,Economy
+1855,GAS GAS,E-KIDS,,,,AED,12,months,Economy
+1856,MATCHLESS,X,,,,AED,12,months,Economy
+1857,MATCHLESS,Silver Hawk,,,,AED,12,months,Economy
+1858,YAMAHA,Tesseract,,,,AED,12,months,Economy
+1859,YAMAHA,Blaster,,,,AED,12,months,Economy
+1860,YAMAHA,YFS 200,,,,AED,12,months,Economy
+1861,YAMAHA,YFA 125,,,,AED,12,months,Economy
+1862,YAMAHA,SCR,,,,AED,12,months,Economy
+1863,YAMAHA,KODIAC,,,,AED,12,months,Economy
+1864,YAMAHA,BT 1100 Bulldog,,,,AED,12,months,Economy
+1865,YAMAHA,VIKING,,,,AED,12,months,Economy
+1866,YAMAHA,SUPER TENERE ES,,,,AED,12,months,Economy
+1867,YAMAHA,YFZ,,,,AED,12,months,Economy
+1868,YAMAHA,SMAX,,,,AED,12,months,Economy
+1869,YAMAHA,YXZ,,,,AED,12,months,Economy
+1870,YAMAHA,VMAX,,,,AED,12,months,Economy
+1871,YAMAHA,Fazer,,,,AED,12,months,Economy
+1872,YAMAHA,Raptor,,,,AED,12,months,Economy
+1873,YAMAHA,Wolverine,,,,AED,12,months,Economy
+1874,YAMAHA,V Star,,,,AED,12,months,Economy
+1875,YAMAHA,Stryker,,,,AED,12,months,Economy
+1876,YAMAHA,Raider,,,,AED,12,months,Economy
+1877,YAMAHA,Tricity,,,,AED,12,months,Economy
+1878,YAMAHA,Stratoliner,,,,AED,12,months,Economy
+1879,YAMAHA,Zuma,,,,AED,12,months,Economy
+1880,YAMAHA,Grizzly,,,,AED,12,months,Economy
+1881,YAMAHA,Delight,,,,AED,12,months,Economy
+1882,YAMAHA,Vino,,,,AED,12,months,Economy
+1883,YAMAHA,TMAX,,,,AED,12,months,Economy
+1884,YAMAHA,WR 250 F,,,,AED,12,months,Economy
+1885,YAMAHA,X-MAX,,,,AED,12,months,Economy
+1886,YAMAHA,YFM,,,,AED,12,months,Economy
+1887,YAMAHA,X-City,,,,AED,12,months,Economy
+1888,YAMAHA,Jog,,,,AED,12,months,Economy
+1889,YAMAHA,YBR-125,,,,AED,12,months,Economy
+1890,YAMAHA,Neos,,,,AED,12,months,Economy
+1891,YAMAHA,Xenter,,,,AED,12,months,Economy
+1892,YAMAHA,Rhino,,,,AED,12,months,Economy
+1893,YAMAHA,IT,,,,AED,12,months,Economy
+1894,YAMAHA,MAJESTY,,,,AED,12,months,Economy
+1895,YAMAHA,CygnusX,,,,AED,12,months,Economy
+1896,YAMAHA,XJ-R,,,,AED,12,months,Economy
+1897,YAMAHA,Big Bear,,,,AED,12,months,Economy
+1898,YAMAHA,C3,,,,AED,12,months,Economy
+1899,YAMAHA,Bruin,,,,AED,12,months,Economy
+1900,YAMAHA,Roadliner,,,,AED,12,months,Economy
+1901,YAMAHA,BWs,,,,AED,12,months,Economy
+1902,YAMAHA,WR 450 F,,,,AED,12,months,Economy
+1903,YAMAHA,Aerox,,,,AED,12,months,Economy
+1904,YAMAHA,Slider Naked,,,,AED,12,months,Economy
+1905,YAMAHA,Warrior,,,,AED,12,months,Economy
+1906,YAMAHA,ST,,,,AED,12,months,Economy
+1907,YAMAHA,Vino 125,,,,AED,12,months,Economy
+1908,YAMAHA,MT-01,,,,AED,12,months,Economy
+1909,YAMAHA,Morphous,,,,AED,12,months,Economy
+1910,YAMAHA,XT 225,,,,AED,12,months,Economy
+1911,YAMAHA,Aerox Race Replica,,,,AED,12,months,Economy
+1912,YAMAHA,FZS 600 Fazer,,,,AED,12,months,Economy
+1913,YAMAHA,DragStar,,,,AED,12,months,Economy
+1914,YAMAHA,FZX,,,,AED,12,months,Economy
+1915,YAMAHA,SDR,,,,AED,12,months,Economy
+1916,YAMAHA,FSX,,,,AED,12,months,Economy
+1917,YAMAHA,GX,,,,AED,12,months,Economy
+1918,YAMAHA,FS-1,,,,AED,12,months,Economy
+1919,YAMAHA,RT 360,,,,AED,12,months,Economy
+1920,YAMAHA,R5,,,,AED,12,months,Economy
+1921,YAMAHA,TR3,,,,AED,12,months,Economy
+1922,YAMAHA,YR,,,,AED,12,months,Economy
+1923,YAMAHA,Santa Barbara,,,,AED,12,months,Economy
+1924,YAMAHA,YD,,,,AED,12,months,Economy
+1925,YAMAHA,Mabris Hybrid,,,,AED,12,months,Economy
+1926,YAMAHA,MT-OS,,,,AED,12,months,Economy
+1927,YAMAHA,Morpho 2,,,,AED,12,months,Economy
+1928,BORILE,B 500 MT,,,,AED,12,months,Economy
+1929,BORILE,B 300,,,,AED,12,months,Economy
+1930,BORILE,B 450,,,,AED,12,months,Economy
+1931,BORILE,Bastard,,,,AED,12,months,Economy
+1932,BORILE,B 651,,,,AED,12,months,Economy
+1933,MBK,Stunt Naked,,,,AED,12,months,Economy
+1934,MBK,Ovetto,,,,AED,12,months,Economy
+1935,MBK,Flipper,,,,AED,12,months,Economy
+1936,MBK,Flame X,,,,AED,12,months,Economy
+1937,MBK,X-Limit Supermotard,,,,AED,12,months,Economy
+1938,MBK,Skycruiser 125,,,,AED,12,months,Economy
+1939,MBK,Nitro,,,,AED,12,months,Economy
+1940,MBK,MachG,,,,AED,12,months,Economy
+1941,MBK,Booster,,,,AED,12,months,Economy
+1942,MBK,Motobecane,,,,AED,12,months,Economy
+1943,BOSS HOSS,BHC-9,,,,AED,12,months,Economy
+1944,GHEZZI-BRIAN,SUPERTWIN 1100,,,,AED,12,months,Economy
+1945,GHEZZI-BRIAN,KIMERA,,,,AED,12,months,Economy
+1946,GHEZZI-BRIAN,FOLGORE,,,,AED,12,months,Economy
+1947,ZERO,FXS,,,,AED,12,months,Economy
+1948,ZERO,FXP,,,,AED,12,months,Economy
+1949,ZERO,DSP,,,,AED,12,months,Economy
+1950,ZERO,XU,,,,AED,12,months,Economy
+1951,BSA,Beagle,,,,AED,12,months,Economy
+1952,BSA,DB,,,,AED,12,months,Economy
+1953,BSA,Bluestar,,,,AED,12,months,Economy
+1954,BSA,X,,,,AED,12,months,Economy
+1955,BSA,Flat Tank,,,,AED,12,months,Economy
+1956,GILERA,Nexus,,,,AED,12,months,Economy
+1957,GILERA,GP,,,,AED,12,months,Economy
+1958,GILERA,Coguar,,,,AED,12,months,Economy
+1959,GILERA,DNA,,,,AED,12,months,Economy
+1960,GILERA,GFR,,,,AED,12,months,Economy
+1961,GILERA,Nordwest,,,,AED,12,months,Economy
+1962,GILERA,CX,,,,AED,12,months,Economy
+1963,GILERA,RC,,,,AED,12,months,Economy
+1964,GILERA,Apache,,,,AED,12,months,Economy
+1965,GILERA,Crono,,,,AED,12,months,Economy
+1966,GILERA,Freestyle,,,,AED,12,months,Economy
+1967,GILERA,Nordcape,,,,AED,12,months,Economy
+1968,GILERA,MX,,,,AED,12,months,Economy
+1969,GILERA,KK,,,,AED,12,months,Economy
+1970,GILERA,SP,,,,AED,12,months,Economy
+1971,GILERA,Saturno,,,,AED,12,months,Economy
+1972,GILERA,Fastbike,,,,AED,12,months,Economy
+1973,GILERA,RRT Nebraska,,,,AED,12,months,Economy
+1974,GILERA,RTX,,,,AED,12,months,Economy
+1975,GILERA,RX,,,,AED,12,months,Economy
+1976,GILERA,RV,,,,AED,12,months,Economy
+1977,GILERA,T4,,,,AED,12,months,Economy
+1978,GILERA,300,,,,AED,12,months,Economy
+1979,GILERA,Giubileo,,,,AED,12,months,Economy
+1980,MIDUAL,TYPE 1,,,,AED,12,months,Economy
+1981,ROYAL ENFIELD,Clubman 500 GT,,,,AED,12,months,Economy
+1982,MIKILON,PENTORA,,,,AED,12,months,Economy
+1983,MIKILON,GT,,,,AED,12,months,Economy
+1984,MIKILON,A6,,,,AED,12,months,Economy
+1985,SACHS,Speedforce,,,,AED,12,months,Economy
+1986,SACHS,X-Road,,,,AED,12,months,Economy
+1987,SACHS,MadAss,,,,AED,12,months,Economy
+1988,ZUNDAPP,Bella,,,,AED,12,months,Economy
+1989,ZUNDAPP,Z,,,,AED,12,months,Economy
+1990,BUELL,X1,,,,AED,12,months,Economy
+1991,BUELL,M2 Cyclone,,,,AED,12,months,Economy
+1992,BUELL,S1,,,,AED,12,months,Economy
+1993,BUELL,S2,,,,AED,12,months,Economy
+1994,BUELL,RSS,,,,AED,12,months,Economy
+1995,BUELL,RR,,,,AED,12,months,Economy
+1996,MONDIAL,Nuda,,,,AED,12,months,Economy
+1997,MONDIAL,SMT,,,,AED,12,months,Economy
+1998,MONDIAL,MX,,,,AED,12,months,Economy
+1999,MONDIAL,HIPSTER,,,,AED,12,months,Economy
+2000,MONDIAL,EVO,,,,AED,12,months,Economy
+2001,MONDIAL,NT,,,,AED,12,months,Economy
+2002,MONDIAL,ARDOUR,,,,AED,12,months,Economy
+2003,MONDIAL,MG,,,,AED,12,months,Economy
+2004,MONDIAL,JETMAX,,,,AED,12,months,Economy
+2005,MONDIAL,GOMAX,,,,AED,12,months,Economy
+2006,MONDIAL,MR,,,,AED,12,months,Economy
+2007,MONDIAL,AGGRESIVE,,,,AED,12,months,Economy
+2008,MONDIAL,TERRA LANDER,,,,AED,12,months,Economy
+2009,MONDIAL,UGK,,,,AED,12,months,Economy
+2010,MONDIAL,MH,,,,AED,12,months,Economy
+2011,MONDIAL,HYENA,,,,AED,12,months,Economy
+2012,MONDIAL,Cup 100 MFH,,,,AED,12,months,Economy
+2013,MONDIAL,KT,,,,AED,12,months,Economy
+2014,MONDIAL,BUFFALO,,,,AED,12,months,Economy
+2015,MONDIAL,LOYAL,,,,AED,12,months,Economy
+2016,MONDIAL,RT,,,,AED,12,months,Economy
+2017,MONDIAL,MASH,,,,AED,12,months,Economy
+2018,MONDIAL,MC,,,,AED,12,months,Economy
+2019,MONDIAL,SFC,,,,AED,12,months,Economy
+2020,MONDIAL,X-TREME,,,,AED,12,months,Economy
+2021,MONDIAL,ZNU,,,,AED,12,months,Economy
+2022,MONDIAL,ZNX,,,,AED,12,months,Economy
+2023,MONDIAL,Piega 1000,,,,AED,12,months,Economy
+2024,Peugeot,PEUGEOT,,,,AED,12,months,Economy
+2025,CAGIVA,Custom,,,,AED,12,months,Economy
+2026,CAGIVA,Aletta Oro,,,,AED,12,months,Economy
+2027,CAGIVA,RX,,,,AED,12,months,Economy
+2028,SCORPA,SY 250,,,,AED,12,months,Economy
+2029,SCORPA,SY 250 LONG RIDE,,,,AED,12,months,Economy
+2030,HARTFORD,BUMBLE,,,,AED,12,months,Economy
+2031,HARTFORD,CHEETAH,,,,AED,12,months,Economy
+2032,HARTFORD,NIGHT HAWK,,,,AED,12,months,Economy
+2033,HARTFORD,FALCON,,,,AED,12,months,Economy
+2034,HARTFORD,NEKO,,,,AED,12,months,Economy
+2035,HARTFORD,LEOPARD,,,,AED,12,months,Economy
+2036,HARTFORD,SIRIUS,,,,AED,12,months,Economy
+2037,MOTO GUZZI,MGX,,,,AED,12,months,Economy
+2038,MOTO GUZZI,V9,,,,AED,12,months,Economy
+2039,MOTO GUZZI,Eldorado,,,,AED,12,months,Economy
+2040,MOTO GUZZI,Audace,,,,AED,12,months,Economy
+2041,MOTO GUZZI,Stelvio,,,,AED,12,months,Economy
+2042,MOTO GUZZI,MGS-01 Corsa,,,,AED,12,months,Economy
+2043,MOTO GUZZI,Bellagio 940,,,,AED,12,months,Economy
+2044,MOTO GUZZI,Norge 850,,,,AED,12,months,Economy
+2045,MOTO GUZZI,V 11,,,,AED,12,months,Economy
+2046,MOTO GUZZI,V 10 Centauro,,,,AED,12,months,Economy
+2047,MOTO GUZZI,Daytona 1000,,,,AED,12,months,Economy
+2048,MOTO GUZZI,V1000,,,,AED,12,months,Economy
+2049,MOTO GUZZI,Targa 750,,,,AED,12,months,Economy
+2050,MOTO GUZZI,1000SP,,,,AED,12,months,Economy
+2051,MOTO GUZZI,850T3,,,,AED,12,months,Economy
+2052,MOTO GUZZI,GTS,,,,AED,12,months,Economy
+2053,MOTO GUZZI,Stornello,,,,AED,12,months,Economy
+2054,MOTO GUZZI,Zigolo,,,,AED,12,months,Economy
+2055,MOTO GUZZI,Lodola,,,,AED,12,months,Economy
+2056,MOTO GUZZI,Cardellino,,,,AED,12,months,Economy
+2057,MOTO GUZZI,V8,,,,AED,12,months,Economy
+2058,MOTO GUZZI,Super Alce,,,,AED,12,months,Economy
+2059,MOTO GUZZI,Galetto,,,,AED,12,months,Economy
+2060,MOTO GUZZI,Motoleggera 65,,,,AED,12,months,Economy
+2061,MOTO GUZZI,Dondolino,,,,AED,12,months,Economy
+2062,MOTO GUZZI,Airone,,,,AED,12,months,Economy
+2063,MOTO GUZZI,P 250,,,,AED,12,months,Economy
+2064,MOTO GUZZI,Normale,,,,AED,12,months,Economy
+2065,CCM,644 Dual Sport Trail,,,,AED,12,months,Economy
+2066,CCM,GP,,,,AED,12,months,Economy
+2067,CCM,XTR,,,,AED,12,months,Economy
+2068,CCM,SM,,,,AED,12,months,Economy
+2069,CCM,C-R,,,,AED,12,months,Economy
+2070,CCM,RS,,,,AED,12,months,Economy
+2071,MOTO MORINI,Granpasso 1200,,,,AED,12,months,Economy
+2072,MOTO MORINI,Corsaro 1200,,,,AED,12,months,Economy
+2073,MOTO MORINI,Corsaro Veloce,,,,AED,12,months,Economy
+2074,MOTO MORINI,Dart 350,,,,AED,12,months,Economy
+2075,MOTO MORINI,501 XE,,,,AED,12,months,Economy
+2076,MOTO MORINI,350 Excalibur,,,,AED,12,months,Economy
+2077,MOTO MORINI,500 Camel,,,,AED,12,months,Economy
+2078,MOTO MORINI,350 K 2,,,,AED,12,months,Economy
+2079,MOTO MORINI,3 1/2 S,,,,AED,12,months,Economy
+2080,MOTO MORINI,500 Turbo,,,,AED,12,months,Economy
+2081,MOTO MORINI,500 GT,,,,AED,12,months,Economy
+2082,MOTO MORINI,250 T,,,,AED,12,months,Economy
+2083,MOTO MORINI,3 1/2 Touring,,,,AED,12,months,Economy
+2084,MOTO MORINI,Corsarino,,,,AED,12,months,Economy
+2085,MOTO MORINI,125,,,,AED,12,months,Economy
+2086,MOTO MORINI,Corsaro Country 125,,,,AED,12,months,Economy
+2087,MOTO MORINI,Corsaro Gran Turismo,,,,AED,12,months,Economy
+2088,MOTO MORINI,Sbarazzino,,,,AED,12,months,Economy
+2089,MOTO MORINI,175,,,,AED,12,months,Economy
+2090,SHERCO,5.1i,,,,AED,12,months,Economy
+2091,SHERCO,E-KID,,,,AED,12,months,Economy
+2092,SHERCO,ST,,,,AED,12,months,Economy
+2093,SHERCO,SM,,,,AED,12,months,Economy
+2094,SHERCO,SEF,,,,AED,12,months,Economy
+2095,SHERCO,XY,,,,AED,12,months,Economy
+2096,SHERCO,4.5i,,,,AED,12,months,Economy
+2097,HERCULES,K 125 Military,,,,AED,12,months,Economy
+2098,HERCULES,K 105 X,,,,AED,12,months,Economy
+2099,CFMOTO,CFORCE,,,,AED,12,months,Economy
+2100,CFMOTO,ZFORCE,,,,AED,12,months,Economy
+2101,CFMOTO,UFORCE,,,,AED,12,months,Economy
+2102,HIGHLAND,DIRT-TRACK,,,,AED,12,months,Economy
+2103,HIGHLAND,SUPERMOTARD 950,,,,AED,12,months,Economy
+2104,Honda,Navi,,,,AED,12,months,Economy
+2105,Honda,CHF,,,,AED,12,months,Economy
+2106,Honda,Metropolitan,,,,AED,12,months,Economy
+2107,Honda,CN 250,,,,AED,12,months,Economy
+2108,Honda,PIONEER,,,,AED,12,months,Economy
+2109,Honda,X-ADV,,,,AED,12,months,Economy
+2110,Honda,Steed 400,,,,AED,12,months,Economy
+2111,Honda,X-Eleven,,,,AED,12,months,Economy
+2112,Honda,INTERSTATE,,,,AED,12,months,Economy
+2113,Honda,LS 125 R,,,,AED,12,months,Economy
+2114,Honda,MSX,,,,AED,12,months,Economy
+2115,Honda,Scooters,,,,AED,12,months,Economy
+2116,Honda,Giorno,,,,AED,12,months,Economy
+2117,Honda,Forza,,,,AED,12,months,Economy
+2118,Honda,F6B,,,,AED,12,months,Economy
+2119,Honda,GL1800C,,,,AED,12,months,Economy
+2120,Honda,FourTrax Foreman 4x4,,,,AED,12,months,Economy
+2121,Honda,FourTrax Foreman Rubicon,,,,AED,12,months,Economy
+2122,Honda,TRX,,,,AED,12,months,Economy
+2123,Honda,Big Red,,,,AED,12,months,Economy
+2124,Honda,FourTrax Rincon,,,,AED,12,months,Economy
+2125,Honda,PCX,,,,AED,12,months,Economy
+2126,Honda,Silver Wing,,,,AED,12,months,Economy
+2127,Honda,Crossrunner,,,,AED,12,months,Economy
+2128,Honda,RUCKUS,,,,AED,12,months,Economy
+2129,Honda,RC,,,,AED,12,months,Economy
+2130,Honda,NSF100,,,,AED,12,months,Economy
+2131,Honda,Dream 50 R,,,,AED,12,months,Economy
+2132,Honda,GLX,,,,AED,12,months,Economy
+2133,Honda,Crosstourer,,,,AED,12,months,Economy
+2134,Honda,NSC,,,,AED,12,months,Economy
+2135,Honda,SH,,,,AED,12,months,Economy
+2136,Honda,DN-01,,,,AED,12,months,Economy
+2137,Honda,Big Ruckus,,,,AED,12,months,Economy
+2138,Honda,CLR,,,,AED,12,months,Economy
+2139,Honda,FX,,,,AED,12,months,Economy
+2140,Honda,PC 800 Pacific Coast,,,,AED,12,months,Economy
+2141,Honda,VRX 400 Roadster,,,,AED,12,months,Economy
+2142,Honda,MTX,,,,AED,12,months,Economy
+2143,Honda,GB Clubman,,,,AED,12,months,Economy
+2144,Honda,MVX,,,,AED,12,months,Economy
+2145,Honda,MRX,,,,AED,12,months,Economy
+2146,Honda,MB5,,,,AED,12,months,Economy
+2147,Honda,Super 90,,,,AED,12,months,Economy
+2148,Honda,CS,,,,AED,12,months,Economy
+2149,Honda,EVO6,,,,AED,12,months,Economy
+2150,SIMSON,S 51,,,,AED,12,months,Economy
+2151,SIMSON,Schwalbe,,,,AED,12,months,Economy
+2152,SIMSON,AWO 425 S,,,,AED,12,months,Economy
+2153,SIMSON,SR,,,,AED,12,months,Economy
+2154,SIMSON,BSW 98,,,,AED,12,months,Economy
+2155,MOTORHISPANIA,FURIA MAX ENDURO,,,,AED,12,months,Economy
+2156,MOTORHISPANIA,MH,,,,AED,12,months,Economy
+2157,MOTORHISPANIA,RX SUPER RACING,,,,AED,12,months,Economy
+2158,MOTORHISPANIA,KN,,,,AED,12,months,Economy
+2159,MOTORHISPANIA,RANGER,,,,AED,12,months,Economy
+2160,MOTORHISPANIA,NK3,,,,AED,12,months,Economy
+2161,MOTORHISPANIA,STREET,,,,AED,12,months,Economy
+2162,MOTORHISPANIA,DUNA,,,,AED,12,months,Economy
+2163,MOTORHISPANIA,ARENA 125,,,,AED,12,months,Economy
+2164,HOREX,VR6,,,,AED,12,months,Economy
+2165,HOREX,REGINA,,,,AED,12,months,Economy
+2166,CONFEDERATE,WRAITH B120,,,,AED,12,months,Economy
+2167,CONFEDERATE,HELLCAT F131,,,,AED,12,months,Economy
+2168,CONFEDERATE,WRAITH B91,,,,AED,12,months,Economy
+2169,HUSABERG,FE550e,,,,AED,12,months,Economy
+2170,HUSABERG,FS550e,,,,AED,12,months,Economy
+2171,CPI,ARAGON,,,,AED,12,months,Economy
+2172,CPI,POPCORN,,,,AED,12,months,Economy
+2173,CPI,SM,,,,AED,12,months,Economy
+2174,HUSQVARNA,TR 650,,,,AED,12,months,Economy
+2175,HUSQVARNA,FR,,,,AED,12,months,Economy
+2176,HUSQVARNA,TX,,,,AED,12,months,Economy
+2177,HUSQVARNA,ENDURO,,,,AED,12,months,Economy
+2178,HUSQVARNA,701,,,,AED,12,months,Economy
+2179,HUSQVARNA,CR 65,,,,AED,12,months,Economy
+2180,HUSQVARNA,SMS,,,,AED,12,months,Economy
+2181,HUSQVARNA,TXC,,,,AED,12,months,Economy
+2182,HUSQVARNA,CR 125,,,,AED,12,months,Economy
+2183,HUSQVARNA,CROSS,,,,AED,12,months,Economy
+2184,HUSQVARNA,400,,,,AED,12,months,Economy
+2185,MUNCH,MAMUTH 2000,,,,AED,12,months,Economy
+2186,MUNCH,MAMUTH 4TTS,,,,AED,12,months,Economy
+2187,HYOSUNG,Rally,,,,AED,12,months,Economy
+2188,HYOSUNG,Sense,,,,AED,12,months,Economy
+2189,HYOSUNG,Rush,,,,AED,12,months,Economy
+2190,HYOSUNG,MS,,,,AED,12,months,Economy
+2191,HYOSUNG,SuperCab,,,,AED,12,months,Economy
+2192,HYOSUNG,Prima,,,,AED,12,months,Economy
+2193,HYOSUNG,Exceed,,,,AED,12,months,Economy
+2194,HYOSUNG,XRX,,,,AED,12,months,Economy
+2195,HYOSUNG,KR,,,,AED,12,months,Economy
+2196,HYOSUNG,WOW,,,,AED,12,months,Economy
+2197,INDIAN,SPRINGFIELD,,,,AED,12,months,Economy
+2198,INDIAN,Spirit,,,,AED,12,months,Economy
+2199,INDIAN,ME,,,,AED,12,months,Economy
+2200,INDIAN,Velo,,,,AED,12,months,Economy
+2201,INDIAN,Army,,,,AED,12,months,Economy
+2202,INDIAN,Four,,,,AED,12,months,Economy
+2203,INDIAN,Light Twin,,,,AED,12,months,Economy
+2204,INDIAN,Camelback,,,,AED,12,months,Economy
+2205,MV AGUSTA,F4 750,,,,AED,12,months,Economy
+2206,MV AGUSTA,F4 1000,,,,AED,12,months,Economy
+2207,MV AGUSTA,F4 1000 SENNA,,,,AED,12,months,Economy
+2208,MV AGUSTA,F4 AGO,,,,AED,12,months,Economy
+2209,MV AGUSTA,750 F4 AGO,,,,AED,12,months,Economy
+2210,MV AGUSTA,850 MAGNI,,,,AED,12,months,Economy
+2211,MV AGUSTA,1000 S Corona,,,,AED,12,months,Economy
+2212,MV AGUSTA,832 Monza,,,,AED,12,months,Economy
+2213,MV AGUSTA,125,,,,AED,12,months,Economy
+2214,MV AGUSTA,750 S America,,,,AED,12,months,Economy
+2215,MV AGUSTA,350 S,,,,AED,12,months,Economy
+2216,MV AGUSTA,500,,,,AED,12,months,Economy
+2217,MV AGUSTA,750 GT,,,,AED,12,months,Economy
+2218,MV AGUSTA,350 GT,,,,AED,12,months,Economy
+2219,MV AGUSTA,350 Scrambler,,,,AED,12,months,Economy
+2220,MV AGUSTA,125 g.t.l.s.,,,,AED,12,months,Economy
+2221,MV AGUSTA,250,,,,AED,12,months,Economy
+2222,MV AGUSTA,600,,,,AED,12,months,Economy
+2223,MV AGUSTA,125 Monoalbero Corsa,,,,AED,12,months,Economy
+2224,MV AGUSTA,175,,,,AED,12,months,Economy
+2225,MV AGUSTA,175 Monoalbero,,,,AED,12,months,Economy
+2226,Suzuki,X3,,,,AED,12,months,Economy
+2227,Suzuki,Eiger,,,,AED,12,months,Economy
+2228,Suzuki,GSX-S,,,,AED,12,months,Economy
+2229,Suzuki,Boulevard C50,,,,AED,12,months,Economy
+2230,Suzuki,Burgman,,,,AED,12,months,Economy
+2231,Suzuki,Ozark 250 LTF250K,,,,AED,12,months,Economy
+2232,Suzuki,Quad,,,,AED,12,months,Economy
+2233,Suzuki,Boost King,,,,AED,12,months,Economy
+2234,Suzuki,GSX-F,,,,AED,12,months,Economy
+2235,Suzuki,V-Strom 650,,,,AED,12,months,Economy
+2236,Suzuki,Vinson,,,,AED,12,months,Economy
+2237,Suzuki,JR 50,,,,AED,12,months,Economy
+2238,Suzuki,Boulevard M95,,,,AED,12,months,Economy
+2239,Suzuki,VL 800 Volusia,,,,AED,12,months,Economy
+2240,Suzuki,JR 80,,,,AED,12,months,Economy
+2241,Suzuki,RG 200 F Gamma,,,,AED,12,months,Economy
+2242,Suzuki,XN 85D Turbo,,,,AED,12,months,Economy
+2243,Suzuki,X1,,,,AED,12,months,Economy
+2244,Suzuki,B 120,,,,AED,12,months,Economy
+2245,Suzuki,Stratosphere,,,,AED,12,months,Economy
+2246,Suzuki,Nuda,,,,AED,12,months,Economy
+2247,Suzuki,Crosscage,,,,AED,12,months,Economy
+2248,Suzuki,Biplane,,,,AED,12,months,Economy
+2249,Suzuki,G-Strider,,,,AED,12,months,Economy
+2250,Adler,Favorit,,,,AED,12,months,Economy
+2251,AEON,Cube,,,,AED,12,months,Economy
+2252,AEON,Sporty,,,,AED,12,months,Economy
+2253,ARCTIC CAT,TBX,,,,AED,12,months,Economy
+2254,ARCTIC CAT,ALTERRA,,,,AED,12,months,Economy
+2255,ARCTIC CAT,MUDPRO,,,,AED,12,months,Economy
+2256,ARCTIC CAT,50,,,,AED,12,months,Economy
+2257,ARCTIC CAT,300,,,,AED,12,months,Economy
+2258,ARCTIC CAT,DVX,,,,AED,12,months,Economy
+2259,ARCTIC CAT,1000,,,,AED,12,months,Economy
+2260,ARCTIC CAT,400,,,,AED,12,months,Economy
+2261,ARCTIC CAT,450,,,,AED,12,months,Economy
+2262,ARCTIC CAT,90,,,,AED,12,months,Economy
+2263,ARCTIC CAT,500,,,,AED,12,months,Economy
+2264,ARCTIC CAT,550,,,,AED,12,months,Economy
+2265,ARCTIC CAT,DVX90,,,,AED,12,months,Economy
+2266,ARCTIC CAT,700,,,,AED,12,months,Economy
+2267,ARCTIC CAT,XC,,,,AED,12,months,Economy
+2268,ARCTIC CAT,Prowler,,,,AED,12,months,Economy
+2269,ARCTIC CAT,Wildcat,,,,AED,12,months,Economy
+2270,ARCTIC CAT,650,,,,AED,12,months,Economy
+2271,ARCTIC CAT,350,,,,AED,12,months,Economy
+2272,ARCTIC CAT,425,,,,AED,12,months,Economy
+2273,ARCTIC CAT,366,,,,AED,12,months,Economy
+2274,ARCTIC CAT,250,,,,AED,12,months,Economy
+2275,ARCTIC CAT,DVX250,,,,AED,12,months,Economy
+2276,ARCTIC CAT,DVX400,,,,AED,12,months,Economy
+2277,ARIEL,ACE,,,,AED,12,months,Economy
+2278,ARIEL,Arrow,,,,AED,12,months,Economy
+2279,ARIEL,Leader,,,,AED,12,months,Economy
+2280,ARIEL,HT5,,,,AED,12,months,Economy
+2281,ARIEL,LH,,,,AED,12,months,Economy
+2282,ARIEL,NH,,,,AED,12,months,Economy
+2283,ARIEL,HT3,,,,AED,12,months,Economy
+2284,ARIEL,VH,,,,AED,12,months,Economy
+2285,ARIEL,FH,,,,AED,12,months,Economy
+2286,ARIEL,VB,,,,AED,12,months,Economy
+2287,ARIEL,KH,,,,AED,12,months,Economy
+2288,ARIEL,Huntmaster,,,,AED,12,months,Economy
+2289,ARIEL,NH Hunter,,,,AED,12,months,Economy
+2290,ARIEL,Square Four,,,,AED,12,months,Economy
+2291,ARIEL,W/NG,,,,AED,12,months,Economy
+2292,Big Dog,K9,,,,AED,12,months,Economy
+2293,Big Dog,Pitbull,,,,AED,12,months,Economy
+2294,Big Dog,Working Mans Special,,,,AED,12,months,Economy
+2295,Big Dog,Bulldog,,,,AED,12,months,Economy
+2296,Big Dog,Coyote,,,,AED,12,months,Economy
+2297,Big Dog,Wolf,,,,AED,12,months,Economy
+2298,Big Dog,Ridgeback,,,,AED,12,months,Economy
+2299,Big Dog,Mastiff,,,,AED,12,months,Economy
+2300,Big Dog,Mutt,,,,AED,12,months,Economy
+2301,Big Dog,Chopper,,,,AED,12,months,Economy
+2302,Big Dog,Boxer,,,,AED,12,months,Economy
+2303,DNEPR,MT 11,,,,AED,12,months,Economy
+2304,DNEPR,K-750 M,,,,AED,12,months,Economy
+2305,DNEPR,MT-10/36,,,,AED,12,months,Economy
+2306,DNEPR,MT 10,,,,AED,12,months,Economy
+2307,DNEPR,K 650,,,,AED,12,months,Economy
+2308,DNEPR,MT-9,,,,AED,12,months,Economy
+2309,DNEPR,MW750,,,,AED,12,months,Economy
+2310,DNEPR,M-72H,,,,AED,12,months,Economy
+2311,EXCELSIOR,Super X,,,,AED,12,months,Economy
+2312,EXCELSIOR,20R,,,,AED,12,months,Economy
+2313,EXCELSIOR,Manxman,,,,AED,12,months,Economy
+2314,Geely,JL125T-5A,,,,AED,12,months,Economy
+2315,Geely,JL 150 - 4,,,,AED,12,months,Economy
+2316,Geely,JL150T,,,,AED,12,months,Economy
+2317,Geely,JL 50QT 16,,,,AED,12,months,Economy
+2318,Geely,JL150T-5,,,,AED,12,months,Economy
+2319,Geely,JL 50QT 21,,,,AED,12,months,Economy
+2320,Geely,JL 150 - 2,,,,AED,12,months,Economy
+2321,Geely,JL 50QT-2A,,,,AED,12,months,Economy
+2322,Geely,JL150-13,,,,AED,12,months,Economy
+2323,Geely,JL 50QT-2B,,,,AED,12,months,Economy
+2324,Geely,JL150T-6,,,,AED,12,months,Economy
+2325,Geely,JL100T,,,,AED,12,months,Economy
+2326,Geely,L150T-2,,,,AED,12,months,Economy
+2327,Geely,JL150-9,,,,AED,12,months,Economy
+2328,HENDERSON,ACE,,,,AED,12,months,Economy
+2329,HENDERSON,Henderson Four,,,,AED,12,months,Economy
+2330,HENDERSON,Streamline,,,,AED,12,months,Economy
+2331,HENDERSON,DeLuxe,,,,AED,12,months,Economy
+2332,HENDERSON,ACE XP4,,,,AED,12,months,Economy
+2333,HESKETH,VAMPIRE,,,,AED,12,months,Economy
+2334,HESKETH,V 1000,,,,AED,12,months,Economy
+2335,HESKETH,VORTAN,,,,AED,12,months,Economy
+2336,IZH,Planeta 5,,,,AED,12,months,Economy
+2337,IZH,56,,,,AED,12,months,Economy
+2338,IZH,49,,,,AED,12,months,Economy
+2339,IZH,350,,,,AED,12,months,Economy
+2340,JUNAK,NK,,,,AED,12,months,Economy
+2341,JUNAK,M16,,,,AED,12,months,Economy
+2342,JUNAK,M11,,,,AED,12,months,Economy
+2343,JUNAK,M20,,,,AED,12,months,Economy
+2344,JUNAK,S,,,,AED,12,months,Economy
+2345,JUNAK,M10,,,,AED,12,months,Economy
+2346,JUNAK,WB,,,,AED,12,months,Economy
+2347,JUNAK,B20,,,,AED,12,months,Economy
+2348,JUNAK,M07,,,,AED,12,months,Economy
+2349,JUNAK,M07-R,,,,AED,12,months,Economy
+2350,JUNAK,M25,,,,AED,12,months,Economy
+2351,KASINSKI,COMET,,,,AED,12,months,Economy
+2352,KASINSKI,MIRAGE,,,,AED,12,months,Economy
+2353,KASINSKI,CRZ,,,,AED,12,months,Economy
+2354,KASINSKI,SOFT,,,,AED,12,months,Economy
+2355,KASINSKI,WIN,,,,AED,12,months,Economy
+2356,WHIZZER,Panther,,,,AED,12,months,Economy
+2357,WHIZZER,Ambassador,,,,AED,12,months,Economy
+2358,WHIZZER,Pacemaker,,,,AED,12,months,Economy
+2359,WHIZZER,Sportsman,,,,AED,12,months,Economy
+2360,LEHMAN TRIKES,MONARCH II,,,,AED,12,months,Economy
+2361,LEHMAN TRIKES,RENEGADE,,,,AED,12,months,Economy
+2362,LEHMAN TRIKES,JACKAL,,,,AED,12,months,Economy
+2363,LEHMAN TRIKES,CROSSBOW,,,,AED,12,months,Economy
+2364,LEHMAN TRIKES,PITBOSS,,,,AED,12,months,Economy
+2365,LEHMAN TRIKES,SPORTSTER,,,,AED,12,months,Economy
+2366,RIEJU MOTORS,Tango,,,,AED,12,months,Economy
+2367,RIEJU MOTORS,RS,,,,AED,12,months,Economy
+2368,RIEJU MOTORS,Marathon,,,,AED,12,months,Economy
+2369,RIEJU MOTORS,City Line,,,,AED,12,months,Economy
+2370,RIEJU MOTORS,MRT,,,,AED,12,months,Economy
+2371,RIEJU MOTORS,RS3,,,,AED,12,months,Economy
+2372,RIEJU MOTORS,Urban Blast,,,,AED,12,months,Economy
+2373,RIEJU MOTORS,NKD,,,,AED,12,months,Economy
+2374,RIEJU MOTORS,SMX,,,,AED,12,months,Economy
+2375,RIEJU MOTORS,MRX,,,,AED,12,months,Economy
+2376,RIEJU MOTORS,RS2,,,,AED,12,months,Economy
+2377,RIEJU MOTORS,RR,,,,AED,12,months,Economy
+2378,RIEJU MOTORS,Spike,,,,AED,12,months,Economy
+2379,RIEJU MOTORS,Confort 400,,,,AED,12,months,Economy
+2380,RIEJU MOTORS,Jaca,,,,AED,12,months,Economy
+2381,RIEJU MOTORS,175,,,,AED,12,months,Economy
+2382,RIEJU MOTORS,Rieju No.1,,,,AED,12,months,Economy
+2383,LINHAI,CUV 300,,,,AED,12,months,Economy
+2384,LINHAI,Muddy LC7 Racing,,,,AED,12,months,Economy
+2385,LINHAI,Worker 300,,,,AED,12,months,Economy
+2386,LINHAI,Joker 50,,,,AED,12,months,Economy
+2387,PETRONAS,FP1,,,,AED,12,months,Economy
+2388,MASH,FIVE HUNDRED,,,,AED,12,months,Economy
+2389,MASH,SCRAMBLER,,,,AED,12,months,Economy
+2390,MASH,CAFE RACER,,,,AED,12,months,Economy
+2391,MASH,ADVENTURE,,,,AED,12,months,Economy
+2392,MEGELLI,NAKED,,,,AED,12,months,Economy
+2393,MEGELLI,MOTARD,,,,AED,12,months,Economy
+2394,MEGELLI,SPORT,,,,AED,12,months,Economy
+2395,MARUSHO-LILAC,SW Lancer,,,,AED,12,months,Economy
+2396,MARUSHO-LILAC,JF-2 Baby Lilac,,,,AED,12,months,Economy
+2397,MARUSHO-LILAC,TW Dragon,,,,AED,12,months,Economy
+2398,MARUSHO-LILAC,ML,,,,AED,12,months,Economy
+2399,MODENAS,EFI,,,,AED,12,months,Economy
+2400,MODENAS,DINAMIK,,,,AED,12,months,Economy
+2401,MODENAS,CT,,,,AED,12,months,Economy
+2402,MODENAS,ACE,,,,AED,12,months,Economy
+2403,MODENAS,KRISS,,,,AED,12,months,Economy
+2404,MODENAS,GT,,,,AED,12,months,Economy
+2405,MODENAS,KARISMA,,,,AED,12,months,Economy
+2406,MODENAS,CTRIC,,,,AED,12,months,Economy
+2407,MODENAS,CERIA,,,,AED,12,months,Economy
+2408,MODENAS,ELEGAN,,,,AED,12,months,Economy
+2409,MODENAS,JAGUH,,,,AED,12,months,Economy
+2410,HODAKA,WOMBAT,,,,AED,12,months,Economy
+2411,HODAKA,ACE 100,,,,AED,12,months,Economy
+2412,HODAKA,SUPER RAT,,,,AED,12,months,Economy
+2413,HODAKA,DIRT SQUIRT,,,,AED,12,months,Economy
+2414,MOTOCZYSZ,E1,,,,AED,12,months,Economy
+2415,HARLEY DAVIDSON,S,,,,AED,12,months,Economy
+2416,HARLEY DAVIDSON,IRON,,,,AED,12,months,Economy
+2417,HARLEY DAVIDSON,Road Glide,,,,AED,12,months,Economy
+2418,HARLEY DAVIDSON,Dyna,,,,AED,12,months,Economy
+2419,HARLEY DAVIDSON,Ultra,,,,AED,12,months,Economy
+2420,HARLEY DAVIDSON,Softail,,,,AED,12,months,Economy
+2421,HARLEY DAVIDSON,Sportster,,,,AED,12,months,Economy
+2422,HARLEY DAVIDSON,Road King,,,,AED,12,months,Economy
+2423,HARLEY DAVIDSON,CVO,,,,AED,12,months,Economy
+2424,HARLEY DAVIDSON,Street,,,,AED,12,months,Economy
+2425,HARLEY DAVIDSON,Trike,,,,AED,12,months,Economy
+2426,HARLEY DAVIDSON,Electra Glide,,,,AED,12,months,Economy
+2427,HARLEY DAVIDSON,VRSC,,,,AED,12,months,Economy
+2428,HARLEY DAVIDSON,FREEWHEELER,,,,AED,12,months,Economy
+2429,HARLEY DAVIDSON,Firefighter,,,,AED,12,months,Economy
+2430,HARLEY DAVIDSON,Peace Officer,,,,AED,12,months,Economy
+2431,HARLEY DAVIDSON,Police,,,,AED,12,months,Economy
+2432,HARLEY DAVIDSON,Fire/Rescue,,,,AED,12,months,Economy
+2433,HARLEY DAVIDSON,Shrine,,,,AED,12,months,Economy
+2434,HARLEY DAVIDSON,VR 1000,,,,AED,12,months,Economy
+2435,HARLEY DAVIDSON,Sport Glide,,,,AED,12,months,Economy
+2436,HARLEY DAVIDSON,Tour Glide,,,,AED,12,months,Economy
+2437,HARLEY DAVIDSON,Nova,,,,AED,12,months,Economy
+2438,HARLEY DAVIDSON,CLE,,,,AED,12,months,Economy
+2439,HARLEY DAVIDSON,XLCR,,,,AED,12,months,Economy
+2440,HARLEY DAVIDSON,XR,,,,AED,12,months,Economy
+2441,HARLEY DAVIDSON,SST,,,,AED,12,months,Economy
+2442,HARLEY DAVIDSON,SX,,,,AED,12,months,Economy
+2443,HARLEY DAVIDSON,Sportster Streamliner,,,,AED,12,months,Economy
+2444,HARLEY DAVIDSON,Sprint,,,,AED,12,months,Economy
+2445,HARLEY DAVIDSON,Scat,,,,AED,12,months,Economy
+2446,HARLEY DAVIDSON,Topper,,,,AED,12,months,Economy
+2447,HARLEY DAVIDSON,Hummer,,,,AED,12,months,Economy
+2448,HARLEY DAVIDSON,FL,,,,AED,12,months,Economy
+2449,MOTUS,MST,,,,AED,12,months,Economy
+2450,MOTUS,MSTR,,,,AED,12,months,Economy
+2451,GG MOTORRAD,GG-Quad,,,,AED,12,months,Economy
+2452,GG MOTORRAD,GG-Cruso,,,,AED,12,months,Economy
+2453,GG MOTORRAD,GG-Spartaco,,,,AED,12,months,Economy
+2454,ENERGICA,EGO,,,,AED,12,months,Economy
+2455,ENERGICA,EVA,,,,AED,12,months,Economy
+2456,EBR Motorcycles,RX,,,,AED,12,months,Economy
+2457,EBR Motorcycles,SX,,,,AED,12,months,Economy
+2458,EBR Motorcycles,RS,,,,AED,12,months,Economy
+2459,EBR Motorcycles,RR,,,,AED,12,months,Economy
+2460,PIAGGIO,X9,,,,AED,12,months,Economy
+2461,PIAGGIO,Fly 50/150,,,,AED,12,months,Economy
+2462,PIAGGIO,BV,,,,AED,12,months,Economy
+2463,PIAGGIO,Typhoon,,,,AED,12,months,Economy
+2464,PIAGGIO,MP3,,,,AED,12,months,Economy
+2465,PIAGGIO,X10,,,,AED,12,months,Economy
+2466,PIAGGIO,Zip 50,,,,AED,12,months,Economy
+2467,POLARIS,SLINGSHOT,,,,AED,12,months,Economy
+2468,POLARIS,Hawkeye 4X4,,,,AED,12,months,Economy
+2469,POLARIS,Magnum 330,,,,AED,12,months,Economy
+2470,POLARIS,700 EFI,,,,AED,12,months,Economy
+2471,POLARIS,RZR,,,,AED,12,months,Economy
+2472,POLARIS,Brutus,,,,AED,12,months,Economy
+2473,POLARIS,Phoenix 200,,,,AED,12,months,Economy
+2474,POLARIS,Outlaw,,,,AED,12,months,Economy
+2475,POLARIS,Ranger,,,,AED,12,months,Economy
+2476,POLARIS,Sportsman,,,,AED,12,months,Economy
+2477,POLARIS,Scrambler,,,,AED,12,months,Economy
+2478,POLARIS,Trail Blazer,,,,AED,12,months,Economy
+2479,POLARIS,Trail Boss,,,,AED,12,months,Economy
+2480,POLARIS,Youth,,,,AED,12,months,Economy
+2481,POLARIS,Limited Editions,,,,AED,12,months,Economy
+2482,POLARIS,Scrambler 500,,,,AED,12,months,Economy
+2483,POLARIS,700 TWIN,,,,AED,12,months,Economy
+2484,POLARIS,Sawtooth,,,,AED,12,months,Economy
+2485,Dafra Motos,Riva,,,,AED,12,months,Economy
+2486,Dafra Motos,Cityclass,,,,AED,12,months,Economy
+2487,Dafra Motos,Super,,,,AED,12,months,Economy
+2488,Dafra Motos,Citycom,,,,AED,12,months,Economy
+2489,Dafra Motos,Smart,,,,AED,12,months,Economy
+2490,Dafra Motos,Horizon,,,,AED,12,months,Economy
+2491,Dafra Motos,Apache,,,,AED,12,months,Economy
+2492,Dafra Motos,Kansas,,,,AED,12,months,Economy
+2493,Dafra Motos,Roadwin,,,,AED,12,months,Economy
+2494,Dafra Motos,Maxsym,,,,AED,12,months,Economy
+2495,Dafra Motos,Speed,,,,AED,12,months,Economy
+2496,Dafra Motos,Next,,,,AED,12,months,Economy
+2497,Dafra Motos,Zig,,,,AED,12,months,Economy
+2498,CRS,650 VUN,,,,AED,12,months,Economy
+2499,CONDOR,A580,,,,AED,12,months,Economy
+2500,CONDOR,Racer,,,,AED,12,months,Economy
+2501,Christini,AWD,,,,AED,12,months,Economy
+2502,Christini,Military,,,,AED,12,months,Economy
+2503,CHAK MOTORS,MOLOT,,,,AED,12,months,Economy
+2504,SWM,SM,,,,AED,12,months,Economy
+2505,SWM,RS,,,,AED,12,months,Economy
+2506,SWM,SUPERDUAL,,,,AED,12,months,Economy
+2507,SWM,GRAN MILANO,,,,AED,12,months,Economy
+2508,SWM,SILVER VASE,,,,AED,12,months,Economy
+2509,CEMEC,L7,,,,AED,12,months,Economy
+2510,TGB,BELLAVITA,,,,AED,12,months,Economy
+2511,TGB,BLADE,,,,AED,12,months,Economy
+2512,TGB,X-MOTION,,,,AED,12,months,Economy
+2513,CARVER,ONE,,,,AED,12,months,Economy
+2514,CANNONDALE,E 440,,,,AED,12,months,Economy
+2515,CANNONDALE,C 440 R,,,,AED,12,months,Economy
+2516,CANNONDALE,Cannibal,,,,AED,12,months,Economy
+2517,CANNONDALE,FX400,,,,AED,12,months,Economy
+2518,URAL,Ranger,,,,AED,12,months,Economy
+2519,URAL,Wolf,,,,AED,12,months,Economy
+2520,URAL,T,,,,AED,12,months,Economy
+2521,URAL,Patrol,,,,AED,12,months,Economy
+2522,URAL,M70,,,,AED,12,months,Economy
+2523,URAL,Gear-Up,,,,AED,12,months,Economy
+2524,URAL,Tourist,,,,AED,12,months,Economy
+2525,URAL,Solo,,,,AED,12,months,Economy
+2526,URAL,Limited Edition,,,,AED,12,months,Economy
+2527,URAL,Retro,,,,AED,12,months,Economy
+2528,URAL,Cross,,,,AED,12,months,Economy
+2529,URAL,Sportsman,,,,AED,12,months,Economy
+2530,URAL,Troyka,,,,AED,12,months,Economy
+2531,VELOCETTE,K,,,,AED,12,months,Economy
+2532,VELOCETTE,Thruxton,,,,AED,12,months,Economy
+2533,VELOCETTE,Viper,,,,AED,12,months,Economy
+2534,VELOCETTE,MSS,,,,AED,12,months,Economy
+2535,VELOCETTE,Vogue,,,,AED,12,months,Economy
+2536,VELOCETTE,Venom,,,,AED,12,months,Economy
+2537,VELOCETTE,VALIANT,,,,AED,12,months,Economy
+2538,VELOCETTE,Viceroy,,,,AED,12,months,Economy
+2539,VELOCETTE,VEELINE,,,,AED,12,months,Economy
+2540,VELOCETTE,MAC,,,,AED,12,months,Economy
+2541,VELOCETTE,KTT MK,,,,AED,12,months,Economy
+2542,VELOCETTE,MAF,,,,AED,12,months,Economy
+2543,VELOCETTE,MOV,,,,AED,12,months,Economy
+2544,VELOCETTE,MT,,,,AED,12,months,Economy
+2545,VELOCETTE,USS,,,,AED,12,months,Economy
+2546,VELOCETTE,D,,,,AED,12,months,Economy
+2547,CAN-AM/ BRP,Commander,,,,AED,12,months,Economy
+2548,CAN-AM/ BRP,Renegade,,,,AED,12,months,Economy
+2549,CAN-AM/ BRP,DS,,,,AED,12,months,Economy
+2550,CAN-AM/ BRP,Outlander,,,,AED,12,months,Economy
+2551,CAN-AM/ BRP,Maverick,,,,AED,12,months,Economy
+2552,CAN-AM/ BRP,Spyder,,,,AED,12,months,Economy
+2553,CAN-AM/ BRP,OUTLANDER 650,,,,AED,12,months,Economy
+2554,CAN-AM/ BRP,OUTLANDER 400,,,,AED,12,months,Economy
+2555,CAN-AM/ BRP,Rally,,,,AED,12,months,Economy
+2556,CAN-AM/ BRP,OUTLANDER 800,,,,AED,12,months,Economy
+2557,CAN-AM/ BRP,Traxter,,,,AED,12,months,Economy
+2558,CAN-AM/ BRP,Sarasota,,,,AED,12,months,Economy
+2559,CAN-AM/ BRP,250 Road Racer,,,,AED,12,months,Economy
+2560,CAN-AM/ BRP,GP 250,,,,AED,12,months,Economy
+2561,CAN-AM/ BRP,MX-1,,,,AED,12,months,Economy
+2562,VESPA,S,,,,AED,12,months,Economy
+2563,VESPA,GT,,,,AED,12,months,Economy
+2564,VESPA,946,,,,AED,12,months,Economy
+2565,VESPA,P,,,,AED,12,months,Economy
+2566,VESPA,LX,,,,AED,12,months,Economy
+2567,VESPA,PX,,,,AED,12,months,Economy
+2568,VESPA,Primavera,,,,AED,12,months,Economy
+2569,VESPA,GTV,,,,AED,12,months,Economy
+2570,VESPA,LXV,,,,AED,12,months,Economy
+2571,VESPA,50,,,,AED,12,months,Economy
+2572,VESPA,ET,,,,AED,12,months,Economy
+2573,VESPA,125,,,,AED,12,months,Economy
+2574,VESPA,Cosa,,,,AED,12,months,Economy
+2575,VESPA,100,,,,AED,12,months,Economy
+2576,VESPA,PK,,,,AED,12,months,Economy
+2577,VESPA,90,,,,AED,12,months,Economy
+2578,VESPA,200,,,,AED,12,months,Economy
+2579,VESPA,Veloce,,,,AED,12,months,Economy
+2580,VESPA,SUPER,,,,AED,12,months,Economy
+2581,VESPA,TS 125,,,,AED,12,months,Economy
+2582,VESPA,GTR,,,,AED,12,months,Economy
+2583,VESPA,Rally,,,,AED,12,months,Economy
+2584,VESPA,SUPER SPORT,,,,AED,12,months,Economy
+2585,VESPA,GL,,,,AED,12,months,Economy
+2586,VESPA,GS,,,,AED,12,months,Economy
+2587,VESPA,UTILITARIA,,,,AED,12,months,Economy
+2588,VESPA,TAP,,,,AED,12,months,Economy
+2589,VESPA,98,,,,AED,12,months,Economy
+2590,VINCENT HRD,BLACK LIGHTNING S,,,,AED,12,months,Economy
+2591,VINCENT HRD,BLACK EAGLE,,,,AED,12,months,Economy
+2592,VINCENT HRD,BLACK LIGHTNING ST,,,,AED,12,months,Economy
+2593,VINCENT HRD,BLACK SHADOW,,,,AED,12,months,Economy
+2594,VINCENT HRD,SERIES A RAPIDE,,,,AED,12,months,Economy
+2595,BROUGH SUPERIOR,SS100,,,,AED,12,months,Economy
+2596,BROUGH SUPERIOR,SS80,,,,AED,12,months,Economy
+2597,BROUGH SUPERIOR,SS680,,,,AED,12,months,Economy
+2598,WRM,450 MX1,,,,AED,12,months,Economy
+2599,BRITTEN,V1000,,,,AED,12,months,Economy
+2600,BFG,1300,,,,AED,12,months,Economy
+2601,BARIGO,600 SM,,,,AED,12,months,Economy
+2602,BARIGO,Supermotard,,,,AED,12,months,Economy
+2603,BARIGO,MAGIE NOIRE,,,,AED,12,months,Economy
+2604,BARIGO,Tonic,,,,AED,12,months,Economy
+2605,BARIGO,500 RCB,,,,AED,12,months,Economy
+2606,SYM,MAXSYM,,,,AED,12,months,Economy
+2607,SYM,SYMBA,,,,AED,12,months,Economy
+2608,SYM,SYMPHONY,,,,AED,12,months,Economy
+2609,SYM,SYMPLY,,,,AED,12,months,Economy
+2610,APRILIA,RST,,,,AED,12,months,Economy
+2611,OSSA,Phantom 125,,,,AED,12,months,Economy
+2612,DUCATI,848,,,,AED,12,months,Economy
+2613,DUCATI,1098,,,,AED,12,months,Economy
+2614,DUCATI,1000,,,,AED,12,months,Economy
+2615,DUCATI,800,,,,AED,12,months,Economy
+2616,DUCATI,750,,,,AED,12,months,Economy
+2617,DUCATI,851,,,,AED,12,months,Economy
+2618,DUCATI,650,,,,AED,12,months,Economy
+2619,DUCATI,860,,,,AED,12,months,Economy
+2620,DUCATI,1200,,,,AED,12,months,Economy
+2621,Victory,V92TC Touring Cruiser,,,,AED,12,months,Economy
+2622,KTM,250,,,,AED,12,months,Economy
+2623,BETA,M4 Motard,,,,AED,12,months,Economy
+2624,KYMCO,G-Dink,,,,AED,12,months,Economy
+2625,KYMCO,New Sento,,,,AED,12,months,Economy
+2626,LAVERDA,OR 600 Atlas,,,,AED,12,months,Economy
+2627,LAVERDA,250 Chott,,,,AED,12,months,Economy
+2628,YAMAHA,YFZ 350,,,,AED,12,months,Economy
+2629,YAMAHA,YS,,,,AED,12,months,Economy
+2630,YAMAHA,V Max,,,,AED,12,months,Economy
+2631,YAMAHA,XT250,,,,AED,12,months,Economy
+2632,YAMAHA,Vity,,,,AED,12,months,Economy
+2633,YAMAHA,Road Star,,,,AED,12,months,Economy
+2634,YAMAHA,TRX,,,,AED,12,months,Economy
+2635,BSA,Fury,,,,AED,12,months,Economy
+2636,SACHS,ZX 125,,,,AED,12,months,Economy
+2637,MONDIAL,SMX,,,,AED,12,months,Economy
+2638,MONDIAL,ARGENT,,,,AED,12,months,Economy
+2639,MONDIAL,MR DESTRO,,,,AED,12,months,Economy
+2640,MOTO GUZZI,V 11 Sport,,,,AED,12,months,Economy
+2641,HUSQVARNA,STR 650 CRC Supermotard,,,,AED,12,months,Economy
+2642,MV AGUSTA,350 S Ipotesi,,,,AED,12,months,Economy
+2643,Suzuki,KingQuad,,,,AED,12,months,Economy
+2644,Suzuki,Marauder 125,,,,AED,12,months,Economy
+2645,ARCTIC CAT,150,,,,AED,12,months,Economy
+2646,Geely,JL150T-8,,,,AED,12,months,Economy
+2647,HENDERSON,ACE FOUR,,,,AED,12,months,Economy
+2648,RIEJU MOTORS,Tango 125,,,,AED,12,months,Economy
+2649,HARLEY DAVIDSON,SUPERLOW,,,,AED,12,months,Economy
+2650,HARLEY DAVIDSON,Street Glide,,,,AED,12,months,Economy
+2651,GG MOTORRAD,GG-Quadster,,,,AED,12,months,Economy
+2652,PIAGGIO,Typhoon 50,,,,AED,12,months,Economy
+2653,SWM,GRAN TURISMO,,,,AED,12,months,Economy
+2654,URAL,Wolf 750,,,,AED,12,months,Economy
+2655,VELOCETTE,L.E. Mk,,,,AED,12,months,Economy
+2656,VESPA,Granturismo,,,,AED,12,months,Economy
+2657,VESPA,GTS 250 i.e,,,,AED,12,months,Economy
+2658,VESPA,Sprint,,,,AED,12,months,Economy
+2659,VESPA,GTS,,,,AED,12,months,Economy
+2660,AJP,Enduro,,,,AED,12,months,Economy
+2661,AJP,SUPERMOTO,,,,AED,12,months,Economy
+2662,APRILIA,AF1,,,,AED,12,months,Economy
+2663,YAMAHA,Royal Star Venture,,,,AED,12,months,Economy
+2664,GHEZZI-BRIAN,V-TWIN,,,,AED,12,months,Economy
+2665,GHEZZI-BRIAN,V11,,,,AED,12,months,Economy
+2666,ZUNDAPP,TROPHY,,,,AED,12,months,Economy
+2667,ZUNDAPP,200 S,,,,AED,12,months,Economy
+2668,SCORPA,SC,,,,AED,12,months,Economy
+2669,Adler,1902,,,,AED,12,months,Economy
+2670,GG MOTORRAD,TAURUS,,,,AED,12,months,Economy
+2671,EBR Motorcycles,BLACK LIGHTING,,,,AED,12,months,Economy
+2672,GAS GAS,CONTACT ES,,,,AED,12,months,Economy
+2673,GAS GAS,SCHOOL,,,,AED,12,months,Economy
+2674,YAMAHA,NMAX,,,,AED,12,months,Economy
+2675,YAMAHA,TRACER,,,,AED,12,months,Economy
+2676,GILERA,Runner,,,,AED,12,months,Economy
+2677,GILERA,Fuoco,,,,AED,12,months,Economy
+2678,GILERA,TG1,,,,AED,12,months,Economy
+2679,HIGHLAND,DESERT X,,,,AED,12,months,Economy
+2680,HESKETH,24,,,,AED,12,months,Economy
+2681,HESKETH,SONNET,,,,AED,12,months,Economy
+2682,BARIGO,ORIXA,,,,AED,12,months,Economy
+2683,VESPA,SEI GIORNI,,,,AED,12,months,Economy
+2684,HARLEY DAVIDSON,FORTY-EIGHT,,,,AED,12,months,Economy
+2685,KTM,950 SuperMoto Orange,,,,AED,12,months,Economy
+2686,YAMAHA,Road Star Warrior 1700,,,,AED,12,months,Economy
+2687,YAMAHA,CS,,,,AED,12,months,Economy
+2688,Honda,CX 500 Turbo,,,,AED,12,months,Economy
+2689,Honda,INTEGRA,,,,AED,12,months,Economy
+2690,Honda,SW,,,,AED,12,months,Economy
+2691,Suzuki,SLINGSHOT,,,,AED,12,months,Economy
+2692,Suzuki,SG,,,,AED,12,months,Economy
+2693,Suzuki,SW,,,,AED,12,months,Economy
+2694,Suzuki,TV,,,,AED,12,months,Economy
+2695,Suzuki,Grass Tracker,,,,AED,12,months,Economy
+2696,Suzuki,RH,,,,AED,12,months,Economy
+2697,Suzuki,NZ,,,,AED,12,months,Economy
+2698,Suzuki,TC,,,,AED,12,months,Economy
+2699,Super SOCO,TC,,,,AED,12,months,Economy
+2700,Super SOCO,TS,,,,AED,12,months,Economy
+2701,HARLEY DAVIDSON,FXDR,,,,AED,12,months,Economy
+2702,TRIUMPH,Street Twin,,,,AED,12,months,Economy
+2703,TRIUMPH,Speed Twin,,,,AED,12,months,Economy
+2704,INDIAN,FTR,,,,AED,12,months,Economy
+2705,Mercedes-Benz,A250,,,,AED,12,months,Economy
+2706,Hyundai,Palisade,565,565,538.0952381,AED,12,months,Economy
+2707,MG,RX8,495,495,471.4285714,AED,12,months,Economy
+2708,Pontiac,TransAm,,,,AED,12,months,Economy
+2709,Kia,Pegas,350,350,333.3333333,AED,12,months,Economy
+2710,Mercedes-Benz,Smart,,,,AED,12,months,Economy
+2711,GMC,Savanna,,,,AED,12,months,Economy
+2712,Kia,Seltos,,,,AED,12,months,Economy
+2713,Lincoln,Aviator,565,565,538.0952381,AED,12,months,Economy
+2714,Mercedes-Benz,A35,,,,AED,12,months,Economy
+2715,Toyota,4Runner,415,415,395.2380952,AED,12,months,Economy
+2716,Infiniti,G25,377,377,359.047619,AED,12,months,Economy
+2717,MG,HS,495,495,471.4285714,AED,12,months,Economy
+2718,Chevrolet,Blazer,495,495,471.4285714,AED,12,months,Economy
+2719,Fiat,Lada,453,453,431.4285714,AED,12,months,Economy
+2720,Lancia,Delta,,,,AED,12,months,Economy
+2721,Ford,Motorhome,,,,AED,12,months,Economy
+2722,Kia,Sephia II,,,,AED,12,months,Economy
+2723,Dallara,Stradale,,,,AED,12,months,Economy
+2724,Ford,Shelby F150,565,565,538.0952381,AED,12,months,Economy
+2725,Toyota,Echo,315,315,300,AED,12,months,Economy
+2726,Toyota,Granvia,,,,AED,12,months,Economy
+2727,Toyota,Highlander Hybrid,415,415,395.2380952,AED,12,months,Economy
+2728,Mercedes-Benz,M-Class ML 350,,,,AED,12,months,Economy
+2729,Hummer,H1,453,453,431.4285714,AED,12,months,Economy
+2730,Fiat,124 spider,453,453,431.4285714,AED,12,months,Economy
+2731,Tesla,Model 3,,,,AED,12,months,Economy
+2732,Lexus,UX 200,415,415,395.2380952,AED,12,months,Economy
+2733,Nissan,Versa,350,350,333.3333333,AED,12,months,Economy
+2734,Toyota,C-HR,,,,AED,12,months,Economy
+2735,Hyundai,Ioniq,,,,AED,12,months,Economy
+2736,Victory,X1,,,,AED,12,months,Economy
+2737,Ford,Escort,453,453,431.4285714,AED,12,months,Economy
+2738,Opel,Grandland,,,,AED,12,months,Economy
+2739,Maxus,T60,,,,AED,12,months,Economy
+2740,BMW,M850i,630,630,600,AED,12,months,Economy
+2741,Buick,Enclave,,,,AED,12,months,Economy
+2742,Nissan,Rogue,453,453,431.4285714,AED,12,months,Economy
+2743,Smart,Fortwo,,,,AED,12,months,Economy
+2744,Cadillac,Deville 1965,,,,AED,12,months,Economy
+2745,Lincoln,Corsair,565,565,538.0952381,AED,12,months,Economy
+2746,Soueast,DX7,,,,AED,12,months,Economy
+2747,Volkswagen,Transporter,565,565,538.0952381,AED,12,months,Economy
+2748,Toyota,Wigo,,,,AED,12,months,Economy
+2749,Mercedes-Benz,GLB 35,,,,AED,12,months,Economy
+2750,Kia,K900,630,630,600,AED,12,months,Economy
+2751,Audi,E-Tron,,,,AED,12,months,Economy
+2752,Nissan,Titan,,,,AED,12,months,Economy
+2753,Infiniti,QX4,495,495,471.4285714,AED,12,months,Economy
+2754,Toyota,Tacoma,525,525,500,AED,12,months,Economy
+2755,Skoda,Kamiq,453,453,431.4285714,AED,12,months,Economy
+2756,Jeep,Gladiator,495,495,471.4285714,AED,12,months,Economy
+2757,AC,Cobra,,,,AED,12,months,Economy
+2758,Cadillac,CT4,495,495,471.4285714,AED,12,months,Economy
+2759,Cadillac,CT4-V,,,,AED,12,months,Economy
+2760,Cadillac,CT5,495,495,471.4285714,AED,12,months,Economy
+2761,Cadillac,CT5-V,,,,AED,12,months,Economy
+2762,Audi,RS Q8,630,630,600,AED,12,months,Economy
+2763,Ford,Thunderbird,515,515,490.4761905,AED,12,months,Economy
+2764,Mercedes-Benz,GLE 43 AMG,,,,AED,12,months,Economy
+2765,Mercedes-Benz,A200,,,,AED,12,months,Economy
+2766,Pagani,Wiesmann,,,,AED,12,months,Economy
+2767,Virat,Avatar,,,,AED,12,months,Economy
+2768,Mercedes-Benz,AMG E53,,,,AED,12,months,Economy
+2769,Mazda,CX30,377,377,359.047619,AED,12,months,Economy
+2770,CHEVELLE,SS396,,,,AED,12,months,Economy
+2771,Volkswagen,T-Roc,,,,AED,12,months,Economy
+2772,Mercedes-Benz,E300,,,,AED,12,months,Economy
+2773,Jetour,X70,565,565,538.0952381,AED,12,months,Economy
+2774,Jetour,X90,565,565,538.0952381,AED,12,months,Economy
+2775,Jetour,X95,565,565,538.0952381,AED,12,months,Economy
+2776,Cadillac,XT6,565,565,538.0952381,AED,12,months,Economy
+2777,Ford,E250,515,515,490.4761905,AED,12,months,Economy
+2778,Chevrolet,1958 Bel Air,,,,AED,12,months,Economy
+2779,Genesis,GV80,,,,AED,12,months,Economy
+2780,Suzuki,Ertiga,377,377,359.047619,AED,12,months,Economy
+2781,Mercedes-Benz,C 200,,,,AED,12,months,Economy
+2782,JAC,J7,453,453,431.4285714,AED,12,months,Economy
+2783,Toyota,Tercel,,,,AED,12,months,Economy
+2784,Changan,CS95,495,495,471.4285714,AED,12,months,Economy
+2785,Ferrari,SF90,,,,AED,12,months,Economy
+2786,Mercedes-Benz,GLC 300,,,,AED,12,months,Economy
+2787,GMC,Suburban,565,565,538.0952381,AED,12,months,Economy
+2788,BMW,325i,630,630,600,AED,12,months,Economy
+2789,Genesis,GV70,630,630,600,AED,12,months,Economy
+2790,BMW,318i,495,495,471.4285714,AED,12,months,Economy
+2791,BMW,420i,630,630,600,AED,12,months,Economy
+2792,BMW,430i,630,630,600,AED,12,months,Economy
+2793,BMW,520i,630,630,600,AED,12,months,Economy
+2794,BMW,740LI,630,630,600,AED,12,months,Economy
+2795,Land Rover,Range Rover HSE,630,630,600,AED,12,months,Economy
+2796,Land Rover,Range Rover Vogue,630,630,600,AED,12,months,Economy
+2797,Mercedes-Benz,C 300,,,,AED,12,months,Economy
+2798,Mercedes-Benz,E 400,,,,AED,12,months,Economy
+2799,Mercedes-Benz,S450,,,,AED,12,months,Economy
+2800,Mercedes-Benz,S500,,,,AED,12,months,Economy
+2801,Mercedes-Benz,V250,,,,AED,12,months,Economy
+2802,Lexus,RX350,415,415,395.2380952,AED,12,months,Economy
+2803,Mitsubishi,Xpander,415,415,395.2380952,AED,12,months,Economy
+2804,Jaguar,I-pace,,,,AED,12,months,Economy
+2805,UAZ,Hunter,,,,AED,12,months,Economy
+2806,Toyota,Corolla Cross,315,315,300,AED,12,months,Economy
+2807,Toyota,Crown,415,415,395.2380952,AED,12,months,Economy
+2808,BMW,i3,,,,AED,12,months,Economy
+2809,Mercedes-Benz,GLA-200,,,,AED,12,months,Economy
+2810,Nissan,Terrano,,,,AED,12,months,Economy
+2811,Toyota,Celica GT,,,,AED,12,months,Economy
+2812,Maxus,D90,,,,AED,12,months,Economy
+2813,Haval,Jolion,495,495,471.4285714,AED,12,months,Economy
+2814,Saturn,Sky,,,,AED,12,months,Economy
+2815,BMW,320i,565,565,538.0952381,AED,12,months,Economy
+2816,Mitsubishi,Canter,415,415,395.2380952,AED,12,months,Economy
+2817,Nissan,UD,,,,AED,12,months,Economy
+2818,Toyota,Stout,,,,AED,12,months,Economy
+2819,CHEVELLE,1959,,,,AED,12,months,Economy
+2820,Toyota,IQ,,,,AED,12,months,Economy
+2821,Chevrolet,Groove LT,495,495,471.4285714,AED,12,months,Economy
+2822,Kia,K5,495,495,471.4285714,AED,12,months,Economy
+2823,Abarth,595,,,,AED,12,months,Economy
+2824,Abarth,595 Turismo,,,,AED,12,months,Economy
+2825,Abarth,595 Competizione,,,,AED,12,months,Economy
+2826,Abarth,595 Esseesse,,,,AED,12,months,Economy
+2827,Abarth,F595,,,,AED,12,months,Economy
+2828,Abarth,695 70° Anniversario,,,,AED,12,months,Economy
+2829,Abarth,695 Esseesse,,,,AED,12,months,Economy
+2830,Abarth,695 RIVALE,,,,AED,12,months,Economy
+2831,Abarth,PUNTO SCORPIONE,,,,AED,12,months,Economy
+2832,Toyota,Venza,,,,AED,12,months,Economy
+2833,BAIC,BJ40,,,,AED,12,months,Economy
+2834,Bestune,T99s,,,,AED,12,months,Economy
+2835,Plymouth,GTX 1970,,,,AED,12,months,Economy
+2836,Porsche,964,495,495,471.4285714,AED,12,months,Economy
+2837,Tesla,Model Y,,,,AED,12,months,Economy
+2838,MG,GT,,,,AED,12,months,Economy
+2839,Toyota,Mark II,,,,AED,12,months,Economy
+2840,Toyota,Century,415,415,395.2380952,AED,12,months,Economy
+2841,FAW,Bestune T33,,,,AED,12,months,Economy
+2842,Volkswagen,Caddy,453,453,431.4285714,AED,12,months,Economy
+2843,Changan,CS85,495,495,471.4285714,AED,12,months,Economy
+2844,Opel,Crossland,,,,AED,12,months,Economy
+2845,Ferrari,F40,,,,AED,12,months,Economy
+2846,Ferrari,Enzo,,,,AED,12,months,Economy
+2847,Bestune,T33,,,,AED,12,months,Economy
+2848,Volkswagen,Atlas,,,,AED,12,months,Economy
+2849,Dodge,Caravan,495,495,471.4285714,AED,12,months,Economy
+2850,MG,Crossover,495,495,471.4285714,AED,12,months,Economy
+2851,Toyota,Raize,,,,AED,12,months,Economy
+2852,Skoda,Scala,495,495,471.4285714,AED,12,months,Economy
+2853,Volkswagen,ID.4,,,,AED,12,months,Economy
+2854,Nissan,Cedric,,,,AED,12,months,Economy
+2855,Peugeot,Traveller,495,495,471.4285714,AED,12,months,Economy
+2856,Great Wall,Pouer,,,,AED,12,months,Economy
+2857,Land Rover,Autobiography,630,630,600,AED,12,months,Economy
+2858,Changan,Uni-K,,,,AED,12,months,Economy
+2859,Chery,P5,,,,AED,12,months,Economy
+2860,Hongqi,HS5,,,,AED,12,months,Economy
+2861,Hongqi,H9,,,,AED,12,months,Economy
+2862,Dorcen,G70S,,,,AED,12,months,Economy
+2863,Infiniti,I35,415,415,395.2380952,AED,12,months,Economy
+2864,Kia,Sonet,,,,AED,12,months,Economy
+2865,Haval,Dorga,,,,AED,12,months,Economy
+2866,Haval,Dargo,495,495,471.4285714,AED,12,months,Economy
+2867,Bestune,T77,,,,AED,12,months,Economy
+2868,TVS Apache,RR310,,,,AED,12,months,Economy
+2869,Infiniti,QX55,415,415,395.2380952,AED,12,months,Economy
+2870,Leapmotor,C11,,,,AED,12,months,Economy
+2871,Toyota,Alphard,,,,AED,12,months,Economy
+2872,Ferrari,Roma,,,,AED,12,months,Economy
+2873,Ford,Territory,495,495,471.4285714,AED,12,months,Economy
+2874,Mercedes-Benz,GLA 200,,,,AED,12,months,Economy
+2875,GAC,GN6,495,495,471.4285714,AED,12,months,Economy
+2876,Soueast,DX5,,,,AED,12,months,Economy
+2877,Sanya,SY150,,,,AED,12,months,Economy
+2878,Austin-Healey,3000,,,,AED,12,months,Economy
+2879,Porsche,Taycan,,,,AED,12,months,Economy
+2880,Chevrolet,Groove Premium,495,495,471.4285714,AED,12,months,Economy
+2881,Volvo,Polestar 2,,,,AED,12,months,Economy
+2882,Hyundai,Staria,,,,AED,12,months,Economy
+2883,Maserati,Grecale,,,,AED,12,months,Economy
+2884,Toyota,Veloz,,,,AED,12,months,Economy
+2885,Mercedes-Benz,E350,,,,AED,12,months,Economy
+2886,Ferrari,296 GTB,,,,AED,12,months,Economy
+2887,JAC,JS4,453,453,431.4285714,AED,12,months,Economy
+2888,Skoda,Kushaq,495,495,471.4285714,AED,12,months,Economy
+2889,MG,One,,,,AED,12,months,Economy
+2890,Geely,Coolray,453,453,431.4285714,AED,12,months,Economy
+2891,Geely,Coolray SUV,,,,AED,12,months,Economy
+2892,Lotus,Emira,,,,AED,12,months,Economy
+2893,Mitsubishi,L300,415,415,395.2380952,AED,12,months,Economy
+2894,Mazda,RX7,415,415,395.2380952,AED,12,months,Economy
+2895,Forthing,U-Tour,,,,AED,12,months,Economy
+2896,Ferrari,F8 Spider,,,,AED,12,months,Economy
+2897,Toyota,Urban Cruiser,415,415,395.2380952,AED,12,months,Economy
+2898,BMW,iX,,,,AED,12,months,Economy
+2899,Bestune,B70,,,,AED,12,months,Economy
+2900,Nissan,Quest,,,,AED,12,months,Economy
+2901,Lexus,LM,415,415,395.2380952,AED,12,months,Economy
+2902,Ford,E-350,,,,AED,12,months,Economy
+2903,GAC,EMPOW,,,,AED,12,months,Economy
+2904,NWTN,RabDan One,,,,AED,12,months,Economy
+2905,NWTN,Nwone,,,,AED,12,months,Economy
+2906,Toyota,LiteAce,,,,AED,12,months,Economy
+2907,Mercedes-Benz,GLB 250,,,,AED,12,months,Economy
+2908,Jetour,Dashing,,,,AED,12,months,Economy
+2909,Honda,ZR-V,,,,AED,12,months,Economy
+2910,Hyundai,Equus,630,630,600,AED,12,months,Economy
+2911,Geely,Monjaro,453,453,431.4285714,AED,12,months,Economy
+2912,Suzuki,FRONX,377,377,359.047619,AED,12,months,Economy
+2913,Forthing,T5 EVO,,,,AED,12,months,Economy
+2914,GWM,Tank,,,,AED,12,months,Economy
+2915,Mercedes-Benz,G55,,,,AED,12,months,Economy
+2916,BMW,118i,495,495,471.4285714,AED,12,months,Economy
+2917,Changan,UNI-T,,,,AED,12,months,Economy
+2918,Exeed,TXL,,,,AED,12,months,Economy
+2919,Alfa Romeo,Tonale,495,495,471.4285714,AED,12,months,Economy
+2920,Chevrolet,Convertible 1939,,,,AED,12,months,Economy
+2921,Mercedes-Benz,ML500,,,,AED,12,months,Economy
+2922,Hyundai,Venue,,,,AED,12,months,Economy
+2923,Nissan,Z,,,,AED,12,months,Economy
+2924,KAIYI,X3 Pro,,,,AED,12,months,Economy
+2925,MG,KIT CAR,495,495,471.4285714,AED,12,months,Economy
+2926,BMW,330i,,,,AED,12,months,Economy
+2927,Kia,Forte,,,,AED,12,months,Economy
+2928,Chery,Exeed RX,,,,AED,12,months,Economy
+2929,INEOS,Grenadier,,,,AED,12,months,Economy
+2930,Geely,Tugella,,,,AED,12,months,Economy
+2931,YAMAHA,XJ900,,,,AED,12,months,Economy
+2932,Exeed,RX,,,,AED,12,months,Economy
+2933,Exeed,VX,,,,AED,12,months,Economy
+2934,Mazda,CX-60,,,,AED,12,months,Economy
+2935,Mercedes-Benz,GLB,,,,AED,12,months,Economy
+2936,BMW,XM,,,,AED,12,months,Economy
+2937,Geely,Geometry C,,,,AED,12,months,Economy
+2938,Ferrari,550,,,,AED,12,months,Economy
+2939,Kia,Sedona,,,,AED,12,months,Economy
+2940,Suzuki,Eeco,,,,AED,12,months,Economy
+2941,Kia,K8,,,,AED,12,months,Economy
+2942,BAIC,X7,,,,AED,12,months,Economy
+2943,LADA,Niva,,,,AED,12,months,Economy
+2944,Volvo,Polestar 1,,,,AED,12,months,Economy
+2945,Toyota,Scion,,,,AED,12,months,Economy
+2946,Changan,Uni-V,,,,AED,12,months,Economy
+2947,Jetour,T2,,,,AED,12,months,Economy
+2948,DFSK Motor,Fengon 500,,,,AED,12,months,Economy
+2949,DFSK Motor,Fengon 580,,,,AED,12,months,Economy
+2950,DFSK Motor,Fengon IX5,,,,AED,12,months,Economy
+2951,DFSK Motor,Fengon 600,,,,AED,12,months,Economy
+2952,DFSK Motor,Fengon IX7,,,,AED,12,months,Economy
+2953,GAC,EMKOO,,,,AED,12,months,Economy
+2954,Skoda,Karoq,,,,AED,12,months,Economy
+2955,Mercedes-Benz,GLC 200,,,,AED,12,months,Economy
+2956,Rezvani Motors,Rezvani TANK,,,,AED,12,months,Economy
+2957,Chery,Tiggo 8,,,,AED,12,months,Economy
+2958,Mercedes-Benz,ML400,,,,AED,12,months,Economy
+2959,BYD,ATTO 3,,,,AED,12,months,Economy
+2960,Citroen,SpaceTourer,,,,AED,12,months,Economy
+2961,Rivian,R1S,,,,AED,12,months,Economy
+2962,Rivian,R1T,,,,AED,12,months,Economy
+2963,Mercedes-Benz,EQS,,,,AED,12,months,Economy
+2964,Hino,714,,,,AED,12,months,Economy
+2965,Hino,916,,,,AED,12,months,Economy
+2966,Mercedes,815,,,,AED,12,months,Economy
+2967,Mercedes,916,,,,AED,12,months,Economy
+2968,Mitsubishi,Fuso Canter 6.5 ton GVW,,,,AED,12,months,Economy
+2969,Mitsubishi,Fuso Canter 8.5 ton GVW,,,,AED,12,months,Economy
+2970,HONDA,CBR,,,,AED,12,months,Economy
+2971,VICTORY,Judge,,,,AED,12,months,Economy
+2972,SUZUKI,JR 50,,,,AED,12,months,Economy
+2973,Boat,Boat,,,,AED,12,months,Economy
+2974,SUZUKI,Boulevard,,,,AED,12,months,Economy
+2975,HONDA,CB,,,,AED,12,months,Economy
+2976,SUZUKI,GSX-R,,,,AED,12,months,Economy
+2977,SUZUKI,B 120,,,,AED,12,months,Economy
+2978,HONDA,GOLD WING,,,,AED,12,months,Economy
+2979,HONDA,Dream 50 R,,,,AED,12,months,Economy
+2980,Motorcycle,Motorcycle,,,,AED,12,months,Economy
+2981,SUZUKI,Quad,,,,AED,12,months,Economy
+2982,SUZUKI,HAYABUSA,,,,AED,12,months,Economy
+2983,SUZUKI,TL 1000,,,,AED,12,months,Economy
+2984,HONDA,CG,,,,AED,12,months,Economy
+2985,HONDA,CBX,,,,AED,12,months,Economy
+2986,HONDA,ATC,,,,AED,12,months,Economy
+2987,HONDA,CD,,,,AED,12,months,Economy
+2988,HONDA,CBF,,,,AED,12,months,Economy
+2989,HONDA,Big Red,,,,AED,12,months,Economy
+2990,HONDA,CT,,,,AED,12,months,Economy
+2991,HONDA,Crossrunner,,,,AED,12,months,Economy
+2992,HONDA,Scooters,,,,AED,12,months,Economy
+2993,HONDA,Shadow,,,,AED,12,months,Economy
+2994,HONDA,Super 90,,,,AED,12,months,Economy
+2995,HONDA,GL1800C,,,,AED,12,months,Economy
+2996,HONDA,Big Ruckus,,,,AED,12,months,Economy
+2997,HONDA,CRF,,,,AED,12,months,Economy
+2998,HONDA,XR,,,,AED,12,months,Economy
+2999,SUZUKI,GSR,,,,AED,12,months,Economy
+3000,HONDA,CRF250X,,,,AED,12,months,Economy
+3001,SUZUKI,VL 125 Intruder,,,,AED,12,months,Economy
+3002,HONDA,C,,,,AED,12,months,Economy
+3003,HONDA,CA,,,,AED,12,months,Economy
+3004,HONDA,NC,,,,AED,12,months,Economy
+3005,HONDA,FMX 650,,,,AED,12,months,Economy
+3006,HONDA,VT,,,,AED,12,months,Economy
+3007,HONDA,NR 750,,,,AED,12,months,Economy
+3008,SUZUKI,GSX-S,,,,AED,12,months,Economy
+3009,SUZUKI,A,,,,AED,12,months,Economy
+3010,HONDA,XL,,,,AED,12,months,Economy
+3011,SUZUKI,GP 125,,,,AED,12,months,Economy
+3012,SUZUKI,RH,,,,AED,12,months,Economy
+3013,HONDA,T,,,,AED,12,months,Economy
+3014,HONDA,DN-01,,,,AED,12,months,Economy
+3015,HONDA,CN 250,,,,AED,12,months,Economy
+3016,SUZUKI,GSX,,,,AED,12,months,Economy
+3017,HONDA,NSF100,,,,AED,12,months,Economy
+3018,HONDA,PIONEER,,,,AED,12,months,Economy
+3019,HONDA,LS 125 R,,,,AED,12,months,Economy
+3020,SUZUKI,Boulevard C50,,,,AED,12,months,Economy
+3021,SUZUKI,DR,,,,AED,12,months,Economy
+3022,SUZUKI,Intruder,,,,AED,12,months,Economy
+3023,HONDA,Grom,,,,AED,12,months,Economy
+3024,SUZUKI,VX 800,,,,AED,12,months,Economy
+3025,HONDA,AX,,,,AED,12,months,Economy
+3026,HONDA,SH,,,,AED,12,months,Economy
+3027,SUZUKI,Burgman,,,,AED,12,months,Economy
+3028,VICTORY,Kingpin,,,,AED,12,months,Economy
+3029,SUZUKI,GSR 600,,,,AED,12,months,Economy
+3030,VICTORY,Hammer,,,,AED,12,months,Economy
+3031,HONDA,SX,,,,AED,12,months,Economy
+3032,HONDA,Forza,,,,AED,12,months,Economy
+3033,HONDA,ST,,,,AED,12,months,Economy
+3034,HONDA,CM,,,,AED,12,months,Economy
+3035,GEELY,JL 150 - 4,,,,AED,12,months,Economy
+3036,HONDA,CS,,,,AED,12,months,Economy
+3037,HONDA,VFR,,,,AED,12,months,Economy
+3038,HONDA,Rebel,,,,AED,12,months,Economy
+3039,SUZUKI,LS,,,,AED,12,months,Economy
+3040,HONDA,VTX,,,,AED,12,months,Economy
+3041,HONDA,SL,,,,AED,12,months,Economy
+3042,VICTORY,Vision,,,,AED,12,months,Economy
+3043,INDIAN,PULSAR,,,,AED,12,months,Economy
+3044,SUZUKI,Inazuma 400,,,,AED,12,months,Economy
+3045,SUZUKI,Bandit,,,,AED,12,months,Economy
+3046,HONDA,FX,,,,AED,12,months,Economy
+3047,HONDA,FourTrax Foreman 4x4,,,,AED,12,months,Economy
+3048,HONDA,CHF,,,,AED,12,months,Economy
+3049,HONDA,MVX,,,,AED,12,months,Economy
+3050,SUZUKI,GS,,,,AED,12,months,Economy
+3051,HONDA,RUCKUS,,,,AED,12,months,Economy
+3052,HONDA,X-Eleven,,,,AED,12,months,Economy
+3053,SUZUKI,Boulevard M95,,,,AED,12,months,Economy
+3054,HONDA,CTX,,,,AED,12,months,Economy
+3055,HONDA,PCX,,,,AED,12,months,Economy
+3056,HONDA,SW,,,,AED,12,months,Economy
+3057,HONDA,Silver Wing,,,,AED,12,months,Economy
+3058,HONDA,CR,,,,AED,12,months,Economy
+3059,HONDA,GB Clubman,,,,AED,12,months,Economy
+3060,VICTORY,Cross Country,,,,AED,12,months,Economy
+3061,HONDA,CX,,,,AED,12,months,Economy
+3062,HONDA,TRX,,,,AED,12,months,Economy
+3063,PEUGEOT,Elyseo,,,,AED,12,months,Economy
+3064,HONDA,XBR 500,,,,AED,12,months,Economy
+3065,SUZUKI,JR 80,,,,AED,12,months,Economy
+3066,HONDA,VTR,,,,AED,12,months,Economy
+3067,HONDA,CL,,,,AED,12,months,Economy
+3068,HONDA,MSX,,,,AED,12,months,Economy
+3069,HONDA,GL,,,,AED,12,months,Economy
+3070,SUZUKI,NZ,,,,AED,12,months,Economy
+3071,HONDA,X-ADV,,,,AED,12,months,Economy
+3072,HONDA,VF,,,,AED,12,months,Economy
+3073,VICTORY,Jackpot,,,,AED,12,months,Economy
+3074,HONDA,CRM,,,,AED,12,months,Economy
+3075,VICTORY,Magnum,,,,AED,12,months,Economy
+3076,HONDA,CJ,,,,AED,12,months,Economy
+3077,HONDA,F6B,,,,AED,12,months,Economy
+3078,HONDA,Navi,,,,AED,12,months,Economy
+3079,HONDA,FT,,,,AED,12,months,Economy
+3080,SUZUKI,Biplane,,,,AED,12,months,Economy
+3081,HONDA,NSC,,,,AED,12,months,Economy
+3082,PEUGEOT,BLASTER,,,,AED,12,months,Economy
+3083,HONDA,X4,,,,AED,12,months,Economy
+3084,VICTORY,Boardwalk,,,,AED,12,months,Economy
+3085,HONDA,Steed 400,,,,AED,12,months,Economy
+3086,SUZUKI,VZ,,,,AED,12,months,Economy
+3087,HONDA,NM4,,,,AED,12,months,Economy
+3088,SUZUKI,Ozark 250 LTF250K,,,,AED,12,months,Economy
+3089,VICTORY,Vegas,,,,AED,12,months,Economy
+3090,SUZUKI,GF 250,,,,AED,12,months,Economy
+3091,PEUGEOT,1902,,,,AED,12,months,Economy
+3092,HONDA,VRX 400 Roadster,,,,AED,12,months,Economy
+3093,SUZUKI,Vinson,,,,AED,12,months,Economy
+3094,SUZUKI,GSX-F,,,,AED,12,months,Economy
+3095,SUZUKI,V-Strom 650,,,,AED,12,months,Economy
+3096,SUZUKI,KingQuad,,,,AED,12,months,Economy
+3097,HONDA,NT,,,,AED,12,months,Economy
+3098,SUZUKI,Marauder 125,,,,AED,12,months,Economy
+3099,VICTORY,Cross Roads,,,,AED,12,months,Economy
+3100,HONDA,CLR,,,,AED,12,months,Economy
+3101,HONDA,FourTrax,,,,AED,12,months,Economy
+3102,HONDA,Fury,,,,AED,12,months,Economy
+3103,HONDA,RVF,,,,AED,12,months,Economy
+3104,SUZUKI,Gladius,,,,AED,12,months,Economy
+3105,HONDA,GLX,,,,AED,12,months,Economy
+3106,HONDA,PC 800 Pacific Coast,,,,AED,12,months,Economy
+3107,HONDA,TMAX,,,,AED,12,months,Economy
+3108,HONDA,Valkyrie,,,,AED,12,months,Economy
+3109,HONDA,NX,,,,AED,12,months,Economy
+3110,HONDA,Crosstourer,,,,AED,12,months,Economy
+3111,HONDA,RC,,,,AED,12,months,Economy
+3112,HONDA,INTEGRA,,,,AED,12,months,Economy
+3113,MG,Whale,,,,AED,12,months,Economy
+3135,SUZUKI,RV,,,,AED,12,months,Economy
+3136,JAC,T8,,,,AED,12,months,Economy
+3137,Great Wall,Tank 300,,,,AED,12,months,Economy
+3138,BMW,Motorcycle,,,,AED,12,months,Economy
+3139,Ford,Captiva,,,,AED,12,months,Economy
+3140,Dodge,Journey,,,,AED,12,months,Economy
+3168,Rolls Royce,Corniche,,,,AED,12,months,Economy
+3169,Noble,Maxima,,,,AED,12,months,Economy
+3170,Noble,Kicks,,,,AED,12,months,Economy
+3171,BMW,G 310 R,,,,AED,12,months,Economy
+3172,Honda,Unicorn,,,,AED,12,months,Economy
+3173,Honda,Unicorn 160,,,,AED,12,months,Economy
+3174,Toyota,Hiace Hi Roof,,,,AED,12,months,Economy
+3201,Geely,Starray,,,,AED,12,months,Economy
+3202,HERO,HUNK,,,,AED,12,months,Economy
+3203,JAC,JS6,,,,AED,12,months,Economy
+3204,Kia,Ray,,,,AED,12,months,Economy
+3205,Mercedes-Benz,EQE SUV,,,,AED,12,months,Economy
+3206,BAIC,BJ60,,,,AED,12,months,Economy
+3207,Mazda,CX-90,,,,AED,12,months,Economy
+3208,Mercedes-Benz,GLE 450,,,,AED,12,months,Economy
+3209,Aston Martin,DBX,,,,AED,12,months,Economy
+3210,GWM,Poer,,,,AED,12,months,Economy
+3211,BYD,Song,,,,AED,12,months,Economy
+3212,MG,MG7,,,,AED,12,months,Economy
+3213,Li Auto,L9,,,,AED,12,months,Economy
+3214,Seres,Seres 7,,,,AED,12,months,Economy
+3215,Exeed,LX,,,,AED,12,months,Economy
+3216,Geely,Okavango,,,,AED,12,months,Economy
+3217,Rolls Royce,Spectre,,,,AED,12,months,Economy
+3218,Chevrolet,Cavalier,,,,AED,12,months,Economy
+3219,Changan,Alsvin,,,,AED,12,months,Economy
+3220,Mercedes-Benz,GLE 350,,,,AED,12,months,Economy
+3221,Ford,Lincoln,,,,AED,12,months,Economy
+3222,Polaris,Slingshot,,,,AED,12,months,Economy
+3223,Hongqi,HS3,,,,AED,12,months,Economy
+3224,Cadillac,XT4,,,,AED,12,months,Economy
+3225,BYD,Han,,,,AED,12,months,Economy
+3226,BYD,QIN Plus,,,,AED,12,months,Economy
+3227,Peugeot,ION,,,,AED,12,months,Economy
+3228,Kia,K3,,,,AED,12,months,Economy
+3229,Volvo,C303,,,,AED,12,months,Economy
+3231,BAIC,X55,,,,AED,12,months,Economy
+3232,Tesla,Cybertruck,,,,AED,12,months,Economy
+3234,Lynk & Co,5,,,,AED,12,months,Economy
+3267,Rox,1,,,,AED,12,months,Economy
+3300,Kia,Niro,,,,AED,12,months,Economy
+3333,Chery,Tiggo 4,,,,AED,12,months,Economy
+3366,BAIC,X65,,,,AED,12,months,Economy
+3399,Geely,Preface,,,,AED,12,months,Economy
+3432,Voyah,Free,,,,AED,12,months,Economy
+3465,Mercedes-Benz,CLA 250,,,,AED,12,months,Economy
+3498,Sharmax,nx150,,,,AED,12,months,Economy
+3499,Lucid,Air,,,,AED,12,months,Economy
+3531,Volkswagen,ID.6,,,,AED,12,months,Economy
+3564,Mercedes-Benz,S600,,,,AED,12,months,Economy
+3597,Volvo,C40,,,,AED,12,months,Economy
+3598,GAC,M8,,,,AED,12,months,Economy
+3599,JAC,M4,,,,AED,12,months,Economy
+3630,Ford,Excursion,,,,AED,12,months,Economy
+3663,Zeekr,1,,,,AED,12,months,Economy
+3696,Cadillac,Eldorado,,,,AED,12,months,Economy
+3729,Mercedes-Benz,E320,,,,AED,12,months,Economy
+3762,Ferrari,Purosangue,,,,AED,12,months,Economy
+3795,KAIYI,X-3,,,,AED,12,months,Economy
+3796,KAIYI,E-5,,,,AED,12,months,Economy
+3797,KAIYI,X-7,,,,AED,12,months,Economy
+3828,JAC,E30X,,,,AED,12,months,Economy
+3861,Mercedes-Benz,GLS 500,,,,AED,12,months,Economy
+3862,Volvo,FL7,,,,AED,12,months,Economy
+3863,Xpeng,G9,,,,AED,12,months,Economy
+3894,Dongfeng,S16,,,,AED,12,months,Economy
+3927,Mercedes-Benz,GLS 600,,,,AED,12,months,Economy
+3960,Infiniti,M37,,,,AED,12,months,Economy
+3961,VGV,U75 Plus,,,,AED,12,months,Economy
+3962,Volvo,Ex30,,,,AED,12,months,Economy
+3963,GMC,Canyon,,,,AED,12,months,Economy
+3993,Jetour,X50,,,,AED,12,months,Economy
+4026,Mercedes-Benz,GL 500,,,,AED,12,months,Economy
+4059,BYD,Seal,,,,AED,12,months,Economy
+4060,Renault,Arkana,,,,AED,12,months,Economy
+4092,Lexus,UX 300h,,,,AED,12,months,Economy
+4125,Dongfeng,Mage,,,,AED,12,months,Economy
+4158,Ferrari,Monza SP1,,,,AED,12,months,Economy
+4159,Ferrari,Monza SP2,,,,AED,12,months,Economy
+4160,Ferrari,Daytona SP3,,,,AED,12,months,Economy
+4161,Mercedes-Benz,S580,,,,AED,12,months,Economy
+4191,Bestune,T90,,,,AED,12,months,Economy
+4224,Iveco,Daily,,,,AED,12,months,Economy
+4257,MG,RX9,,,,AED,12,months,Economy

@@ -1,0 +1,1038 @@
+{
+	"info": {
+		"_postman_id": "4003c1da-30d9-4aa1-afb5-c496eb6ef102",
+		"name": "CAFU",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29682586",
+		"_collection_link": "https://extremesync.postman.co/workspace/My-Workspace~f7301d9f-f7eb-4285-83e7-0576856bbc98/collection/29682586-4003c1da-30d9-4aa1-afb5-c496eb6ef102?action=share&source=collection_link&creator=29682586"
+	},
+	"item": [
+		{
+			"name": "Media",
+			"item": [
+				{
+					"name": "Upload Media [BG Image]",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-us"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/Users/alihusainsorathiya/Desktop/image.png"
+								},
+								{
+									"key": "metadata",
+									"value": "{\n  \"name\": \"servicing_content\",\n  \"collection\": \"content\",\n  \"order_column\": 1,\n  \"disk\": \"s3\",\n  \"is_public\": true,\n  \"relation\": {\n    \"owner_id\": \"1057\",\n    \"owner_type\": \"items\",\n    \"owner_service\": \"catalog\"\n  }\n}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://media.global.dev.cafu.app/api/v1/media",
+							"protocol": "https",
+							"host": [
+								"media",
+								"global",
+								"dev",
+								"cafu",
+								"app"
+							],
+							"path": [
+								"api",
+								"v1",
+								"media"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Tyre Catalog",
+			"item": [
+				{
+					"name": "File Upload",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "{{TOKEN}}"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/Users/alihusainsorathiya/Downloads/10thjan.csv"
+								},
+								{
+									"key": "vertical",
+									"value": "tyre",
+									"type": "text"
+								},
+								{
+									"key": "file_type",
+									"value": "tyres",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/api/v1/catalog/upload-file",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"catalog",
+								"upload-file"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "File Upload - Battery",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "{{TOKEN}}"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/Users/alihusainsorathiya/Downloads/Battery Catalog Update - BOT - new_prm.csv"
+								},
+								{
+									"key": "vertical",
+									"value": "battery",
+									"type": "text"
+								},
+								{
+									"key": "file_type",
+									"value": "price_range_vehicle_model",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/api/v1/catalog/upload-file",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"catalog",
+								"upload-file"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "File Upload - Servicing",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJraWQiOiIwOHZFMks4Z0g4NXZyUXBQa29JVUZVWmtLYWpaVjluUnBVM3o5TFFPZW1nPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJjM2Q3MDQ2MS0yNDBmLTQ3NTUtODJiOC1hZTkxYjYzNTlhNmEiLCJjb2duaXRvOmdyb3VwcyI6WyJldS13ZXN0LTFfejU1UVZMRlM1X2F6dXJlQUQtaWRlbnRpdHktcHJvdmlkZXIiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmV1LXdlc3QtMS5hbWF6b25hd3MuY29tXC9ldS13ZXN0LTFfejU1UVZMRlM1IiwidmVyc2lvbiI6MiwiY2xpZW50X2lkIjoiNjhrbzRqYTQ1NW9uMGNmc2JlN211Z3IwazkiLCJvcmlnaW5fanRpIjoiMzljZGY3NTQtZTgzYi00ZWFkLTgyM2UtMTFlYjUyNTY2MjI3IiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiBwaG9uZSBvcGVuaWQgZW1haWwiLCJhdXRoX3RpbWUiOjE3MzI1MTc1NDEsImV4cCI6MTczMjUyMTE0MSwiaWF0IjoxNzMyNTE3NTQxLCJqdGkiOiI5NzE5Yzc1NS1iM2Y2LTQ0ZDAtYmFmNy1mYjlhMDZjNzJhMDIiLCJ1c2VybmFtZSI6ImF6dXJlYWQtaWRlbnRpdHktcHJvdmlkZXJfYWxpLnNvcmF0aGl5YUBjYWZ1LmNvbSJ9.hZeOBBH_KZFCqjBUbRx5q8a60qN0DZCCA-2glsFNSr6p8uZGaDjB-quElB8WQ5xypJWNOfrfHCgw-bL4izH2ZT82cUVEGDfa-uskKCY0IFX7HpufyEwj4sWEY1tz9YUqxAyFCydoifxR5SgjqnnwOkmVGsjKoeITJGJlMmLwWmYHcSdqrQmIEq4ACJKJFEFxziLx--akG78cSsxxBbBnnGzFeHjrB1Jd3roFctZoQv3ZbLY9xVOJQmtrenbw5XhbLdiQ1n_-g970DUi9bkjSW25FnDL58XmYi8wkyv8g_eruKd7wrVWB6LbP-u5EFaZuZEt0yTf_zc80pZLQnhPu_Q"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/Users/alihusainsorathiya/Desktop/Servicing Catalog Update - BOT - 22ndNovMobil.csv"
+								},
+								{
+									"key": "vertical",
+									"value": "servicing",
+									"type": "text"
+								},
+								{
+									"key": "file_type",
+									"value": "price_range_vehicle_model",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/api/v1/catalog/upload-file",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"catalog",
+								"upload-file"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "File Upload brands",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJraWQiOiIwOHZFMks4Z0g4NXZyUXBQa29JVUZVWmtLYWpaVjluUnBVM3o5TFFPZW1nPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJjM2Q3MDQ2MS0yNDBmLTQ3NTUtODJiOC1hZTkxYjYzNTlhNmEiLCJjb2duaXRvOmdyb3VwcyI6WyJldS13ZXN0LTFfejU1UVZMRlM1X2F6dXJlQUQtaWRlbnRpdHktcHJvdmlkZXIiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmV1LXdlc3QtMS5hbWF6b25hd3MuY29tXC9ldS13ZXN0LTFfejU1UVZMRlM1IiwidmVyc2lvbiI6MiwiY2xpZW50X2lkIjoiNjhrbzRqYTQ1NW9uMGNmc2JlN211Z3IwazkiLCJvcmlnaW5fanRpIjoiY2UxZDEwMjgtODUxMy00MDRhLThmOGQtNzhjMjAxMzU4N2VjIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiBwaG9uZSBvcGVuaWQgZW1haWwiLCJhdXRoX3RpbWUiOjE3MzIwMDA4MDIsImV4cCI6MTczMjEwMzE2OSwiaWF0IjoxNzMyMDk5NTY5LCJqdGkiOiI3ZTJmMWNiMi03Njg2LTRhMTktYmM1OC1iMDE2OWE3NTY5OTYiLCJ1c2VybmFtZSI6ImF6dXJlYWQtaWRlbnRpdHktcHJvdmlkZXJfYWxpLnNvcmF0aGl5YUBjYWZ1LmNvbSJ9.xFy5rHv8QPX9BE0waep33p5npNl1e4CozSAS2E4Fjf9iSsgYbOxUOQE0CEKfOZ2-WOJg7b8l586z6kI6OCOX0wUh7YJIICckB8_nUfSswwZ2GyctO8r3WAG9ghwZgRMl2KYfpi3i9m7SHP6eLEBzo3yYilRiNPF64m_n8sUEbfcBpPFhC1sXfuk9GB2LA-igNP36cXB_2TqCKRmuLStvAy3LLukSkLybXcDOw58wzR-yEJb1G_RV8ilV9ZztXZMOz5RkEu6J7gEdWQWbRk7j5n4V22Qzkiaiszf5pAEFGWnGR7xFbyld9cd9iVUI3uHAOYWSb2Xlr74C91G-9N30QQ"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/Users/alihusainsorathiya/Desktop/websitesheet - brandssheet.csv"
+								},
+								{
+									"key": "vertical",
+									"value": "tyre",
+									"type": "text"
+								},
+								{
+									"key": "file_type",
+									"value": "brands",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/api/v1/catalog/upload-file",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"catalog",
+								"upload-file"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "File Upload badges",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJraWQiOiIwOHZFMks4Z0g4NXZyUXBQa29JVUZVWmtLYWpaVjluUnBVM3o5TFFPZW1nPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJjM2Q3MDQ2MS0yNDBmLTQ3NTUtODJiOC1hZTkxYjYzNTlhNmEiLCJjb2duaXRvOmdyb3VwcyI6WyJldS13ZXN0LTFfejU1UVZMRlM1X2F6dXJlQUQtaWRlbnRpdHktcHJvdmlkZXIiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmV1LXdlc3QtMS5hbWF6b25hd3MuY29tXC9ldS13ZXN0LTFfejU1UVZMRlM1IiwidmVyc2lvbiI6MiwiY2xpZW50X2lkIjoiNjhrbzRqYTQ1NW9uMGNmc2JlN211Z3IwazkiLCJvcmlnaW5fanRpIjoiY2UxZDEwMjgtODUxMy00MDRhLThmOGQtNzhjMjAxMzU4N2VjIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiBwaG9uZSBvcGVuaWQgZW1haWwiLCJhdXRoX3RpbWUiOjE3MzIwMDA4MDIsImV4cCI6MTczMjAwODMyMywiaWF0IjoxNzMyMDA0NzIzLCJqdGkiOiI2M2YzMDczMi01MjljLTQ2OTgtYmJiZC00YTFkYzdjYmEyNGIiLCJ1c2VybmFtZSI6ImF6dXJlYWQtaWRlbnRpdHktcHJvdmlkZXJfYWxpLnNvcmF0aGl5YUBjYWZ1LmNvbSJ9.aQEgHySYeVmfMOkp5ezX6eMG4GEWx9cN9g_atgEFoqYBFVAZsJDgHvwLHwL8VGMi-WP7xVENI68m2SGfQVcpbpKVucghDNTNXPD0PQePeqgKVQ-J8flrjnuc9tNF_QEcVlSR-UceKcfhBQpkplRxLc7FpmAStiIJ6nKUovCwO6IEYb2i41nxdyzCKVw8SddP2ZJD8jtK5s1amHrEyGO-mS_9rzsKH18rXNYQOLM_kJRAMh4s8SIRRzKvHIp0fnz83JkZIBrK_-vedzq3RHvlFrtWY9ej5BpRxwhMZGOHmPbFzuiFzoX-JN-ZN8E3mrEsBLXWtZqWABLTbUcimFRAkA"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/Users/alihusainsorathiya/Desktop/websitesheet - badgesheet.csv"
+								},
+								{
+									"key": "vertical",
+									"value": "tyre",
+									"type": "text"
+								},
+								{
+									"key": "file_type",
+									"value": "badges",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/api/v1/catalog/upload-file",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"catalog",
+								"upload-file"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "OP Item import post post checks",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept-Language",
+								"value": "en-US"
+							},
+							{
+								"key": "X-CAFU-User-Id",
+								"value": "2cb5e611-8bb9-40ad-97da-812676f32112"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/Users/alihusainsorathiya/Desktop/Cafu/cafutools/catalog/op_item_import_all_tyre.csv"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{LOCATION_URL}}/api/v1/op-items/op-item-imports",
+							"host": [
+								"{{LOCATION_URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"op-items",
+								"op-item-imports"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "OP item import post post checks via Internal BFF",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept-Language",
+								"value": "en-US"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJraWQiOiI2c2RGVjE0RlJSUmhOcFBqYWlJbnNVdHEzXC9ERnVyZlZoY2RzU2hUT1wvY1E9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJmNTk3MzNiNi1kYTI3LTRhM2EtYThjZC05ZWEzOTFlMjBmMTMiLCJjb2duaXRvOmdyb3VwcyI6WyJldS13ZXN0LTFfWDRyVENPUEhXX2F6dXJlQUQtaWRlbnRpdHktcHJvdmlkZXIiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmV1LXdlc3QtMS5hbWF6b25hd3MuY29tXC9ldS13ZXN0LTFfWDRyVENPUEhXIiwidmVyc2lvbiI6MiwiY2xpZW50X2lkIjoiNnAzcHN0cm05aTFuNjVmZWxoaTVwOGQxNWYiLCJvcmlnaW5fanRpIjoiM2ZhOWEwMGItN2NmMi00ZWUxLWEyZTMtYTBiMzg5NWU5YzVmIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiBwaG9uZSBvcGVuaWQgZW1haWwiLCJhdXRoX3RpbWUiOjE3MzE5OTY5MzMsImV4cCI6MTczMjExMDUyMSwiaWF0IjoxNzMyMTA2OTIxLCJqdGkiOiIwNGY0NTBkZS0zMzI3LTRmNGQtODFlOC05ZDY0YzA3YjQzOTEiLCJ1c2VybmFtZSI6ImF6dXJlYWQtaWRlbnRpdHktcHJvdmlkZXJfYWxpLnNvcmF0aGl5YUBjYWZ1LmNvbSJ9.nWUqOdlVx01ch72Npz4Mv2VBOIUl9-cYHLecOF9O9SiJSUAPZrbHgJfJ6HE2Xgf6cX7doh6_iqbnkf8Depj0HYeW_caLTIIBC9lHTXcnfFDlYcBy5oy0X93HTCrxW5gsIbvsVopiXt3JvF4P0Em-sU6FDTsaXWVhBBTrUBB1fr2QYOJ7L807PX251cb1CWQmMqzsTB4Iah6DlU77yqLm3L27r78JvHRZ5QBrHlwW0g5wafjqTnLIvIsJ32sWI7qbNXE7mwKuCsRRetumZBjIVxev0avW1R3ZJqFLCHoX75nP1ulCxtb3RFZXoLC4iLa6X4PN9W5Z-E1HDsFLFcMqUw"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/Users/alihusainsorathiya/Desktop/Cafu/cafutools/catalog/op_item_import_all_tyre.csv"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/api/v1/locations/op-item-imports",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"locations",
+								"op-item-imports"
+							]
+						},
+						"description": "Generated from cURL: curl --location 'https://internal-bff.global.dev.cafu.app/api/v1/locations/op-item-imports' \\\n--header 'Accept-Language: en-US' \\\n--header 'Content-Type: multipart/form-data' \\\n--header 'Authorization: Bearer xyzabcd' \\\n--form 'file=@\"/tests/opitem/data/op_item_import_error_repeated_header.csv\"'"
+					},
+					"response": []
+				},
+				{
+					"name": "Servicing - OP item import post post checks via Internal BFF Copy",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept-Language",
+								"value": "en-US"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJraWQiOiI2c2RGVjE0RlJSUmhOcFBqYWlJbnNVdHEzXC9ERnVyZlZoY2RzU2hUT1wvY1E9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJmNTk3MzNiNi1kYTI3LTRhM2EtYThjZC05ZWEzOTFlMjBmMTMiLCJjb2duaXRvOmdyb3VwcyI6WyJldS13ZXN0LTFfWDRyVENPUEhXX2F6dXJlQUQtaWRlbnRpdHktcHJvdmlkZXIiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmV1LXdlc3QtMS5hbWF6b25hd3MuY29tXC9ldS13ZXN0LTFfWDRyVENPUEhXIiwidmVyc2lvbiI6MiwiY2xpZW50X2lkIjoiNnAzcHN0cm05aTFuNjVmZWxoaTVwOGQxNWYiLCJvcmlnaW5fanRpIjoiM2ZhOWEwMGItN2NmMi00ZWUxLWEyZTMtYTBiMzg5NWU5YzVmIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiBwaG9uZSBvcGVuaWQgZW1haWwiLCJhdXRoX3RpbWUiOjE3MzE5OTY5MzMsImV4cCI6MTczMjExMDUyMSwiaWF0IjoxNzMyMTA2OTIxLCJqdGkiOiIwNGY0NTBkZS0zMzI3LTRmNGQtODFlOC05ZDY0YzA3YjQzOTEiLCJ1c2VybmFtZSI6ImF6dXJlYWQtaWRlbnRpdHktcHJvdmlkZXJfYWxpLnNvcmF0aGl5YUBjYWZ1LmNvbSJ9.nWUqOdlVx01ch72Npz4Mv2VBOIUl9-cYHLecOF9O9SiJSUAPZrbHgJfJ6HE2Xgf6cX7doh6_iqbnkf8Depj0HYeW_caLTIIBC9lHTXcnfFDlYcBy5oy0X93HTCrxW5gsIbvsVopiXt3JvF4P0Em-sU6FDTsaXWVhBBTrUBB1fr2QYOJ7L807PX251cb1CWQmMqzsTB4Iah6DlU77yqLm3L27r78JvHRZ5QBrHlwW0g5wafjqTnLIvIsJ32sWI7qbNXE7mwKuCsRRetumZBjIVxev0avW1R3ZJqFLCHoX75nP1ulCxtb3RFZXoLC4iLa6X4PN9W5Z-E1HDsFLFcMqUw"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/Users/alihusainsorathiya/Desktop/Cafu/cafutools/catalog/op_item_import_all_servicing.csv"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{BASE_URL}}/api/v1/locations/op-item-imports",
+							"host": [
+								"{{BASE_URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"locations",
+								"op-item-imports"
+							]
+						},
+						"description": "Generated from cURL: curl --location 'https://internal-bff.global.dev.cafu.app/api/v1/locations/op-item-imports' \\\n--header 'Accept-Language: en-US' \\\n--header 'Content-Type: multipart/form-data' \\\n--header 'Authorization: Bearer xyzabcd' \\\n--form 'file=@\"/tests/opitem/data/op_item_import_error_repeated_header.csv\"'"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "dynamic pricing",
+			"item": [
+				{
+					"name": "https://pricing.cafu.app/api/v1/pricing",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept-Language",
+								"value": "en-US"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"owner_type\": \"item-variations\",\n    \"owner_id\": \"{{ID}}\",\n    \"type\": \"per-unit\",\n    \"price\": {\n        \"amount\": {{PRICE}},\n        \"currency\": \"AED\"\n    },\n    \"ranges\": [],\n    \"dynamic_pricing\": [\n            {\n                \"pricing_type\": \"flat\",\n                \"pricing_value\": {{PRICING VALUE}},\n                \"object_type\": \"asset_subtype\",\n                \"object_value\": \"suv\",\n                \"price_currency\": \"AED\"\n            },\n            {\n                \"pricing_type\": \"flat\",\n                \"pricing_value\": {{PRICING VALUE}},\n                \"object_type\": \"asset_subtype\",\n                \"object_value\": \"van\",\n                \"price_currency\": \"AED\"\n            },\n            {\n                \"pricing_type\": \"flat\",\n                \"pricing_value\": {{PRICING VALUE}},\n                \"object_type\": \"asset_subtype\",\n                \"object_value\": \"pickup\",\n                \"price_currency\": \"AED\"\n            },\n            {\n                \"pricing_type\": \"flat\",\n                \"pricing_value\": {{PRICING VALUE}},\n                \"object_type\": \"asset_subtype\",\n                \"object_value\": \"minivan\",\n                \"price_currency\": \"AED\"\n            },\n            {\n                \"pricing_type\": \"flat\",\n                \"pricing_value\": 0,\n                \"object_type\": \"asset_subtype\",\n                \"object_value\": \"coupe\",\n                \"price_currency\": \"AED\"\n            },\n            {\n                \"pricing_type\": \"flat\",\n                \"pricing_value\": 0,\n                \"object_type\": \"asset_subtype\",\n                \"object_value\": \"hatchback\",\n                \"price_currency\": \"AED\"\n            },\n            {\n                \"pricing_type\": \"flat\",\n                \"pricing_value\": 0,\n                \"object_type\": \"asset_subtype\",\n                \"object_value\": \"liftback\",\n                \"price_currency\": \"AED\"\n            },\n            {\n                \"pricing_type\": \"flat\",\n                \"pricing_value\": 0,\n                \"object_type\": \"asset_subtype\",\n                \"object_value\": \"sedan\",\n                \"price_currency\": \"AED\"\n            }\n    ],\n    \"starts_at\": \"{{START DATE}}\",\n    \"ends_at\": \"{{END DATE}}\",\n    \"tax_exempt\": false,\n    \"active\": true\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://pricing.cafu.app/api/v1/pricing",
+							"protocol": "https",
+							"host": [
+								"pricing",
+								"cafu",
+								"app"
+							],
+							"path": [
+								"api",
+								"v1",
+								"pricing"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://pricing.cafu.app/api/v1/pricing/:id/fees",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"fees_ids\": [34]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://pricing.cafu.app/api/v1/pricing/:id/fees",
+							"protocol": "http",
+							"host": [
+								"pricing",
+								"cafu",
+								"app"
+							],
+							"path": [
+								"api",
+								"v1",
+								"pricing",
+								":id",
+								"fees"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Contentful Cache API",
+			"item": [
+				{
+					"name": "Media Card - Cache Clear",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"resource\": \"content:media-card\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://content.cafu.app/api/v1/cache/clear",
+							"protocol": "https",
+							"host": [
+								"content",
+								"cafu",
+								"app"
+							],
+							"path": [
+								"api",
+								"v1",
+								"cache",
+								"clear"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Service Launcher - Cache Clear",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"resource\": \"content:service-launcher\"\n  \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://content.cafu.app/api/v1/cache/clear",
+							"protocol": "https",
+							"host": [
+								"content",
+								"cafu",
+								"app"
+							],
+							"path": [
+								"api",
+								"v1",
+								"cache",
+								"clear"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Location by IP - Cache Clear",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"resource\": \"content:location-by-ip\"\n  \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://content.cafu.app/api/v1/cache/clear",
+							"protocol": "https",
+							"host": [
+								"content",
+								"cafu",
+								"app"
+							],
+							"path": [
+								"api",
+								"v1",
+								"cache",
+								"clear"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "https://api-gateways-blaze-bff.cafu.app/api/v1/offers/promotions?page=1&per_page=10&promo_code=batt&validity_starts_at=2024-08-31T20:00:00.000Z&validity_ends_at=2024-10-03T19:59:59.000Z",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJraWQiOiI2c2RGVjE0RlJSUmhOcFBqYWlJbnNVdHEzXC9ERnVyZlZoY2RzU2hUT1wvY1E9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJmNTk3MzNiNi1kYTI3LTRhM2EtYThjZC05ZWEzOTFlMjBmMTMiLCJjb2duaXRvOmdyb3VwcyI6WyJldS13ZXN0LTFfWDRyVENPUEhXX2F6dXJlQUQtaWRlbnRpdHktcHJvdmlkZXIiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmV1LXdlc3QtMS5hbWF6b25hd3MuY29tXC9ldS13ZXN0LTFfWDRyVENPUEhXIiwidmVyc2lvbiI6MiwiY2xpZW50X2lkIjoiNnAzcHN0cm05aTFuNjVmZWxoaTVwOGQxNWYiLCJvcmlnaW5fanRpIjoiYWI2YTY4NTgtMmNhYi00YzBiLThhNDAtNGY1NWVmZWQ5NzRmIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiBwaG9uZSBvcGVuaWQgZW1haWwiLCJhdXRoX3RpbWUiOjE3Mjc5NTY0NzcsImV4cCI6MTcyNzk2MDA3NywiaWF0IjoxNzI3OTU2NDc3LCJqdGkiOiI4ODEwYmE5ZC01NzMyLTRjZDEtOGM5OS1hMDBhMTc2ODM5N2IiLCJ1c2VybmFtZSI6ImF6dXJlYWQtaWRlbnRpdHktcHJvdmlkZXJfYWxpLnNvcmF0aGl5YUBjYWZ1LmNvbSJ9.dIwW5lvajCWup2epOH2JK1Dw3Rc6MalvndNi_OuLAYxB4_0lz3t6ijToJ_1LBPSZvbtRGkE6gnoHC2aZEOxDErXraGwcoBwKI5Vi2xNXxVoOtaSNFD4ychi0c7ybuMUMpUDWzHHtF4Ugucr_0wwz01CbVAym6wvwiiF2L_iUIiShHZ_dmFIsQJJGqJ7AA-8EarbneSn8SqI8HAMfGmkv1Y9Wuy_P3n2wx8G9rznz4v7sVAQQPBDolSt8CpP7QCSndha79PbhDJgvKBmtWWvnDSUCp5e1dVaK-ylcK2-HpiQjlpKytrjgWmUOYQLHPbNNszI0B1P1Ff-j-sFWlSrJAw"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Origin",
+						"value": "https://blaze.cafu.app"
+					},
+					{
+						"key": "Referer",
+						"value": "https://blaze.cafu.app/"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "empty"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-site"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					}
+				],
+				"url": {
+					"raw": "https://api-gateways-blaze-bff.cafu.app/api/v1/offers/promotions?page=1&per_page=10&promo_code=batt&validity_starts_at=2024-08-31T20:00:00.000Z&validity_ends_at=2024-10-03T19:59:59.000Z",
+					"protocol": "https",
+					"host": [
+						"api-gateways-blaze-bff",
+						"cafu",
+						"app"
+					],
+					"path": [
+						"api",
+						"v1",
+						"offers",
+						"promotions"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "per_page",
+							"value": "10"
+						},
+						{
+							"key": "promo_code",
+							"value": "batt"
+						},
+						{
+							"key": "validity_starts_at",
+							"value": "2024-08-31T20:00:00.000Z"
+						},
+						{
+							"key": "validity_ends_at",
+							"value": "2024-10-03T19:59:59.000Z"
+						}
+					]
+				},
+				"description": "Generated from cURL: curl 'https://api-gateways-blaze-bff.cafu.app/api/v1/offers/promotions?page=1&per_page=10&promo_code=batt&validity_starts_at=2024-08-31T20:00:00.000Z&validity_ends_at=2024-10-03T19:59:59.000Z' \\\n  -H 'Accept: application/json, text/plain, */*' \\\n  -H 'Accept-Language: en-US' \\\n  -H 'Authorization: eyJraWQiOiI2c2RGVjE0RlJSUmhOcFBqYWlJbnNVdHEzXC9ERnVyZlZoY2RzU2hUT1wvY1E9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJmNTk3MzNiNi1kYTI3LTRhM2EtYThjZC05ZWEzOTFlMjBmMTMiLCJjb2duaXRvOmdyb3VwcyI6WyJldS13ZXN0LTFfWDRyVENPUEhXX2F6dXJlQUQtaWRlbnRpdHktcHJvdmlkZXIiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmV1LXdlc3QtMS5hbWF6b25hd3MuY29tXC9ldS13ZXN0LTFfWDRyVENPUEhXIiwidmVyc2lvbiI6MiwiY2xpZW50X2lkIjoiNnAzcHN0cm05aTFuNjVmZWxoaTVwOGQxNWYiLCJvcmlnaW5fanRpIjoiYWI2YTY4NTgtMmNhYi00YzBiLThhNDAtNGY1NWVmZWQ5NzRmIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiBwaG9uZSBvcGVuaWQgZW1haWwiLCJhdXRoX3RpbWUiOjE3Mjc5NTY0NzcsImV4cCI6MTcyNzk2MDA3NywiaWF0IjoxNzI3OTU2NDc3LCJqdGkiOiI4ODEwYmE5ZC01NzMyLTRjZDEtOGM5OS1hMDBhMTc2ODM5N2IiLCJ1c2VybmFtZSI6ImF6dXJlYWQtaWRlbnRpdHktcHJvdmlkZXJfYWxpLnNvcmF0aGl5YUBjYWZ1LmNvbSJ9.dIwW5lvajCWup2epOH2JK1Dw3Rc6MalvndNi_OuLAYxB4_0lz3t6ijToJ_1LBPSZvbtRGkE6gnoHC2aZEOxDErXraGwcoBwKI5Vi2xNXxVoOtaSNFD4ychi0c7ybuMUMpUDWzHHtF4Ugucr_0wwz01CbVAym6wvwiiF2L_iUIiShHZ_dmFIsQJJGqJ7AA-8EarbneSn8SqI8HAMfGmkv1Y9Wuy_P3n2wx8G9rznz4v7sVAQQPBDolSt8CpP7QCSndha79PbhDJgvKBmtWWvnDSUCp5e1dVaK-ylcK2-HpiQjlpKytrjgWmUOYQLHPbNNszI0B1P1Ff-j-sFWlSrJAw' \\\n  -H 'Connection: keep-alive' \\\n  -H 'Origin: https://blaze.cafu.app' \\\n  -H 'Referer: https://blaze.cafu.app/' \\\n  -H 'Sec-Fetch-Dest: empty' \\\n  -H 'Sec-Fetch-Mode: cors' \\\n  -H 'Sec-Fetch-Site: same-site' \\\n  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36' \\\n  -H 'sec-ch-ua: \"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"' \\\n  -H 'sec-ch-ua-mobile: ?0' \\\n  -H 'sec-ch-ua-platform: \"macOS\"' \\\n  --compressed"
+			},
+			"response": []
+		},
+		{
+			"name": "Add background Image for variations",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-us"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "metadata",
+							"value": "{\n  \"name\": \"[Filename].png\",\n  \"collection\": \"[content/icon/brands]\",\n  \"order_column\": 1,\n  \"disk\": \"s3\",\n  \"is_public\": true,\n  \"relation\": {\n    \"owner_id\": \"[variation ID]\",\n    \"owner_type\": \"variations\",\n    \"owner_service\": \"catalog\"\n  }\n}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://media.global.dev.cafu.app/api/v1/media",
+					"protocol": "https",
+					"host": [
+						"media",
+						"global",
+						"dev",
+						"cafu",
+						"app"
+					],
+					"path": [
+						"api",
+						"v1",
+						"media"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'POST' \\\n  'https://media.global.dev.cafu.app/api/v1/media' \\\n  -H 'accept: application/json' \\\n  -H 'Accept-Language: en-us' \\\n  -H 'Content-Type: multipart/form-data' \\\n  -F 'file=' \\\n  -F 'metadata={\n  \"name\": \"[Filename].png\",\n  \"collection\": \"[content/icon/brands]\",\n  \"order_column\": 1,\n  \"disk\": \"s3\",\n  \"is_public\": true,\n  \"relation\": {\n    \"owner_id\": \"[variation ID]\",\n    \"owner_type\": \"variations\",\n    \"owner_service\": \"catalog\"\n  }\n}'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/v1/media?owner_service=catalog",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-us"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/media?owner_service=catalog",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"media"
+					],
+					"query": [
+						{
+							"key": "owner_service",
+							"value": "catalog"
+						}
+					]
+				},
+				"description": "Generated from cURL: curl -X 'GET' \\\n  'http://localhost:3000/api/v1/media?owner_service=catalog' \\\n  -H 'accept: application/json' \\\n  -H 'Accept-Language: en-us'"
+			},
+			"response": []
+		},
+		{
+			"name": "Media Relations",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-us"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"owner_id\": \"{{ids}}\", //variation ids of the oil change shell helix 5w-340\n  \"owner_type\": \"variations\",\n  \"owner_service\": \"catalog\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://media.cafu.app/api/v1/media/1746617/relations",
+					"protocol": "https",
+					"host": [
+						"media",
+						"cafu",
+						"app"
+					],
+					"path": [
+						"api",
+						"v1",
+						"media",
+						"1746617",
+						"relations"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'POST' \\\n  'https://media.global.dev.cafu.app/api/v1/media/9400/relations' \\\n  -H 'accept: application/json' \\\n  -H 'Accept-Language: en-us' \\\n  -H 'Content-Type: application/json' \\\n  -d '{\n  \"owner_id\": \"13858\",\n  \"owner_type\": \"variations\",\n  \"owner_service\": \"catalog\"\n}'"
+			},
+			"response": []
+		},
+		{
+			"name": "CATALOG UPLOAD",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJraWQiOiIwOHZFMks4Z0g4NXZyUXBQa29JVUZVWmtLYWpaVjluUnBVM3o5TFFPZW1nPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI3ZTkwNDg5YS0wODlkLTRiZmUtYTM3NC1hMjJlNjZjMzNjZGQiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuZXUtd2VzdC0xLmFtYXpvbmF3cy5jb21cL2V1LXdlc3QtMV96NTVRVkxGUzUiLCJjbGllbnRfaWQiOiI2OGtvNGphNDU1b24wY2ZzYmU3bXVncjBrOSIsIm9yaWdpbl9qdGkiOiJhMWZmODRkNy0xZWI1LTQyZjItOTRlOC0xN2IwMmJhYmFiOTYiLCJldmVudF9pZCI6IjVkNjYyYmM5LTg0NjktNDIzMS04NTM1LTgwZTg3MTVhZTdlNSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE3MjQ0MDIwMjIsImV4cCI6MTcyNDQwNTYyMiwiaWF0IjoxNzI0NDAyMDIyLCJqdGkiOiIyZmVkZjMwZi02ZWRlLTQ4NTAtYTQ5YS05NjY1MDM2NWQ5YTUiLCJ1c2VybmFtZSI6IjIzMzFiOWE3LTRmNmQtNDljZi05NzVjLWI5OTY1YmRlYTc4ZSJ9.sxlQs7XPBdaDC2hLjQ3GbdZ7KFiuZMQYF1GJjTiS5zg3Umu2b672QeFB9lMQDV3QYlV3ODa58LX5ZWAxla4kv23avzr8EC0iYHeM1VxSlSpaj3On5vLyM7NiUWcOajLfL33Zrs69kS901XLHIuYar-mlVqHISR4pDqSLhLzXbFVAvhO3MZiv6js00ieiDUwQeENVomkoCCUXTZXK6AJ5uw3VxgHGG3m64HjoZGbqBx36QsnDVc6tD8BnwGGpd1NEqYjhFXqM7tAj6uTK6imduvIsDJ_DGHdIZdrU9F7U3egmoVS6Q1NAKM-RDpODzNnMrTBzwXFVAP1QfelCT1ar8g"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/manali-porwal-pc/Downloads/websitesheet - badgesheet-3.csv"
+						},
+						{
+							"key": "vertical",
+							"value": "tyre",
+							"type": "text"
+						},
+						{
+							"key": "file_type",
+							"value": "tyres",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://internal-bff.global.staging.cafu.app/api/v1/catalog/upload-file",
+					"protocol": "https",
+					"host": [
+						"internal-bff",
+						"global",
+						"staging",
+						"cafu",
+						"app"
+					],
+					"path": [
+						"api",
+						"v1",
+						"catalog",
+						"upload-file"
+					]
+				},
+				"description": "Generated from cURL: curl --location 'https://internal-bff.global.staging.cafu.app/api/v1/catalog/upload-file' \\\n--header 'Accept: application/json' \\\n--header 'Authorization: Bearer eyJraWQiOiIwOHZFMks4Z0g4NXZyUXBQa29JVUZVWmtLYWpaVjluUnBVM3o5TFFPZW1nPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI3ZTkwNDg5YS0wODlkLTRiZmUtYTM3NC1hMjJlNjZjMzNjZGQiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuZXUtd2VzdC0xLmFtYXpvbmF3cy5jb21cL2V1LXdlc3QtMV96NTVRVkxGUzUiLCJjbGllbnRfaWQiOiI2OGtvNGphNDU1b24wY2ZzYmU3bXVncjBrOSIsIm9yaWdpbl9qdGkiOiJhMWZmODRkNy0xZWI1LTQyZjItOTRlOC0xN2IwMmJhYmFiOTYiLCJldmVudF9pZCI6IjVkNjYyYmM5LTg0NjktNDIzMS04NTM1LTgwZTg3MTVhZTdlNSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE3MjQ0MDIwMjIsImV4cCI6MTcyNDQwNTYyMiwiaWF0IjoxNzI0NDAyMDIyLCJqdGkiOiIyZmVkZjMwZi02ZWRlLTQ4NTAtYTQ5YS05NjY1MDM2NWQ5YTUiLCJ1c2VybmFtZSI6IjIzMzFiOWE3LTRmNmQtNDljZi05NzVjLWI5OTY1YmRlYTc4ZSJ9.sxlQs7XPBdaDC2hLjQ3GbdZ7KFiuZMQYF1GJjTiS5zg3Umu2b672QeFB9lMQDV3QYlV3ODa58LX5ZWAxla4kv23avzr8EC0iYHeM1VxSlSpaj3On5vLyM7NiUWcOajLfL33Zrs69kS901XLHIuYar-mlVqHISR4pDqSLhLzXbFVAvhO3MZiv6js00ieiDUwQeENVomkoCCUXTZXK6AJ5uw3VxgHGG3m64HjoZGbqBx36QsnDVc6tD8BnwGGpd1NEqYjhFXqM7tAj6uTK6imduvIsDJ_DGHdIZdrU9F7U3egmoVS6Q1NAKM-RDpODzNnMrTBzwXFVAP1QfelCT1ar8g' \\\n--form 'file=@\"/Users/manali-porwal-pc/Downloads/websitesheet - badgesheet-3.csv\"' \\\n--form 'vertical=\"tyre\"' \\\n--form 'file_type=\"tyres\"'"
+			},
+			"response": []
+		},
+		{
+			"name": "https://customer-bff-gateway.cafu.app/api/v1/content/form",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "origin",
+						"value": "https://cafu.com"
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://cafu.com/"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "cross-site"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"language\":\"en\",\"country\":\"AE\",\"device\":\"Desktop\",\"formVersionType\":\"business\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://customer-bff-gateway.cafu.app/api/v1/content/form",
+					"protocol": "https",
+					"host": [
+						"customer-bff-gateway",
+						"cafu",
+						"app"
+					],
+					"path": [
+						"api",
+						"v1",
+						"content",
+						"form"
+					]
+				},
+				"description": "Generated from cURL: curl 'https://customer-bff-gateway.cafu.app/api/v1/content/form' \\\n  -H 'accept: application/json, text/plain, */*' \\\n  -H 'accept-language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7' \\\n  -H 'content-type: application/json' \\\n  -H 'origin: https://cafu.com' \\\n  -H 'priority: u=1, i' \\\n  -H 'referer: https://cafu.com/' \\\n  -H 'sec-ch-ua: \"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"' \\\n  -H 'sec-ch-ua-mobile: ?0' \\\n  -H 'sec-ch-ua-platform: \"macOS\"' \\\n  -H 'sec-fetch-dest: empty' \\\n  -H 'sec-fetch-mode: cors' \\\n  -H 'sec-fetch-site: cross-site' \\\n  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36' \\\n  --data-raw '{\"language\":\"en\",\"country\":\"AE\",\"device\":\"Desktop\",\"formVersionType\":\"business\"}'"
+			},
+			"response": []
+		}
+	]
+}

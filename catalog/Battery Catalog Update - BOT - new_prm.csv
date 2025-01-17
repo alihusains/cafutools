@@ -1,0 +1,3204 @@
+model_id,make,model,min_price,max_price,hold_amount,currency,warranty,warranty_duration,item_name
+1,Acura,MDX,,,,AED,18,months,Premium
+2,Acura,TLX,,,,AED,18,months,Premium
+3,Alfa Romeo,147,945,945,900,AED,18,months,Premium
+4,Alfa Romeo,156,945,945,900,AED,18,months,Premium
+5,Alfa Romeo,159,945,945,900,AED,18,months,Premium
+6,Alfa Romeo,166,,,,AED,18,months,Premium
+7,Alfa Romeo,4C,945,945,900,AED,18,months,Premium
+8,Alfa Romeo,Brera,945,945,900,AED,18,months,Premium
+9,Alfa Romeo,Giulia,945,945,900,AED,18,months,Premium
+10,Alfa Romeo,Giulia QV,945,945,900,AED,18,months,Premium
+11,Alfa Romeo,Giulietta,945,945,900,AED,18,months,Premium
+12,Alfa Romeo,Giulietta QV,945,945,900,AED,18,months,Premium
+13,Alfa Romeo,GT Coupe,945,945,900,AED,18,months,Premium
+14,Alfa Romeo,Mito,945,945,900,AED,18,months,Premium
+15,Alfa Romeo,Spider,945,945,900,AED,18,months,Premium
+16,Alfa Romeo,Stelvio,945,945,900,AED,18,months,Premium
+17,Alfa Romeo,Stelvio QV,945,945,900,AED,18,months,Premium
+18,Aston Martin,DB11,1800,1800,1714.285714,AED,18,months,Premium
+19,Aston Martin,DB11 Volante,1800,1800,1714.285714,AED,18,months,Premium
+20,Aston Martin,DB7,1800,1800,1714.285714,AED,18,months,Premium
+21,Aston Martin,DB9,1800,1800,1714.285714,AED,18,months,Premium
+22,Aston Martin,DB9 Volante,1800,1800,1714.285714,AED,18,months,Premium
+23,Aston Martin,DBS,1800,1800,1714.285714,AED,18,months,Premium
+24,Aston Martin,One-77,,,,AED,18,months,Premium
+25,Aston Martin,Rapide,1800,1800,1714.285714,AED,18,months,Premium
+26,Aston Martin,V12 Vantage,1800,1800,1714.285714,AED,18,months,Premium
+27,Aston Martin,V12 Vantage Roadster,1800,1800,1714.285714,AED,18,months,Premium
+28,Aston Martin,V8 Vantage,1800,1800,1714.285714,AED,18,months,Premium
+29,Aston Martin,V8 Vantage Roadster,1800,1800,1714.285714,AED,18,months,Premium
+30,Aston Martin,Vanquish,1800,1800,1714.285714,AED,18,months,Premium
+31,Aston Martin,Vanquish Volante,1800,1800,1714.285714,AED,18,months,Premium
+32,Aston Martin,Zagato,1800,1800,1714.285714,AED,18,months,Premium
+33,Audi,A1,840,840,800,AED,18,months,Premium
+34,Audi,A3,945,945,900,AED,18,months,Premium
+35,Audi,A3 Sedan,945,945,900,AED,18,months,Premium
+36,Audi,A4,1025,1025,976.1904762,AED,18,months,Premium
+37,Audi,A5 Cabriolet,1025,1025,976.1904762,AED,18,months,Premium
+38,Audi,A5 Coupe,1025,1025,976.1904762,AED,18,months,Premium
+39,Audi,A5 Sportback,1025,1025,976.1904762,AED,18,months,Premium
+40,Audi,A6,1130,1130,1076.190476,AED,18,months,Premium
+41,Audi,A7,1130,1130,1076.190476,AED,18,months,Premium
+42,Audi,A8,1130,1130,1076.190476,AED,18,months,Premium
+43,Audi,Q2,1025,1025,976.1904762,AED,18,months,Premium
+44,Audi,Q3,945,945,900,AED,18,months,Premium
+45,Audi,Q5,1025,1025,976.1904762,AED,18,months,Premium
+46,Audi,Q7,1050,1050,1000,AED,18,months,Premium
+47,Audi,R8,1800,1800,1714.285714,AED,18,months,Premium
+48,Audi,R8 Spyder,1800,1800,1714.285714,AED,18,months,Premium
+49,Audi,RS 3,1025,1025,976.1904762,AED,18,months,Premium
+50,Audi,RS 3 Sedan,1025,1025,976.1904762,AED,18,months,Premium
+51,Audi,RS 4,1025,1025,976.1904762,AED,18,months,Premium
+52,Audi,RS 5,1025,1025,976.1904762,AED,18,months,Premium
+53,Audi,RS 6,1130,1130,1076.190476,AED,18,months,Premium
+54,Audi,RS 7,1130,1130,1076.190476,AED,18,months,Premium
+55,Audi,RS Q3,1025,1025,976.1904762,AED,18,months,Premium
+56,Audi,S Q5,1130,1130,1076.190476,AED,18,months,Premium
+57,Audi,S3,1025,1025,976.1904762,AED,18,months,Premium
+58,Audi,S5,1130,1130,1076.190476,AED,18,months,Premium
+59,Audi,S6,1130,1130,1076.190476,AED,18,months,Premium
+60,Audi,S7,1130,1130,1076.190476,AED,18,months,Premium
+61,Audi,S8,1130,1130,1076.190476,AED,18,months,Premium
+62,Audi,TT,945,945,900,AED,18,months,Premium
+63,BAIC,A1 Hatchback,,,,AED,18,months,Premium
+64,BAIC,A1 Sedan,,,,AED,18,months,Premium
+65,BAIC,A5 Sedan,,,,AED,18,months,Premium
+66,Bentley,Arnage,1800,1800,1714.285714,AED,18,months,Premium
+67,Bentley,Azure,1800,1800,1714.285714,AED,18,months,Premium
+68,Bentley,Bentayga,1800,1800,1714.285714,AED,18,months,Premium
+69,Bentley,Brooklands,1800,1800,1714.285714,AED,18,months,Premium
+70,Bentley,Continental,1800,1800,1714.285714,AED,18,months,Premium
+71,Bentley,Continental Flying Spur,1800,1800,1714.285714,AED,18,months,Premium
+72,Bentley,Continental GT,1800,1800,1714.285714,AED,18,months,Premium
+73,Bentley,Continental GTC,1800,1800,1714.285714,AED,18,months,Premium
+74,Bentley,Flying Spur,1800,1800,1714.285714,AED,18,months,Premium
+75,Bentley,Mulsanne,1800,1800,1714.285714,AED,18,months,Premium
+76,BMW,1-Series,,,,AED,18,months,Premium
+77,BMW,2-Series,,,,AED,18,months,Premium
+78,BMW,3-Series,,,,AED,18,months,Premium
+79,BMW,3-Series Convertible,,,,AED,18,months,Premium
+80,BMW,3-Series Coupe,,,,AED,18,months,Premium
+81,BMW,4-Series,,,,AED,18,months,Premium
+82,BMW,4-Series Convertible,,,,AED,18,months,Premium
+83,BMW,4-Series Gran Coupe,,,,AED,18,months,Premium
+84,BMW,5-Series,,,,AED,18,months,Premium
+85,BMW,5-Series GT,,,,AED,18,months,Premium
+86,BMW,6-Series Cabriolet,,,,AED,18,months,Premium
+87,BMW,6-Series Coupe,,,,AED,18,months,Premium
+88,BMW,6-Series Gran Coupe,,,,AED,18,months,Premium
+89,BMW,6-Series Gran Turismo,,,,AED,18,months,Premium
+90,BMW,7-Series,,,,AED,18,months,Premium
+91,BMW,8-Series,,,,AED,18,months,Premium
+92,BMW,i8,,,,AED,18,months,Premium
+93,BMW,M2,945,945,900,AED,18,months,Premium
+94,BMW,M3,1025,1025,976.1904762,AED,18,months,Premium
+95,BMW,M3 Convertible,1025,1025,976.1904762,AED,18,months,Premium
+96,BMW,M3 Coupe,1025,1025,976.1904762,AED,18,months,Premium
+97,BMW,M4,1130,1130,1076.190476,AED,18,months,Premium
+98,BMW,M4 Convertible,1130,1130,1076.190476,AED,18,months,Premium
+99,BMW,M5,1130,1130,1076.190476,AED,18,months,Premium
+100,BMW,M6 Cabriolet,1130,1130,1076.190476,AED,18,months,Premium
+101,BMW,M6 Coupe,1130,1130,1076.190476,AED,18,months,Premium
+102,BMW,M6 Gran Coupe,1130,1130,1076.190476,AED,18,months,Premium
+103,BMW,X1,945,945,900,AED,18,months,Premium
+104,BMW,X3,1025,1025,976.1904762,AED,18,months,Premium
+105,BMW,X4,1025,1025,976.1904762,AED,18,months,Premium
+106,BMW,X5,1130,1130,1076.190476,AED,18,months,Premium
+107,BMW,X5 M,1130,1130,1076.190476,AED,18,months,Premium
+108,BMW,X6,1277,1277,1216.190476,AED,18,months,Premium
+109,BMW,X6 M,1277,1277,1216.190476,AED,18,months,Premium
+110,BMW,Z4,945,945,900,AED,18,months,Premium
+111,Borgward,BX5,,,,AED,18,months,Premium
+112,Borgward,BX7,,,,AED,18,months,Premium
+113,Brilliance,FRV,,,,AED,18,months,Premium
+114,Brilliance,FRV Cross,,,,AED,18,months,Premium
+115,Brilliance,FSV,,,,AED,18,months,Premium
+116,Brilliance,H530,,,,AED,18,months,Premium
+117,Brilliance,V5,,,,AED,18,months,Premium
+118,Bugatti,Chiron,1800,1800,1714.285714,AED,18,months,Premium
+119,Bugatti,Veyron,1800,1800,1714.285714,AED,18,months,Premium
+120,BYD,F3,,,,AED,18,months,Premium
+121,BYD,F6,,,,AED,18,months,Premium
+122,BYD,S6,,,,AED,18,months,Premium
+123,Cadillac,ATS,,,,AED,18,months,Premium
+124,Cadillac,ATS Coupe,,,,AED,18,months,Premium
+125,Cadillac,ATS-V,,,,AED,18,months,Premium
+126,Cadillac,ATS-V Coupe,,,,AED,18,months,Premium
+127,Cadillac,BLS,,,,AED,18,months,Premium
+128,Cadillac,CT6,,,,AED,18,months,Premium
+129,Cadillac,CTS,,,,AED,18,months,Premium
+130,Cadillac,CTS Coupe,,,,AED,18,months,Premium
+131,Cadillac,CTS-V,,,,AED,18,months,Premium
+132,Cadillac,CTS-V Coupe,,,,AED,18,months,Premium
+133,Cadillac,DTS,,,,AED,18,months,Premium
+134,Cadillac,Escalade,,,,AED,18,months,Premium
+135,Cadillac,SLS,,,,AED,18,months,Premium
+136,Cadillac,SRX,,,,AED,18,months,Premium
+137,Cadillac,STS,,,,AED,18,months,Premium
+138,Cadillac,XLR,,,,AED,18,months,Premium
+139,Cadillac,XT5,,,,AED,18,months,Premium
+140,Cadillac,XTS,,,,AED,18,months,Premium
+141,Caterham,Seven,,,,AED,18,months,Premium
+142,Changan,CS35,,,,AED,18,months,Premium
+143,Changan,CS75,,,,AED,18,months,Premium
+144,Changan,Eado,,,,AED,18,months,Premium
+145,Chery,A11 Windcloud,,,,AED,18,months,Premium
+146,Chery,Arrizo 3,,,,AED,18,months,Premium
+147,Chery,Arrizo 5,,,,AED,18,months,Premium
+148,Chery,Arrizo 7,,,,AED,18,months,Premium
+149,Chery,B11 Oriental Son,,,,AED,18,months,Premium
+150,Chery,E5,,,,AED,18,months,Premium
+151,Chery,E8,,,,AED,18,months,Premium
+152,Chery,S11 QQ,,,,AED,18,months,Premium
+153,Chery,T11 Tiggo,,,,AED,18,months,Premium
+154,Chery,Tiggo 3,,,,AED,18,months,Premium
+155,Chery,Tiggo 5,,,,AED,18,months,Premium
+156,Chery,Tiggo 7,,,,AED,18,months,Premium
+157,Chery,V5 Crossover,,,,AED,18,months,Premium
+158,Chevrolet,Avalanche,,,,AED,18,months,Premium
+159,Chevrolet,Aveo,,,,AED,18,months,Premium
+160,Chevrolet,Aveo Hatchback,,,,AED,18,months,Premium
+161,Chevrolet,Aveo5,,,,AED,18,months,Premium
+162,Chevrolet,Bolt,,,,AED,18,months,Premium
+163,Chevrolet,Camaro,,,,AED,18,months,Premium
+164,Chevrolet,Camaro Convertible,,,,AED,18,months,Premium
+165,Chevrolet,Caprice,,,,AED,18,months,Premium
+166,Chevrolet,Captiva,,,,AED,18,months,Premium
+167,Chevrolet,Colorado,,,,AED,18,months,Premium
+168,Chevrolet,Corvette,,,,AED,18,months,Premium
+169,Chevrolet,Cruze,,,,AED,18,months,Premium
+170,Chevrolet,Cruze Hatchback,,,,AED,18,months,Premium
+171,Chevrolet,CSV CR8,,,,AED,18,months,Premium
+172,Chevrolet,Epica,,,,AED,18,months,Premium
+173,Chevrolet,Equinox,,,,AED,18,months,Premium
+174,Chevrolet,Impala,,,,AED,18,months,Premium
+175,Chevrolet,Lumina,,,,AED,18,months,Premium
+176,Chevrolet,Malibu,,,,AED,18,months,Premium
+177,Chevrolet,Optra,,,,AED,18,months,Premium
+178,Chevrolet,Silverado,,,,AED,18,months,Premium
+179,Chevrolet,Sonic,,,,AED,18,months,Premium
+180,Chevrolet,Sonic Hatchback,,,,AED,18,months,Premium
+181,Chevrolet,Spark,,,,AED,18,months,Premium
+182,Chevrolet,Suburban,,,,AED,18,months,Premium
+183,Chevrolet,T-Series,,,,AED,18,months,Premium
+184,Chevrolet,Tahoe,,,,AED,18,months,Premium
+185,Chevrolet,Trailblazer,,,,AED,18,months,Premium
+186,Chevrolet,Traverse,,,,AED,18,months,Premium
+187,Chevrolet,Trax,,,,AED,18,months,Premium
+188,Chevrolet,Uplander,,,,AED,18,months,Premium
+189,Chrysler,200,,,,AED,18,months,Premium
+190,Chrysler,300 SRT,,,,AED,18,months,Premium
+191,Chrysler,300C,,,,AED,18,months,Premium
+192,Chrysler,Crossfire,,,,AED,18,months,Premium
+193,Chrysler,Grand Voyager,,,,AED,18,months,Premium
+194,Chrysler,Pacifica,,,,AED,18,months,Premium
+195,Chrysler,PT Cruiser,,,,AED,18,months,Premium
+196,Chrysler,Sebring,,,,AED,18,months,Premium
+197,Citroen,C-Elysee,,,,AED,18,months,Premium
+198,Citroen,C2,,,,AED,18,months,Premium
+199,Citroen,C3,,,,AED,18,months,Premium
+200,Citroen,C4,,,,AED,18,months,Premium
+201,Citroen,C4 Picasso,,,,AED,18,months,Premium
+202,Citroen,C5,,,,AED,18,months,Premium
+203,Citroen,C8,,,,AED,18,months,Premium
+204,Citroen,DS3,,,,AED,18,months,Premium
+205,Citroen,DS4,,,,AED,18,months,Premium
+206,Citroen,DS5,,,,AED,18,months,Premium
+207,Citroen,Saxo,,,,AED,18,months,Premium
+208,Citroen,Xsara Picasso,,,,AED,18,months,Premium
+209,CMC,Z7,,,,AED,18,months,Premium
+210,Daihatsu,Charade,,,,AED,18,months,Premium
+211,Daihatsu,Gran Max Pickup,,,,AED,18,months,Premium
+212,Daihatsu,Gran Max Van,,,,AED,18,months,Premium
+213,Daihatsu,Materia,,,,AED,18,months,Premium
+214,Daihatsu,Sirion,,,,AED,18,months,Premium
+215,Daihatsu,Terios,,,,AED,18,months,Premium
+216,Daihatsu,YRV,,,,AED,18,months,Premium
+217,Dodge,Avenger,,,,AED,18,months,Premium
+218,Dodge,Caliber,,,,AED,18,months,Premium
+219,Dodge,Challenger,,,,AED,18,months,Premium
+220,Dodge,Challenger SRT,,,,AED,18,months,Premium
+221,Dodge,Charger,,,,AED,18,months,Premium
+222,Dodge,Charger SRT,,,,AED,18,months,Premium
+223,Dodge,Dakota,,,,AED,18,months,Premium
+224,Dodge,Dart,,,,AED,18,months,Premium
+225,Dodge,Durango,,,,AED,18,months,Premium
+226,Dodge,Neon,,,,AED,18,months,Premium
+227,Dodge,Nitro,,,,AED,18,months,Premium
+228,Dodge,Ram,,,,AED,18,months,Premium
+229,Dodge,Viper,,,,AED,18,months,Premium
+230,Dongfeng,H30 Cross,,,,AED,18,months,Premium
+231,Dongfeng,S30,,,,AED,18,months,Premium
+232,Ferrari,360,1800,1800,1714.285714,AED,18,months,Premium
+233,Ferrari,458,1800,1800,1714.285714,AED,18,months,Premium
+234,Ferrari,458 Spider,1800,1800,1714.285714,AED,18,months,Premium
+235,Ferrari,488 GTB,1800,1800,1714.285714,AED,18,months,Premium
+236,Ferrari,488 Spider,1800,1800,1714.285714,AED,18,months,Premium
+237,Ferrari,599 GTB Fiorano,1800,1800,1714.285714,AED,18,months,Premium
+238,Ferrari,612 Scaglietti,1800,1800,1714.285714,AED,18,months,Premium
+239,Ferrari,812 Superfast,1800,1800,1714.285714,AED,18,months,Premium
+240,Ferrari,California,1800,1800,1714.285714,AED,18,months,Premium
+241,Ferrari,California T,1800,1800,1714.285714,AED,18,months,Premium
+242,Ferrari,F12 Berlinetta,1800,1800,1714.285714,AED,18,months,Premium
+243,Ferrari,F430,1800,1800,1714.285714,AED,18,months,Premium
+244,Ferrari,F430 Spider,1800,1800,1714.285714,AED,18,months,Premium
+245,Ferrari,FF,1800,1800,1714.285714,AED,18,months,Premium
+246,Ferrari,GTC4Lusso,1800,1800,1714.285714,AED,18,months,Premium
+247,Ferrari,GTC4Lusso T,1800,1800,1714.285714,AED,18,months,Premium
+248,Ferrari,LaFerrari,1800,1800,1714.285714,AED,18,months,Premium
+249,Ferrari,Portofino,1800,1800,1714.285714,AED,18,months,Premium
+250,Fiat,500,,,,AED,18,months,Premium
+251,Fiat,500L,,,,AED,18,months,Premium
+252,Fiat,500X,,,,AED,18,months,Premium
+253,Fiat,Bravo,840,840,800,AED,18,months,Premium
+254,Fiat,Ducato,840,840,800,AED,18,months,Premium
+255,Fiat,Fiorino,840,840,800,AED,18,months,Premium
+256,Fiat,Fullback,840,840,800,AED,18,months,Premium
+257,Fiat,Linea,840,840,800,AED,18,months,Premium
+258,Fiat,Punto,,,,AED,18,months,Premium
+259,Fisker,Karma,1800,1800,1714.285714,AED,18,months,Premium
+260,Ford,Crown Victoria,,,,AED,18,months,Premium
+261,Ford,Ecosport,,,,AED,18,months,Premium
+262,Ford,Edge,,,,AED,18,months,Premium
+263,Ford,Escape,,,,AED,18,months,Premium
+264,Ford,Everest,,,,AED,18,months,Premium
+265,Ford,Expedition,,,,AED,18,months,Premium
+266,Ford,Explorer,,,,AED,18,months,Premium
+267,Ford,F-150,,,,AED,18,months,Premium
+268,Ford,F-150 Raptor,,,,AED,18,months,Premium
+269,Ford,Fiesta,,,,AED,18,months,Premium
+270,Ford,Figo,,,,AED,18,months,Premium
+271,Ford,Five Hundred,,,,AED,18,months,Premium
+272,Ford,Flex,,,,AED,18,months,Premium
+273,Ford,Focus,,,,AED,18,months,Premium
+274,Ford,Focus ST,,,,AED,18,months,Premium
+275,Ford,Freestar,,,,AED,18,months,Premium
+276,Ford,Fusion,,,,AED,18,months,Premium
+277,Ford,GT,,,,AED,18,months,Premium
+278,Ford,Mondeo,,,,AED,18,months,Premium
+279,Ford,Mustang,,,,AED,18,months,Premium
+280,Ford,Mustang Convertible,,,,AED,18,months,Premium
+281,Ford,Ranger,,,,AED,18,months,Premium
+282,Ford,Shelby GT500,,,,AED,18,months,Premium
+283,Ford,Taurus,,,,AED,18,months,Premium
+284,Ford,Tourneo Custom,,,,AED,18,months,Premium
+285,Ford,Transit,,,,AED,18,months,Premium
+286,Ford,Transit Custom,,,,AED,18,months,Premium
+287,Foton,SUP,,,,AED,18,months,Premium
+288,Foton,Tunland,,,,AED,18,months,Premium
+289,Foton,View C1 Minibus,,,,AED,18,months,Premium
+290,GAC,GA3,,,,AED,18,months,Premium
+291,GAC,GA5,,,,AED,18,months,Premium
+292,GAC,GA8,,,,AED,18,months,Premium
+293,GAC,GS3,,,,AED,18,months,Premium
+294,GAC,GS4,,,,AED,18,months,Premium
+295,GAC,GS5,,,,AED,18,months,Premium
+296,GAC,GS7,,,,AED,18,months,Premium
+297,GAC,GS8,,,,AED,18,months,Premium
+298,Geely,CK,,,,AED,18,months,Premium
+299,Geely,Emgrand 7,,,,AED,18,months,Premium
+300,Geely,Emgrand 8,,,,AED,18,months,Premium
+301,Geely,Emgrand GS,,,,AED,18,months,Premium
+302,Geely,Emgrand GT,,,,AED,18,months,Premium
+303,Geely,Emgrand X7,,,,AED,18,months,Premium
+304,Geely,Emgrand X7 Sport,,,,AED,18,months,Premium
+305,Geely,GC2,,,,AED,18,months,Premium
+306,Geely,GC6,,,,AED,18,months,Premium
+307,Geely,GC7,,,,AED,18,months,Premium
+308,Geely,GX2,,,,AED,18,months,Premium
+309,Genesis,G70,1130,1130,1076.190476,AED,18,months,Premium
+310,Genesis,G80,,,,AED,18,months,Premium
+311,Genesis,G90,1130,1130,1076.190476,AED,18,months,Premium
+312,GMC,Acadia,,,,AED,18,months,Premium
+313,GMC,Envoy,,,,AED,18,months,Premium
+314,GMC,Sierra 1500,,,,AED,18,months,Premium
+315,GMC,Terrain,,,,AED,18,months,Premium
+316,GMC,Yukon,,,,AED,18,months,Premium
+317,Great Wall,Florid,,,,AED,18,months,Premium
+318,Great Wall,Wingle,,,,AED,18,months,Premium
+319,Haval,H2 Crossover,,,,AED,18,months,Premium
+320,Haval,H6,,,,AED,18,months,Premium
+321,Haval,H8,,,,AED,18,months,Premium
+322,Haval,H9,,,,AED,18,months,Premium
+323,Honda,Accord,,,,AED,18,months,Premium
+324,Honda,Accord Coupe,,,,AED,18,months,Premium
+325,Honda,Accord Crosstour,,,,AED,18,months,Premium
+326,Honda,City,,,,AED,18,months,Premium
+327,Honda,Civic,,,,AED,18,months,Premium
+328,Honda,Civic Hatchback,,,,AED,18,months,Premium
+329,Honda,CR-V,,,,AED,18,months,Premium
+330,Honda,CRX,,,,AED,18,months,Premium
+331,Honda,Jazz,,,,AED,18,months,Premium
+332,Honda,Legend,,,,AED,18,months,Premium
+333,Honda,MR-V,,,,AED,18,months,Premium
+334,Honda,Odyssey,,,,AED,18,months,Premium
+335,Honda,Odyssey J,,,,AED,18,months,Premium
+336,Honda,Pilot,,,,AED,18,months,Premium
+337,Honda,S2000,,,,AED,18,months,Premium
+338,Hummer,H2,945,945,900,AED,18,months,Premium
+339,Hummer,H3,,,,AED,18,months,Premium
+340,Hyundai,Accent,,,,AED,18,months,Premium
+341,Hyundai,Atos Prime,,,,AED,18,months,Premium
+342,Hyundai,Azera,,,,AED,18,months,Premium
+343,Hyundai,Centennial,,,,AED,18,months,Premium
+344,Hyundai,Coupe,,,,AED,18,months,Premium
+345,Hyundai,Creta,,,,AED,18,months,Premium
+346,Hyundai,Elantra,,,,AED,18,months,Premium
+347,Hyundai,Elantra Coupe,,,,AED,18,months,Premium
+348,Hyundai,Genesis,,,,AED,18,months,Premium
+349,Hyundai,Genesis Coupe,,,,AED,18,months,Premium
+350,Hyundai,Getz,,,,AED,18,months,Premium
+351,Hyundai,Grand i10,,,,AED,18,months,Premium
+352,Hyundai,Grand Santa Fe,,,,AED,18,months,Premium
+353,Hyundai,H1,,,,AED,18,months,Premium
+354,Hyundai,i10,,,,AED,18,months,Premium
+355,Hyundai,i20,,,,AED,18,months,Premium
+356,Hyundai,i30,,,,AED,18,months,Premium
+357,Hyundai,i40,,,,AED,18,months,Premium
+358,Hyundai,Kona,,,,AED,18,months,Premium
+359,Hyundai,Matrix,,,,AED,18,months,Premium
+360,Hyundai,Santa Fe,,,,AED,18,months,Premium
+361,Hyundai,Sonata,,,,AED,18,months,Premium
+362,Hyundai,Terracan,,,,AED,18,months,Premium
+363,Hyundai,Trajet,,,,AED,18,months,Premium
+364,Hyundai,Tucson,,,,AED,18,months,Premium
+365,Hyundai,Veloster,,,,AED,18,months,Premium
+366,Hyundai,Veloster Turbo,,,,AED,18,months,Premium
+367,Hyundai,Veracruz,,,,AED,18,months,Premium
+368,Infiniti,EX,,,,AED,18,months,Premium
+369,Infiniti,FX,,,,AED,18,months,Premium
+370,Infiniti,G,,,,AED,18,months,Premium
+371,Infiniti,G35,,,,AED,18,months,Premium
+372,Infiniti,G35 Coupe,,,,AED,18,months,Premium
+373,Infiniti,G37 Convertible,,,,AED,18,months,Premium
+374,Infiniti,G37 Coupe,,,,AED,18,months,Premium
+375,Infiniti,JX,,,,AED,18,months,Premium
+376,Infiniti,M,,,,AED,18,months,Premium
+377,Infiniti,Q30,,,,AED,18,months,Premium
+378,Infiniti,Q45,,,,AED,18,months,Premium
+379,Infiniti,Q50,,,,AED,18,months,Premium
+380,Infiniti,Q60 Convertible,,,,AED,18,months,Premium
+381,Infiniti,Q60 Coupe,,,,AED,18,months,Premium
+382,Infiniti,Q70,,,,AED,18,months,Premium
+383,Infiniti,QX30,,,,AED,18,months,Premium
+384,Infiniti,QX50,,,,AED,18,months,Premium
+385,Infiniti,QX56,,,,AED,18,months,Premium
+386,Infiniti,QX60,,,,AED,18,months,Premium
+387,Infiniti,QX70,,,,AED,18,months,Premium
+388,Infiniti,QX80,,,,AED,18,months,Premium
+389,International,MXT,,,,AED,18,months,Premium
+390,Isuzu,D-Max,,,,AED,18,months,Premium
+391,Isuzu,D-Max Arctic Trucks AT35,,,,AED,18,months,Premium
+392,Isuzu,MU-X,,,,AED,18,months,Premium
+393,Isuzu,Trooper,,,,AED,18,months,Premium
+394,JAC,J4,,,,AED,18,months,Premium
+395,JAC,J5,,,,AED,18,months,Premium
+396,JAC,J6,,,,AED,18,months,Premium
+397,JAC,M5 MPV,,,,AED,18,months,Premium
+398,JAC,S3 SUV,,,,AED,18,months,Premium
+399,Jaguar,E-Pace,,,,AED,18,months,Premium
+400,Jaguar,F-Pace,,,,AED,18,months,Premium
+401,Jaguar,F-Type,,,,AED,18,months,Premium
+402,Jaguar,F-Type Coupe,,,,AED,18,months,Premium
+403,Jaguar,F-Type SVR Convertible,,,,AED,18,months,Premium
+404,Jaguar,F-Type SVR Coupe,,,,AED,18,months,Premium
+405,Jaguar,S-Type,,,,AED,18,months,Premium
+406,Jaguar,X-Type,,,,AED,18,months,Premium
+407,Jaguar,XE,1025,1025,976.1904762,AED,18,months,Premium
+408,Jaguar,XF,1130,1130,1076.190476,AED,18,months,Premium
+409,Jaguar,XF Sportbrake,1130,1130,1076.190476,AED,18,months,Premium
+410,Jaguar,XFR-S,,,,AED,18,months,Premium
+411,Jaguar,XJ,1025,1025,976.1904762,AED,18,months,Premium
+412,Jaguar,XK,1130,1130,1076.190476,AED,18,months,Premium
+413,Jaguar,XK Convertible,1130,1130,1076.190476,AED,18,months,Premium
+414,Jeep,Cherokee,945,945,900,AED,18,months,Premium
+415,Jeep,Commander,945,945,900,AED,18,months,Premium
+416,Jeep,Compass,945,945,900,AED,18,months,Premium
+417,Jeep,Grand Cherokee,1025,1025,976.1904762,AED,18,months,Premium
+418,Jeep,Grand Cherokee SRT,945,945,900,AED,18,months,Premium
+419,Jeep,Patriot,945,945,900,AED,18,months,Premium
+420,Jeep,Renegade,945,945,900,AED,18,months,Premium
+421,Jeep,Wrangler,945,945,900,AED,18,months,Premium
+422,Jeep,Wrangler Unlimited,945,945,900,AED,18,months,Premium
+423,Kia,Cadenza,,,,AED,18,months,Premium
+424,Kia,Carens,,,,AED,18,months,Premium
+425,Kia,Carnival,,,,AED,18,months,Premium
+426,Kia,Cerato,,,,AED,18,months,Premium
+427,Kia,Cerato Hatchback,,,,AED,18,months,Premium
+428,Kia,Cerato Koup,,,,AED,18,months,Premium
+429,Kia,Mohave,,,,AED,18,months,Premium
+430,Kia,Opirus,,,,AED,18,months,Premium
+431,Kia,Optima,,,,AED,18,months,Premium
+432,Kia,Picanto,,,,AED,18,months,Premium
+433,Kia,Quoris,,,,AED,18,months,Premium
+434,Kia,Rio,,,,AED,18,months,Premium
+435,Kia,Rio Hatchback,,,,AED,18,months,Premium
+436,Kia,Sorento,,,,AED,18,months,Premium
+437,Kia,Soul,,,,AED,18,months,Premium
+438,Kia,Sportage,,,,AED,18,months,Premium
+439,Kia,Stinger,,,,AED,18,months,Premium
+440,King Long,Mini Van,,,,AED,18,months,Premium
+441,Koenigsegg,CCX,1800,1800,1714.285714,AED,18,months,Premium
+442,KTM,X-Bow,,,,AED,18,months,Premium
+443,Lamborghini,Aventador,1800,1800,1714.285714,AED,18,months,Premium
+444,Lamborghini,Aventador Roadster,1800,1800,1714.285714,AED,18,months,Premium
+445,Lamborghini,Gallardo,1800,1800,1714.285714,AED,18,months,Premium
+446,Lamborghini,Huracan,1800,1800,1714.285714,AED,18,months,Premium
+447,Lamborghini,Huracan Spyder,1800,1800,1714.285714,AED,18,months,Premium
+448,Lamborghini,Murcielago,1800,1800,1714.285714,AED,18,months,Premium
+449,Lamborghini,Urus,1800,1800,1714.285714,AED,18,months,Premium
+450,Land Rover,Defender,1130,1130,1076.190476,AED,18,months,Premium
+451,Land Rover,Discovery,1130,1130,1076.190476,AED,18,months,Premium
+452,Land Rover,Discovery Sport,1130,1130,1076.190476,AED,18,months,Premium
+453,Land Rover,Freelander,1130,1130,1076.190476,AED,18,months,Premium
+454,Land Rover,LR2,1130,1130,1076.190476,AED,18,months,Premium
+455,Land Rover,LR3,1130,1130,1076.190476,AED,18,months,Premium
+456,Land Rover,LR4,1130,1130,1076.190476,AED,18,months,Premium
+457,Land Rover,Range Rover,1130,1130,1076.190476,AED,18,months,Premium
+458,Land Rover,Range Rover Evoque,1025,1025,976.1904762,AED,18,months,Premium
+459,Land Rover,Range Rover Evoque Conver,1025,1025,976.1904762,AED,18,months,Premium
+460,Land Rover,Range Rover Evoque Coupe,1025,1025,976.1904762,AED,18,months,Premium
+461,Land Rover,Range Rover Sport,1130,1130,1076.190476,AED,18,months,Premium
+462,Land Rover,Range Rover Sport SVR,1130,1130,1076.190476,AED,18,months,Premium
+463,Land Rover,Range Rover Velar,1130,1130,1076.190476,AED,18,months,Premium
+464,Lexus,CT,,,,AED,18,months,Premium
+465,Lexus,ES,,,,AED,18,months,Premium
+466,Lexus,GS,,,,AED,18,months,Premium
+467,Lexus,GX,,,,AED,18,months,Premium
+468,Lexus,IS,,,,AED,18,months,Premium
+469,Lexus,IS C,,,,AED,18,months,Premium
+470,Lexus,IS F,,,,AED,18,months,Premium
+471,Lexus,LC,,,,AED,18,months,Premium
+472,Lexus,LFA,,,,AED,18,months,Premium
+473,Lexus,LS,,,,AED,18,months,Premium
+474,Lexus,LX,,,,AED,18,months,Premium
+475,Lexus,NX,,,,AED,18,months,Premium
+476,Lexus,RC,,,,AED,18,months,Premium
+477,Lexus,RC F,,,,AED,18,months,Premium
+478,Lexus,RX,,,,AED,18,months,Premium
+479,Lexus,SC,,,,AED,18,months,Premium
+480,Lincoln,Continental,,,,AED,18,months,Premium
+481,Lincoln,MKC,,,,AED,18,months,Premium
+482,Lincoln,MKS,,,,AED,18,months,Premium
+483,Lincoln,MKT,,,,AED,18,months,Premium
+484,Lincoln,MKX,,,,AED,18,months,Premium
+485,Lincoln,MKZ,,,,AED,18,months,Premium
+486,Lincoln,Nautilus,,,,AED,18,months,Premium
+487,Lincoln,Navigator,,,,AED,18,months,Premium
+488,Lincoln,Navigator L,,,,AED,18,months,Premium
+489,Lincoln,Town Car,,,,AED,18,months,Premium
+490,Lotus,Elise,1800,1800,1714.285714,AED,18,months,Premium
+491,Lotus,Evora,1800,1800,1714.285714,AED,18,months,Premium
+492,Lotus,Exige,1800,1800,1714.285714,AED,18,months,Premium
+493,Luxgen,Luxgen7 MPV,,,,AED,18,months,Premium
+494,Luxgen,Luxgen7 SUV,,,,AED,18,months,Premium
+495,Luxgen,S5,,,,AED,18,months,Premium
+496,Luxgen,U6,,,,AED,18,months,Premium
+497,Luxgen,U7,,,,AED,18,months,Premium
+498,Mahindra,Scorpio,,,,AED,18,months,Premium
+499,Mahindra,XUV500,,,,AED,18,months,Premium
+500,Maserati,Coupe,1130,1130,1076.190476,AED,18,months,Premium
+501,Maserati,Ghibli,1130,1130,1076.190476,AED,18,months,Premium
+502,Maserati,GranCabrio,1130,1130,1076.190476,AED,18,months,Premium
+503,Maserati,GranTurismo,1130,1130,1076.190476,AED,18,months,Premium
+504,Maserati,Levante,1130,1130,1076.190476,AED,18,months,Premium
+505,Maserati,Quattroporte,1130,1130,1076.190476,AED,18,months,Premium
+506,Maserati,Spyder,1130,1130,1076.190476,AED,18,months,Premium
+507,Maxus,G10,,,,AED,18,months,Premium
+508,Maxus,V80,,,,AED,18,months,Premium
+509,Maybach,57,1130,1130,1076.190476,AED,18,months,Premium
+510,Maybach,62,1130,1130,1076.190476,AED,18,months,Premium
+511,Mazda,2,,,,AED,18,months,Premium
+512,Mazda,2 Sedan,,,,AED,18,months,Premium
+513,Mazda,3,,,,AED,18,months,Premium
+514,Mazda,3 Sedan,,,,AED,18,months,Premium
+515,Mazda,6,,,,AED,18,months,Premium
+516,Mazda,6 Ultra,,,,AED,18,months,Premium
+517,Mazda,6 Wagon,,,,AED,18,months,Premium
+518,Mazda,B-Series,,,,AED,18,months,Premium
+519,Mazda,CX-3,,,,AED,18,months,Premium
+520,Mazda,CX-5,,,,AED,18,months,Premium
+521,Mazda,CX-7,,,,AED,18,months,Premium
+522,Mazda,CX-9,,,,AED,18,months,Premium
+523,Mazda,MX-5,,,,AED,18,months,Premium
+524,Mazda,MX-5 RF,,,,AED,18,months,Premium
+525,McLaren,540C Coupe,,,,AED,18,months,Premium
+526,McLaren,570GT Coupe,,,,AED,18,months,Premium
+527,McLaren,570S Coupe,,,,AED,18,months,Premium
+528,McLaren,570S Spider,,,,AED,18,months,Premium
+529,McLaren,650S,,,,AED,18,months,Premium
+530,McLaren,650S Spider,,,,AED,18,months,Premium
+531,McLaren,675LT,,,,AED,18,months,Premium
+532,McLaren,675LT Spider,,,,AED,18,months,Premium
+533,McLaren,720S,,,,AED,18,months,Premium
+534,McLaren,MP4-12C,,,,AED,18,months,Premium
+535,McLaren,MP4-12C Spider,,,,AED,18,months,Premium
+536,McLaren,P1,,,,AED,18,months,Premium
+537,Mercedes-Benz,A 45 AMG,,,,AED,18,months,Premium
+538,Mercedes-Benz,A-Class,,,,AED,18,months,Premium
+539,Mercedes-Benz,AMG GT,,,,AED,18,months,Premium
+540,Mercedes-Benz,AMG GT Roadster,,,,AED,18,months,Premium
+541,Mercedes-Benz,B-Class,,,,AED,18,months,Premium
+542,Mercedes-Benz,C 63 AMG,,,,AED,18,months,Premium
+543,Mercedes-Benz,C 63 AMG Coupe,,,,AED,18,months,Premium
+544,Mercedes-Benz,C-Class,,,,AED,18,months,Premium
+545,Mercedes-Benz,C-Class Coupe,,,,AED,18,months,Premium
+546,Mercedes-Benz,CL-Class,,,,AED,18,months,Premium
+547,Mercedes-Benz,CLA 45 AMG,,,,AED,18,months,Premium
+548,Mercedes-Benz,CLA-Class,,,,AED,18,months,Premium
+549,Mercedes-Benz,CLC-Class,,,,AED,18,months,Premium
+550,Mercedes-Benz,CLK-Class,,,,AED,18,months,Premium
+551,Mercedes-Benz,CLS 63 AMG,,,,AED,18,months,Premium
+552,Mercedes-Benz,CLS Shooting Brake,,,,AED,18,months,Premium
+553,Mercedes-Benz,CLS-Class,,,,AED,18,months,Premium
+554,Mercedes-Benz,E 43 AMG,,,,AED,18,months,Premium
+555,Mercedes-Benz,E 55 AMG,,,,AED,18,months,Premium
+556,Mercedes-Benz,E 63 AMG,,,,AED,18,months,Premium
+557,Mercedes-Benz,E-Class,,,,AED,18,months,Premium
+558,Mercedes-Benz,E-Class Cabriolet,,,,AED,18,months,Premium
+559,Mercedes-Benz,E-Class Coupe,,,,AED,18,months,Premium
+560,Mercedes-Benz,G 63 AMG,,,,AED,18,months,Premium
+561,Mercedes-Benz,G 65 AMG,,,,AED,18,months,Premium
+562,Mercedes-Benz,G-Class,,,,AED,18,months,Premium
+563,Mercedes-Benz,GL-Class,,,,AED,18,months,Premium
+564,Mercedes-Benz,GLA-Class,,,,AED,18,months,Premium
+565,Mercedes-Benz,GLC 43 AMG,,,,AED,18,months,Premium
+566,Mercedes-Benz,GLC 43 AMG Coupe,,,,AED,18,months,Premium
+567,Mercedes-Benz,GLC 63 AMG,,,,AED,18,months,Premium
+568,Mercedes-Benz,GLC 63 AMG Coupe,,,,AED,18,months,Premium
+569,Mercedes-Benz,GLC-Class,,,,AED,18,months,Premium
+570,Mercedes-Benz,GLC-Class Coupe,,,,AED,18,months,Premium
+571,Mercedes-Benz,GLE 63 AMG,,,,AED,18,months,Premium
+572,Mercedes-Benz,GLE 63 AMG Coupe,,,,AED,18,months,Premium
+573,Mercedes-Benz,GLE-Class,,,,AED,18,months,Premium
+574,Mercedes-Benz,GLE-Class Coupe,,,,AED,18,months,Premium
+575,Mercedes-Benz,GLK-Class,,,,AED,18,months,Premium
+576,Mercedes-Benz,GLS 63 AMG,,,,AED,18,months,Premium
+577,Mercedes-Benz,GLS-Class,,,,AED,18,months,Premium
+578,Mercedes-Benz,M-Class,,,,AED,18,months,Premium
+579,Mercedes-Benz,ML 63 AMG,,,,AED,18,months,Premium
+580,Mercedes-Benz,R-Class,,,,AED,18,months,Premium
+581,Mercedes-Benz,S 63 AMG,,,,AED,18,months,Premium
+582,Mercedes-Benz,S 63 AMG Coupe,,,,AED,18,months,Premium
+583,Mercedes-Benz,S 65 AMG,,,,AED,18,months,Premium
+584,Mercedes-Benz,S 65 AMG Coupe,,,,AED,18,months,Premium
+585,Mercedes-Benz,S-Class,,,,AED,18,months,Premium
+586,Mercedes-Benz,S-Class Coupe,,,,AED,18,months,Premium
+587,Mercedes-Benz,S-Class Maybach,,,,AED,18,months,Premium
+588,Mercedes-Benz,SL 63 AMG,,,,AED,18,months,Premium
+589,Mercedes-Benz,SL 65 AMG,,,,AED,18,months,Premium
+590,Mercedes-Benz,SL-Class,,,,AED,18,months,Premium
+591,Mercedes-Benz,SLC-Class,,,,AED,18,months,Premium
+592,Mercedes-Benz,SLK-Class,,,,AED,18,months,Premium
+593,Mercedes-Benz,SLR McLaren,,,,AED,18,months,Premium
+594,Mercedes-Benz,SLS AMG,,,,AED,18,months,Premium
+595,Mercedes-Benz,SLS AMG Roadster,,,,AED,18,months,Premium
+596,Mercedes-Benz,Sprinter,,,,AED,18,months,Premium
+597,Mercedes-Benz,V-Class,,,,AED,18,months,Premium
+598,Mercedes-Benz,Viano,,,,AED,18,months,Premium
+599,Mercedes-Benz,Vito,,,,AED,18,months,Premium
+600,Mercury,Grand Marquis,,,,AED,18,months,Premium
+601,Mercury,Mariner,,,,AED,18,months,Premium
+602,Mercury,Milan,,,,AED,18,months,Premium
+603,Mercury,Montego,,,,AED,18,months,Premium
+604,Mercury,Mountaineer,,,,AED,18,months,Premium
+605,MG,3,,,,AED,18,months,Premium
+606,MG,350,,,,AED,18,months,Premium
+607,MG,360,,,,AED,18,months,Premium
+608,MG,5,,,,AED,18,months,Premium
+609,MG,550,,,,AED,18,months,Premium
+610,MG,6,,,,AED,18,months,Premium
+611,MG,750,,,,AED,18,months,Premium
+612,MG,GS,,,,AED,18,months,Premium
+613,MG,RX5,,,,AED,18,months,Premium
+614,MG,ZS,,,,AED,18,months,Premium
+615,Mini,Clubman,1025,1025,976.1904762,AED,18,months,Premium
+616,Mini,Cooper,945,945,900,AED,18,months,Premium
+617,Mini,Countryman,945,945,900,AED,18,months,Premium
+618,Mini,Coupe,945,945,900,AED,18,months,Premium
+619,Mini,Paceman,945,945,900,AED,18,months,Premium
+620,Mini,Roadster,945,945,900,AED,18,months,Premium
+621,Mitsubishi,ASX,,,,AED,18,months,Premium
+622,Mitsubishi,Attrage,,,,AED,18,months,Premium
+623,Mitsubishi,Eclipse,,,,AED,18,months,Premium
+624,Mitsubishi,Eclipse Cross,,,,AED,18,months,Premium
+625,Mitsubishi,Galant,,,,AED,18,months,Premium
+626,Mitsubishi,Grandis,,,,AED,18,months,Premium
+627,Mitsubishi,L200,,,,AED,18,months,Premium
+628,Mitsubishi,Lancer,,,,AED,18,months,Premium
+629,Mitsubishi,Lancer Evolution,,,,AED,18,months,Premium
+630,Mitsubishi,Lancer EX,,,,AED,18,months,Premium
+631,Mitsubishi,Lancer Fortis,,,,AED,18,months,Premium
+632,Mitsubishi,Magna,,,,AED,18,months,Premium
+633,Mitsubishi,Mirage,,,,AED,18,months,Premium
+634,Mitsubishi,Montero Sport,,,,AED,18,months,Premium
+635,Mitsubishi,Nativa,,,,AED,18,months,Premium
+636,Mitsubishi,Outlander,,,,AED,18,months,Premium
+637,Mitsubishi,Pajero,,,,AED,18,months,Premium
+638,Mitsubishi,Pajero Sport,,,,AED,18,months,Premium
+639,Mitsubishi,Pajero SWB,,,,AED,18,months,Premium
+640,Morgan,Aero8,,,,AED,18,months,Premium
+641,Morgan,Plus 4,,,,AED,18,months,Premium
+642,Morgan,Plus 8,,,,AED,18,months,Premium
+643,Morgan,Roadster,,,,AED,18,months,Premium
+644,Nissan,350Z,,,,AED,18,months,Premium
+645,Nissan,370Z,,,,AED,18,months,Premium
+646,Nissan,370Z Roadster,,,,AED,18,months,Premium
+647,Nissan,Altima,,,,AED,18,months,Premium
+648,Nissan,Altima Coupe,,,,AED,18,months,Premium
+649,Nissan,Armada,,,,AED,18,months,Premium
+650,Nissan,GT-R,,,,AED,18,months,Premium
+651,Nissan,Juke,,,,AED,18,months,Premium
+652,Nissan,Kicks,,,,AED,18,months,Premium
+653,Nissan,Leaf,,,,AED,18,months,Premium
+654,Nissan,Maxima,,,,AED,18,months,Premium
+655,Nissan,Micra,,,,AED,18,months,Premium
+656,Nissan,Murano,,,,AED,18,months,Premium
+657,Nissan,Navara,,,,AED,18,months,Premium
+658,Nissan,Pathfinder,,,,AED,18,months,Premium
+659,Nissan,Pathfinder Classic,,,,AED,18,months,Premium
+660,Nissan,Patrol,,,,AED,18,months,Premium
+661,Nissan,Patrol Nismo,,,,AED,18,months,Premium
+662,Nissan,Patrol Safari,,,,AED,18,months,Premium
+663,Nissan,Pickup,,,,AED,18,months,Premium
+664,Nissan,Qashqai,,,,AED,18,months,Premium
+665,Nissan,Sentra,,,,AED,18,months,Premium
+666,Nissan,Sunny,,,,AED,18,months,Premium
+667,Nissan,Tiida,,,,AED,18,months,Premium
+668,Nissan,Urvan,,,,AED,18,months,Premium
+669,Nissan,X-Trail,,,,AED,18,months,Premium
+670,Nissan,Xterra,,,,AED,18,months,Premium
+671,Noble,M600,,,,AED,18,months,Premium
+672,Opel,Adam,,,,AED,18,months,Premium
+673,Opel,Antara,,,,AED,18,months,Premium
+674,Opel,Astra,945,945,900,AED,18,months,Premium
+675,Opel,Astra GTC,945,945,900,AED,18,months,Premium
+676,Opel,Astra OPC,945,945,900,AED,18,months,Premium
+677,Opel,Corsa,945,945,900,AED,18,months,Premium
+678,Opel,Corsa OPC,945,945,900,AED,18,months,Premium
+679,Opel,Insignia,,,,AED,18,months,Premium
+680,Opel,Insignia OPC,,,,AED,18,months,Premium
+681,Opel,Meriva,,,,AED,18,months,Premium
+682,Opel,Mokka,,,,AED,18,months,Premium
+683,Opel,Vectra,,,,AED,18,months,Premium
+684,Opel,Zafira,,,,AED,18,months,Premium
+685,Oullim,Spirra,,,,AED,18,months,Premium
+686,Pagani,Huayra,1800,1800,1714.285714,AED,18,months,Premium
+687,Peugeot,2008,945,945,900,AED,18,months,Premium
+688,Peugeot,206,945,945,900,AED,18,months,Premium
+689,Peugeot,207,945,945,900,AED,18,months,Premium
+690,Peugeot,208,945,945,900,AED,18,months,Premium
+691,Peugeot,3008,945,945,900,AED,18,months,Premium
+692,Peugeot,301,945,945,900,AED,18,months,Premium
+693,Peugeot,307,945,945,900,AED,18,months,Premium
+694,Peugeot,308,945,945,900,AED,18,months,Premium
+695,Peugeot,308 CC,945,945,900,AED,18,months,Premium
+696,Peugeot,407,945,945,900,AED,18,months,Premium
+697,Peugeot,407 Coupe,945,945,900,AED,18,months,Premium
+698,Peugeot,408,945,945,900,AED,18,months,Premium
+699,Peugeot,5008,1025,1025,976.1904762,AED,18,months,Premium
+700,Peugeot,508,1025,1025,976.1904762,AED,18,months,Premium
+701,Peugeot,607,1025,1025,976.1904762,AED,18,months,Premium
+702,Peugeot,Boxer,1025,1025,976.1904762,AED,18,months,Premium
+703,Peugeot,Expert,1025,1025,976.1904762,AED,18,months,Premium
+704,Peugeot,Partner,1025,1025,976.1904762,AED,18,months,Premium
+705,Peugeot,RCZ,840,840,800,AED,18,months,Premium
+706,PGO,Cevennes,,,,AED,18,months,Premium
+707,PGO,Speedster,,,,AED,18,months,Premium
+708,Porsche,911,1025,1025,976.1904762,AED,18,months,Premium
+709,Porsche,911 Cabriolet,1025,1025,976.1904762,AED,18,months,Premium
+710,Porsche,911 GT2,1025,1025,976.1904762,AED,18,months,Premium
+711,Porsche,911 GT3,1025,1025,976.1904762,AED,18,months,Premium
+712,Porsche,911 Turbo,1025,1025,976.1904762,AED,18,months,Premium
+713,Porsche,911 Turbo Cabriolet,1025,1025,976.1904762,AED,18,months,Premium
+714,Porsche,918 Spyder,1025,1025,976.1904762,AED,18,months,Premium
+715,Porsche,Boxster,945,945,900,AED,18,months,Premium
+716,Porsche,Cayenne,1130,1130,1076.190476,AED,18,months,Premium
+717,Porsche,Cayman,1025,1025,976.1904762,AED,18,months,Premium
+718,Porsche,Macan,1130,1130,1076.190476,AED,18,months,Premium
+719,Porsche,Panamera,1277,1277,1216.190476,AED,18,months,Premium
+720,Proton,GEN-2,,,,AED,18,months,Premium
+721,Proton,Savvy,,,,AED,18,months,Premium
+722,Proton,Waja,,,,AED,18,months,Premium
+723,Proton,Wira,,,,AED,18,months,Premium
+724,Ram,1200,,,,AED,18,months,Premium
+725,Ram,1500,,,,AED,18,months,Premium
+726,Renault,Captur,,,,AED,18,months,Premium
+727,Renault,Clio,,,,AED,18,months,Premium
+728,Renault,Clio RS,,,,AED,18,months,Premium
+729,Renault,Dokker Van,,,,AED,18,months,Premium
+730,Renault,Duster,,,,AED,18,months,Premium
+731,Renault,Espace,,,,AED,18,months,Premium
+732,Renault,Fluence,,,,AED,18,months,Premium
+733,Renault,Koleos,,,,AED,18,months,Premium
+734,Renault,Laguna,,,,AED,18,months,Premium
+735,Renault,Laguna Coupe,,,,AED,18,months,Premium
+736,Renault,Logan,,,,AED,18,months,Premium
+737,Renault,Logan Van,,,,AED,18,months,Premium
+738,Renault,Megane,,,,AED,18,months,Premium
+739,Renault,Megane CC,,,,AED,18,months,Premium
+740,Renault,Megane RS,,,,AED,18,months,Premium
+741,Renault,Safrane,,,,AED,18,months,Premium
+742,Renault,Sandero,,,,AED,18,months,Premium
+743,Renault,Scenic,,,,AED,18,months,Premium
+744,Renault,Symbol,,,,AED,18,months,Premium
+745,Renault,Talisman,,,,AED,18,months,Premium
+746,Renault,Trafic,,,,AED,18,months,Premium
+747,Renault,Twizy,,,,AED,18,months,Premium
+748,Renault,Zoe,,,,AED,18,months,Premium
+749,Rolls Royce,Dawn,1800,1800,1714.285714,AED,18,months,Premium
+750,Rolls Royce,Drophead Coupe,1800,1800,1714.285714,AED,18,months,Premium
+751,Rolls Royce,Ghost,1800,1800,1714.285714,AED,18,months,Premium
+752,Rolls Royce,Phantom,1800,1800,1714.285714,AED,18,months,Premium
+753,Rolls Royce,Silver Seraph,1800,1800,1714.285714,AED,18,months,Premium
+754,Rolls Royce,Wraith,1800,1800,1714.285714,AED,18,months,Premium
+755,Saab,43346,,,,AED,18,months,Premium
+756,Saab,43348,,,,AED,18,months,Premium
+757,Saab,9-7X,,,,AED,18,months,Premium
+758,Seat,Altea,,,,AED,18,months,Premium
+759,Seat,Cordoba,,,,AED,18,months,Premium
+760,Seat,Exeo,,,,AED,18,months,Premium
+761,Seat,Ibiza,,,,AED,18,months,Premium
+762,Seat,Leon,,,,AED,18,months,Premium
+763,Seat,Toledo,,,,AED,18,months,Premium
+764,Skoda,Fabia,840,840,800,AED,18,months,Premium
+765,Skoda,Kodiaq,945,945,900,AED,18,months,Premium
+766,Skoda,Octavia,1025,1025,976.1904762,AED,18,months,Premium
+767,Skoda,Roomster,945,945,900,AED,18,months,Premium
+768,Skoda,Superb,1025,1025,976.1904762,AED,18,months,Premium
+769,Skoda,Yeti,945,945,900,AED,18,months,Premium
+770,Spyker,C8,,,,AED,18,months,Premium
+771,Ssangyong,Actyon,,,,AED,18,months,Premium
+772,Ssangyong,Korando,,,,AED,18,months,Premium
+773,Ssangyong,Kyron,,,,AED,18,months,Premium
+774,Ssangyong,Musso,,,,AED,18,months,Premium
+775,Ssangyong,Rexton,,,,AED,18,months,Premium
+776,Ssangyong,Rodius,,,,AED,18,months,Premium
+777,Ssangyong,Tivoli,,,,AED,18,months,Premium
+778,Subaru,BRZ,,,,AED,18,months,Premium
+779,Subaru,Forester,,,,AED,18,months,Premium
+780,Subaru,Impreza,,,,AED,18,months,Premium
+781,Subaru,Impreza WRX,,,,AED,18,months,Premium
+782,Subaru,Impreza WRX STI,,,,AED,18,months,Premium
+783,Subaru,Legacy,,,,AED,18,months,Premium
+784,Subaru,Outback,,,,AED,18,months,Premium
+785,Subaru,Tribeca,,,,AED,18,months,Premium
+786,Subaru,XV,,,,AED,18,months,Premium
+787,Suzuki,Alto,,,,AED,18,months,Premium
+788,Suzuki,APV,,,,AED,18,months,Premium
+789,Suzuki,Baleno,,,,AED,18,months,Premium
+790,Suzuki,Carry,,,,AED,18,months,Premium
+791,Suzuki,Celerio,,,,AED,18,months,Premium
+792,Suzuki,Ciaz,,,,AED,18,months,Premium
+793,Suzuki,Ertiga Van,,,,AED,18,months,Premium
+794,Suzuki,Grand Vitara,,,,AED,18,months,Premium
+795,Suzuki,Ignis,,,,AED,18,months,Premium
+796,Suzuki,Jimny,,,,AED,18,months,Premium
+797,Suzuki,Kizashi,,,,AED,18,months,Premium
+798,Suzuki,Liana,,,,AED,18,months,Premium
+799,Suzuki,Swift,,,,AED,18,months,Premium
+800,Suzuki,Swift Dzire,,,,AED,18,months,Premium
+801,Suzuki,SX4,,,,AED,18,months,Premium
+802,Suzuki,Vitara,,,,AED,18,months,Premium
+803,Suzuki,XL7,,,,AED,18,months,Premium
+804,Tata,Indica,,,,AED,18,months,Premium
+805,Tata,Indigo,,,,AED,18,months,Premium
+806,Tata,Xenon,,,,AED,18,months,Premium
+807,Tesla,Model S,,,,AED,18,months,Premium
+808,Tesla,Model X,,,,AED,18,months,Premium
+809,Toyota,86,,,,AED,18,months,Premium
+810,Toyota,Aurion,,,,AED,18,months,Premium
+811,Toyota,Avalon,,,,AED,18,months,Premium
+812,Toyota,Avanza,,,,AED,18,months,Premium
+813,Toyota,Camry,,,,AED,18,months,Premium
+814,Toyota,Corolla,,,,AED,18,months,Premium
+815,Toyota,FJ Cruiser,,,,AED,18,months,Premium
+816,Toyota,Fortuner,,,,AED,18,months,Premium
+817,Toyota,Hiace,,,,AED,18,months,Premium
+818,Toyota,Hilux,,,,AED,18,months,Premium
+819,Toyota,Innova,,,,AED,18,months,Premium
+820,Toyota,Land Cruiser,,,,AED,18,months,Premium
+821,Toyota,Land Cruiser 70,,,,AED,18,months,Premium
+822,Toyota,Land Cruiser Pickup,,,,AED,18,months,Premium
+823,Toyota,Land Cruiser Prado,,,,AED,18,months,Premium
+824,Toyota,Land Cruiser Prado SWB,,,,AED,18,months,Premium
+825,Toyota,Previa,,,,AED,18,months,Premium
+826,Toyota,Prius,,,,AED,18,months,Premium
+827,Toyota,RAV-4,,,,AED,18,months,Premium
+828,Toyota,Sequoia,,,,AED,18,months,Premium
+829,Toyota,Tundra,,,,AED,18,months,Premium
+830,Toyota,xA,,,,AED,18,months,Premium
+831,Toyota,Yaris,,,,AED,18,months,Premium
+832,Toyota,Yaris Sedan,,,,AED,18,months,Premium
+833,Toyota,Zelas,,,,AED,18,months,Premium
+834,Volkswagen,Amarok,945,945,900,AED,18,months,Premium
+835,Volkswagen,Arteon,945,945,900,AED,18,months,Premium
+836,Volkswagen,Beetle,840,840,800,AED,18,months,Premium
+837,Volkswagen,Beetle Cabriolet,840,840,800,AED,18,months,Premium
+838,Volkswagen,Eos,945,945,900,AED,18,months,Premium
+839,Volkswagen,Golf,945,945,900,AED,18,months,Premium
+840,Volkswagen,Golf GTI,945,945,900,AED,18,months,Premium
+841,Volkswagen,Golf Plus,945,945,900,AED,18,months,Premium
+842,Volkswagen,Golf R,945,945,900,AED,18,months,Premium
+843,Volkswagen,Golf R32,1025,1025,976.1904762,AED,18,months,Premium
+844,Volkswagen,Jetta,945,945,900,AED,18,months,Premium
+845,Volkswagen,Multivan,1025,1025,976.1904762,AED,18,months,Premium
+846,Volkswagen,Passat,945,945,900,AED,18,months,Premium
+847,Volkswagen,Passat CC,1025,1025,976.1904762,AED,18,months,Premium
+848,Volkswagen,Phaeton,945,945,900,AED,18,months,Premium
+849,Volkswagen,Polo,840,840,800,AED,18,months,Premium
+850,Volkswagen,Polo Sedan,840,840,800,AED,18,months,Premium
+851,Volkswagen,Scirocco,945,945,900,AED,18,months,Premium
+852,Volkswagen,Scirocco R,945,945,900,AED,18,months,Premium
+853,Volkswagen,Sharan,945,945,900,AED,18,months,Premium
+854,Volkswagen,Teramont,1025,1025,976.1904762,AED,18,months,Premium
+855,Volkswagen,Tiguan,945,945,900,AED,18,months,Premium
+856,Volkswagen,Touareg,1130,1130,1076.190476,AED,18,months,Premium
+857,Volkswagen,Touran,945,945,900,AED,18,months,Premium
+858,Volvo,C30,945,945,900,AED,18,months,Premium
+859,Volvo,C70,945,945,900,AED,18,months,Premium
+860,Volvo,S40,945,945,900,AED,18,months,Premium
+861,Volvo,S60,945,945,900,AED,18,months,Premium
+862,Volvo,S60 Polestar,945,945,900,AED,18,months,Premium
+863,Volvo,S80,,,,AED,18,months,Premium
+864,Volvo,S90,1025,1025,976.1904762,AED,18,months,Premium
+865,Volvo,V40,945,945,900,AED,18,months,Premium
+866,Volvo,V50,945,945,900,AED,18,months,Premium
+867,Volvo,V60,1025,1025,976.1904762,AED,18,months,Premium
+868,Volvo,V60 Polestar,1025,1025,976.1904762,AED,18,months,Premium
+869,Volvo,V70,1025,1025,976.1904762,AED,18,months,Premium
+870,Volvo,V90,1130,1130,1076.190476,AED,18,months,Premium
+871,Volvo,XC40,945,945,900,AED,18,months,Premium
+872,Volvo,XC60,1025,1025,976.1904762,AED,18,months,Premium
+873,Volvo,XC70,1025,1025,976.1904762,AED,18,months,Premium
+874,Volvo,XC90,1130,1130,1076.190476,AED,18,months,Premium
+875,ZNA,Oting,,,,AED,18,months,Premium
+876,ZNA,Rich,,,,AED,18,months,Premium
+877,ZNA,Yumsun,,,,AED,18,months,Premium
+878,Zotye,T600,,,,AED,18,months,Premium
+879,Zotye,Z100,,,,AED,18,months,Premium
+880,Toyota,Coaster,,,,AED,18,months,Premium
+881,Rolls Royce,Cullinan,1800,1800,1714.285714,AED,18,months,Premium
+882,Chevrolet,Astro,,,,AED,18,months,Premium
+883,Toyota,Rush,,,,AED,18,months,Premium
+884,Audi,Q8,1130,1130,1076.190476,AED,18,months,Premium
+885,Hongqi,H5,,,,AED,18,months,Premium
+886,Hongqi,H7,,,,AED,18,months,Premium
+887,Toyota,Supra,,,,AED,18,months,Premium
+888,Kia,Telluride,,,,AED,18,months,Premium
+889,Jeep,Wagoneer,1025,1025,976.1904762,AED,18,months,Premium
+890,Ford,Bronco,,,,AED,18,months,Premium
+891,BMW,X2,945,945,900,AED,18,months,Premium
+892,BMW,X7,1130,1130,1076.190476,AED,18,months,Premium
+893,Datsun,280Z,,,,AED,18,months,Premium
+894,Honda,HR-V,,,,AED,18,months,Premium
+895,Toyota,Sienna,,,,AED,18,months,Premium
+896,MZ,1000S,,,,AED,18,months,Premium
+897,MZ,RT,,,,AED,18,months,Premium
+898,MZ,SM,,,,AED,18,months,Premium
+899,MZ,SX,,,,AED,18,months,Premium
+900,MZ,Baghira,,,,AED,18,months,Premium
+901,MZ,Skorpion,,,,AED,18,months,Premium
+902,MZ,TS,,,,AED,18,months,Premium
+903,MZ,Mastiff,,,,AED,18,months,Premium
+904,DAELIM,VL,,,,AED,18,months,Premium
+905,DAELIM,S1,,,,AED,18,months,Premium
+906,DAELIM,VT,,,,AED,18,months,Premium
+907,ITALJET,Grifon 900,,,,AED,18,months,Premium
+908,SYM,WOLF,,,,AED,18,months,Premium
+909,SYM,XS,,,,AED,18,months,Premium
+910,JAWA,125,,,,AED,18,months,Premium
+911,JAWA,500,,,,AED,18,months,Premium
+912,JAWA,650,,,,AED,18,months,Premium
+913,JAWA,250,,,,AED,18,months,Premium
+914,JAWA,350,,,,AED,18,months,Premium
+915,JAWA,50,,,,AED,18,months,Premium
+916,AMAZONAS,1600,,,,AED,18,months,Premium
+917,DERBI,GP,,,,AED,18,months,Premium
+918,DERBI,GPR,,,,AED,18,months,Premium
+919,DERBI,Senda,,,,AED,18,months,Premium
+920,DERBI,Terra,,,,AED,18,months,Premium
+921,DERBI,Mulhacen,,,,AED,18,months,Premium
+922,NORTON,Commando,,,,AED,18,months,Premium
+923,NORTON,Commander,,,,AED,18,months,Premium
+924,NORTON,F 1,,,,AED,18,months,Premium
+925,APRILIA,Moto 6.5,,,,AED,18,months,Premium
+926,APRILIA,RS,,,,AED,18,months,Premium
+927,APRILIA,Shiver,,,,AED,18,months,Premium
+928,APRILIA,Tuareg,,,,AED,18,months,Premium
+929,APRILIA,AF,,,,AED,18,months,Premium
+930,APRILIA,MX,,,,AED,18,months,Premium
+931,APRILIA,SL,,,,AED,18,months,Premium
+932,APRILIA,Mana,,,,AED,18,months,Premium
+933,APRILIA,Blue Marlin,,,,AED,18,months,Premium
+934,APRILIA,MXV,,,,AED,18,months,Premium
+935,APRILIA,ST,,,,AED,18,months,Premium
+936,APRILIA,SMV,,,,AED,18,months,Premium
+937,APRILIA,Caponord,,,,AED,18,months,Premium
+938,APRILIA,AS,,,,AED,18,months,Premium
+939,APRILIA,RSV,,,,AED,18,months,Premium
+940,APRILIA,SX,,,,AED,18,months,Premium
+941,APRILIA,Tuono,,,,AED,18,months,Premium
+942,APRILIA,Classic,,,,AED,18,months,Premium
+943,APRILIA,Pegaso,,,,AED,18,months,Premium
+944,APRILIA,RX,,,,AED,18,months,Premium
+945,APRILIA,SXV,,,,AED,18,months,Premium
+946,APRILIA,Dorsoduro,,,,AED,18,months,Premium
+947,APRILIA,TX,,,,AED,18,months,Premium
+948,APRILIA,ETX,,,,AED,18,months,Premium
+949,APRILIA,RXV,,,,AED,18,months,Premium
+950,TRIUMPH,Adventurer,,,,AED,18,months,Premium
+951,TRIUMPH,Bonneville,,,,AED,18,months,Premium
+952,TRIUMPH,Trophy,,,,AED,18,months,Premium
+953,TRIUMPH,America,,,,AED,18,months,Premium
+954,TRIUMPH,Daytona,,,,AED,18,months,Premium
+955,TRIUMPH,Speedmaster,,,,AED,18,months,Premium
+956,TRIUMPH,Thruxton,,,,AED,18,months,Premium
+957,TRIUMPH,TSS,,,,AED,18,months,Premium
+958,TRIUMPH,LEGEND,,,,AED,18,months,Premium
+959,TRIUMPH,Sprint,,,,AED,18,months,Premium
+960,TRIUMPH,Thunderbird,,,,AED,18,months,Premium
+961,TRIUMPH,TSX,,,,AED,18,months,Premium
+962,TRIUMPH,Rocket,,,,AED,18,months,Premium
+963,TRIUMPH,Street Triple,,,,AED,18,months,Premium
+964,TRIUMPH,Tiger,,,,AED,18,months,Premium
+965,TRIUMPH,TT 600,,,,AED,18,months,Premium
+966,TRIUMPH,Scrambler,,,,AED,18,months,Premium
+967,TRIUMPH,Trident,,,,AED,18,months,Premium
+968,ATK,450,,,,AED,18,months,Premium
+969,ATK,700,,,,AED,18,months,Premium
+970,ATK,450 MX,,,,AED,18,months,Premium
+971,ATK,605,,,,AED,18,months,Premium
+972,KANUNI,Seyhan,,,,AED,18,months,Premium
+973,DUCATI,98,,,,AED,18,months,Premium
+974,DUCATI,50,,,,AED,18,months,Premium
+975,DUCATI,916,,,,AED,18,months,Premium
+976,DUCATI,GT,,,,AED,18,months,Premium
+977,DUCATI,1198,,,,AED,18,months,Premium
+978,DUCATI,48,,,,AED,18,months,Premium
+979,DUCATI,996,,,,AED,18,months,Premium
+980,DUCATI,Hypermotard,,,,AED,18,months,Premium
+981,DUCATI,Panigale,,,,AED,18,months,Premium
+982,DUCATI,85,,,,AED,18,months,Premium
+983,DUCATI,998,,,,AED,18,months,Premium
+984,DUCATI,Hyperstrada,,,,AED,18,months,Premium
+985,DUCATI,SCRAMBLER,,,,AED,18,months,Premium
+986,DUCATI,350,,,,AED,18,months,Premium
+987,DUCATI,60,,,,AED,18,months,Premium
+988,DUCATI,999,,,,AED,18,months,Premium
+989,DUCATI,MARK,,,,AED,18,months,Premium
+990,DUCATI,Sport,,,,AED,18,months,Premium
+991,DUCATI,450,,,,AED,18,months,Premium
+992,DUCATI,888,,,,AED,18,months,Premium
+993,DUCATI,DESMO,,,,AED,18,months,Premium
+994,DUCATI,500,,,,AED,18,months,Premium
+995,DUCATI,Desmosedici RR,,,,AED,18,months,Premium
+996,DUCATI,Monster,,,,AED,18,months,Premium
+997,DUCATI,ST,,,,AED,18,months,Premium
+998,DUCATI,600,,,,AED,18,months,Premium
+999,DUCATI,900,,,,AED,18,months,Premium
+1000,DUCATI,Diavel,,,,AED,18,months,Premium
+1001,DUCATI,Multistrada,,,,AED,18,months,Premium
+1002,DUCATI,Streetfighter,,,,AED,18,months,Premium
+1003,DUCATI,65,,,,AED,18,months,Premium
+1004,DUCATI,Pantah,,,,AED,18,months,Premium
+1005,DUCATI,748,,,,AED,18,months,Premium
+1006,DUCATI,100,,,,AED,18,months,Premium
+1007,DUCATI,Paul Smart,,,,AED,18,months,Premium
+1008,DUCATI,SUPERSPORT,,,,AED,18,months,Premium
+1009,DUCATI,749,,,,AED,18,months,Premium
+1010,KAWASAKI,ER,,,,AED,18,months,Premium
+1011,KAWASAKI,Z,,,,AED,18,months,Premium
+1012,KAWASAKI,GTR,,,,AED,18,months,Premium
+1013,KAWASAKI,GPX,,,,AED,18,months,Premium
+1014,KAWASAKI,KLX,,,,AED,18,months,Premium
+1015,KAWASAKI,CONCOURS,,,,AED,18,months,Premium
+1016,KAWASAKI,VN 900,,,,AED,18,months,Premium
+1017,KAWASAKI,GPZ,,,,AED,18,months,Premium
+1018,KAWASAKI,H,,,,AED,18,months,Premium
+1019,KAWASAKI,Vulcan,,,,AED,18,months,Premium
+1020,KAWASAKI,W 650,,,,AED,18,months,Premium
+1021,KAWASAKI,KX,,,,AED,18,months,Premium
+1022,KAWASAKI,W 800,,,,AED,18,months,Premium
+1023,KAWASAKI,Z 1000,,,,AED,18,months,Premium
+1024,KAWASAKI,ZR,,,,AED,18,months,Premium
+1025,KAWASAKI,J,,,,AED,18,months,Premium
+1026,KAWASAKI,Ninja,,,,AED,18,months,Premium
+1027,KAWASAKI,ZX,,,,AED,18,months,Premium
+1028,KAWASAKI,KDX,,,,AED,18,months,Premium
+1029,KAWASAKI,Z400,,,,AED,18,months,Premium
+1030,KAWASAKI,ZZR,,,,AED,18,months,Premium
+1031,KAWASAKI,Eliminator,,,,AED,18,months,Premium
+1032,KAWASAKI,VERSYS,,,,AED,18,months,Premium
+1033,KAWASAKI,EN,,,,AED,18,months,Premium
+1034,KAWASAKI,KL,,,,AED,18,months,Premium
+1035,Peugeot,XP6,,,,AED,18,months,Premium
+1036,Peugeot,XR6,,,,AED,18,months,Premium
+1037,BAJAJ,AVENGER,,,,AED,18,months,Premium
+1038,ECOSSE,Heretic,,,,AED,18,months,Premium
+1039,Victory,Jackpot,,,,AED,18,months,Premium
+1040,Victory,Hammer,,,,AED,18,months,Premium
+1041,Victory,Kingpin,,,,AED,18,months,Premium
+1042,Victory,V92,,,,AED,18,months,Premium
+1043,Victory,Vegas,,,,AED,18,months,Premium
+1044,Victory,Vegas 8-Ball,,,,AED,18,months,Premium
+1045,Victory,Vision,,,,AED,18,months,Premium
+1046,Victory,Cross Country,,,,AED,18,months,Premium
+1047,Victory,High-ball,,,,AED,18,months,Premium
+1048,Victory,Cross Roads,,,,AED,18,months,Premium
+1049,BENELLI,350 RS,,,,AED,18,months,Premium
+1050,BENELLI,654,,,,AED,18,months,Premium
+1051,BENELLI,BX,,,,AED,18,months,Premium
+1052,BENELLI,Tornado,,,,AED,18,months,Premium
+1053,BENELLI,125,,,,AED,18,months,Premium
+1054,BENELLI,354,,,,AED,18,months,Premium
+1055,BENELLI,250,,,,AED,18,months,Premium
+1056,BENELLI,500,,,,AED,18,months,Premium
+1057,BENELLI,900,,,,AED,18,months,Premium
+1058,BENELLI,Tre,,,,AED,18,months,Premium
+1059,BENELLI,254 Quattro,,,,AED,18,months,Premium
+1060,BENELLI,650,,,,AED,18,months,Premium
+1061,BENELLI,304,,,,AED,18,months,Premium
+1062,KTM,525,,,,AED,18,months,Premium
+1063,KTM,990,,,,AED,18,months,Premium
+1064,KTM,EXC,,,,AED,18,months,Premium
+1065,KTM,125,,,,AED,18,months,Premium
+1066,KTM,ADVENTURE,,,,AED,18,months,Premium
+1067,KTM,RC,,,,AED,18,months,Premium
+1068,KTM,50,,,,AED,18,months,Premium
+1069,KTM,625,,,,AED,18,months,Premium
+1070,KTM,Duke,,,,AED,18,months,Premium
+1071,KTM,FREERIDE,,,,AED,18,months,Premium
+1072,KTM,350,,,,AED,18,months,Premium
+1073,KTM,660,,,,AED,18,months,Premium
+1074,KTM,SX,,,,AED,18,months,Premium
+1075,KTM,ENDURO,,,,AED,18,months,Premium
+1076,BETA,ALP,,,,AED,18,months,Premium
+1077,BETA,RE,,,,AED,18,months,Premium
+1078,BETA,RR,,,,AED,18,months,Premium
+1079,BETA,Jonathan 350,,,,AED,18,months,Premium
+1080,VOXAN,Black Magic,,,,AED,18,months,Premium
+1081,VOXAN,Charade Racing,,,,AED,18,months,Premium
+1082,VOXAN,Scrambler,,,,AED,18,months,Premium
+1083,VOXAN,Cafe Racer,,,,AED,18,months,Premium
+1084,VOXAN,Roadster,,,,AED,18,months,Premium
+1085,KYMCO,Hipster 125,,,,AED,18,months,Premium
+1086,KYMCO,Pulsar,,,,AED,18,months,Premium
+1087,KYMCO,Stryker,,,,AED,18,months,Premium
+1088,KYMCO,Zing,,,,AED,18,months,Premium
+1089,KYMCO,CK 125,,,,AED,18,months,Premium
+1090,KYMCO,Quannon,,,,AED,18,months,Premium
+1091,KYMCO,Venox 250,,,,AED,18,months,Premium
+1092,Big Bear Choppers,Athena,,,,AED,18,months,Premium
+1093,Big Bear Choppers,Merc,,,,AED,18,months,Premium
+1094,Big Bear Choppers,Paradox,,,,AED,18,months,Premium
+1095,Big Bear Choppers,Screamin Demon,,,,AED,18,months,Premium
+1096,Big Bear Choppers,Venom,,,,AED,18,months,Premium
+1097,Big Bear Choppers,Miss Behavin,,,,AED,18,months,Premium
+1098,Big Bear Choppers,Reaper,,,,AED,18,months,Premium
+1099,LAVERDA,1000,,,,AED,18,months,Premium
+1100,LAVERDA,750,,,,AED,18,months,Premium
+1101,LAVERDA,1200,,,,AED,18,months,Premium
+1102,LAVERDA,500,,,,AED,18,months,Premium
+1103,LAVERDA,650,,,,AED,18,months,Premium
+1104,LAVERDA,600,,,,AED,18,months,Premium
+1105,LAVERDA,668,,,,AED,18,months,Premium
+1106,FISCHER,MRX 650,,,,AED,18,months,Premium
+1107,BIMOTA,500,,,,AED,18,months,Premium
+1108,BIMOTA,DB,,,,AED,18,months,Premium
+1109,BIMOTA,Tesi,,,,AED,18,months,Premium
+1110,BIMOTA,BB,,,,AED,18,months,Premium
+1111,BIMOTA,SB,,,,AED,18,months,Premium
+1112,BIMOTA,YB,,,,AED,18,months,Premium
+1113,LIFAN,LF,,,,AED,18,months,Premium
+1114,MAGNI,Australia,,,,AED,18,months,Premium
+1115,MAICO,ENDURO,,,,AED,18,months,Premium
+1116,MAICO,SUPERMOTO,,,,AED,18,months,Premium
+1117,MALAGUTI,GRIZZLY,,,,AED,18,months,Premium
+1118,MALAGUTI,X3M,,,,AED,18,months,Premium
+1119,BMW,F,,,,AED,18,months,Premium
+1120,BMW,K,,,,AED,18,months,Premium
+1121,BMW,R,,,,AED,18,months,Premium
+1122,BMW,R 1150,,,,AED,18,months,Premium
+1123,BMW,C,,,,AED,18,months,Premium
+1124,BMW,G,,,,AED,18,months,Premium
+1125,BMW,R 100,,,,AED,18,months,Premium
+1126,BMW,R 1200,,,,AED,18,months,Premium
+1127,BMW,R 80,,,,AED,18,months,Premium
+1128,BMW,F 650,,,,AED,18,months,Premium
+1129,BMW,K 1100,,,,AED,18,months,Premium
+1130,BMW,GS,,,,AED,18,months,Premium
+1131,BMW,K 1200,,,,AED,18,months,Premium
+1132,BMW,R 850,,,,AED,18,months,Premium
+1133,BMW,R 1100,,,,AED,18,months,Premium
+1134,BMW,G 450,,,,AED,18,months,Premium
+1135,BMW,K 1300,,,,AED,18,months,Premium
+1136,BMW,R 45,,,,AED,18,months,Premium
+1137,BMW,HP,,,,AED,18,months,Premium
+1138,BMW,K 1600,,,,AED,18,months,Premium
+1139,BMW,R 65,,,,AED,18,months,Premium
+1140,BMW,R nineT,,,,AED,18,months,Premium
+1141,BMW,K 1,,,,AED,18,months,Premium
+1142,BMW,S 1000,,,,AED,18,months,Premium
+1143,BMW,K 100,,,,AED,18,months,Premium
+1144,BMW,K 75,,,,AED,18,months,Premium
+1145,GAS GAS,EC,,,,AED,18,months,Premium
+1146,GAS GAS,Pampera,,,,AED,18,months,Premium
+1147,GAS GAS,SM,,,,AED,18,months,Premium
+1148,GAS GAS,TXT,,,,AED,18,months,Premium
+1149,MATCHLESS,G,,,,AED,18,months,Premium
+1150,YAMAHA,FZ,,,,AED,18,months,Premium
+1151,YAMAHA,Tricker,,,,AED,18,months,Premium
+1152,YAMAHA,XT,,,,AED,18,months,Premium
+1153,YAMAHA,XV,,,,AED,18,months,Premium
+1154,YAMAHA,Bolt,,,,AED,18,months,Premium
+1155,YAMAHA,GTS,,,,AED,18,months,Premium
+1156,YAMAHA,RX,,,,AED,18,months,Premium
+1157,YAMAHA,TT,,,,AED,18,months,Premium
+1158,YAMAHA,Max,,,,AED,18,months,Premium
+1159,YAMAHA,TT-R,,,,AED,18,months,Premium
+1160,YAMAHA,XT 350,,,,AED,18,months,Premium
+1161,YAMAHA,MT,,,,AED,18,months,Premium
+1162,YAMAHA,TW,,,,AED,18,months,Premium
+1163,YAMAHA,MT-03,,,,AED,18,months,Premium
+1164,YAMAHA,TX,,,,AED,18,months,Premium
+1165,YAMAHA,DT,,,,AED,18,months,Premium
+1166,YAMAHA,PW,,,,AED,18,months,Premium
+1167,YAMAHA,TZR,,,,AED,18,months,Premium
+1168,YAMAHA,V-MAX,,,,AED,18,months,Premium
+1169,YAMAHA,XZ 550,,,,AED,18,months,Premium
+1170,YAMAHA,RD,,,,AED,18,months,Premium
+1171,YAMAHA,AG,,,,AED,18,months,Premium
+1172,YAMAHA,YA,,,,AED,18,months,Premium
+1173,YAMAHA,WR,,,,AED,18,months,Premium
+1174,YAMAHA,XJ,,,,AED,18,months,Premium
+1175,YAMAHA,FJ,,,,AED,18,months,Premium
+1176,YAMAHA,SR,,,,AED,18,months,Premium
+1177,YAMAHA,STAR,,,,AED,18,months,Premium
+1178,YAMAHA,YZ,,,,AED,18,months,Premium
+1179,YAMAHA,FJR 1300,,,,AED,18,months,Premium
+1180,YAMAHA,Royal Star,,,,AED,18,months,Premium
+1181,YAMAHA,RS,,,,AED,18,months,Premium
+1182,YAMAHA,RZ,,,,AED,18,months,Premium
+1183,YAMAHA,YZ450F,,,,AED,18,months,Premium
+1184,YAMAHA,YZ 85,,,,AED,18,months,Premium
+1185,YAMAHA,YZF,,,,AED,18,months,Premium
+1186,YAMAHA,R1,,,,AED,18,months,Premium
+1187,YAMAHA,XJR 1300,,,,AED,18,months,Premium
+1188,YAMAHA,FZR,,,,AED,18,months,Premium
+1189,YAMAHA,SRV,,,,AED,18,months,Premium
+1190,YAMAHA,XS,,,,AED,18,months,Premium
+1191,YAMAHA,SRX,,,,AED,18,months,Premium
+1192,YAMAHA,SZR,,,,AED,18,months,Premium
+1193,YAMAHA,TDM,,,,AED,18,months,Premium
+1194,YAMAHA,TDR,,,,AED,18,months,Premium
+1195,BORILE,B 500,,,,AED,18,months,Premium
+1196,BOSS HOSS,BHC-3,,,,AED,18,months,Premium
+1197,GHEZZI-BRIAN,FIONDA,,,,AED,18,months,Premium
+1198,GHEZZI-BRIAN,Furia,,,,AED,18,months,Premium
+1199,ZERO,DS,,,,AED,18,months,Premium
+1200,ZERO,FX,,,,AED,18,months,Premium
+1201,ZERO,S,,,,AED,18,months,Premium
+1202,BSA,Y,,,,AED,18,months,Premium
+1203,BSA,A,,,,AED,18,months,Premium
+1204,BSA,B,,,,AED,18,months,Premium
+1205,BSA,G,,,,AED,18,months,Premium
+1206,BSA,C,,,,AED,18,months,Premium
+1207,BSA,M,,,,AED,18,months,Premium
+1208,GILERA,ER,,,,AED,18,months,Premium
+1209,GILERA,200,,,,AED,18,months,Premium
+1210,GILERA,600,,,,AED,18,months,Premium
+1211,GILERA,XR,,,,AED,18,months,Premium
+1212,GILERA,NGR,,,,AED,18,months,Premium
+1213,MIDUAL,Roadster 900,,,,AED,18,months,Premium
+1214,ROYAL ENFIELD,BULLET,,,,AED,18,months,Premium
+1215,ROYAL ENFIELD,ELECTRA,,,,AED,18,months,Premium
+1216,ROYAL ENFIELD,GT,,,,AED,18,months,Premium
+1217,ROYAL ENFIELD,CLASSIC,,,,AED,18,months,Premium
+1218,ROYAL ENFIELD,THUNDERBIRD,,,,AED,18,months,Premium
+1219,MIKILON,D,,,,AED,18,months,Premium
+1220,MIKILON,CD,,,,AED,18,months,Premium
+1221,SACHS,B-805,,,,AED,18,months,Premium
+1222,SACHS,Roadster,,,,AED,18,months,Premium
+1223,SACHS,ZX,,,,AED,18,months,Premium
+1224,SACHS,Beast 1000,,,,AED,18,months,Premium
+1225,SACHS,XTC,,,,AED,18,months,Premium
+1226,SACHS,ZZ,,,,AED,18,months,Premium
+1227,SACHS,Bee,,,,AED,18,months,Premium
+1228,ZUNDAPP,K,,,,AED,18,months,Premium
+1229,BUELL,1125,,,,AED,18,months,Premium
+1230,BUELL,Blast,,,,AED,18,months,Premium
+1231,BUELL,S3,,,,AED,18,months,Premium
+1232,BUELL,XB,,,,AED,18,months,Premium
+1233,BUELL,RS,,,,AED,18,months,Premium
+1234,MONDIAL,PIEGA,,,,AED,18,months,Premium
+1235,CAGIVA,W,,,,AED,18,months,Premium
+1236,CAGIVA,Freccia,,,,AED,18,months,Premium
+1237,CAGIVA,Roadster,,,,AED,18,months,Premium
+1238,CAGIVA,SXT,,,,AED,18,months,Premium
+1239,CAGIVA,Gran Canyon,,,,AED,18,months,Premium
+1240,CAGIVA,Navigator,,,,AED,18,months,Premium
+1241,CAGIVA,SST,,,,AED,18,months,Premium
+1242,CAGIVA,T4,,,,AED,18,months,Premium
+1243,CAGIVA,Alazzurra,,,,AED,18,months,Premium
+1244,CAGIVA,V-Raptor,,,,AED,18,months,Premium
+1245,CAGIVA,Canyon,,,,AED,18,months,Premium
+1246,CAGIVA,Mito,,,,AED,18,months,Premium
+1247,CAGIVA,Raptor,,,,AED,18,months,Premium
+1248,CAGIVA,Super City,,,,AED,18,months,Premium
+1249,CAGIVA,Cruiser,,,,AED,18,months,Premium
+1250,CAGIVA,River,,,,AED,18,months,Premium
+1251,CAGIVA,Elefant,,,,AED,18,months,Premium
+1252,SCORPA,TY-S 125 F,,,,AED,18,months,Premium
+1253,MOTO GUZZI,California,,,,AED,18,months,Premium
+1254,MOTO GUZZI,GT,,,,AED,18,months,Premium
+1255,MOTO GUZZI,Quota,,,,AED,18,months,Premium
+1256,MOTO GUZZI,V,,,,AED,18,months,Premium
+1257,MOTO GUZZI,250TS,,,,AED,18,months,Premium
+1258,MOTO GUZZI,254,,,,AED,18,months,Premium
+1259,MOTO GUZZI,Sport,,,,AED,18,months,Premium
+1260,MOTO GUZZI,V11 Coppa Italia,,,,AED,18,months,Premium
+1261,MOTO GUZZI,V 35,,,,AED,18,months,Premium
+1262,MOTO GUZZI,750S,,,,AED,18,months,Premium
+1263,MOTO GUZZI,Le Mans,,,,AED,18,months,Premium
+1264,MOTO GUZZI,V 50,,,,AED,18,months,Premium
+1265,MOTO GUZZI,850T,,,,AED,18,months,Premium
+1266,MOTO GUZZI,V 65,,,,AED,18,months,Premium
+1267,MOTO GUZZI,Nevada,,,,AED,18,months,Premium
+1268,MOTO GUZZI,V 7,,,,AED,18,months,Premium
+1269,MOTO GUZZI,Breva,,,,AED,18,months,Premium
+1270,MOTO GUZZI,Falcone,,,,AED,18,months,Premium
+1271,MOTO GUZZI,Norge,,,,AED,18,months,Premium
+1272,MOTO GUZZI,Griso,,,,AED,18,months,Premium
+1273,MOTO GUZZI,NTX,,,,AED,18,months,Premium
+1274,CCM,DS,,,,AED,18,months,Premium
+1275,CCM,R,,,,AED,18,months,Premium
+1276,CCM,SR,,,,AED,18,months,Premium
+1277,CCM,C-XR,,,,AED,18,months,Premium
+1278,CCM,FT,,,,AED,18,months,Premium
+1279,CCM,RL,,,,AED,18,months,Premium
+1280,CCM,TL,,,,AED,18,months,Premium
+1281,MOTO MORINI,1200 Sport,,,,AED,18,months,Premium
+1282,MOTO MORINI,500 Sei-V,,,,AED,18,months,Premium
+1283,MOTO MORINI,Coguaro,,,,AED,18,months,Premium
+1284,MOTO MORINI,9 1/2,,,,AED,18,months,Premium
+1285,MOTO MORINI,CORSARO,,,,AED,18,months,Premium
+1286,MOTO MORINI,Scrambler,,,,AED,18,months,Premium
+1287,MOTO MORINI,NEW YORK,,,,AED,18,months,Premium
+1288,SHERCO,SE,,,,AED,18,months,Premium
+1289,SHERCO,X-RIDE,,,,AED,18,months,Premium
+1290,HERCULES,W 2000,,,,AED,18,months,Premium
+1291,HIGHLAND,450 MX,,,,AED,18,months,Premium
+1292,HIGHLAND,ALLROAD,,,,AED,18,months,Premium
+1293,HIGHLAND,DESERT STORM,,,,AED,18,months,Premium
+1294,HIGHLAND,OUTBACK,,,,AED,18,months,Premium
+1295,Honda,C,,,,AED,18,months,Premium
+1296,Honda,T,,,,AED,18,months,Premium
+1297,Honda,ST,,,,AED,18,months,Premium
+1298,Honda,CB,,,,AED,18,months,Premium
+1299,Honda,NC,,,,AED,18,months,Premium
+1300,Honda,ATC,,,,AED,18,months,Premium
+1301,Honda,CBR,,,,AED,18,months,Premium
+1302,Honda,AX,,,,AED,18,months,Premium
+1303,Honda,NM4,,,,AED,18,months,Premium
+1304,Honda,FMX 650,,,,AED,18,months,Premium
+1305,Honda,NR 750,,,,AED,18,months,Premium
+1306,Honda,CA,,,,AED,18,months,Premium
+1307,Honda,FourTrax,,,,AED,18,months,Premium
+1308,Honda,Valkyrie,,,,AED,18,months,Premium
+1309,Honda,FT,,,,AED,18,months,Premium
+1310,Honda,NS,,,,AED,18,months,Premium
+1311,Honda,VF,,,,AED,18,months,Premium
+1312,Honda,FTR,,,,AED,18,months,Premium
+1313,Honda,VFR,,,,AED,18,months,Premium
+1314,Honda,Fury,,,,AED,18,months,Premium
+1315,Honda,NSR,,,,AED,18,months,Premium
+1316,Honda,VT,,,,AED,18,months,Premium
+1317,Honda,GL,,,,AED,18,months,Premium
+1318,Honda,NT,,,,AED,18,months,Premium
+1319,Honda,CBX,,,,AED,18,months,Premium
+1320,Honda,CD,,,,AED,18,months,Premium
+1321,Honda,CG,,,,AED,18,months,Premium
+1322,Honda,NX,,,,AED,18,months,Premium
+1323,Honda,CJ,,,,AED,18,months,Premium
+1324,Honda,VTR,,,,AED,18,months,Premium
+1325,Honda,CL,,,,AED,18,months,Premium
+1326,Honda,VTX,,,,AED,18,months,Premium
+1327,Honda,CM,,,,AED,18,months,Premium
+1328,Honda,GOLD WING,,,,AED,18,months,Premium
+1329,Honda,Rebel,,,,AED,18,months,Premium
+1330,Honda,X4,,,,AED,18,months,Premium
+1331,Honda,CR,,,,AED,18,months,Premium
+1332,Honda,RVF,,,,AED,18,months,Premium
+1333,Honda,XBR 500,,,,AED,18,months,Premium
+1334,Honda,CRF,,,,AED,18,months,Premium
+1335,Honda,XL,,,,AED,18,months,Premium
+1336,Honda,CRF250X,,,,AED,18,months,Premium
+1337,Honda,Shadow,,,,AED,18,months,Premium
+1338,Honda,CBF,,,,AED,18,months,Premium
+1339,Honda,CRM,,,,AED,18,months,Premium
+1340,Honda,SL,,,,AED,18,months,Premium
+1341,Honda,CT,,,,AED,18,months,Premium
+1342,Honda,XR,,,,AED,18,months,Premium
+1343,Honda,CTX,,,,AED,18,months,Premium
+1344,Honda,Grom,,,,AED,18,months,Premium
+1345,Honda,CX,,,,AED,18,months,Premium
+1346,MOTORHISPANIA,FURIA,,,,AED,18,months,Premium
+1347,MOTORHISPANIA,RX,,,,AED,18,months,Premium
+1348,MOTORHISPANIA,RYZ,,,,AED,18,months,Premium
+1349,HOREX,Imperator,,,,AED,18,months,Premium
+1350,HOREX,1400 TI,,,,AED,18,months,Premium
+1351,HOREX,Columbus,,,,AED,18,months,Premium
+1352,CONFEDERATE,FIGHTER,,,,AED,18,months,Premium
+1353,HUSABERG,FE,,,,AED,18,months,Premium
+1354,HUSABERG,FX,,,,AED,18,months,Premium
+1355,HUSABERG,TE,,,,AED,18,months,Premium
+1356,HUSABERG,FS,,,,AED,18,months,Premium
+1357,MTT,Y2K,,,,AED,18,months,Premium
+1358,HUSQVARNA,SM,,,,AED,18,months,Premium
+1359,HUSQVARNA,TE,,,,AED,18,months,Premium
+1360,HUSQVARNA,WR,,,,AED,18,months,Premium
+1361,HUSQVARNA,CR,,,,AED,18,months,Premium
+1362,HUSQVARNA,SMR,,,,AED,18,months,Premium
+1363,HUSQVARNA,WRE,,,,AED,18,months,Premium
+1364,HUSQVARNA,FC,,,,AED,18,months,Premium
+1365,HUSQVARNA,TC,,,,AED,18,months,Premium
+1366,HUSQVARNA,FE,,,,AED,18,months,Premium
+1367,HUSQVARNA,Nuda,,,,AED,18,months,Premium
+1368,HYOSUNG,Aquila,,,,AED,18,months,Premium
+1369,HYOSUNG,GF,,,,AED,18,months,Premium
+1370,HYOSUNG,GV,,,,AED,18,months,Premium
+1371,HYOSUNG,ST,,,,AED,18,months,Premium
+1372,HYOSUNG,GT,,,,AED,18,months,Premium
+1373,HYOSUNG,RT,,,,AED,18,months,Premium
+1374,HYOSUNG,RX,,,,AED,18,months,Premium
+1375,HYOSUNG,GD,,,,AED,18,months,Premium
+1376,INDIAN,CHIEF,,,,AED,18,months,Premium
+1377,INDIAN,Chieftain,,,,AED,18,months,Premium
+1378,INDIAN,Dakota,,,,AED,18,months,Premium
+1379,INDIAN,Roadmaster,,,,AED,18,months,Premium
+1380,INDIAN,Scout,,,,AED,18,months,Premium
+1381,MV AGUSTA,1000,,,,AED,18,months,Premium
+1382,MV AGUSTA,Brutale,,,,AED,18,months,Premium
+1383,MV AGUSTA,DRAGSTER,,,,AED,18,months,Premium
+1384,MV AGUSTA,F3,,,,AED,18,months,Premium
+1385,MV AGUSTA,Rivale,,,,AED,18,months,Premium
+1386,MV AGUSTA,1100,,,,AED,18,months,Premium
+1387,MV AGUSTA,98,,,,AED,18,months,Premium
+1388,MV AGUSTA,800,,,,AED,18,months,Premium
+1389,MV AGUSTA,150 RS,,,,AED,18,months,Premium
+1390,MV AGUSTA,F4,,,,AED,18,months,Premium
+1391,MV AGUSTA,350,,,,AED,18,months,Premium
+1392,MV AGUSTA,750,,,,AED,18,months,Premium
+1393,Suzuki,GN,,,,AED,18,months,Premium
+1394,Suzuki,GS,,,,AED,18,months,Premium
+1395,Suzuki,Intruder,,,,AED,18,months,Premium
+1396,Suzuki,SV,,,,AED,18,months,Premium
+1397,Suzuki,GSX,,,,AED,18,months,Premium
+1398,Suzuki,T,,,,AED,18,months,Premium
+1399,Suzuki,SX,,,,AED,18,months,Premium
+1400,Suzuki,Boulevard,,,,AED,18,months,Premium
+1401,Suzuki,A,,,,AED,18,months,Premium
+1402,Suzuki,SP,,,,AED,18,months,Premium
+1403,Suzuki,GP 125,,,,AED,18,months,Premium
+1404,Suzuki,TL 1000,,,,AED,18,months,Premium
+1405,Suzuki,ST,,,,AED,18,months,Premium
+1406,Suzuki,TS,,,,AED,18,months,Premium
+1407,Suzuki,V-Strom,,,,AED,18,months,Premium
+1408,Suzuki,GSX-R,,,,AED,18,months,Premium
+1409,Suzuki,DR,,,,AED,18,months,Premium
+1410,Suzuki,DR 200,,,,AED,18,months,Premium
+1411,Suzuki,LS,,,,AED,18,months,Premium
+1412,Suzuki,TU,,,,AED,18,months,Premium
+1413,Suzuki,Marauder,,,,AED,18,months,Premium
+1414,Suzuki,VANVAN,,,,AED,18,months,Premium
+1415,Suzuki,VL 125 Intruder,,,,AED,18,months,Premium
+1416,Suzuki,GT,,,,AED,18,months,Premium
+1417,Suzuki,RE,,,,AED,18,months,Premium
+1418,Suzuki,Katana,,,,AED,18,months,Premium
+1419,Suzuki,RF,,,,AED,18,months,Premium
+1420,Suzuki,VS,,,,AED,18,months,Premium
+1421,Suzuki,Bandit,,,,AED,18,months,Premium
+1422,Suzuki,RG,,,,AED,18,months,Premium
+1423,Suzuki,RGV,,,,AED,18,months,Premium
+1424,Suzuki,RM,,,,AED,18,months,Premium
+1425,Suzuki,RMX,,,,AED,18,months,Premium
+1426,Suzuki,Madura,,,,AED,18,months,Premium
+1427,Suzuki,RV,,,,AED,18,months,Premium
+1428,Suzuki,VX 800,,,,AED,18,months,Premium
+1429,Suzuki,DR-Z,,,,AED,18,months,Premium
+1430,Suzuki,GV,,,,AED,18,months,Premium
+1431,Suzuki,VZ,,,,AED,18,months,Premium
+1432,Suzuki,GSR,,,,AED,18,months,Premium
+1433,Suzuki,GW,,,,AED,18,months,Premium
+1434,Suzuki,PE,,,,AED,18,months,Premium
+1435,Suzuki,GSR 600,,,,AED,18,months,Premium
+1436,Suzuki,GZ,,,,AED,18,months,Premium
+1437,Suzuki,GF 250,,,,AED,18,months,Premium
+1438,Suzuki,Inazuma,,,,AED,18,months,Premium
+1439,Suzuki,Gladius,,,,AED,18,months,Premium
+1440,Suzuki,Inazuma 400,,,,AED,18,months,Premium
+1441,Suzuki,XF 650 Freewind,,,,AED,18,months,Premium
+1442,Suzuki,HAYABUSA,,,,AED,18,months,Premium
+1443,Suzuki,Intruder 125,,,,AED,18,months,Premium
+1444,MV AGUSTA,Stradale,,,,AED,18,months,Premium
+1445,KAWASAKI,Balius,,,,AED,18,months,Premium
+1446,BAJAJ,PULSAR,,,,AED,18,months,Premium
+1447,HUSQVARNA,FS,,,,AED,18,months,Premium
+1448,TRIUMPH,TR,,,,AED,18,months,Premium
+1449,Victory,Judge,,,,AED,18,months,Premium
+1450,BETA,Evo,,,,AED,18,months,Premium
+1451,YAMAHA,XSR,,,,AED,18,months,Premium
+1452,ZERO,DSR,,,,AED,18,months,Premium
+1453,ZERO,SR,,,,AED,18,months,Premium
+1454,MV AGUSTA,Turismo,,,,AED,18,months,Premium
+1455,Adler,ISDT,,,,AED,18,months,Premium
+1456,Adler,Junior,,,,AED,18,months,Premium
+1457,Adler,M,,,,AED,18,months,Premium
+1458,Adler,MB,,,,AED,18,months,Premium
+1459,AEON,COBRA,,,,AED,18,months,Premium
+1460,AEON,Crossland,,,,AED,18,months,Premium
+1461,AEON,Minikolt,,,,AED,18,months,Premium
+1462,AEON,OVERLAND,,,,AED,18,months,Premium
+1463,AERMACCHI,Ala DOro,,,,AED,18,months,Premium
+1464,AERMACCHI,Chimera,,,,AED,18,months,Premium
+1465,AJP,Galp,,,,AED,18,months,Premium
+1466,AJP,PR,,,,AED,18,months,Premium
+1467,AJS,A9,,,,AED,18,months,Premium
+1468,AJS,Bobber,,,,AED,18,months,Premium
+1469,AJS,Daytona,,,,AED,18,months,Premium
+1470,AJS,DD,,,,AED,18,months,Premium
+1471,AJS,Digita,,,,AED,18,months,Premium
+1472,AJS,Eco,,,,AED,18,months,Premium
+1473,AJS,EOS,,,,AED,18,months,Premium
+1474,AJS,Firefox,,,,AED,18,months,Premium
+1475,AJS,JSM,,,,AED,18,months,Premium
+1476,AJS,Model,,,,AED,18,months,Premium
+1477,MZ,Moskito,,,,AED,18,months,Premium
+1478,MZ,1000,,,,AED,18,months,Premium
+1479,MZ,Saxon,,,,AED,18,months,Premium
+1480,MZ,RS,,,,AED,18,months,Premium
+1481,MZ,ETZ,,,,AED,18,months,Premium
+1482,MZ,500,,,,AED,18,months,Premium
+1483,MZ,ETS,,,,AED,18,months,Premium
+1484,AERMACCHI,350SS,,,,AED,18,months,Premium
+1485,AERMACCHI,RC 125,,,,AED,18,months,Premium
+1486,AERMACCHI,Ala Verde,,,,AED,18,months,Premium
+1487,AERMACCHI,Brezza,,,,AED,18,months,Premium
+1488,AERMACCHI,Sprint 250,,,,AED,18,months,Premium
+1489,AERMACCHI,Zeffiro,,,,AED,18,months,Premium
+1490,NCR,848,,,,AED,18,months,Premium
+1491,NCR,M16,,,,AED,18,months,Premium
+1492,NCR,M4,,,,AED,18,months,Premium
+1493,NCR,New Blue,,,,AED,18,months,Premium
+1494,NCR,Millona,,,,AED,18,months,Premium
+1495,NCR,LEGGERA,,,,AED,18,months,Premium
+1496,NCR,Macchia Nera,,,,AED,18,months,Premium
+1497,ALTA MOTORS,REDSHIFT MX,,,,AED,18,months,Premium
+1498,ALTA MOTORS,REDSHIFT SM,,,,AED,18,months,Premium
+1499,DAELIM,CORDI,,,,AED,18,months,Premium
+1500,DAELIM,CITI ACE 110,,,,AED,18,months,Premium
+1501,DAELIM,HISTORY/forte,,,,AED,18,months,Premium
+1502,DAELIM,NS 125 DLX,,,,AED,18,months,Premium
+1503,DAELIM,ET 250,,,,AED,18,months,Premium
+1504,DAELIM,A-FOUR,,,,AED,18,months,Premium
+1505,DAELIM,ROADSPORT,,,,AED,18,months,Premium
+1506,DAELIM,S2 250/125,,,,AED,18,months,Premium
+1507,DAELIM,S-Five,,,,AED,18,months,Premium
+1508,DAELIM,STEEZER,,,,AED,18,months,Premium
+1509,DAELIM,DAYSTAR,,,,AED,18,months,Premium
+1510,DAELIM,Roadwin,,,,AED,18,months,Premium
+1511,DAELIM,VC,,,,AED,18,months,Premium
+1512,DAELIM,VR,,,,AED,18,months,Premium
+1513,DAELIM,CBX,,,,AED,18,months,Premium
+1514,ITALJET,Formula,,,,AED,18,months,Premium
+1515,ITALJET,Jet Set,,,,AED,18,months,Premium
+1516,ITALJET,CAFE RACER,,,,AED,18,months,Premium
+1517,ITALJET,Jupiter,,,,AED,18,months,Premium
+1518,ITALJET,Millennium,,,,AED,18,months,Premium
+1519,ITALJET,Torpedo,,,,AED,18,months,Premium
+1520,ITALJET,VELOCIFERO,,,,AED,18,months,Premium
+1521,ITALJET,Dragster,,,,AED,18,months,Premium
+1522,ITALJET,Grifon 650,,,,AED,18,months,Premium
+1523,SYM,X`PRO,,,,AED,18,months,Premium
+1524,SYM,e-VIRID,,,,AED,18,months,Premium
+1525,SYM,JOYRIDE,,,,AED,18,months,Premium
+1526,SYM,T2,,,,AED,18,months,Premium
+1527,SYM,HD,,,,AED,18,months,Premium
+1528,SYM,QUADRAIDER,,,,AED,18,months,Premium
+1529,SYM,QUADLANDER,,,,AED,18,months,Premium
+1530,SYM,RV,,,,AED,18,months,Premium
+1531,SYM,ORBIT,,,,AED,18,months,Premium
+1532,SYM,CROX,,,,AED,18,months,Premium
+1533,SYM,GTX,,,,AED,18,months,Premium
+1534,SYM,ALLO,,,,AED,18,months,Premium
+1535,SYM,MIO,,,,AED,18,months,Premium
+1536,SYM,FIDDLE,,,,AED,18,months,Premium
+1537,SYM,JET,,,,AED,18,months,Premium
+1538,SYM,CITICOM,,,,AED,18,months,Premium
+1539,SYM,COMBIZ,,,,AED,18,months,Premium
+1540,SYM,TONIK,,,,AED,18,months,Premium
+1541,AJS,CADWELL,,,,AED,18,months,Premium
+1542,AJS,Modena,,,,AED,18,months,Premium
+1543,AJS,Sorvio,,,,AED,18,months,Premium
+1544,AJS,R7,,,,AED,18,months,Premium
+1545,AJS,TN,,,,AED,18,months,Premium
+1546,AJS,NAC,,,,AED,18,months,Premium
+1547,AJS,E95,,,,AED,18,months,Premium
+1548,AJS,V-4,,,,AED,18,months,Premium
+1549,AJS,Silver Streak,,,,AED,18,months,Premium
+1550,AJS,H6,,,,AED,18,months,Premium
+1551,JAWA,660,,,,AED,18,months,Premium
+1552,DERBI,Cross City,,,,AED,18,months,Premium
+1553,DERBI,DXR,,,,AED,18,months,Premium
+1554,DERBI,Boulevard,,,,AED,18,months,Premium
+1555,DERBI,DFW 50,,,,AED,18,months,Premium
+1556,DERBI,Atlantis,,,,AED,18,months,Premium
+1557,NORTON,DOMINATOR,,,,AED,18,months,Premium
+1558,NORTON,NRV,,,,AED,18,months,Premium
+1559,NORTON,RC588,,,,AED,18,months,Premium
+1560,NORTON,Interpol 2 Classic,,,,AED,18,months,Premium
+1561,NORTON,Atlas 750,,,,AED,18,months,Premium
+1562,APRILIA,SR,,,,AED,18,months,Premium
+1563,APRILIA,SRV,,,,AED,18,months,Premium
+1564,APRILIA,Scarabeo,,,,AED,18,months,Premium
+1565,APRILIA,Atlantic,,,,AED,18,months,Premium
+1566,APRILIA,Sportcity,,,,AED,18,months,Premium
+1567,APRILIA,Mojito,,,,AED,18,months,Premium
+1568,APRILIA,ETV Mana,,,,AED,18,months,Premium
+1569,APRILIA,Leonardo,,,,AED,18,months,Premium
+1570,APRILIA,Europa,,,,AED,18,months,Premium
+1571,APRILIA,Red Rose,,,,AED,18,months,Premium
+1572,APRILIA,STX,,,,AED,18,months,Premium
+1573,APRILIA,RC,,,,AED,18,months,Premium
+1574,OSSA,TR,,,,AED,18,months,Premium
+1575,OSSA,EXPLORER,,,,AED,18,months,Premium
+1576,OSSA,FACTORY,,,,AED,18,months,Premium
+1577,OSSA,Copa 250 79,,,,AED,18,months,Premium
+1578,OSSA,Super Pioneer 250,,,,AED,18,months,Premium
+1579,OSSA,125,,,,AED,18,months,Premium
+1580,OSSA,Ossita 50,,,,AED,18,months,Premium
+1581,OSSA,E-71,,,,AED,18,months,Premium
+1582,OSSA,Stiletto,,,,AED,18,months,Premium
+1583,OSSA,160,,,,AED,18,months,Premium
+1584,OSSA,150 Commercial,,,,AED,18,months,Premium
+1585,OSSA,Urbe,,,,AED,18,months,Premium
+1586,TRIUMPH,Speed Triple,,,,AED,18,months,Premium
+1587,TRIUMPH,Rocket III,,,,AED,18,months,Premium
+1588,TRIUMPH,Daytona 675,,,,AED,18,months,Premium
+1589,TRIUMPH,Daytona 675 Triple,,,,AED,18,months,Premium
+1590,TRIUMPH,Bonneville T 100,,,,AED,18,months,Premium
+1591,TRIUMPH,Speed Four,,,,AED,18,months,Premium
+1592,TRIUMPH,Tiger 900,,,,AED,18,months,Premium
+1593,TRIUMPH,Daytona 955i,,,,AED,18,months,Premium
+1594,TRIUMPH,Speed Triple 900,,,,AED,18,months,Premium
+1595,TRIUMPH,X 75 Hurricane,,,,AED,18,months,Premium
+1596,ATK,GT,,,,AED,18,months,Premium
+1597,ATK,GV,,,,AED,18,months,Premium
+1598,ATK,500,,,,AED,18,months,Premium
+1599,ATK,600,,,,AED,18,months,Premium
+1600,ATK,125,,,,AED,18,months,Premium
+1601,ATK,250,,,,AED,18,months,Premium
+1602,KANUNI,Motorun,,,,AED,18,months,Premium
+1603,KANUNI,Tigrina 100,,,,AED,18,months,Premium
+1604,KANUNI,Bobcat,,,,AED,18,months,Premium
+1605,KANUNI,Breton,,,,AED,18,months,Premium
+1606,KANUNI,ATV,,,,AED,18,months,Premium
+1607,KANUNI,Buffalo,,,,AED,18,months,Premium
+1608,KANUNI,Racer,,,,AED,18,months,Premium
+1609,KANUNI,Caracal,,,,AED,18,months,Premium
+1610,KANUNI,Storm,,,,AED,18,months,Premium
+1611,KANUNI,Cheetah 125,,,,AED,18,months,Premium
+1612,KANUNI,Windy,,,,AED,18,months,Premium
+1613,KANUNI,Cross,,,,AED,18,months,Premium
+1614,KANUNI,Motocar,,,,AED,18,months,Premium
+1615,KANUNI,Deer,,,,AED,18,months,Premium
+1616,KANUNI,Rabbit,,,,AED,18,months,Premium
+1617,KANUNI,Elite,,,,AED,18,months,Premium
+1618,KANUNI,Rokko,,,,AED,18,months,Premium
+1619,KANUNI,Enduro,,,,AED,18,months,Premium
+1620,KANUNI,Speedy,,,,AED,18,months,Premium
+1621,KANUNI,Freedom,,,,AED,18,months,Premium
+1622,KANUNI,Tiger 250,,,,AED,18,months,Premium
+1623,KANUNI,Hussar,,,,AED,18,months,Premium
+1624,KANUNI,Trex,,,,AED,18,months,Premium
+1625,KANUNI,Minibike,,,,AED,18,months,Premium
+1626,KANUNI,Zebra,,,,AED,18,months,Premium
+1627,DUCATI,80,,,,AED,18,months,Premium
+1628,DUCATI,620,,,,AED,18,months,Premium
+1629,DUCATI,400,,,,AED,18,months,Premium
+1630,DUCATI,Supermono,,,,AED,18,months,Premium
+1631,DUCATI,Paso,,,,AED,18,months,Premium
+1632,DUCATI,Mille,,,,AED,18,months,Premium
+1633,DUCATI,TT,,,,AED,18,months,Premium
+1634,DUCATI,125,,,,AED,18,months,Premium
+1635,DUCATI,250,,,,AED,18,months,Premium
+1636,DUCATI,160,,,,AED,18,months,Premium
+1637,DUCATI,PIUMA,,,,AED,18,months,Premium
+1638,DUCATI,BRIO,,,,AED,18,months,Premium
+1639,DUCATI,MACH,,,,AED,18,months,Premium
+1640,DUCATI,200,,,,AED,18,months,Premium
+1641,DUCATI,Elite,,,,AED,18,months,Premium
+1642,DUCATI,BRISK,,,,AED,18,months,Premium
+1643,DUCATI,175,,,,AED,18,months,Premium
+1644,DUCATI,APOLLO,,,,AED,18,months,Premium
+1645,DUCATI,55,,,,AED,18,months,Premium
+1646,DUCATI,SILURO,,,,AED,18,months,Premium
+1647,DUCATI,CRUISER,,,,AED,18,months,Premium
+1648,DUCATI,Cucciolo,,,,AED,18,months,Premium
+1649,KAWASAKI,Brute Force,,,,AED,18,months,Premium
+1650,KAWASAKI,Mule,,,,AED,18,months,Premium
+1651,KAWASAKI,KLR 650,,,,AED,18,months,Premium
+1652,KAWASAKI,GTR 1400,,,,AED,18,months,Premium
+1653,KAWASAKI,ER-6n,,,,AED,18,months,Premium
+1654,KAWASAKI,KFX,,,,AED,18,months,Premium
+1655,KAWASAKI,Prairie,,,,AED,18,months,Premium
+1656,KAWASAKI,Teryx,,,,AED,18,months,Premium
+1657,KAWASAKI,Bayou,,,,AED,18,months,Premium
+1658,KAWASAKI,BJ,,,,AED,18,months,Premium
+1659,KAWASAKI,ZR-X,,,,AED,18,months,Premium
+1660,KAWASAKI,Ninja ZX-10R,,,,AED,18,months,Premium
+1661,KAWASAKI,ER-6f,,,,AED,18,months,Premium
+1662,KAWASAKI,KVF,,,,AED,18,months,Premium
+1663,KAWASAKI,Vulcan 900 Classic,,,,AED,18,months,Premium
+1664,KAWASAKI,KLE 500,,,,AED,18,months,Premium
+1665,KAWASAKI,ER 5,,,,AED,18,months,Premium
+1666,KAWASAKI,Ninja ZX-12R,,,,AED,18,months,Premium
+1667,KAWASAKI,KX 85,,,,AED,18,months,Premium
+1668,KAWASAKI,ZX-R,,,,AED,18,months,Premium
+1669,KAWASAKI,Ninja ZX-9R,,,,AED,18,months,Premium
+1670,KAWASAKI,Zephyr,,,,AED,18,months,Premium
+1671,KAWASAKI,EX 400R,,,,AED,18,months,Premium
+1672,KAWASAKI,Triple,,,,AED,18,months,Premium
+1673,KAWASAKI,KE 125,,,,AED,18,months,Premium
+1674,Peugeot,VOGS2,,,,AED,18,months,Premium
+1675,Peugeot,Looxor,,,,AED,18,months,Premium
+1676,Peugeot,Ludix,,,,AED,18,months,Premium
+1677,Peugeot,Elystar,,,,AED,18,months,Premium
+1678,Peugeot,Speedfight,,,,AED,18,months,Premium
+1679,Peugeot,Satelis,,,,AED,18,months,Premium
+1680,Peugeot,V-Clic,,,,AED,18,months,Premium
+1681,Peugeot,Geopolis,,,,AED,18,months,Premium
+1682,Peugeot,Vivacity,,,,AED,18,months,Premium
+1683,Peugeot,BLASTER,,,,AED,18,months,Premium
+1684,Peugeot,Elyseo,,,,AED,18,months,Premium
+1685,VENTO,TERRA Z,,,,AED,18,months,Premium
+1686,VENTO,GLADIATOR XLS,,,,AED,18,months,Premium
+1687,VENTO,ANT,,,,AED,18,months,Premium
+1688,VENTO,HOTROD,,,,AED,18,months,Premium
+1689,VENTO,V THUNDER XL,,,,AED,18,months,Premium
+1690,VENTO,PROTON DARK,,,,AED,18,months,Premium
+1691,VENTO,STREET ROD,,,,AED,18,months,Premium
+1692,VENTO,REBELLIAN,,,,AED,18,months,Premium
+1693,VENTO,TORNADO,,,,AED,18,months,Premium
+1694,VENTO,SPIDER,,,,AED,18,months,Premium
+1695,VENTO,VIKING,,,,AED,18,months,Premium
+1696,PGO,B1,,,,AED,18,months,Premium
+1697,PGO,B2,,,,AED,18,months,Premium
+1698,PGO,G-MAX,,,,AED,18,months,Premium
+1699,PGO,BUBU,,,,AED,18,months,Premium
+1700,PGO,BIG MAX,,,,AED,18,months,Premium
+1701,PGO,EVO G-MAX,,,,AED,18,months,Premium
+1702,VERUCCI,VC50FS-10A,,,,AED,18,months,Premium
+1703,VERUCCI,VC150-SP2 SPIRIT 2,,,,AED,18,months,Premium
+1704,VERUCCI,VC-Super bike 110,,,,AED,18,months,Premium
+1705,VERUCCI,VC250 Phantom,,,,AED,18,months,Premium
+1706,VERUCCI,VIPER,,,,AED,18,months,Premium
+1707,BAJAJ,CT,,,,AED,18,months,Premium
+1708,BAJAJ,PLATINA,,,,AED,18,months,Premium
+1709,BAJAJ,DISCOVER,,,,AED,18,months,Premium
+1710,BAJAJ,XCD,,,,AED,18,months,Premium
+1711,BAJAJ,CHETAK,,,,AED,18,months,Premium
+1712,BAJAJ,WIND,,,,AED,18,months,Premium
+1713,Victory,OCTANE,,,,AED,18,months,Premium
+1714,Victory,EMPULSE TT,,,,AED,18,months,Premium
+1715,Victory,Gunner,,,,AED,18,months,Premium
+1716,Victory,Magnum,,,,AED,18,months,Premium
+1717,Victory,Boardwalk,,,,AED,18,months,Premium
+1718,Victory,Hard-Ball,,,,AED,18,months,Premium
+1719,Victory,Core,,,,AED,18,months,Premium
+1720,Victory,Touring,,,,AED,18,months,Premium
+1721,BENELLI,Quattronove,,,,AED,18,months,Premium
+1722,BENELLI,TRK,,,,AED,18,months,Premium
+1723,BENELLI,Caffenero,,,,AED,18,months,Premium
+1724,BENELLI,BN,,,,AED,18,months,Premium
+1725,BENELLI,Leoncino,,,,AED,18,months,Premium
+1726,BENELLI,TNT,,,,AED,18,months,Premium
+1727,BENELLI,Macis,,,,AED,18,months,Premium
+1728,BENELLI,Tre-K,,,,AED,18,months,Premium
+1729,BENELLI,Pepe,,,,AED,18,months,Premium
+1730,BENELLI,Zenzero,,,,AED,18,months,Premium
+1731,BENELLI,Uno,,,,AED,18,months,Premium
+1732,BENELLI,Due,,,,AED,18,months,Premium
+1733,BENELLI,Sport,,,,AED,18,months,Premium
+1734,BENELLI,QuattroNove X,,,,AED,18,months,Premium
+1735,BENELLI,500 LS,,,,AED,18,months,Premium
+1736,BENELLI,504,,,,AED,18,months,Premium
+1737,BENELLI,175,,,,AED,18,months,Premium
+1738,BENELLI,Mojave,,,,AED,18,months,Premium
+1739,KTM,450,,,,AED,18,months,Premium
+1740,KTM,ATV,,,,AED,18,months,Premium
+1741,KTM,690 Supermoto,,,,AED,18,months,Premium
+1742,KTM,85 SX 19/16,,,,AED,18,months,Premium
+1743,KTM,85 SX 17/14,,,,AED,18,months,Premium
+1744,KTM,LC4 690 Baja,,,,AED,18,months,Premium
+1745,KTM,SMR,,,,AED,18,months,Premium
+1746,KTM,XC-W,,,,AED,18,months,Premium
+1747,KTM,SuperDuke,,,,AED,18,months,Premium
+1748,KTM,SMC,,,,AED,18,months,Premium
+1749,KTM,950,,,,AED,18,months,Premium
+1750,KTM,640,,,,AED,18,months,Premium
+1751,KTM,Stunt,,,,AED,18,months,Premium
+1752,VOR,SM-RC 570,,,,AED,18,months,Premium
+1753,VOR,EN-E 450,,,,AED,18,months,Premium
+1754,VOR,MX 450,,,,AED,18,months,Premium
+1755,VOR,EN-E 530,,,,AED,18,months,Premium
+1756,BETA,Euro 350 Cruiser,,,,AED,18,months,Premium
+1757,BETA,Minicross R-12,,,,AED,18,months,Premium
+1758,BETA,XTRAINER,,,,AED,18,months,Premium
+1759,BETA,M4,,,,AED,18,months,Premium
+1760,BETA,RR 250,,,,AED,18,months,Premium
+1761,BETA,RS,,,,AED,18,months,Premium
+1762,BETA,Ark Air Cooled 50,,,,AED,18,months,Premium
+1763,BETA,Ark Liquid Cooled 50,,,,AED,18,months,Premium
+1764,BETA,Urban,,,,AED,18,months,Premium
+1765,BETA,TR 35/260,,,,AED,18,months,Premium
+1766,VOXAN,GTV,,,,AED,18,months,Premium
+1767,VOXAN,GV 1200,,,,AED,18,months,Premium
+1768,VOXAN,Street Scrambler,,,,AED,18,months,Premium
+1769,VOXAN,WATTMAN,,,,AED,18,months,Premium
+1770,VOXAN,VB1,,,,AED,18,months,Premium
+1771,KYMCO,Candy,,,,AED,18,months,Premium
+1772,KYMCO,Agility,,,,AED,18,months,Premium
+1773,KYMCO,Mongoose,,,,AED,18,months,Premium
+1774,KYMCO,K-XCT,,,,AED,18,months,Premium
+1775,KYMCO,DJS,,,,AED,18,months,Premium
+1776,KYMCO,Jockey,,,,AED,18,months,Premium
+1777,KYMCO,Downtown,,,,AED,18,months,Premium
+1778,KYMCO,Active,,,,AED,18,months,Premium
+1779,KYMCO,Dink,,,,AED,18,months,Premium
+1780,KYMCO,K-Pipe,,,,AED,18,months,Premium
+1781,KYMCO,Jetix,,,,AED,18,months,Premium
+1782,KYMCO,Like,,,,AED,18,months,Premium
+1783,KYMCO,MXU,,,,AED,18,months,Premium
+1784,KYMCO,Sento,,,,AED,18,months,Premium
+1785,KYMCO,Myroad 700i,,,,AED,18,months,Premium
+1786,KYMCO,People,,,,AED,18,months,Premium
+1787,KYMCO,Super 8,,,,AED,18,months,Premium
+1788,KYMCO,Racing King,,,,AED,18,months,Premium
+1789,KYMCO,UXV,,,,AED,18,months,Premium
+1790,KYMCO,Visar,,,,AED,18,months,Premium
+1791,KYMCO,Xciting,,,,AED,18,months,Premium
+1792,KYMCO,Compagno,,,,AED,18,months,Premium
+1793,KYMCO,Movie,,,,AED,18,months,Premium
+1794,KYMCO,Frost,,,,AED,18,months,Premium
+1795,KYMCO,Vitality 50,,,,AED,18,months,Premium
+1796,KYMCO,Yager,,,,AED,18,months,Premium
+1797,KYMCO,Super 9 / Sport 50,,,,AED,18,months,Premium
+1798,KYMCO,Bet & Win,,,,AED,18,months,Premium
+1799,KYMCO,Sting,,,,AED,18,months,Premium
+1800,KYMCO,Grandvista,,,,AED,18,months,Premium
+1801,KYMCO,Yup,,,,AED,18,months,Premium
+1802,KYMCO,Maxxer,,,,AED,18,months,Premium
+1803,KYMCO,Cruiser 125,,,,AED,18,months,Premium
+1804,KYMCO,Movie XL,,,,AED,18,months,Premium
+1805,KYMCO,ZX 50,,,,AED,18,months,Premium
+1806,KYMCO,Heroism,,,,AED,18,months,Premium
+1807,VYRUS,985 C3 4V,,,,AED,18,months,Premium
+1808,VYRUS,987 C3 4V,,,,AED,18,months,Premium
+1809,VYRUS,984 C3 2V,,,,AED,18,months,Premium
+1810,VYRUS,986 M2,,,,AED,18,months,Premium
+1811,Big Bear Choppers,Bear Bones,,,,AED,18,months,Premium
+1812,Big Bear Choppers,Devils Advocate,,,,AED,18,months,Premium
+1813,Big Bear Choppers,Titanium,,,,AED,18,months,Premium
+1814,Big Bear Choppers,GTX,,,,AED,18,months,Premium
+1815,Big Bear Choppers,Rage,,,,AED,18,months,Premium
+1816,Big Bear Choppers,Redemption,,,,AED,18,months,Premium
+1817,Big Bear Choppers,The Sled,,,,AED,18,months,Premium
+1818,LAVERDA,SFC 1000,,,,AED,18,months,Premium
+1819,LAVERDA,125,,,,AED,18,months,Premium
+1820,LAVERDA,125 GS Lesmo,,,,AED,18,months,Premium
+1821,LAVERDA,500 Alpino,,,,AED,18,months,Premium
+1822,LAVERDA,Montjuic,,,,AED,18,months,Premium
+1823,LAVERDA,350,,,,AED,18,months,Premium
+1824,LAVERDA,V6,,,,AED,18,months,Premium
+1825,LAVERDA,250,,,,AED,18,months,Premium
+1826,LAVERDA,750 GT,,,,AED,18,months,Premium
+1827,WAKAN,1640 Racing,,,,AED,18,months,Premium
+1828,WAKAN,1640 Road,,,,AED,18,months,Premium
+1829,BIMOTA,HB,,,,AED,18,months,Premium
+1830,BIMOTA,666,,,,AED,18,months,Premium
+1831,BIMOTA,KB,,,,AED,18,months,Premium
+1832,LIFAN,CHIMP,,,,AED,18,months,Premium
+1833,LIFAN,CUB,,,,AED,18,months,Premium
+1834,LIFAN,ELITE,,,,AED,18,months,Premium
+1835,LIFAN,GOLDFISH,,,,AED,18,months,Premium
+1836,LIFAN,HUNTAWAY,,,,AED,18,months,Premium
+1837,LIFAN,Delta,,,,AED,18,months,Premium
+1838,MAGNI,Sport 1200 S,,,,AED,18,months,Premium
+1839,MAGNI,Sfida,,,,AED,18,months,Premium
+1840,MAGNI,Giaponne 52,,,,AED,18,months,Premium
+1841,MAICO,500 Cross,,,,AED,18,months,Premium
+1842,MAICO,320 Enduro,,,,AED,18,months,Premium
+1843,MAICO,GS 250,,,,AED,18,months,Premium
+1844,MAICO,Taifun,,,,AED,18,months,Premium
+1845,MAICO,Maicomobil,,,,AED,18,months,Premium
+1846,MAICO,M 125,,,,AED,18,months,Premium
+1847,MALAGUTI,MADISON,,,,AED,18,months,Premium
+1848,MALAGUTI,BLOG,,,,AED,18,months,Premium
+1849,MALAGUTI,SPIDERMAX,,,,AED,18,months,Premium
+1850,MALAGUTI,CIAK MASTER,,,,AED,18,months,Premium
+1851,BMW,F 700,,,,AED,18,months,Premium
+1852,BMW,R 900,,,,AED,18,months,Premium
+1853,BMW,Krauser MKM 1000,,,,AED,18,months,Premium
+1854,BMW,Flink,,,,AED,18,months,Premium
+1855,GAS GAS,E-KIDS,,,,AED,18,months,Premium
+1856,MATCHLESS,X,,,,AED,18,months,Premium
+1857,MATCHLESS,Silver Hawk,,,,AED,18,months,Premium
+1858,YAMAHA,Tesseract,,,,AED,18,months,Premium
+1859,YAMAHA,Blaster,,,,AED,18,months,Premium
+1860,YAMAHA,YFS 200,,,,AED,18,months,Premium
+1861,YAMAHA,YFA 125,,,,AED,18,months,Premium
+1862,YAMAHA,SCR,,,,AED,18,months,Premium
+1863,YAMAHA,KODIAC,,,,AED,18,months,Premium
+1864,YAMAHA,BT 1100 Bulldog,,,,AED,18,months,Premium
+1865,YAMAHA,VIKING,,,,AED,18,months,Premium
+1866,YAMAHA,SUPER TENERE ES,,,,AED,18,months,Premium
+1867,YAMAHA,YFZ,,,,AED,18,months,Premium
+1868,YAMAHA,SMAX,,,,AED,18,months,Premium
+1869,YAMAHA,YXZ,,,,AED,18,months,Premium
+1870,YAMAHA,VMAX,,,,AED,18,months,Premium
+1871,YAMAHA,Fazer,,,,AED,18,months,Premium
+1872,YAMAHA,Raptor,,,,AED,18,months,Premium
+1873,YAMAHA,Wolverine,,,,AED,18,months,Premium
+1874,YAMAHA,V Star,,,,AED,18,months,Premium
+1875,YAMAHA,Stryker,,,,AED,18,months,Premium
+1876,YAMAHA,Raider,,,,AED,18,months,Premium
+1877,YAMAHA,Tricity,,,,AED,18,months,Premium
+1878,YAMAHA,Stratoliner,,,,AED,18,months,Premium
+1879,YAMAHA,Zuma,,,,AED,18,months,Premium
+1880,YAMAHA,Grizzly,,,,AED,18,months,Premium
+1881,YAMAHA,Delight,,,,AED,18,months,Premium
+1882,YAMAHA,Vino,,,,AED,18,months,Premium
+1883,YAMAHA,TMAX,,,,AED,18,months,Premium
+1884,YAMAHA,WR 250 F,,,,AED,18,months,Premium
+1885,YAMAHA,X-MAX,,,,AED,18,months,Premium
+1886,YAMAHA,YFM,,,,AED,18,months,Premium
+1887,YAMAHA,X-City,,,,AED,18,months,Premium
+1888,YAMAHA,Jog,,,,AED,18,months,Premium
+1889,YAMAHA,YBR-125,,,,AED,18,months,Premium
+1890,YAMAHA,Neos,,,,AED,18,months,Premium
+1891,YAMAHA,Xenter,,,,AED,18,months,Premium
+1892,YAMAHA,Rhino,,,,AED,18,months,Premium
+1893,YAMAHA,IT,,,,AED,18,months,Premium
+1894,YAMAHA,MAJESTY,,,,AED,18,months,Premium
+1895,YAMAHA,CygnusX,,,,AED,18,months,Premium
+1896,YAMAHA,XJ-R,,,,AED,18,months,Premium
+1897,YAMAHA,Big Bear,,,,AED,18,months,Premium
+1898,YAMAHA,C3,,,,AED,18,months,Premium
+1899,YAMAHA,Bruin,,,,AED,18,months,Premium
+1900,YAMAHA,Roadliner,,,,AED,18,months,Premium
+1901,YAMAHA,BWs,,,,AED,18,months,Premium
+1902,YAMAHA,WR 450 F,,,,AED,18,months,Premium
+1903,YAMAHA,Aerox,,,,AED,18,months,Premium
+1904,YAMAHA,Slider Naked,,,,AED,18,months,Premium
+1905,YAMAHA,Warrior,,,,AED,18,months,Premium
+1906,YAMAHA,ST,,,,AED,18,months,Premium
+1907,YAMAHA,Vino 125,,,,AED,18,months,Premium
+1908,YAMAHA,MT-01,,,,AED,18,months,Premium
+1909,YAMAHA,Morphous,,,,AED,18,months,Premium
+1910,YAMAHA,XT 225,,,,AED,18,months,Premium
+1911,YAMAHA,Aerox Race Replica,,,,AED,18,months,Premium
+1912,YAMAHA,FZS 600 Fazer,,,,AED,18,months,Premium
+1913,YAMAHA,DragStar,,,,AED,18,months,Premium
+1914,YAMAHA,FZX,,,,AED,18,months,Premium
+1915,YAMAHA,SDR,,,,AED,18,months,Premium
+1916,YAMAHA,FSX,,,,AED,18,months,Premium
+1917,YAMAHA,GX,,,,AED,18,months,Premium
+1918,YAMAHA,FS-1,,,,AED,18,months,Premium
+1919,YAMAHA,RT 360,,,,AED,18,months,Premium
+1920,YAMAHA,R5,,,,AED,18,months,Premium
+1921,YAMAHA,TR3,,,,AED,18,months,Premium
+1922,YAMAHA,YR,,,,AED,18,months,Premium
+1923,YAMAHA,Santa Barbara,,,,AED,18,months,Premium
+1924,YAMAHA,YD,,,,AED,18,months,Premium
+1925,YAMAHA,Mabris Hybrid,,,,AED,18,months,Premium
+1926,YAMAHA,MT-OS,,,,AED,18,months,Premium
+1927,YAMAHA,Morpho 2,,,,AED,18,months,Premium
+1928,BORILE,B 500 MT,,,,AED,18,months,Premium
+1929,BORILE,B 300,,,,AED,18,months,Premium
+1930,BORILE,B 450,,,,AED,18,months,Premium
+1931,BORILE,Bastard,,,,AED,18,months,Premium
+1932,BORILE,B 651,,,,AED,18,months,Premium
+1933,MBK,Stunt Naked,,,,AED,18,months,Premium
+1934,MBK,Ovetto,,,,AED,18,months,Premium
+1935,MBK,Flipper,,,,AED,18,months,Premium
+1936,MBK,Flame X,,,,AED,18,months,Premium
+1937,MBK,X-Limit Supermotard,,,,AED,18,months,Premium
+1938,MBK,Skycruiser 125,,,,AED,18,months,Premium
+1939,MBK,Nitro,,,,AED,18,months,Premium
+1940,MBK,MachG,,,,AED,18,months,Premium
+1941,MBK,Booster,,,,AED,18,months,Premium
+1942,MBK,Motobecane,,,,AED,18,months,Premium
+1943,BOSS HOSS,BHC-9,,,,AED,18,months,Premium
+1944,GHEZZI-BRIAN,SUPERTWIN 1100,,,,AED,18,months,Premium
+1945,GHEZZI-BRIAN,KIMERA,,,,AED,18,months,Premium
+1946,GHEZZI-BRIAN,FOLGORE,,,,AED,18,months,Premium
+1947,ZERO,FXS,,,,AED,18,months,Premium
+1948,ZERO,FXP,,,,AED,18,months,Premium
+1949,ZERO,DSP,,,,AED,18,months,Premium
+1950,ZERO,XU,,,,AED,18,months,Premium
+1951,BSA,Beagle,,,,AED,18,months,Premium
+1952,BSA,DB,,,,AED,18,months,Premium
+1953,BSA,Bluestar,,,,AED,18,months,Premium
+1954,BSA,X,,,,AED,18,months,Premium
+1955,BSA,Flat Tank,,,,AED,18,months,Premium
+1956,GILERA,Nexus,,,,AED,18,months,Premium
+1957,GILERA,GP,,,,AED,18,months,Premium
+1958,GILERA,Coguar,,,,AED,18,months,Premium
+1959,GILERA,DNA,,,,AED,18,months,Premium
+1960,GILERA,GFR,,,,AED,18,months,Premium
+1961,GILERA,Nordwest,,,,AED,18,months,Premium
+1962,GILERA,CX,,,,AED,18,months,Premium
+1963,GILERA,RC,,,,AED,18,months,Premium
+1964,GILERA,Apache,,,,AED,18,months,Premium
+1965,GILERA,Crono,,,,AED,18,months,Premium
+1966,GILERA,Freestyle,,,,AED,18,months,Premium
+1967,GILERA,Nordcape,,,,AED,18,months,Premium
+1968,GILERA,MX,,,,AED,18,months,Premium
+1969,GILERA,KK,,,,AED,18,months,Premium
+1970,GILERA,SP,,,,AED,18,months,Premium
+1971,GILERA,Saturno,,,,AED,18,months,Premium
+1972,GILERA,Fastbike,,,,AED,18,months,Premium
+1973,GILERA,RRT Nebraska,,,,AED,18,months,Premium
+1974,GILERA,RTX,,,,AED,18,months,Premium
+1975,GILERA,RX,,,,AED,18,months,Premium
+1976,GILERA,RV,,,,AED,18,months,Premium
+1977,GILERA,T4,,,,AED,18,months,Premium
+1978,GILERA,300,,,,AED,18,months,Premium
+1979,GILERA,Giubileo,,,,AED,18,months,Premium
+1980,MIDUAL,TYPE 1,,,,AED,18,months,Premium
+1981,ROYAL ENFIELD,Clubman 500 GT,,,,AED,18,months,Premium
+1982,MIKILON,PENTORA,,,,AED,18,months,Premium
+1983,MIKILON,GT,,,,AED,18,months,Premium
+1984,MIKILON,A6,,,,AED,18,months,Premium
+1985,SACHS,Speedforce,,,,AED,18,months,Premium
+1986,SACHS,X-Road,,,,AED,18,months,Premium
+1987,SACHS,MadAss,,,,AED,18,months,Premium
+1988,ZUNDAPP,Bella,,,,AED,18,months,Premium
+1989,ZUNDAPP,Z,,,,AED,18,months,Premium
+1990,BUELL,X1,,,,AED,18,months,Premium
+1991,BUELL,M2 Cyclone,,,,AED,18,months,Premium
+1992,BUELL,S1,,,,AED,18,months,Premium
+1993,BUELL,S2,,,,AED,18,months,Premium
+1994,BUELL,RSS,,,,AED,18,months,Premium
+1995,BUELL,RR,,,,AED,18,months,Premium
+1996,MONDIAL,Nuda,,,,AED,18,months,Premium
+1997,MONDIAL,SMT,,,,AED,18,months,Premium
+1998,MONDIAL,MX,,,,AED,18,months,Premium
+1999,MONDIAL,HIPSTER,,,,AED,18,months,Premium
+2000,MONDIAL,EVO,,,,AED,18,months,Premium
+2001,MONDIAL,NT,,,,AED,18,months,Premium
+2002,MONDIAL,ARDOUR,,,,AED,18,months,Premium
+2003,MONDIAL,MG,,,,AED,18,months,Premium
+2004,MONDIAL,JETMAX,,,,AED,18,months,Premium
+2005,MONDIAL,GOMAX,,,,AED,18,months,Premium
+2006,MONDIAL,MR,,,,AED,18,months,Premium
+2007,MONDIAL,AGGRESIVE,,,,AED,18,months,Premium
+2008,MONDIAL,TERRA LANDER,,,,AED,18,months,Premium
+2009,MONDIAL,UGK,,,,AED,18,months,Premium
+2010,MONDIAL,MH,,,,AED,18,months,Premium
+2011,MONDIAL,HYENA,,,,AED,18,months,Premium
+2012,MONDIAL,Cup 100 MFH,,,,AED,18,months,Premium
+2013,MONDIAL,KT,,,,AED,18,months,Premium
+2014,MONDIAL,BUFFALO,,,,AED,18,months,Premium
+2015,MONDIAL,LOYAL,,,,AED,18,months,Premium
+2016,MONDIAL,RT,,,,AED,18,months,Premium
+2017,MONDIAL,MASH,,,,AED,18,months,Premium
+2018,MONDIAL,MC,,,,AED,18,months,Premium
+2019,MONDIAL,SFC,,,,AED,18,months,Premium
+2020,MONDIAL,X-TREME,,,,AED,18,months,Premium
+2021,MONDIAL,ZNU,,,,AED,18,months,Premium
+2022,MONDIAL,ZNX,,,,AED,18,months,Premium
+2023,MONDIAL,Piega 1000,,,,AED,18,months,Premium
+2024,Peugeot,PEUGEOT,,,,AED,18,months,Premium
+2025,CAGIVA,Custom,,,,AED,18,months,Premium
+2026,CAGIVA,Aletta Oro,,,,AED,18,months,Premium
+2027,CAGIVA,RX,,,,AED,18,months,Premium
+2028,SCORPA,SY 250,,,,AED,18,months,Premium
+2029,SCORPA,SY 250 LONG RIDE,,,,AED,18,months,Premium
+2030,HARTFORD,BUMBLE,,,,AED,18,months,Premium
+2031,HARTFORD,CHEETAH,,,,AED,18,months,Premium
+2032,HARTFORD,NIGHT HAWK,,,,AED,18,months,Premium
+2033,HARTFORD,FALCON,,,,AED,18,months,Premium
+2034,HARTFORD,NEKO,,,,AED,18,months,Premium
+2035,HARTFORD,LEOPARD,,,,AED,18,months,Premium
+2036,HARTFORD,SIRIUS,,,,AED,18,months,Premium
+2037,MOTO GUZZI,MGX,,,,AED,18,months,Premium
+2038,MOTO GUZZI,V9,,,,AED,18,months,Premium
+2039,MOTO GUZZI,Eldorado,,,,AED,18,months,Premium
+2040,MOTO GUZZI,Audace,,,,AED,18,months,Premium
+2041,MOTO GUZZI,Stelvio,,,,AED,18,months,Premium
+2042,MOTO GUZZI,MGS-01 Corsa,,,,AED,18,months,Premium
+2043,MOTO GUZZI,Bellagio 940,,,,AED,18,months,Premium
+2044,MOTO GUZZI,Norge 850,,,,AED,18,months,Premium
+2045,MOTO GUZZI,V 11,,,,AED,18,months,Premium
+2046,MOTO GUZZI,V 10 Centauro,,,,AED,18,months,Premium
+2047,MOTO GUZZI,Daytona 1000,,,,AED,18,months,Premium
+2048,MOTO GUZZI,V1000,,,,AED,18,months,Premium
+2049,MOTO GUZZI,Targa 750,,,,AED,18,months,Premium
+2050,MOTO GUZZI,1000SP,,,,AED,18,months,Premium
+2051,MOTO GUZZI,850T3,,,,AED,18,months,Premium
+2052,MOTO GUZZI,GTS,,,,AED,18,months,Premium
+2053,MOTO GUZZI,Stornello,,,,AED,18,months,Premium
+2054,MOTO GUZZI,Zigolo,,,,AED,18,months,Premium
+2055,MOTO GUZZI,Lodola,,,,AED,18,months,Premium
+2056,MOTO GUZZI,Cardellino,,,,AED,18,months,Premium
+2057,MOTO GUZZI,V8,,,,AED,18,months,Premium
+2058,MOTO GUZZI,Super Alce,,,,AED,18,months,Premium
+2059,MOTO GUZZI,Galetto,,,,AED,18,months,Premium
+2060,MOTO GUZZI,Motoleggera 65,,,,AED,18,months,Premium
+2061,MOTO GUZZI,Dondolino,,,,AED,18,months,Premium
+2062,MOTO GUZZI,Airone,,,,AED,18,months,Premium
+2063,MOTO GUZZI,P 250,,,,AED,18,months,Premium
+2064,MOTO GUZZI,Normale,,,,AED,18,months,Premium
+2065,CCM,644 Dual Sport Trail,,,,AED,18,months,Premium
+2066,CCM,GP,,,,AED,18,months,Premium
+2067,CCM,XTR,,,,AED,18,months,Premium
+2068,CCM,SM,,,,AED,18,months,Premium
+2069,CCM,C-R,,,,AED,18,months,Premium
+2070,CCM,RS,,,,AED,18,months,Premium
+2071,MOTO MORINI,Granpasso 1200,,,,AED,18,months,Premium
+2072,MOTO MORINI,Corsaro 1200,,,,AED,18,months,Premium
+2073,MOTO MORINI,Corsaro Veloce,,,,AED,18,months,Premium
+2074,MOTO MORINI,Dart 350,,,,AED,18,months,Premium
+2075,MOTO MORINI,501 XE,,,,AED,18,months,Premium
+2076,MOTO MORINI,350 Excalibur,,,,AED,18,months,Premium
+2077,MOTO MORINI,500 Camel,,,,AED,18,months,Premium
+2078,MOTO MORINI,350 K 2,,,,AED,18,months,Premium
+2079,MOTO MORINI,3 1/2 S,,,,AED,18,months,Premium
+2080,MOTO MORINI,500 Turbo,,,,AED,18,months,Premium
+2081,MOTO MORINI,500 GT,,,,AED,18,months,Premium
+2082,MOTO MORINI,250 T,,,,AED,18,months,Premium
+2083,MOTO MORINI,3 1/2 Touring,,,,AED,18,months,Premium
+2084,MOTO MORINI,Corsarino,,,,AED,18,months,Premium
+2085,MOTO MORINI,125,,,,AED,18,months,Premium
+2086,MOTO MORINI,Corsaro Country 125,,,,AED,18,months,Premium
+2087,MOTO MORINI,Corsaro Gran Turismo,,,,AED,18,months,Premium
+2088,MOTO MORINI,Sbarazzino,,,,AED,18,months,Premium
+2089,MOTO MORINI,175,,,,AED,18,months,Premium
+2090,SHERCO,5.1i,,,,AED,18,months,Premium
+2091,SHERCO,E-KID,,,,AED,18,months,Premium
+2092,SHERCO,ST,,,,AED,18,months,Premium
+2093,SHERCO,SM,,,,AED,18,months,Premium
+2094,SHERCO,SEF,,,,AED,18,months,Premium
+2095,SHERCO,XY,,,,AED,18,months,Premium
+2096,SHERCO,4.5i,,,,AED,18,months,Premium
+2097,HERCULES,K 125 Military,,,,AED,18,months,Premium
+2098,HERCULES,K 105 X,,,,AED,18,months,Premium
+2099,CFMOTO,CFORCE,,,,AED,18,months,Premium
+2100,CFMOTO,ZFORCE,,,,AED,18,months,Premium
+2101,CFMOTO,UFORCE,,,,AED,18,months,Premium
+2102,HIGHLAND,DIRT-TRACK,,,,AED,18,months,Premium
+2103,HIGHLAND,SUPERMOTARD 950,,,,AED,18,months,Premium
+2104,Honda,Navi,,,,AED,18,months,Premium
+2105,Honda,CHF,,,,AED,18,months,Premium
+2106,Honda,Metropolitan,,,,AED,18,months,Premium
+2107,Honda,CN 250,,,,AED,18,months,Premium
+2108,Honda,PIONEER,,,,AED,18,months,Premium
+2109,Honda,X-ADV,,,,AED,18,months,Premium
+2110,Honda,Steed 400,,,,AED,18,months,Premium
+2111,Honda,X-Eleven,,,,AED,18,months,Premium
+2112,Honda,INTERSTATE,,,,AED,18,months,Premium
+2113,Honda,LS 125 R,,,,AED,18,months,Premium
+2114,Honda,MSX,,,,AED,18,months,Premium
+2115,Honda,Scooters,,,,AED,18,months,Premium
+2116,Honda,Giorno,,,,AED,18,months,Premium
+2117,Honda,Forza,,,,AED,18,months,Premium
+2118,Honda,F6B,,,,AED,18,months,Premium
+2119,Honda,GL1800C,,,,AED,18,months,Premium
+2120,Honda,FourTrax Foreman 4x4,,,,AED,18,months,Premium
+2121,Honda,FourTrax Foreman Rubicon,,,,AED,18,months,Premium
+2122,Honda,TRX,,,,AED,18,months,Premium
+2123,Honda,Big Red,,,,AED,18,months,Premium
+2124,Honda,FourTrax Rincon,,,,AED,18,months,Premium
+2125,Honda,PCX,,,,AED,18,months,Premium
+2126,Honda,Silver Wing,,,,AED,18,months,Premium
+2127,Honda,Crossrunner,,,,AED,18,months,Premium
+2128,Honda,RUCKUS,,,,AED,18,months,Premium
+2129,Honda,RC,,,,AED,18,months,Premium
+2130,Honda,NSF100,,,,AED,18,months,Premium
+2131,Honda,Dream 50 R,,,,AED,18,months,Premium
+2132,Honda,GLX,,,,AED,18,months,Premium
+2133,Honda,Crosstourer,,,,AED,18,months,Premium
+2134,Honda,NSC,,,,AED,18,months,Premium
+2135,Honda,SH,,,,AED,18,months,Premium
+2136,Honda,DN-01,,,,AED,18,months,Premium
+2137,Honda,Big Ruckus,,,,AED,18,months,Premium
+2138,Honda,CLR,,,,AED,18,months,Premium
+2139,Honda,FX,,,,AED,18,months,Premium
+2140,Honda,PC 800 Pacific Coast,,,,AED,18,months,Premium
+2141,Honda,VRX 400 Roadster,,,,AED,18,months,Premium
+2142,Honda,MTX,,,,AED,18,months,Premium
+2143,Honda,GB Clubman,,,,AED,18,months,Premium
+2144,Honda,MVX,,,,AED,18,months,Premium
+2145,Honda,MRX,,,,AED,18,months,Premium
+2146,Honda,MB5,,,,AED,18,months,Premium
+2147,Honda,Super 90,,,,AED,18,months,Premium
+2148,Honda,CS,,,,AED,18,months,Premium
+2149,Honda,EVO6,,,,AED,18,months,Premium
+2150,SIMSON,S 51,,,,AED,18,months,Premium
+2151,SIMSON,Schwalbe,,,,AED,18,months,Premium
+2152,SIMSON,AWO 425 S,,,,AED,18,months,Premium
+2153,SIMSON,SR,,,,AED,18,months,Premium
+2154,SIMSON,BSW 98,,,,AED,18,months,Premium
+2155,MOTORHISPANIA,FURIA MAX ENDURO,,,,AED,18,months,Premium
+2156,MOTORHISPANIA,MH,,,,AED,18,months,Premium
+2157,MOTORHISPANIA,RX SUPER RACING,,,,AED,18,months,Premium
+2158,MOTORHISPANIA,KN,,,,AED,18,months,Premium
+2159,MOTORHISPANIA,RANGER,,,,AED,18,months,Premium
+2160,MOTORHISPANIA,NK3,,,,AED,18,months,Premium
+2161,MOTORHISPANIA,STREET,,,,AED,18,months,Premium
+2162,MOTORHISPANIA,DUNA,,,,AED,18,months,Premium
+2163,MOTORHISPANIA,ARENA 125,,,,AED,18,months,Premium
+2164,HOREX,VR6,,,,AED,18,months,Premium
+2165,HOREX,REGINA,,,,AED,18,months,Premium
+2166,CONFEDERATE,WRAITH B120,,,,AED,18,months,Premium
+2167,CONFEDERATE,HELLCAT F131,,,,AED,18,months,Premium
+2168,CONFEDERATE,WRAITH B91,,,,AED,18,months,Premium
+2169,HUSABERG,FE550e,,,,AED,18,months,Premium
+2170,HUSABERG,FS550e,,,,AED,18,months,Premium
+2171,CPI,ARAGON,,,,AED,18,months,Premium
+2172,CPI,POPCORN,,,,AED,18,months,Premium
+2173,CPI,SM,,,,AED,18,months,Premium
+2174,HUSQVARNA,TR 650,,,,AED,18,months,Premium
+2175,HUSQVARNA,FR,,,,AED,18,months,Premium
+2176,HUSQVARNA,TX,,,,AED,18,months,Premium
+2177,HUSQVARNA,ENDURO,,,,AED,18,months,Premium
+2178,HUSQVARNA,701,,,,AED,18,months,Premium
+2179,HUSQVARNA,CR 65,,,,AED,18,months,Premium
+2180,HUSQVARNA,SMS,,,,AED,18,months,Premium
+2181,HUSQVARNA,TXC,,,,AED,18,months,Premium
+2182,HUSQVARNA,CR 125,,,,AED,18,months,Premium
+2183,HUSQVARNA,CROSS,,,,AED,18,months,Premium
+2184,HUSQVARNA,400,,,,AED,18,months,Premium
+2185,MUNCH,MAMUTH 2000,,,,AED,18,months,Premium
+2186,MUNCH,MAMUTH 4TTS,,,,AED,18,months,Premium
+2187,HYOSUNG,Rally,,,,AED,18,months,Premium
+2188,HYOSUNG,Sense,,,,AED,18,months,Premium
+2189,HYOSUNG,Rush,,,,AED,18,months,Premium
+2190,HYOSUNG,MS,,,,AED,18,months,Premium
+2191,HYOSUNG,SuperCab,,,,AED,18,months,Premium
+2192,HYOSUNG,Prima,,,,AED,18,months,Premium
+2193,HYOSUNG,Exceed,,,,AED,18,months,Premium
+2194,HYOSUNG,XRX,,,,AED,18,months,Premium
+2195,HYOSUNG,KR,,,,AED,18,months,Premium
+2196,HYOSUNG,WOW,,,,AED,18,months,Premium
+2197,INDIAN,SPRINGFIELD,,,,AED,18,months,Premium
+2198,INDIAN,Spirit,,,,AED,18,months,Premium
+2199,INDIAN,ME,,,,AED,18,months,Premium
+2200,INDIAN,Velo,,,,AED,18,months,Premium
+2201,INDIAN,Army,,,,AED,18,months,Premium
+2202,INDIAN,Four,,,,AED,18,months,Premium
+2203,INDIAN,Light Twin,,,,AED,18,months,Premium
+2204,INDIAN,Camelback,,,,AED,18,months,Premium
+2205,MV AGUSTA,F4 750,,,,AED,18,months,Premium
+2206,MV AGUSTA,F4 1000,,,,AED,18,months,Premium
+2207,MV AGUSTA,F4 1000 SENNA,,,,AED,18,months,Premium
+2208,MV AGUSTA,F4 AGO,,,,AED,18,months,Premium
+2209,MV AGUSTA,750 F4 AGO,,,,AED,18,months,Premium
+2210,MV AGUSTA,850 MAGNI,,,,AED,18,months,Premium
+2211,MV AGUSTA,1000 S Corona,,,,AED,18,months,Premium
+2212,MV AGUSTA,832 Monza,,,,AED,18,months,Premium
+2213,MV AGUSTA,125,,,,AED,18,months,Premium
+2214,MV AGUSTA,750 S America,,,,AED,18,months,Premium
+2215,MV AGUSTA,350 S,,,,AED,18,months,Premium
+2216,MV AGUSTA,500,,,,AED,18,months,Premium
+2217,MV AGUSTA,750 GT,,,,AED,18,months,Premium
+2218,MV AGUSTA,350 GT,,,,AED,18,months,Premium
+2219,MV AGUSTA,350 Scrambler,,,,AED,18,months,Premium
+2220,MV AGUSTA,125 g.t.l.s.,,,,AED,18,months,Premium
+2221,MV AGUSTA,250,,,,AED,18,months,Premium
+2222,MV AGUSTA,600,,,,AED,18,months,Premium
+2223,MV AGUSTA,125 Monoalbero Corsa,,,,AED,18,months,Premium
+2224,MV AGUSTA,175,,,,AED,18,months,Premium
+2225,MV AGUSTA,175 Monoalbero,,,,AED,18,months,Premium
+2226,Suzuki,X3,,,,AED,18,months,Premium
+2227,Suzuki,Eiger,,,,AED,18,months,Premium
+2228,Suzuki,GSX-S,,,,AED,18,months,Premium
+2229,Suzuki,Boulevard C50,,,,AED,18,months,Premium
+2230,Suzuki,Burgman,,,,AED,18,months,Premium
+2231,Suzuki,Ozark 250 LTF250K,,,,AED,18,months,Premium
+2232,Suzuki,Quad,,,,AED,18,months,Premium
+2233,Suzuki,Boost King,,,,AED,18,months,Premium
+2234,Suzuki,GSX-F,,,,AED,18,months,Premium
+2235,Suzuki,V-Strom 650,,,,AED,18,months,Premium
+2236,Suzuki,Vinson,,,,AED,18,months,Premium
+2237,Suzuki,JR 50,,,,AED,18,months,Premium
+2238,Suzuki,Boulevard M95,,,,AED,18,months,Premium
+2239,Suzuki,VL 800 Volusia,,,,AED,18,months,Premium
+2240,Suzuki,JR 80,,,,AED,18,months,Premium
+2241,Suzuki,RG 200 F Gamma,,,,AED,18,months,Premium
+2242,Suzuki,XN 85D Turbo,,,,AED,18,months,Premium
+2243,Suzuki,X1,,,,AED,18,months,Premium
+2244,Suzuki,B 120,,,,AED,18,months,Premium
+2245,Suzuki,Stratosphere,,,,AED,18,months,Premium
+2246,Suzuki,Nuda,,,,AED,18,months,Premium
+2247,Suzuki,Crosscage,,,,AED,18,months,Premium
+2248,Suzuki,Biplane,,,,AED,18,months,Premium
+2249,Suzuki,G-Strider,,,,AED,18,months,Premium
+2250,Adler,Favorit,,,,AED,18,months,Premium
+2251,AEON,Cube,,,,AED,18,months,Premium
+2252,AEON,Sporty,,,,AED,18,months,Premium
+2253,ARCTIC CAT,TBX,,,,AED,18,months,Premium
+2254,ARCTIC CAT,ALTERRA,,,,AED,18,months,Premium
+2255,ARCTIC CAT,MUDPRO,,,,AED,18,months,Premium
+2256,ARCTIC CAT,50,,,,AED,18,months,Premium
+2257,ARCTIC CAT,300,,,,AED,18,months,Premium
+2258,ARCTIC CAT,DVX,,,,AED,18,months,Premium
+2259,ARCTIC CAT,1000,,,,AED,18,months,Premium
+2260,ARCTIC CAT,400,,,,AED,18,months,Premium
+2261,ARCTIC CAT,450,,,,AED,18,months,Premium
+2262,ARCTIC CAT,90,,,,AED,18,months,Premium
+2263,ARCTIC CAT,500,,,,AED,18,months,Premium
+2264,ARCTIC CAT,550,,,,AED,18,months,Premium
+2265,ARCTIC CAT,DVX90,,,,AED,18,months,Premium
+2266,ARCTIC CAT,700,,,,AED,18,months,Premium
+2267,ARCTIC CAT,XC,,,,AED,18,months,Premium
+2268,ARCTIC CAT,Prowler,,,,AED,18,months,Premium
+2269,ARCTIC CAT,Wildcat,,,,AED,18,months,Premium
+2270,ARCTIC CAT,650,,,,AED,18,months,Premium
+2271,ARCTIC CAT,350,,,,AED,18,months,Premium
+2272,ARCTIC CAT,425,,,,AED,18,months,Premium
+2273,ARCTIC CAT,366,,,,AED,18,months,Premium
+2274,ARCTIC CAT,250,,,,AED,18,months,Premium
+2275,ARCTIC CAT,DVX250,,,,AED,18,months,Premium
+2276,ARCTIC CAT,DVX400,,,,AED,18,months,Premium
+2277,ARIEL,ACE,,,,AED,18,months,Premium
+2278,ARIEL,Arrow,,,,AED,18,months,Premium
+2279,ARIEL,Leader,,,,AED,18,months,Premium
+2280,ARIEL,HT5,,,,AED,18,months,Premium
+2281,ARIEL,LH,,,,AED,18,months,Premium
+2282,ARIEL,NH,,,,AED,18,months,Premium
+2283,ARIEL,HT3,,,,AED,18,months,Premium
+2284,ARIEL,VH,,,,AED,18,months,Premium
+2285,ARIEL,FH,,,,AED,18,months,Premium
+2286,ARIEL,VB,,,,AED,18,months,Premium
+2287,ARIEL,KH,,,,AED,18,months,Premium
+2288,ARIEL,Huntmaster,,,,AED,18,months,Premium
+2289,ARIEL,NH Hunter,,,,AED,18,months,Premium
+2290,ARIEL,Square Four,,,,AED,18,months,Premium
+2291,ARIEL,W/NG,,,,AED,18,months,Premium
+2292,Big Dog,K9,,,,AED,18,months,Premium
+2293,Big Dog,Pitbull,,,,AED,18,months,Premium
+2294,Big Dog,Working Mans Special,,,,AED,18,months,Premium
+2295,Big Dog,Bulldog,,,,AED,18,months,Premium
+2296,Big Dog,Coyote,,,,AED,18,months,Premium
+2297,Big Dog,Wolf,,,,AED,18,months,Premium
+2298,Big Dog,Ridgeback,,,,AED,18,months,Premium
+2299,Big Dog,Mastiff,,,,AED,18,months,Premium
+2300,Big Dog,Mutt,,,,AED,18,months,Premium
+2301,Big Dog,Chopper,,,,AED,18,months,Premium
+2302,Big Dog,Boxer,,,,AED,18,months,Premium
+2303,DNEPR,MT 11,,,,AED,18,months,Premium
+2304,DNEPR,K-750 M,,,,AED,18,months,Premium
+2305,DNEPR,MT-10/36,,,,AED,18,months,Premium
+2306,DNEPR,MT 10,,,,AED,18,months,Premium
+2307,DNEPR,K 650,,,,AED,18,months,Premium
+2308,DNEPR,MT-9,,,,AED,18,months,Premium
+2309,DNEPR,MW750,,,,AED,18,months,Premium
+2310,DNEPR,M-72H,,,,AED,18,months,Premium
+2311,EXCELSIOR,Super X,,,,AED,18,months,Premium
+2312,EXCELSIOR,20R,,,,AED,18,months,Premium
+2313,EXCELSIOR,Manxman,,,,AED,18,months,Premium
+2314,Geely,JL125T-5A,,,,AED,18,months,Premium
+2315,Geely,JL 150 - 4,,,,AED,18,months,Premium
+2316,Geely,JL150T,,,,AED,18,months,Premium
+2317,Geely,JL 50QT 16,,,,AED,18,months,Premium
+2318,Geely,JL150T-5,,,,AED,18,months,Premium
+2319,Geely,JL 50QT 21,,,,AED,18,months,Premium
+2320,Geely,JL 150 - 2,,,,AED,18,months,Premium
+2321,Geely,JL 50QT-2A,,,,AED,18,months,Premium
+2322,Geely,JL150-13,,,,AED,18,months,Premium
+2323,Geely,JL 50QT-2B,,,,AED,18,months,Premium
+2324,Geely,JL150T-6,,,,AED,18,months,Premium
+2325,Geely,JL100T,,,,AED,18,months,Premium
+2326,Geely,L150T-2,,,,AED,18,months,Premium
+2327,Geely,JL150-9,,,,AED,18,months,Premium
+2328,HENDERSON,ACE,,,,AED,18,months,Premium
+2329,HENDERSON,Henderson Four,,,,AED,18,months,Premium
+2330,HENDERSON,Streamline,,,,AED,18,months,Premium
+2331,HENDERSON,DeLuxe,,,,AED,18,months,Premium
+2332,HENDERSON,ACE XP4,,,,AED,18,months,Premium
+2333,HESKETH,VAMPIRE,,,,AED,18,months,Premium
+2334,HESKETH,V 1000,,,,AED,18,months,Premium
+2335,HESKETH,VORTAN,,,,AED,18,months,Premium
+2336,IZH,Planeta 5,,,,AED,18,months,Premium
+2337,IZH,56,,,,AED,18,months,Premium
+2338,IZH,49,,,,AED,18,months,Premium
+2339,IZH,350,,,,AED,18,months,Premium
+2340,JUNAK,NK,,,,AED,18,months,Premium
+2341,JUNAK,M16,,,,AED,18,months,Premium
+2342,JUNAK,M11,,,,AED,18,months,Premium
+2343,JUNAK,M20,,,,AED,18,months,Premium
+2344,JUNAK,S,,,,AED,18,months,Premium
+2345,JUNAK,M10,,,,AED,18,months,Premium
+2346,JUNAK,WB,,,,AED,18,months,Premium
+2347,JUNAK,B20,,,,AED,18,months,Premium
+2348,JUNAK,M07,,,,AED,18,months,Premium
+2349,JUNAK,M07-R,,,,AED,18,months,Premium
+2350,JUNAK,M25,,,,AED,18,months,Premium
+2351,KASINSKI,COMET,,,,AED,18,months,Premium
+2352,KASINSKI,MIRAGE,,,,AED,18,months,Premium
+2353,KASINSKI,CRZ,,,,AED,18,months,Premium
+2354,KASINSKI,SOFT,,,,AED,18,months,Premium
+2355,KASINSKI,WIN,,,,AED,18,months,Premium
+2356,WHIZZER,Panther,,,,AED,18,months,Premium
+2357,WHIZZER,Ambassador,,,,AED,18,months,Premium
+2358,WHIZZER,Pacemaker,,,,AED,18,months,Premium
+2359,WHIZZER,Sportsman,,,,AED,18,months,Premium
+2360,LEHMAN TRIKES,MONARCH II,,,,AED,18,months,Premium
+2361,LEHMAN TRIKES,RENEGADE,,,,AED,18,months,Premium
+2362,LEHMAN TRIKES,JACKAL,,,,AED,18,months,Premium
+2363,LEHMAN TRIKES,CROSSBOW,,,,AED,18,months,Premium
+2364,LEHMAN TRIKES,PITBOSS,,,,AED,18,months,Premium
+2365,LEHMAN TRIKES,SPORTSTER,,,,AED,18,months,Premium
+2366,RIEJU MOTORS,Tango,,,,AED,18,months,Premium
+2367,RIEJU MOTORS,RS,,,,AED,18,months,Premium
+2368,RIEJU MOTORS,Marathon,,,,AED,18,months,Premium
+2369,RIEJU MOTORS,City Line,,,,AED,18,months,Premium
+2370,RIEJU MOTORS,MRT,,,,AED,18,months,Premium
+2371,RIEJU MOTORS,RS3,,,,AED,18,months,Premium
+2372,RIEJU MOTORS,Urban Blast,,,,AED,18,months,Premium
+2373,RIEJU MOTORS,NKD,,,,AED,18,months,Premium
+2374,RIEJU MOTORS,SMX,,,,AED,18,months,Premium
+2375,RIEJU MOTORS,MRX,,,,AED,18,months,Premium
+2376,RIEJU MOTORS,RS2,,,,AED,18,months,Premium
+2377,RIEJU MOTORS,RR,,,,AED,18,months,Premium
+2378,RIEJU MOTORS,Spike,,,,AED,18,months,Premium
+2379,RIEJU MOTORS,Confort 400,,,,AED,18,months,Premium
+2380,RIEJU MOTORS,Jaca,,,,AED,18,months,Premium
+2381,RIEJU MOTORS,175,,,,AED,18,months,Premium
+2382,RIEJU MOTORS,Rieju No.1,,,,AED,18,months,Premium
+2383,LINHAI,CUV 300,,,,AED,18,months,Premium
+2384,LINHAI,Muddy LC7 Racing,,,,AED,18,months,Premium
+2385,LINHAI,Worker 300,,,,AED,18,months,Premium
+2386,LINHAI,Joker 50,,,,AED,18,months,Premium
+2387,PETRONAS,FP1,,,,AED,18,months,Premium
+2388,MASH,FIVE HUNDRED,,,,AED,18,months,Premium
+2389,MASH,SCRAMBLER,,,,AED,18,months,Premium
+2390,MASH,CAFE RACER,,,,AED,18,months,Premium
+2391,MASH,ADVENTURE,,,,AED,18,months,Premium
+2392,MEGELLI,NAKED,,,,AED,18,months,Premium
+2393,MEGELLI,MOTARD,,,,AED,18,months,Premium
+2394,MEGELLI,SPORT,,,,AED,18,months,Premium
+2395,MARUSHO-LILAC,SW Lancer,,,,AED,18,months,Premium
+2396,MARUSHO-LILAC,JF-2 Baby Lilac,,,,AED,18,months,Premium
+2397,MARUSHO-LILAC,TW Dragon,,,,AED,18,months,Premium
+2398,MARUSHO-LILAC,ML,,,,AED,18,months,Premium
+2399,MODENAS,EFI,,,,AED,18,months,Premium
+2400,MODENAS,DINAMIK,,,,AED,18,months,Premium
+2401,MODENAS,CT,,,,AED,18,months,Premium
+2402,MODENAS,ACE,,,,AED,18,months,Premium
+2403,MODENAS,KRISS,,,,AED,18,months,Premium
+2404,MODENAS,GT,,,,AED,18,months,Premium
+2405,MODENAS,KARISMA,,,,AED,18,months,Premium
+2406,MODENAS,CTRIC,,,,AED,18,months,Premium
+2407,MODENAS,CERIA,,,,AED,18,months,Premium
+2408,MODENAS,ELEGAN,,,,AED,18,months,Premium
+2409,MODENAS,JAGUH,,,,AED,18,months,Premium
+2410,HODAKA,WOMBAT,,,,AED,18,months,Premium
+2411,HODAKA,ACE 100,,,,AED,18,months,Premium
+2412,HODAKA,SUPER RAT,,,,AED,18,months,Premium
+2413,HODAKA,DIRT SQUIRT,,,,AED,18,months,Premium
+2414,MOTOCZYSZ,E1,,,,AED,18,months,Premium
+2415,HARLEY DAVIDSON,S,,,,AED,18,months,Premium
+2416,HARLEY DAVIDSON,IRON,,,,AED,18,months,Premium
+2417,HARLEY DAVIDSON,Road Glide,,,,AED,18,months,Premium
+2418,HARLEY DAVIDSON,Dyna,,,,AED,18,months,Premium
+2419,HARLEY DAVIDSON,Ultra,,,,AED,18,months,Premium
+2420,HARLEY DAVIDSON,Softail,,,,AED,18,months,Premium
+2421,HARLEY DAVIDSON,Sportster,,,,AED,18,months,Premium
+2422,HARLEY DAVIDSON,Road King,,,,AED,18,months,Premium
+2423,HARLEY DAVIDSON,CVO,,,,AED,18,months,Premium
+2424,HARLEY DAVIDSON,Street,,,,AED,18,months,Premium
+2425,HARLEY DAVIDSON,Trike,,,,AED,18,months,Premium
+2426,HARLEY DAVIDSON,Electra Glide,,,,AED,18,months,Premium
+2427,HARLEY DAVIDSON,VRSC,,,,AED,18,months,Premium
+2428,HARLEY DAVIDSON,FREEWHEELER,,,,AED,18,months,Premium
+2429,HARLEY DAVIDSON,Firefighter,,,,AED,18,months,Premium
+2430,HARLEY DAVIDSON,Peace Officer,,,,AED,18,months,Premium
+2431,HARLEY DAVIDSON,Police,,,,AED,18,months,Premium
+2432,HARLEY DAVIDSON,Fire/Rescue,,,,AED,18,months,Premium
+2433,HARLEY DAVIDSON,Shrine,,,,AED,18,months,Premium
+2434,HARLEY DAVIDSON,VR 1000,,,,AED,18,months,Premium
+2435,HARLEY DAVIDSON,Sport Glide,,,,AED,18,months,Premium
+2436,HARLEY DAVIDSON,Tour Glide,,,,AED,18,months,Premium
+2437,HARLEY DAVIDSON,Nova,,,,AED,18,months,Premium
+2438,HARLEY DAVIDSON,CLE,,,,AED,18,months,Premium
+2439,HARLEY DAVIDSON,XLCR,,,,AED,18,months,Premium
+2440,HARLEY DAVIDSON,XR,,,,AED,18,months,Premium
+2441,HARLEY DAVIDSON,SST,,,,AED,18,months,Premium
+2442,HARLEY DAVIDSON,SX,,,,AED,18,months,Premium
+2443,HARLEY DAVIDSON,Sportster Streamliner,,,,AED,18,months,Premium
+2444,HARLEY DAVIDSON,Sprint,,,,AED,18,months,Premium
+2445,HARLEY DAVIDSON,Scat,,,,AED,18,months,Premium
+2446,HARLEY DAVIDSON,Topper,,,,AED,18,months,Premium
+2447,HARLEY DAVIDSON,Hummer,,,,AED,18,months,Premium
+2448,HARLEY DAVIDSON,FL,,,,AED,18,months,Premium
+2449,MOTUS,MST,,,,AED,18,months,Premium
+2450,MOTUS,MSTR,,,,AED,18,months,Premium
+2451,GG MOTORRAD,GG-Quad,,,,AED,18,months,Premium
+2452,GG MOTORRAD,GG-Cruso,,,,AED,18,months,Premium
+2453,GG MOTORRAD,GG-Spartaco,,,,AED,18,months,Premium
+2454,ENERGICA,EGO,,,,AED,18,months,Premium
+2455,ENERGICA,EVA,,,,AED,18,months,Premium
+2456,EBR Motorcycles,RX,,,,AED,18,months,Premium
+2457,EBR Motorcycles,SX,,,,AED,18,months,Premium
+2458,EBR Motorcycles,RS,,,,AED,18,months,Premium
+2459,EBR Motorcycles,RR,,,,AED,18,months,Premium
+2460,PIAGGIO,X9,,,,AED,18,months,Premium
+2461,PIAGGIO,Fly 50/150,,,,AED,18,months,Premium
+2462,PIAGGIO,BV,,,,AED,18,months,Premium
+2463,PIAGGIO,Typhoon,,,,AED,18,months,Premium
+2464,PIAGGIO,MP3,,,,AED,18,months,Premium
+2465,PIAGGIO,X10,,,,AED,18,months,Premium
+2466,PIAGGIO,Zip 50,,,,AED,18,months,Premium
+2467,POLARIS,SLINGSHOT,,,,AED,18,months,Premium
+2468,POLARIS,Hawkeye 4X4,,,,AED,18,months,Premium
+2469,POLARIS,Magnum 330,,,,AED,18,months,Premium
+2470,POLARIS,700 EFI,,,,AED,18,months,Premium
+2471,POLARIS,RZR,,,,AED,18,months,Premium
+2472,POLARIS,Brutus,,,,AED,18,months,Premium
+2473,POLARIS,Phoenix 200,,,,AED,18,months,Premium
+2474,POLARIS,Outlaw,,,,AED,18,months,Premium
+2475,POLARIS,Ranger,,,,AED,18,months,Premium
+2476,POLARIS,Sportsman,,,,AED,18,months,Premium
+2477,POLARIS,Scrambler,,,,AED,18,months,Premium
+2478,POLARIS,Trail Blazer,,,,AED,18,months,Premium
+2479,POLARIS,Trail Boss,,,,AED,18,months,Premium
+2480,POLARIS,Youth,,,,AED,18,months,Premium
+2481,POLARIS,Limited Editions,,,,AED,18,months,Premium
+2482,POLARIS,Scrambler 500,,,,AED,18,months,Premium
+2483,POLARIS,700 TWIN,,,,AED,18,months,Premium
+2484,POLARIS,Sawtooth,,,,AED,18,months,Premium
+2485,Dafra Motos,Riva,,,,AED,18,months,Premium
+2486,Dafra Motos,Cityclass,,,,AED,18,months,Premium
+2487,Dafra Motos,Super,,,,AED,18,months,Premium
+2488,Dafra Motos,Citycom,,,,AED,18,months,Premium
+2489,Dafra Motos,Smart,,,,AED,18,months,Premium
+2490,Dafra Motos,Horizon,,,,AED,18,months,Premium
+2491,Dafra Motos,Apache,,,,AED,18,months,Premium
+2492,Dafra Motos,Kansas,,,,AED,18,months,Premium
+2493,Dafra Motos,Roadwin,,,,AED,18,months,Premium
+2494,Dafra Motos,Maxsym,,,,AED,18,months,Premium
+2495,Dafra Motos,Speed,,,,AED,18,months,Premium
+2496,Dafra Motos,Next,,,,AED,18,months,Premium
+2497,Dafra Motos,Zig,,,,AED,18,months,Premium
+2498,CRS,650 VUN,,,,AED,18,months,Premium
+2499,CONDOR,A580,,,,AED,18,months,Premium
+2500,CONDOR,Racer,,,,AED,18,months,Premium
+2501,Christini,AWD,,,,AED,18,months,Premium
+2502,Christini,Military,,,,AED,18,months,Premium
+2503,CHAK MOTORS,MOLOT,,,,AED,18,months,Premium
+2504,SWM,SM,,,,AED,18,months,Premium
+2505,SWM,RS,,,,AED,18,months,Premium
+2506,SWM,SUPERDUAL,,,,AED,18,months,Premium
+2507,SWM,GRAN MILANO,,,,AED,18,months,Premium
+2508,SWM,SILVER VASE,,,,AED,18,months,Premium
+2509,CEMEC,L7,,,,AED,18,months,Premium
+2510,TGB,BELLAVITA,,,,AED,18,months,Premium
+2511,TGB,BLADE,,,,AED,18,months,Premium
+2512,TGB,X-MOTION,,,,AED,18,months,Premium
+2513,CARVER,ONE,,,,AED,18,months,Premium
+2514,CANNONDALE,E 440,,,,AED,18,months,Premium
+2515,CANNONDALE,C 440 R,,,,AED,18,months,Premium
+2516,CANNONDALE,Cannibal,,,,AED,18,months,Premium
+2517,CANNONDALE,FX400,,,,AED,18,months,Premium
+2518,URAL,Ranger,,,,AED,18,months,Premium
+2519,URAL,Wolf,,,,AED,18,months,Premium
+2520,URAL,T,,,,AED,18,months,Premium
+2521,URAL,Patrol,,,,AED,18,months,Premium
+2522,URAL,M70,,,,AED,18,months,Premium
+2523,URAL,Gear-Up,,,,AED,18,months,Premium
+2524,URAL,Tourist,,,,AED,18,months,Premium
+2525,URAL,Solo,,,,AED,18,months,Premium
+2526,URAL,Limited Edition,,,,AED,18,months,Premium
+2527,URAL,Retro,,,,AED,18,months,Premium
+2528,URAL,Cross,,,,AED,18,months,Premium
+2529,URAL,Sportsman,,,,AED,18,months,Premium
+2530,URAL,Troyka,,,,AED,18,months,Premium
+2531,VELOCETTE,K,,,,AED,18,months,Premium
+2532,VELOCETTE,Thruxton,,,,AED,18,months,Premium
+2533,VELOCETTE,Viper,,,,AED,18,months,Premium
+2534,VELOCETTE,MSS,,,,AED,18,months,Premium
+2535,VELOCETTE,Vogue,,,,AED,18,months,Premium
+2536,VELOCETTE,Venom,,,,AED,18,months,Premium
+2537,VELOCETTE,VALIANT,,,,AED,18,months,Premium
+2538,VELOCETTE,Viceroy,,,,AED,18,months,Premium
+2539,VELOCETTE,VEELINE,,,,AED,18,months,Premium
+2540,VELOCETTE,MAC,,,,AED,18,months,Premium
+2541,VELOCETTE,KTT MK,,,,AED,18,months,Premium
+2542,VELOCETTE,MAF,,,,AED,18,months,Premium
+2543,VELOCETTE,MOV,,,,AED,18,months,Premium
+2544,VELOCETTE,MT,,,,AED,18,months,Premium
+2545,VELOCETTE,USS,,,,AED,18,months,Premium
+2546,VELOCETTE,D,,,,AED,18,months,Premium
+2547,CAN-AM/ BRP,Commander,,,,AED,18,months,Premium
+2548,CAN-AM/ BRP,Renegade,,,,AED,18,months,Premium
+2549,CAN-AM/ BRP,DS,,,,AED,18,months,Premium
+2550,CAN-AM/ BRP,Outlander,,,,AED,18,months,Premium
+2551,CAN-AM/ BRP,Maverick,,,,AED,18,months,Premium
+2552,CAN-AM/ BRP,Spyder,,,,AED,18,months,Premium
+2553,CAN-AM/ BRP,OUTLANDER 650,,,,AED,18,months,Premium
+2554,CAN-AM/ BRP,OUTLANDER 400,,,,AED,18,months,Premium
+2555,CAN-AM/ BRP,Rally,,,,AED,18,months,Premium
+2556,CAN-AM/ BRP,OUTLANDER 800,,,,AED,18,months,Premium
+2557,CAN-AM/ BRP,Traxter,,,,AED,18,months,Premium
+2558,CAN-AM/ BRP,Sarasota,,,,AED,18,months,Premium
+2559,CAN-AM/ BRP,250 Road Racer,,,,AED,18,months,Premium
+2560,CAN-AM/ BRP,GP 250,,,,AED,18,months,Premium
+2561,CAN-AM/ BRP,MX-1,,,,AED,18,months,Premium
+2562,VESPA,S,,,,AED,18,months,Premium
+2563,VESPA,GT,,,,AED,18,months,Premium
+2564,VESPA,946,,,,AED,18,months,Premium
+2565,VESPA,P,,,,AED,18,months,Premium
+2566,VESPA,LX,,,,AED,18,months,Premium
+2567,VESPA,PX,,,,AED,18,months,Premium
+2568,VESPA,Primavera,,,,AED,18,months,Premium
+2569,VESPA,GTV,,,,AED,18,months,Premium
+2570,VESPA,LXV,,,,AED,18,months,Premium
+2571,VESPA,50,,,,AED,18,months,Premium
+2572,VESPA,ET,,,,AED,18,months,Premium
+2573,VESPA,125,,,,AED,18,months,Premium
+2574,VESPA,Cosa,,,,AED,18,months,Premium
+2575,VESPA,100,,,,AED,18,months,Premium
+2576,VESPA,PK,,,,AED,18,months,Premium
+2577,VESPA,90,,,,AED,18,months,Premium
+2578,VESPA,200,,,,AED,18,months,Premium
+2579,VESPA,Veloce,,,,AED,18,months,Premium
+2580,VESPA,SUPER,,,,AED,18,months,Premium
+2581,VESPA,TS 125,,,,AED,18,months,Premium
+2582,VESPA,GTR,,,,AED,18,months,Premium
+2583,VESPA,Rally,,,,AED,18,months,Premium
+2584,VESPA,SUPER SPORT,,,,AED,18,months,Premium
+2585,VESPA,GL,,,,AED,18,months,Premium
+2586,VESPA,GS,,,,AED,18,months,Premium
+2587,VESPA,UTILITARIA,,,,AED,18,months,Premium
+2588,VESPA,TAP,,,,AED,18,months,Premium
+2589,VESPA,98,,,,AED,18,months,Premium
+2590,VINCENT HRD,BLACK LIGHTNING S,,,,AED,18,months,Premium
+2591,VINCENT HRD,BLACK EAGLE,,,,AED,18,months,Premium
+2592,VINCENT HRD,BLACK LIGHTNING ST,,,,AED,18,months,Premium
+2593,VINCENT HRD,BLACK SHADOW,,,,AED,18,months,Premium
+2594,VINCENT HRD,SERIES A RAPIDE,,,,AED,18,months,Premium
+2595,BROUGH SUPERIOR,SS100,,,,AED,18,months,Premium
+2596,BROUGH SUPERIOR,SS80,,,,AED,18,months,Premium
+2597,BROUGH SUPERIOR,SS680,,,,AED,18,months,Premium
+2598,WRM,450 MX1,,,,AED,18,months,Premium
+2599,BRITTEN,V1000,,,,AED,18,months,Premium
+2600,BFG,1300,,,,AED,18,months,Premium
+2601,BARIGO,600 SM,,,,AED,18,months,Premium
+2602,BARIGO,Supermotard,,,,AED,18,months,Premium
+2603,BARIGO,MAGIE NOIRE,,,,AED,18,months,Premium
+2604,BARIGO,Tonic,,,,AED,18,months,Premium
+2605,BARIGO,500 RCB,,,,AED,18,months,Premium
+2606,SYM,MAXSYM,,,,AED,18,months,Premium
+2607,SYM,SYMBA,,,,AED,18,months,Premium
+2608,SYM,SYMPHONY,,,,AED,18,months,Premium
+2609,SYM,SYMPLY,,,,AED,18,months,Premium
+2610,APRILIA,RST,,,,AED,18,months,Premium
+2611,OSSA,Phantom 125,,,,AED,18,months,Premium
+2612,DUCATI,848,,,,AED,18,months,Premium
+2613,DUCATI,1098,,,,AED,18,months,Premium
+2614,DUCATI,1000,,,,AED,18,months,Premium
+2615,DUCATI,800,,,,AED,18,months,Premium
+2616,DUCATI,750,,,,AED,18,months,Premium
+2617,DUCATI,851,,,,AED,18,months,Premium
+2618,DUCATI,650,,,,AED,18,months,Premium
+2619,DUCATI,860,,,,AED,18,months,Premium
+2620,DUCATI,1200,,,,AED,18,months,Premium
+2621,Victory,V92TC Touring Cruiser,,,,AED,18,months,Premium
+2622,KTM,250,,,,AED,18,months,Premium
+2623,BETA,M4 Motard,,,,AED,18,months,Premium
+2624,KYMCO,G-Dink,,,,AED,18,months,Premium
+2625,KYMCO,New Sento,,,,AED,18,months,Premium
+2626,LAVERDA,OR 600 Atlas,,,,AED,18,months,Premium
+2627,LAVERDA,250 Chott,,,,AED,18,months,Premium
+2628,YAMAHA,YFZ 350,,,,AED,18,months,Premium
+2629,YAMAHA,YS,,,,AED,18,months,Premium
+2630,YAMAHA,V Max,,,,AED,18,months,Premium
+2631,YAMAHA,XT250,,,,AED,18,months,Premium
+2632,YAMAHA,Vity,,,,AED,18,months,Premium
+2633,YAMAHA,Road Star,,,,AED,18,months,Premium
+2634,YAMAHA,TRX,,,,AED,18,months,Premium
+2635,BSA,Fury,,,,AED,18,months,Premium
+2636,SACHS,ZX 125,,,,AED,18,months,Premium
+2637,MONDIAL,SMX,,,,AED,18,months,Premium
+2638,MONDIAL,ARGENT,,,,AED,18,months,Premium
+2639,MONDIAL,MR DESTRO,,,,AED,18,months,Premium
+2640,MOTO GUZZI,V 11 Sport,,,,AED,18,months,Premium
+2641,HUSQVARNA,STR 650 CRC Supermotard,,,,AED,18,months,Premium
+2642,MV AGUSTA,350 S Ipotesi,,,,AED,18,months,Premium
+2643,Suzuki,KingQuad,,,,AED,18,months,Premium
+2644,Suzuki,Marauder 125,,,,AED,18,months,Premium
+2645,ARCTIC CAT,150,,,,AED,18,months,Premium
+2646,Geely,JL150T-8,,,,AED,18,months,Premium
+2647,HENDERSON,ACE FOUR,,,,AED,18,months,Premium
+2648,RIEJU MOTORS,Tango 125,,,,AED,18,months,Premium
+2649,HARLEY DAVIDSON,SUPERLOW,,,,AED,18,months,Premium
+2650,HARLEY DAVIDSON,Street Glide,,,,AED,18,months,Premium
+2651,GG MOTORRAD,GG-Quadster,,,,AED,18,months,Premium
+2652,PIAGGIO,Typhoon 50,,,,AED,18,months,Premium
+2653,SWM,GRAN TURISMO,,,,AED,18,months,Premium
+2654,URAL,Wolf 750,,,,AED,18,months,Premium
+2655,VELOCETTE,L.E. Mk,,,,AED,18,months,Premium
+2656,VESPA,Granturismo,,,,AED,18,months,Premium
+2657,VESPA,GTS 250 i.e,,,,AED,18,months,Premium
+2658,VESPA,Sprint,,,,AED,18,months,Premium
+2659,VESPA,GTS,,,,AED,18,months,Premium
+2660,AJP,Enduro,,,,AED,18,months,Premium
+2661,AJP,SUPERMOTO,,,,AED,18,months,Premium
+2662,APRILIA,AF1,,,,AED,18,months,Premium
+2663,YAMAHA,Royal Star Venture,,,,AED,18,months,Premium
+2664,GHEZZI-BRIAN,V-TWIN,,,,AED,18,months,Premium
+2665,GHEZZI-BRIAN,V11,,,,AED,18,months,Premium
+2666,ZUNDAPP,TROPHY,,,,AED,18,months,Premium
+2667,ZUNDAPP,200 S,,,,AED,18,months,Premium
+2668,SCORPA,SC,,,,AED,18,months,Premium
+2669,Adler,1902,,,,AED,18,months,Premium
+2670,GG MOTORRAD,TAURUS,,,,AED,18,months,Premium
+2671,EBR Motorcycles,BLACK LIGHTING,,,,AED,18,months,Premium
+2672,GAS GAS,CONTACT ES,,,,AED,18,months,Premium
+2673,GAS GAS,SCHOOL,,,,AED,18,months,Premium
+2674,YAMAHA,NMAX,,,,AED,18,months,Premium
+2675,YAMAHA,TRACER,,,,AED,18,months,Premium
+2676,GILERA,Runner,,,,AED,18,months,Premium
+2677,GILERA,Fuoco,,,,AED,18,months,Premium
+2678,GILERA,TG1,,,,AED,18,months,Premium
+2679,HIGHLAND,DESERT X,,,,AED,18,months,Premium
+2680,HESKETH,24,,,,AED,18,months,Premium
+2681,HESKETH,SONNET,,,,AED,18,months,Premium
+2682,BARIGO,ORIXA,,,,AED,18,months,Premium
+2683,VESPA,SEI GIORNI,,,,AED,18,months,Premium
+2684,HARLEY DAVIDSON,FORTY-EIGHT,,,,AED,18,months,Premium
+2685,KTM,950 SuperMoto Orange,,,,AED,18,months,Premium
+2686,YAMAHA,Road Star Warrior 1700,,,,AED,18,months,Premium
+2687,YAMAHA,CS,,,,AED,18,months,Premium
+2688,Honda,CX 500 Turbo,,,,AED,18,months,Premium
+2689,Honda,INTEGRA,,,,AED,18,months,Premium
+2690,Honda,SW,,,,AED,18,months,Premium
+2691,Suzuki,SLINGSHOT,,,,AED,18,months,Premium
+2692,Suzuki,SG,,,,AED,18,months,Premium
+2693,Suzuki,SW,,,,AED,18,months,Premium
+2694,Suzuki,TV,,,,AED,18,months,Premium
+2695,Suzuki,Grass Tracker,,,,AED,18,months,Premium
+2696,Suzuki,RH,,,,AED,18,months,Premium
+2697,Suzuki,NZ,,,,AED,18,months,Premium
+2698,Suzuki,TC,,,,AED,18,months,Premium
+2699,Super SOCO,TC,,,,AED,18,months,Premium
+2700,Super SOCO,TS,,,,AED,18,months,Premium
+2701,HARLEY DAVIDSON,FXDR,,,,AED,18,months,Premium
+2702,TRIUMPH,Street Twin,,,,AED,18,months,Premium
+2703,TRIUMPH,Speed Twin,,,,AED,18,months,Premium
+2704,INDIAN,FTR,,,,AED,18,months,Premium
+2705,Mercedes-Benz,A250,,,,AED,18,months,Premium
+2706,Hyundai,Palisade,,,,AED,18,months,Premium
+2707,MG,RX8,,,,AED,18,months,Premium
+2708,Pontiac,TransAm,,,,AED,18,months,Premium
+2709,Kia,Pegas,,,,AED,18,months,Premium
+2710,Mercedes-Benz,Smart,,,,AED,18,months,Premium
+2711,GMC,Savanna,,,,AED,18,months,Premium
+2712,Kia,Seltos,,,,AED,18,months,Premium
+2713,Lincoln,Aviator,,,,AED,18,months,Premium
+2714,Mercedes-Benz,A35,,,,AED,18,months,Premium
+2715,Toyota,4Runner,,,,AED,18,months,Premium
+2716,Infiniti,G25,,,,AED,18,months,Premium
+2717,MG,HS,,,,AED,18,months,Premium
+2718,Chevrolet,Blazer,,,,AED,18,months,Premium
+2719,Fiat,Lada,840,840,800,AED,18,months,Premium
+2720,Lancia,Delta,,,,AED,18,months,Premium
+2721,Ford,Motorhome,,,,AED,18,months,Premium
+2722,Kia,Sephia II,,,,AED,18,months,Premium
+2723,Dallara,Stradale,,,,AED,18,months,Premium
+2724,Ford,Shelby F150,,,,AED,18,months,Premium
+2725,Toyota,Echo,,,,AED,18,months,Premium
+2726,Toyota,Granvia,,,,AED,18,months,Premium
+2727,Toyota,Highlander Hybrid,,,,AED,18,months,Premium
+2728,Mercedes-Benz,M-Class ML 350,,,,AED,18,months,Premium
+2729,Hummer,H1,840,840,800,AED,18,months,Premium
+2730,Fiat,124 spider,840,840,800,AED,18,months,Premium
+2731,Tesla,Model 3,,,,AED,18,months,Premium
+2732,Lexus,UX 200,,,,AED,18,months,Premium
+2733,Nissan,Versa,,,,AED,18,months,Premium
+2734,Toyota,C-HR,,,,AED,18,months,Premium
+2735,Hyundai,Ioniq,,,,AED,18,months,Premium
+2736,Victory,X1,,,,AED,18,months,Premium
+2737,Ford,Escort,,,,AED,18,months,Premium
+2738,Opel,Grandland,,,,AED,18,months,Premium
+2739,Maxus,T60,,,,AED,18,months,Premium
+2740,BMW,M850i,1130,1130,1076.190476,AED,18,months,Premium
+2741,Buick,Enclave,,,,AED,18,months,Premium
+2742,Nissan,Rogue,,,,AED,18,months,Premium
+2743,Smart,Fortwo,,,,AED,18,months,Premium
+2744,Cadillac,Deville 1965,,,,AED,18,months,Premium
+2745,Lincoln,Corsair,,,,AED,18,months,Premium
+2746,Soueast,DX7,,,,AED,18,months,Premium
+2747,Volkswagen,Transporter,1025,1025,976.1904762,AED,18,months,Premium
+2748,Toyota,Wigo,,,,AED,18,months,Premium
+2749,Mercedes-Benz,GLB 35,,,,AED,18,months,Premium
+2750,Kia,K900,,,,AED,18,months,Premium
+2751,Audi,E-Tron,,,,AED,18,months,Premium
+2752,Nissan,Titan,,,,AED,18,months,Premium
+2753,Infiniti,QX4,,,,AED,18,months,Premium
+2754,Toyota,Tacoma,,,,AED,18,months,Premium
+2755,Skoda,Kamiq,840,840,800,AED,18,months,Premium
+2756,Jeep,Gladiator,945,945,900,AED,18,months,Premium
+2757,AC,Cobra,,,,AED,18,months,Premium
+2758,Cadillac,CT4,,,,AED,18,months,Premium
+2759,Cadillac,CT4-V,,,,AED,18,months,Premium
+2760,Cadillac,CT5,,,,AED,18,months,Premium
+2761,Cadillac,CT5-V,,,,AED,18,months,Premium
+2762,Audi,RS Q8,1130,1130,1076.190476,AED,18,months,Premium
+2763,Ford,Thunderbird,,,,AED,18,months,Premium
+2764,Mercedes-Benz,GLE 43 AMG,,,,AED,18,months,Premium
+2765,Mercedes-Benz,A200,,,,AED,18,months,Premium
+2766,Pagani,Wiesmann,1800,1800,1714.285714,AED,18,months,Premium
+2767,Virat,Avatar,,,,AED,18,months,Premium
+2768,Mercedes-Benz,AMG E53,,,,AED,18,months,Premium
+2769,Mazda,CX30,,,,AED,18,months,Premium
+2770,CHEVELLE,SS396,,,,AED,18,months,Premium
+2771,Volkswagen,T-Roc,,,,AED,18,months,Premium
+2772,Mercedes-Benz,E300,,,,AED,18,months,Premium
+2773,Jetour,X70,,,,AED,18,months,Premium
+2774,Jetour,X90,,,,AED,18,months,Premium
+2775,Jetour,X95,,,,AED,18,months,Premium
+2776,Cadillac,XT6,,,,AED,18,months,Premium
+2777,Ford,E250,,,,AED,18,months,Premium
+2778,Chevrolet,1958 Bel Air,,,,AED,18,months,Premium
+2779,Genesis,GV80,,,,AED,18,months,Premium
+2780,Suzuki,Ertiga,,,,AED,18,months,Premium
+2781,Mercedes-Benz,C 200,,,,AED,18,months,Premium
+2782,JAC,J7,,,,AED,18,months,Premium
+2783,Toyota,Tercel,,,,AED,18,months,Premium
+2784,Changan,CS95,,,,AED,18,months,Premium
+2785,Ferrari,SF90,1800,1800,1714.285714,AED,18,months,Premium
+2786,Mercedes-Benz,GLC 300,,,,AED,18,months,Premium
+2787,GMC,Suburban,,,,AED,18,months,Premium
+2788,BMW,325i,1130,1130,1076.190476,AED,18,months,Premium
+2789,Genesis,GV70,1130,1130,1076.190476,AED,18,months,Premium
+2790,BMW,318i,945,945,900,AED,18,months,Premium
+2791,BMW,420i,1130,1130,1076.190476,AED,18,months,Premium
+2792,BMW,430i,1130,1130,1076.190476,AED,18,months,Premium
+2793,BMW,520i,1130,1130,1076.190476,AED,18,months,Premium
+2794,BMW,740LI,1130,1130,1076.190476,AED,18,months,Premium
+2795,Land Rover,Range Rover HSE,1130,1130,1076.190476,AED,18,months,Premium
+2796,Land Rover,Range Rover Vogue,1130,1130,1076.190476,AED,18,months,Premium
+2797,Mercedes-Benz,C 300,,,,AED,18,months,Premium
+2798,Mercedes-Benz,E 400,,,,AED,18,months,Premium
+2799,Mercedes-Benz,S450,,,,AED,18,months,Premium
+2800,Mercedes-Benz,S500,,,,AED,18,months,Premium
+2801,Mercedes-Benz,V250,,,,AED,18,months,Premium
+2802,Lexus,RX350,,,,AED,18,months,Premium
+2803,Mitsubishi,Xpander,,,,AED,18,months,Premium
+2804,Jaguar,I-pace,,,,AED,18,months,Premium
+2805,UAZ,Hunter,,,,AED,18,months,Premium
+2806,Toyota,Corolla Cross,,,,AED,18,months,Premium
+2807,Toyota,Crown,,,,AED,18,months,Premium
+2808,BMW,i3,,,,AED,18,months,Premium
+2809,Mercedes-Benz,GLA-200,,,,AED,18,months,Premium
+2810,Nissan,Terrano,,,,AED,18,months,Premium
+2811,Toyota,Celica GT,,,,AED,18,months,Premium
+2812,Maxus,D90,,,,AED,18,months,Premium
+2813,Haval,Jolion,,,,AED,18,months,Premium
+2814,Saturn,Sky,,,,AED,18,months,Premium
+2815,BMW,320i,1025,1025,976.1904762,AED,18,months,Premium
+2816,Mitsubishi,Canter,,,,AED,18,months,Premium
+2817,Nissan,UD,,,,AED,18,months,Premium
+2818,Toyota,Stout,,,,AED,18,months,Premium
+2819,CHEVELLE,1959,,,,AED,18,months,Premium
+2820,Toyota,IQ,,,,AED,18,months,Premium
+2821,Chevrolet,Groove LT,,,,AED,18,months,Premium
+2822,Kia,K5,,,,AED,18,months,Premium
+2823,Abarth,595,,,,AED,18,months,Premium
+2824,Abarth,595 Turismo,,,,AED,18,months,Premium
+2825,Abarth,595 Competizione,,,,AED,18,months,Premium
+2826,Abarth,595 Esseesse,,,,AED,18,months,Premium
+2827,Abarth,F595,,,,AED,18,months,Premium
+2828,Abarth,695 70° Anniversario,,,,AED,18,months,Premium
+2829,Abarth,695 Esseesse,,,,AED,18,months,Premium
+2830,Abarth,695 RIVALE,,,,AED,18,months,Premium
+2831,Abarth,PUNTO SCORPIONE,,,,AED,18,months,Premium
+2832,Toyota,Venza,,,,AED,18,months,Premium
+2833,BAIC,BJ40,,,,AED,18,months,Premium
+2834,Bestune,T99s,,,,AED,18,months,Premium
+2835,Plymouth,GTX 1970,,,,AED,18,months,Premium
+2836,Porsche,964,945,945,900,AED,18,months,Premium
+2837,Tesla,Model Y,,,,AED,18,months,Premium
+2838,MG,GT,,,,AED,18,months,Premium
+2839,Toyota,Mark II,,,,AED,18,months,Premium
+2840,Toyota,Century,,,,AED,18,months,Premium
+2841,FAW,Bestune T33,,,,AED,18,months,Premium
+2842,Volkswagen,Caddy,840,840,800,AED,18,months,Premium
+2843,Changan,CS85,,,,AED,18,months,Premium
+2844,Opel,Crossland,,,,AED,18,months,Premium
+2845,Ferrari,F40,1800,1800,1714.285714,AED,18,months,Premium
+2846,Ferrari,Enzo,1800,1800,1714.285714,AED,18,months,Premium
+2847,Bestune,T33,,,,AED,18,months,Premium
+2848,Volkswagen,Atlas,,,,AED,18,months,Premium
+2849,Dodge,Caravan,,,,AED,18,months,Premium
+2850,MG,Crossover,,,,AED,18,months,Premium
+2851,Toyota,Raize,,,,AED,18,months,Premium
+2852,Skoda,Scala,945,945,900,AED,18,months,Premium
+2853,Volkswagen,ID.4,,,,AED,18,months,Premium
+2854,Nissan,Cedric,,,,AED,18,months,Premium
+2855,Peugeot,Traveller,945,945,900,AED,18,months,Premium
+2856,Great Wall,Pouer,,,,AED,18,months,Premium
+2857,Land Rover,Autobiography,1130,1130,1076.190476,AED,18,months,Premium
+2858,Changan,Uni-K,,,,AED,18,months,Premium
+2859,Chery,P5,,,,AED,18,months,Premium
+2860,Hongqi,HS5,,,,AED,18,months,Premium
+2861,Hongqi,H9,,,,AED,18,months,Premium
+2862,Dorcen,G70S,,,,AED,18,months,Premium
+2863,Infiniti,I35,,,,AED,18,months,Premium
+2864,Kia,Sonet,,,,AED,18,months,Premium
+2865,Haval,Dorga,,,,AED,18,months,Premium
+2866,Haval,Dargo,,,,AED,18,months,Premium
+2867,Bestune,T77,,,,AED,18,months,Premium
+2868,TVS Apache,RR310,,,,AED,18,months,Premium
+2869,Infiniti,QX55,,,,AED,18,months,Premium
+2870,Leapmotor,C11,,,,AED,18,months,Premium
+2871,Toyota,Alphard,,,,AED,18,months,Premium
+2872,Ferrari,Roma,1800,1800,1714.285714,AED,18,months,Premium
+2873,Ford,Territory,,,,AED,18,months,Premium
+2874,Mercedes-Benz,GLA 200,,,,AED,18,months,Premium
+2875,GAC,GN6,,,,AED,18,months,Premium
+2876,Soueast,DX5,,,,AED,18,months,Premium
+2877,Sanya,SY150,,,,AED,18,months,Premium
+2878,Austin-Healey,3000,,,,AED,18,months,Premium
+2879,Porsche,Taycan,,,,AED,18,months,Premium
+2880,Chevrolet,Groove Premium,,,,AED,18,months,Premium
+2881,Volvo,Polestar 2,,,,AED,18,months,Premium
+2882,Hyundai,Staria,,,,AED,18,months,Premium
+2883,Maserati,Grecale,,,,AED,18,months,Premium
+2884,Toyota,Veloz,,,,AED,18,months,Premium
+2885,Mercedes-Benz,E350,,,,AED,18,months,Premium
+2886,Ferrari,296 GTB,1800,1800,1714.285714,AED,18,months,Premium
+2887,JAC,JS4,,,,AED,18,months,Premium
+2888,Skoda,Kushaq,945,945,900,AED,18,months,Premium
+2889,MG,One,,,,AED,18,months,Premium
+2890,Geely,Coolray,,,,AED,18,months,Premium
+2891,Geely,Coolray SUV,,,,AED,18,months,Premium
+2892,Lotus,Emira,1800,1800,1714.285714,AED,18,months,Premium
+2893,Mitsubishi,L300,,,,AED,18,months,Premium
+2894,Mazda,RX7,,,,AED,18,months,Premium
+2895,Forthing,U-Tour,,,,AED,18,months,Premium
+2896,Ferrari,F8 Spider,1800,1800,1714.285714,AED,18,months,Premium
+2897,Toyota,Urban Cruiser,,,,AED,18,months,Premium
+2898,BMW,iX,,,,AED,18,months,Premium
+2899,Bestune,B70,,,,AED,18,months,Premium
+2900,Nissan,Quest,,,,AED,18,months,Premium
+2901,Lexus,LM,,,,AED,18,months,Premium
+2902,Ford,E-350,,,,AED,18,months,Premium
+2903,GAC,EMPOW,,,,AED,18,months,Premium
+2904,NWTN,RabDan One,,,,AED,18,months,Premium
+2905,NWTN,Nwone,,,,AED,18,months,Premium
+2906,Toyota,LiteAce,,,,AED,18,months,Premium
+2907,Mercedes-Benz,GLB 250,,,,AED,18,months,Premium
+2908,Jetour,Dashing,,,,AED,18,months,Premium
+2909,Honda,ZR-V,,,,AED,18,months,Premium
+2910,Hyundai,Equus,,,,AED,18,months,Premium
+2911,Geely,Monjaro,,,,AED,18,months,Premium
+2912,Suzuki,FRONX,,,,AED,18,months,Premium
+2913,Forthing,T5 EVO,,,,AED,18,months,Premium
+2914,GWM,Tank,,,,AED,18,months,Premium
+2915,Mercedes-Benz,G55,,,,AED,18,months,Premium
+2916,BMW,118i,945,945,900,AED,18,months,Premium
+2917,Changan,UNI-T,,,,AED,18,months,Premium
+2918,Exeed,TXL,,,,AED,18,months,Premium
+2919,Alfa Romeo,Tonale,945,945,900,AED,18,months,Premium
+2920,Chevrolet,Convertible 1939,,,,AED,18,months,Premium
+2921,Mercedes-Benz,ML500,,,,AED,18,months,Premium
+2922,Hyundai,Venue,,,,AED,18,months,Premium
+2923,Nissan,Z,,,,AED,18,months,Premium
+2924,KAIYI,X3 Pro,,,,AED,18,months,Premium
+2925,MG,KIT CAR,,,,AED,18,months,Premium
+2926,BMW,330i,,,,AED,18,months,Premium
+2927,Kia,Forte,,,,AED,18,months,Premium
+2928,Chery,Exeed RX,,,,AED,18,months,Premium
+2929,INEOS,Grenadier,,,,AED,18,months,Premium
+2930,Geely,Tugella,,,,AED,18,months,Premium
+2931,YAMAHA,XJ900,,,,AED,18,months,Premium
+2932,Exeed,RX,,,,AED,18,months,Premium
+2933,Exeed,VX,,,,AED,18,months,Premium
+2934,Mazda,CX-60,,,,AED,18,months,Premium
+2935,Mercedes-Benz,GLB,,,,AED,18,months,Premium
+2936,BMW,XM,,,,AED,18,months,Premium
+2937,Geely,Geometry C,,,,AED,18,months,Premium
+2938,Ferrari,550,,,,AED,18,months,Premium
+2939,Kia,Sedona,,,,AED,18,months,Premium
+2940,Suzuki,Eeco,,,,AED,18,months,Premium
+2941,Kia,K8,,,,AED,18,months,Premium
+2942,BAIC,X7,,,,AED,18,months,Premium
+2943,LADA,Niva,,,,AED,18,months,Premium
+2944,Volvo,Polestar 1,,,,AED,18,months,Premium
+2945,Toyota,Scion,,,,AED,18,months,Premium
+2946,Changan,Uni-V,,,,AED,18,months,Premium
+2947,Jetour,T2,,,,AED,18,months,Premium
+2948,DFSK Motor,Fengon 500,,,,AED,18,months,Premium
+2949,DFSK Motor,Fengon 580,,,,AED,18,months,Premium
+2950,DFSK Motor,Fengon IX5,,,,AED,18,months,Premium
+2951,DFSK Motor,Fengon 600,,,,AED,18,months,Premium
+2952,DFSK Motor,Fengon IX7,,,,AED,18,months,Premium
+2953,GAC,EMKOO,,,,AED,18,months,Premium
+2954,Skoda,Karoq,,,,AED,18,months,Premium
+2955,Mercedes-Benz,GLC 200,,,,AED,18,months,Premium
+2956,Rezvani Motors,Rezvani TANK,,,,AED,18,months,Premium
+2957,Chery,Tiggo 8,,,,AED,18,months,Premium
+2958,Mercedes-Benz,ML400,,,,AED,18,months,Premium
+2959,BYD,ATTO 3,,,,AED,18,months,Premium
+2960,Citroen,SpaceTourer,,,,AED,18,months,Premium
+2961,Rivian,R1S,,,,AED,18,months,Premium
+2962,Rivian,R1T,,,,AED,18,months,Premium
+2963,Mercedes-Benz,EQS,,,,AED,18,months,Premium
+2964,Hino,714,,,,AED,18,months,Premium
+2965,Hino,916,,,,AED,18,months,Premium
+2966,Mercedes,815,,,,AED,18,months,Premium
+2967,Mercedes,916,,,,AED,18,months,Premium
+2968,Mitsubishi,Fuso Canter 6.5 ton GVW,,,,AED,18,months,Premium
+2969,Mitsubishi,Fuso Canter 8.5 ton GVW,,,,AED,18,months,Premium
+2970,HONDA,CBR,,,,AED,18,months,Premium
+2971,VICTORY,Judge,,,,AED,18,months,Premium
+2972,SUZUKI,JR 50,,,,AED,18,months,Premium
+2973,Boat,Boat,,,,AED,18,months,Premium
+2974,SUZUKI,Boulevard,,,,AED,18,months,Premium
+2975,HONDA,CB,,,,AED,18,months,Premium
+2976,SUZUKI,GSX-R,,,,AED,18,months,Premium
+2977,SUZUKI,B 120,,,,AED,18,months,Premium
+2978,HONDA,GOLD WING,,,,AED,18,months,Premium
+2979,HONDA,Dream 50 R,,,,AED,18,months,Premium
+2980,Motorcycle,Motorcycle,,,,AED,18,months,Premium
+2981,SUZUKI,Quad,,,,AED,18,months,Premium
+2982,SUZUKI,HAYABUSA,,,,AED,18,months,Premium
+2983,SUZUKI,TL 1000,,,,AED,18,months,Premium
+2984,HONDA,CG,,,,AED,18,months,Premium
+2985,HONDA,CBX,,,,AED,18,months,Premium
+2986,HONDA,ATC,,,,AED,18,months,Premium
+2987,HONDA,CD,,,,AED,18,months,Premium
+2988,HONDA,CBF,,,,AED,18,months,Premium
+2989,HONDA,Big Red,,,,AED,18,months,Premium
+2990,HONDA,CT,,,,AED,18,months,Premium
+2991,HONDA,Crossrunner,,,,AED,18,months,Premium
+2992,HONDA,Scooters,,,,AED,18,months,Premium
+2993,HONDA,Shadow,,,,AED,18,months,Premium
+2994,HONDA,Super 90,,,,AED,18,months,Premium
+2995,HONDA,GL1800C,,,,AED,18,months,Premium
+2996,HONDA,Big Ruckus,,,,AED,18,months,Premium
+2997,HONDA,CRF,,,,AED,18,months,Premium
+2998,HONDA,XR,,,,AED,18,months,Premium
+2999,SUZUKI,GSR,,,,AED,18,months,Premium
+3000,HONDA,CRF250X,,,,AED,18,months,Premium
+3001,SUZUKI,VL 125 Intruder,,,,AED,18,months,Premium
+3002,HONDA,C,,,,AED,18,months,Premium
+3003,HONDA,CA,,,,AED,18,months,Premium
+3004,HONDA,NC,,,,AED,18,months,Premium
+3005,HONDA,FMX 650,,,,AED,18,months,Premium
+3006,HONDA,VT,,,,AED,18,months,Premium
+3007,HONDA,NR 750,,,,AED,18,months,Premium
+3008,SUZUKI,GSX-S,,,,AED,18,months,Premium
+3009,SUZUKI,A,,,,AED,18,months,Premium
+3010,HONDA,XL,,,,AED,18,months,Premium
+3011,SUZUKI,GP 125,,,,AED,18,months,Premium
+3012,SUZUKI,RH,,,,AED,18,months,Premium
+3013,HONDA,T,,,,AED,18,months,Premium
+3014,HONDA,DN-01,,,,AED,18,months,Premium
+3015,HONDA,CN 250,,,,AED,18,months,Premium
+3016,SUZUKI,GSX,,,,AED,18,months,Premium
+3017,HONDA,NSF100,,,,AED,18,months,Premium
+3018,HONDA,PIONEER,,,,AED,18,months,Premium
+3019,HONDA,LS 125 R,,,,AED,18,months,Premium
+3020,SUZUKI,Boulevard C50,,,,AED,18,months,Premium
+3021,SUZUKI,DR,,,,AED,18,months,Premium
+3022,SUZUKI,Intruder,,,,AED,18,months,Premium
+3023,HONDA,Grom,,,,AED,18,months,Premium
+3024,SUZUKI,VX 800,,,,AED,18,months,Premium
+3025,HONDA,AX,,,,AED,18,months,Premium
+3026,HONDA,SH,,,,AED,18,months,Premium
+3027,SUZUKI,Burgman,,,,AED,18,months,Premium
+3028,VICTORY,Kingpin,,,,AED,18,months,Premium
+3029,SUZUKI,GSR 600,,,,AED,18,months,Premium
+3030,VICTORY,Hammer,,,,AED,18,months,Premium
+3031,HONDA,SX,,,,AED,18,months,Premium
+3032,HONDA,Forza,,,,AED,18,months,Premium
+3033,HONDA,ST,,,,AED,18,months,Premium
+3034,HONDA,CM,,,,AED,18,months,Premium
+3035,GEELY,JL 150 - 4,,,,AED,18,months,Premium
+3036,HONDA,CS,,,,AED,18,months,Premium
+3037,HONDA,VFR,,,,AED,18,months,Premium
+3038,HONDA,Rebel,,,,AED,18,months,Premium
+3039,SUZUKI,LS,,,,AED,18,months,Premium
+3040,HONDA,VTX,,,,AED,18,months,Premium
+3041,HONDA,SL,,,,AED,18,months,Premium
+3042,VICTORY,Vision,,,,AED,18,months,Premium
+3043,INDIAN,PULSAR,,,,AED,18,months,Premium
+3044,SUZUKI,Inazuma 400,,,,AED,18,months,Premium
+3045,SUZUKI,Bandit,,,,AED,18,months,Premium
+3046,HONDA,FX,,,,AED,18,months,Premium
+3047,HONDA,FourTrax Foreman 4x4,,,,AED,18,months,Premium
+3048,HONDA,CHF,,,,AED,18,months,Premium
+3049,HONDA,MVX,,,,AED,18,months,Premium
+3050,SUZUKI,GS,,,,AED,18,months,Premium
+3051,HONDA,RUCKUS,,,,AED,18,months,Premium
+3052,HONDA,X-Eleven,,,,AED,18,months,Premium
+3053,SUZUKI,Boulevard M95,,,,AED,18,months,Premium
+3054,HONDA,CTX,,,,AED,18,months,Premium
+3055,HONDA,PCX,,,,AED,18,months,Premium
+3056,HONDA,SW,,,,AED,18,months,Premium
+3057,HONDA,Silver Wing,,,,AED,18,months,Premium
+3058,HONDA,CR,,,,AED,18,months,Premium
+3059,HONDA,GB Clubman,,,,AED,18,months,Premium
+3060,VICTORY,Cross Country,,,,AED,18,months,Premium
+3061,HONDA,CX,,,,AED,18,months,Premium
+3062,HONDA,TRX,,,,AED,18,months,Premium
+3063,PEUGEOT,Elyseo,,,,AED,18,months,Premium
+3064,HONDA,XBR 500,,,,AED,18,months,Premium
+3065,SUZUKI,JR 80,,,,AED,18,months,Premium
+3066,HONDA,VTR,,,,AED,18,months,Premium
+3067,HONDA,CL,,,,AED,18,months,Premium
+3068,HONDA,MSX,,,,AED,18,months,Premium
+3069,HONDA,GL,,,,AED,18,months,Premium
+3070,SUZUKI,NZ,,,,AED,18,months,Premium
+3071,HONDA,X-ADV,,,,AED,18,months,Premium
+3072,HONDA,VF,,,,AED,18,months,Premium
+3073,VICTORY,Jackpot,,,,AED,18,months,Premium
+3074,HONDA,CRM,,,,AED,18,months,Premium
+3075,VICTORY,Magnum,,,,AED,18,months,Premium
+3076,HONDA,CJ,,,,AED,18,months,Premium
+3077,HONDA,F6B,,,,AED,18,months,Premium
+3078,HONDA,Navi,,,,AED,18,months,Premium
+3079,HONDA,FT,,,,AED,18,months,Premium
+3080,SUZUKI,Biplane,,,,AED,18,months,Premium
+3081,HONDA,NSC,,,,AED,18,months,Premium
+3082,PEUGEOT,BLASTER,,,,AED,18,months,Premium
+3083,HONDA,X4,,,,AED,18,months,Premium
+3084,VICTORY,Boardwalk,,,,AED,18,months,Premium
+3085,HONDA,Steed 400,,,,AED,18,months,Premium
+3086,SUZUKI,VZ,,,,AED,18,months,Premium
+3087,HONDA,NM4,,,,AED,18,months,Premium
+3088,SUZUKI,Ozark 250 LTF250K,,,,AED,18,months,Premium
+3089,VICTORY,Vegas,,,,AED,18,months,Premium
+3090,SUZUKI,GF 250,,,,AED,18,months,Premium
+3091,PEUGEOT,1902,,,,AED,18,months,Premium
+3092,HONDA,VRX 400 Roadster,,,,AED,18,months,Premium
+3093,SUZUKI,Vinson,,,,AED,18,months,Premium
+3094,SUZUKI,GSX-F,,,,AED,18,months,Premium
+3095,SUZUKI,V-Strom 650,,,,AED,18,months,Premium
+3096,SUZUKI,KingQuad,,,,AED,18,months,Premium
+3097,HONDA,NT,,,,AED,18,months,Premium
+3098,SUZUKI,Marauder 125,,,,AED,18,months,Premium
+3099,VICTORY,Cross Roads,,,,AED,18,months,Premium
+3100,HONDA,CLR,,,,AED,18,months,Premium
+3101,HONDA,FourTrax,,,,AED,18,months,Premium
+3102,HONDA,Fury,,,,AED,18,months,Premium
+3103,HONDA,RVF,,,,AED,18,months,Premium
+3104,SUZUKI,Gladius,,,,AED,18,months,Premium
+3105,HONDA,GLX,,,,AED,18,months,Premium
+3106,HONDA,PC 800 Pacific Coast,,,,AED,18,months,Premium
+3107,HONDA,TMAX,,,,AED,18,months,Premium
+3108,HONDA,Valkyrie,,,,AED,18,months,Premium
+3109,HONDA,NX,,,,AED,18,months,Premium
+3110,HONDA,Crosstourer,,,,AED,18,months,Premium
+3111,HONDA,RC,,,,AED,18,months,Premium
+3112,HONDA,INTEGRA,,,,AED,18,months,Premium
+3113,MG,Whale,,,,AED,18,months,Premium
+3135,SUZUKI,RV,,,,AED,18,months,Premium
+3136,JAC,T8,,,,AED,18,months,Premium
+3137,Great Wall,Tank 300,,,,AED,18,months,Premium
+3138,BMW,Motorcycle,,,,AED,18,months,Premium
+3139,Ford,Captiva,,,,AED,18,months,Premium
+3140,Dodge,Journey,,,,AED,18,months,Premium
+3168,Rolls Royce,Corniche,,,,AED,18,months,Premium
+3169,Noble,Maxima,,,,AED,18,months,Premium
+3170,Noble,Kicks,,,,AED,18,months,Premium
+3171,BMW,G 310 R,,,,AED,18,months,Premium
+3172,Honda,Unicorn,,,,AED,18,months,Premium
+3173,Honda,Unicorn 160,,,,AED,18,months,Premium
+3174,Toyota,Hiace Hi Roof,,,,AED,18,months,Premium
+3201,Geely,Starray,,,,AED,18,months,Premium
+3202,HERO,HUNK,,,,AED,18,months,Premium
+3203,JAC,JS6,,,,AED,18,months,Premium
+3204,Kia,Ray,,,,AED,18,months,Premium
+3205,Mercedes-Benz,EQE SUV,,,,AED,18,months,Premium
+3206,BAIC,BJ60,,,,AED,18,months,Premium
+3207,Mazda,CX-90,,,,AED,18,months,Premium
+3208,Mercedes-Benz,GLE 450,,,,AED,18,months,Premium
+3209,Aston Martin,DBX,,,,AED,18,months,Premium
+3210,GWM,Poer,,,,AED,18,months,Premium
+3211,BYD,Song,,,,AED,18,months,Premium
+3212,MG,MG7,,,,AED,18,months,Premium
+3213,Li Auto,L9,,,,AED,18,months,Premium
+3214,Seres,Seres 7,,,,AED,18,months,Premium
+3215,Exeed,LX,,,,AED,18,months,Premium
+3216,Geely,Okavango,,,,AED,18,months,Premium
+3217,Rolls Royce,Spectre,,,,AED,18,months,Premium
+3218,Chevrolet,Cavalier,,,,AED,18,months,Premium
+3219,Changan,Alsvin,,,,AED,18,months,Premium
+3220,Mercedes-Benz,GLE 350,,,,AED,18,months,Premium
+3221,Ford,Lincoln,,,,AED,18,months,Premium
+3222,Polaris,Slingshot,,,,AED,18,months,Premium
+3223,Hongqi,HS3,,,,AED,18,months,Premium
+3224,Cadillac,XT4,,,,AED,18,months,Premium
+3225,BYD,Han,,,,AED,18,months,Premium
+3226,BYD,QIN Plus,,,,AED,18,months,Premium
+3227,Peugeot,ION,,,,AED,18,months,Premium
+3228,Kia,K3,,,,AED,18,months,Premium
+3229,Volvo,C303,,,,AED,18,months,Premium
+3231,BAIC,X55,,,,AED,18,months,Premium
+3232,Tesla,Cybertruck,,,,AED,18,months,Premium
+3234,Lynk & Co,5,,,,AED,18,months,Premium
+3267,Rox,1,,,,AED,18,months,Premium
+3300,Kia,Niro,,,,AED,18,months,Premium
+3333,Chery,Tiggo 4,,,,AED,18,months,Premium
+3366,BAIC,X65,,,,AED,18,months,Premium
+3399,Geely,Preface,,,,AED,18,months,Premium
+3432,Voyah,Free,,,,AED,18,months,Premium
+3465,Mercedes-Benz,CLA 250,,,,AED,18,months,Premium
+3498,Sharmax,nx150,,,,AED,18,months,Premium
+3499,Lucid,Air,,,,AED,18,months,Premium
+3531,Volkswagen,ID.6,,,,AED,18,months,Premium
+3564,Mercedes-Benz,S600,,,,AED,18,months,Premium
+3597,Volvo,C40,,,,AED,18,months,Premium
+3598,GAC,M8,,,,AED,18,months,Premium
+3599,JAC,M4,,,,AED,18,months,Premium
+3630,Ford,Excursion,,,,AED,18,months,Premium
+3663,Zeekr,1,,,,AED,18,months,Premium
+3696,Cadillac,Eldorado,,,,AED,18,months,Premium
+3729,Mercedes-Benz,E320,,,,AED,18,months,Premium
+3762,Ferrari,Purosangue,,,,AED,18,months,Premium
+3795,KAIYI,X-3,,,,AED,18,months,Premium
+3796,KAIYI,E-5,,,,AED,18,months,Premium
+3797,KAIYI,X-7,,,,AED,18,months,Premium
+3828,JAC,E30X,,,,AED,18,months,Premium
+3861,Mercedes-Benz,GLS 500,,,,AED,18,months,Premium
+3862,Volvo,FL7,,,,AED,18,months,Premium
+3863,Xpeng,G9,,,,AED,18,months,Premium
+3894,Dongfeng,S16,,,,AED,18,months,Premium
+3927,Mercedes-Benz,GLS 600,,,,AED,18,months,Premium
+3960,Infiniti,M37,,,,AED,18,months,Premium
+3961,VGV,U75 Plus,,,,AED,18,months,Premium
+3962,Volvo,Ex30,,,,AED,18,months,Premium
+3963,GMC,Canyon,,,,AED,18,months,Premium
+3993,Jetour,X50,,,,AED,18,months,Premium
+4026,Mercedes-Benz,GL 500,,,,AED,18,months,Premium
+4059,BYD,Seal,,,,AED,18,months,Premium
+4060,Renault,Arkana,,,,AED,18,months,Premium
+4092,Lexus,UX 300h,,,,AED,18,months,Premium
+4125,Dongfeng,Mage,,,,AED,18,months,Premium
+4158,Ferrari,Monza SP1,,,,AED,18,months,Premium
+4159,Ferrari,Monza SP2,,,,AED,18,months,Premium
+4160,Ferrari,Daytona SP3,,,,AED,18,months,Premium
+4161,Mercedes-Benz,S580,,,,AED,18,months,Premium
+4191,Bestune,T90,,,,AED,18,months,Premium
+4224,Iveco,Daily,,,,AED,18,months,Premium
+4257,MG,RX9,,,,AED,18,months,Premium
